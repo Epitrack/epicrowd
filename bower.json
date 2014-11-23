@@ -1,0 +1,26 @@
+{
+  "name": "ddd-mg",
+  "version": "1.0.0",
+  "description": "DDD | International Simposium on Digital Disease Detection for Masgathering",
+  "main": "dist/js/scripts.combined.min.js",
+  "keywords": [
+    "ddd",
+    "dddmg"
+  ],
+  "authors": [
+    "Dennis Calazans <denniscalazans@gmail.com>",
+    "Thulio Philipe <thulioph@gmail.com>"
+  ],
+  "license": "MIT",
+  "homepage": "http://www.dddmg.org",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "devDependencies": {
+    "jquery": "~2.1.1"
+  }
+}

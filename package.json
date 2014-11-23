@@ -1,0 +1,27 @@
+{
+  "name": "DDDMG",
+  "version": "1.0.0",
+  "title": "DDDMG 2015",
+  "description": "DDD | International Simposium on Digital Disease Detection for Masgathering",
+  "author": "Dennis Calazans, <denniscalazans@gmail.com>, Thulio Philipe <thulioph@gmail.com>",
+  "homepage": "https://github.com/epitrack/dddmg",
+  "main": "Gruntfile.js",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/epitrack/dddmg.git"
+  },
+  "private": true,
+  "devDependencies": {
+    "grunt": "^0.4.5",
+    "matchdep": "^0.3.0",
+    "grunt-contrib-watch": "~0.6.1",
+    "grunt-contrib-compass": "^1.0.1",
+    "grunt-contrib-uglify": "^0.6.0",
+    "grunt-contrib-concat": "^0.5.0",
+    "grunt-contrib-clean": "^0.6.0",
+    "grunt-contrib-imagemin": "^0.8.1",
+    "grunt-browser-sync": "^0.9.1",
+    "time-grunt": "~1.0.0",
+    "grunt-contrib-sass": "~0.8.1"
+  }
+}
