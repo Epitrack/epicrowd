@@ -28,7 +28,7 @@
   <meta name="twitter:card" value="summary">
   <meta name="twitter:creator" value="@dddmg2015">
   <meta name="twitter:site" value="@dddmg2015">
-  <meta name="twitter:title" content="DDDMG 2015 | International Simposium on Digital Disease Detection for Masgathering.">
+  <meta name="twitter:title" content="International Simposium on Digital Disease Detection for Masgathering.">
   <meta name="twitter:description" content="Description here :)">
   <meta name="twitter:image:src" content="">
 
