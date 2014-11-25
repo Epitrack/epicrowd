@@ -2,37 +2,40 @@
 
 class UpdatesController extends AppController {
 
-	public $helpers = array('Html', 'Form', 'Session');
+    public $helpers = array('Html', 'Form', 'Session');
     public $components = array('Session', 'RequestHandler');
 
     public function index() {
 
-    	$updates = $this->Update->find('threaded', array(
-	        'conditions' => array('Update.created >=' => 1),
-	        'order' => array('Update.created', 'Update.created DESC'),
-	    ));
+        $updates = $this->Update->find('threaded', array(
+            'conditions' => array('Update.created >=' => 1),
+            'order' => array('Update.created', 'Update.created DESC'),
+        ));
 
-    	if(!$updates) {
-    		$ajaxResponse = $this->ajaxResponse(NULL, "No updates");
-    	} else {
-    		$ajaxResponse = $this->ajaxResponse($updates);
-    	}
+        if(!$updates) {
+            $ajaxResponse = $this->ajaxResponse(NULL, "No updates");
+        } else {
+            $ajaxResponse = $this->ajaxResponse($updates);
+        }
 
-    	$this->set('updates', $ajaxResponse);
+        $this->set('updates', $ajaxResponse);
     }
 
 
     public function add() {
-
+        $this->layout = 'json';
         
         $countries = $this->Update->Country->find("list", array(
             'fields' => array('Country.name_pt')
         ));
 
-    	$this->set("countries", $countries);
-    	
-        if ($this->request->is(array("post", "put"))) {
-            $this->layout = 'json';
+        $this->set("countries", $countries);
+
+        //$this->set("request", $this->request->env());
+        //return $this->render("debug");
+        
+        if ($this->request->is("post") || $this->request->is("put")) {
+           
            
             if($this->Update->findByEmail($this->request->data['Update']['email'])) {
                 $message = __('Your email is already registered.');
@@ -48,17 +51,16 @@ class UpdatesController extends AppController {
                 } 
             } 
 
-            
-             $this->set('ajaxResponse', $ajaxResponse);
-             $this->render('json/ajaxResponse');
+             
            
         } else {
-         // $message = __('Nothing to save.');
-         // $ajaxResponse = $this->ajaxResponse(NULL, $message, FALSE);
+            $message = __('Nothing to save.');
+            $ajaxResponse = $this->ajaxResponse(NULL, $message, FALSE);
         }
 
      
-        
+        $this->set('ajaxResponse', $ajaxResponse);
+        $this->render('json/ajaxResponse');
     }
 
 }
