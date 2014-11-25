@@ -1,0 +1,779 @@
+2014-11-21 16:09:10 Error: [MissingActionException] Action PostsController::view() could not be found.
+Exception Attributes: array (
+  'controller' => 'PostsController',
+  'action' => 'view',
+)
+Request URL: /cakephp/posts/view/1
+Stack Trace:
+#0 /Users/denniscalazans/Sites/dddmg/cakephp/lib/Cake/Routing/Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#1 /Users/denniscalazans/Sites/dddmg/cakephp/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(PostsController), Object(CakeRequest))
+#2 /Users/denniscalazans/Sites/dddmg/cakephp/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2014-11-21 16:12:00 Error: [MissingViewException] View file "/Users/denniscalazans/Sites/dddmg/cakephp/app/View/Posts/view.ctp" is missing.
+Exception Attributes: array (
+  'file' => '/Users/denniscalazans/Sites/dddmg/cakephp/app/View/Posts/view.ctp',
+)
+Request URL: /cakephp/posts/view/1
+Stack Trace:
+#0 /Users/denniscalazans/Sites/dddmg/cakephp/lib/Cake/View/View.php(468): View->_getViewFileName(NULL)
+#1 /Users/denniscalazans/Sites/dddmg/cakephp/lib/Cake/Controller/Controller.php(954): View->render(NULL, NULL)
+#2 /Users/denniscalazans/Sites/dddmg/cakephp/lib/Cake/Routing/Dispatcher.php(198): Controller->render()
+#3 /Users/denniscalazans/Sites/dddmg/cakephp/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(PostsController), Object(CakeRequest))
+#4 /Users/denniscalazans/Sites/dddmg/cakephp/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2014-11-21 16:12:05 Error: [MissingViewException] View file "/Users/denniscalazans/Sites/dddmg/cakephp/app/View/Posts/view.ctp" is missing.
+Exception Attributes: array (
+  'file' => '/Users/denniscalazans/Sites/dddmg/cakephp/app/View/Posts/view.ctp',
+)
+Request URL: /cakephp/posts/view/1
+Stack Trace:
+#0 /Users/denniscalazans/Sites/dddmg/cakephp/lib/Cake/View/View.php(468): View->_getViewFileName(NULL)
+#1 /Users/denniscalazans/Sites/dddmg/cakephp/lib/Cake/Controller/Controller.php(954): View->render(NULL, NULL)
+#2 /Users/denniscalazans/Sites/dddmg/cakephp/lib/Cake/Routing/Dispatcher.php(198): Controller->render()
+#3 /Users/denniscalazans/Sites/dddmg/cakephp/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(PostsController), Object(CakeRequest))
+#4 /Users/denniscalazans/Sites/dddmg/cakephp/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2014-11-21 16:12:09 Error: [MissingViewException] View file "/Users/denniscalazans/Sites/dddmg/cakephp/app/View/Posts/view.ctp" is missing.
+Exception Attributes: array (
+  'file' => '/Users/denniscalazans/Sites/dddmg/cakephp/app/View/Posts/view.ctp',
+)
+Request URL: /cakephp/posts/view/1
+Stack Trace:
+#0 /Users/denniscalazans/Sites/dddmg/cakephp/lib/Cake/View/View.php(468): View->_getViewFileName(NULL)
+#1 /Users/denniscalazans/Sites/dddmg/cakephp/lib/Cake/Controller/Controller.php(954): View->render(NULL, NULL)
+#2 /Users/denniscalazans/Sites/dddmg/cakephp/lib/Cake/Routing/Dispatcher.php(198): Controller->render()
+#3 /Users/denniscalazans/Sites/dddmg/cakephp/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(PostsController), Object(CakeRequest))
+#4 /Users/denniscalazans/Sites/dddmg/cakephp/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2014-11-21 18:59:03 Error: [MissingActionException] Action PostsController::edit() could not be found.
+Exception Attributes: array (
+  'controller' => 'PostsController',
+  'action' => 'edit',
+)
+Request URL: /cakephp/posts/edit/1
+Stack Trace:
+#0 /Users/denniscalazans/Sites/dddmg/cakephp/lib/Cake/Routing/Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#1 /Users/denniscalazans/Sites/dddmg/cakephp/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(PostsController), Object(CakeRequest))
+#2 /Users/denniscalazans/Sites/dddmg/cakephp/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2014-11-24 11:31:18 Error: [MissingControllerException] Controller class UpdatesController could not be found.
+Exception Attributes: array (
+  'class' => 'UpdatesController',
+  'plugin' => NULL,
+)
+Request URL: /cakephp/updates
+Stack Trace:
+#0 /Users/denniscalazans/Sites/dddmg/cakephp/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-11-24 11:31:42 Error: [MissingActionException] Action UpdatesController::index() could not be found.
+Exception Attributes: array (
+  'controller' => 'UpdatesController',
+  'action' => 'index',
+)
+Request URL: /cakephp/updates
+Stack Trace:
+#0 /Users/denniscalazans/Sites/dddmg/cakephp/lib/Cake/Routing/Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#1 /Users/denniscalazans/Sites/dddmg/cakephp/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(UpdatesController), Object(CakeRequest))
+#2 /Users/denniscalazans/Sites/dddmg/cakephp/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2014-11-24 11:34:57 Error: [MissingActionException] Action UpdatesController::teste() could not be found.
+Exception Attributes: array (
+  'controller' => 'UpdatesController',
+  'action' => 'teste',
+)
+Request URL: /cakephp/updates/teste
+Stack Trace:
+#0 /Users/denniscalazans/Sites/dddmg/cakephp/lib/Cake/Routing/Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#1 /Users/denniscalazans/Sites/dddmg/cakephp/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(UpdatesController), Object(CakeRequest))
+#2 /Users/denniscalazans/Sites/dddmg/cakephp/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2014-11-24 11:35:04 Error: [MissingActionException] Action UpdatesController::3() could not be found.
+Exception Attributes: array (
+  'controller' => 'UpdatesController',
+  'action' => '3',
+)
+Request URL: /cakephp/updates/3
+Stack Trace:
+#0 /Users/denniscalazans/Sites/dddmg/cakephp/lib/Cake/Routing/Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#1 /Users/denniscalazans/Sites/dddmg/cakephp/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(UpdatesController), Object(CakeRequest))
+#2 /Users/denniscalazans/Sites/dddmg/cakephp/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2014-11-24 11:38:56 Error: [MissingLayoutException] Layout file "/Users/denniscalazans/Sites/dddmg/cakephp/app/View/Layouts/admin.ctp" is missing.
+Exception Attributes: array (
+  'file' => '/Users/denniscalazans/Sites/dddmg/cakephp/app/View/Layouts/admin.ctp',
+)
+Request URL: /cakephp/updates/index/2/3
+Stack Trace:
+#0 /Users/denniscalazans/Sites/dddmg/cakephp/lib/Cake/View/View.php(510): View->_getLayoutFileName('admin')
+#1 /Users/denniscalazans/Sites/dddmg/cakephp/lib/Cake/View/View.php(479): View->renderLayout('', 'admin')
+#2 /Users/denniscalazans/Sites/dddmg/cakephp/lib/Cake/Controller/Controller.php(954): View->render(NULL, NULL)
+#3 /Users/denniscalazans/Sites/dddmg/cakephp/lib/Cake/Routing/Dispatcher.php(198): Controller->render()
+#4 /Users/denniscalazans/Sites/dddmg/cakephp/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(UpdatesController), Object(CakeRequest))
+#5 /Users/denniscalazans/Sites/dddmg/cakephp/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#6 {main}
+2014-11-24 11:55:26 Error: Fatal Error (1): Call to a member function find() on a non-object in [/Users/denniscalazans/Sites/dddmg/cakephp/app/Controller/UpdatesController.php, line 11]
+2014-11-24 11:55:26 Error: [FatalErrorException] Call to a member function find() on a non-object
+Request URL: /cakephp/updates/index/2/3
+Stack Trace:
+#0 /Users/denniscalazans/Sites/dddmg/cakephp/lib/Cake/Error/ErrorHandler.php(203): ErrorHandler::handleFatalError(1, 'Call to a membe...', '/Users/dennisca...', 11)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', '/Users/dennisca...', 11, Array)
+#2 /Users/denniscalazans/Sites/dddmg/cakephp/lib/Cake/Core/App.php(931): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', '/Users/dennisca...', 11, Array)
+#3 /Users/denniscalazans/Sites/dddmg/cakephp/lib/Cake/Core/App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-11-24 11:55:41 Error: Fatal Error (1): Call to a member function find() on a non-object in [/Users/denniscalazans/Sites/dddmg/cakephp/app/Controller/UpdatesController.php, line 11]
+2014-11-24 11:55:41 Error: [FatalErrorException] Call to a member function find() on a non-object
+Request URL: /cakephp/updates/index/2/3
+Stack Trace:
+#0 /Users/denniscalazans/Sites/dddmg/cakephp/lib/Cake/Error/ErrorHandler.php(203): ErrorHandler::handleFatalError(1, 'Call to a membe...', '/Users/dennisca...', 11)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', '/Users/dennisca...', 11, Array)
+#2 /Users/denniscalazans/Sites/dddmg/cakephp/lib/Cake/Core/App.php(931): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', '/Users/dennisca...', 11, Array)
+#3 /Users/denniscalazans/Sites/dddmg/cakephp/lib/Cake/Core/App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-11-24 12:09:33 Error: [MissingTableException] Table contries for model Contry was not found in datasource default.
+Exception Attributes: array (
+  'table' => 'contries',
+  'class' => 'Contry',
+  'ds' => 'default',
+)
+Request URL: /cakephp/updates/index/2/3
+Stack Trace:
+#0 /Users/denniscalazans/Sites/dddmg/cakephp/lib/Cake/Model/Model.php(3567): Model->setSource('contries')
+#1 /Users/denniscalazans/Sites/dddmg/cakephp/lib/Cake/Model/Model.php(1369): Model->getDataSource()
+#2 /Users/denniscalazans/Sites/dddmg/cakephp/lib/Cake/Model/Datasource/DboSource.php(2490): Model->schema()
+#3 /Users/denniscalazans/Sites/dddmg/cakephp/lib/Cake/Model/Datasource/DboSource.php(1715): DboSource->fields(Object(AppModel), 'Contry', '')
+#4 /Users/denniscalazans/Sites/dddmg/cakephp/lib/Cake/Model/Datasource/DboSource.php(1093): DboSource->generateAssociationQuery(Object(Update), Object(AppModel), 'hasOne', 'Contry', Array, Array, false)
+#5 /Users/denniscalazans/Sites/dddmg/cakephp/lib/Cake/Model/Model.php(2947): DboSource->read(Object(Update), Array)
+#6 /Users/denniscalazans/Sites/dddmg/cakephp/lib/Cake/Model/Model.php(2919): Model->_readDataSource('all', Array)
+#7 /Users/denniscalazans/Sites/dddmg/cakephp/app/Controller/UpdatesController.php(11): Model->find('all')
+#8 [internal function]: UpdatesController->index('2', '3')
+#9 /Users/denniscalazans/Sites/dddmg/cakephp/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(UpdatesController), Array)
+#10 /Users/denniscalazans/Sites/dddmg/cakephp/lib/Cake/Routing/Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#11 /Users/denniscalazans/Sites/dddmg/cakephp/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(UpdatesController), Object(CakeRequest))
+#12 /Users/denniscalazans/Sites/dddmg/cakephp/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#13 {main}
+2014-11-24 12:10:20 Error: Fatal Error (64): Cannot redeclare class Update in [/Users/denniscalazans/Sites/dddmg/cakephp/app/Model/Country.php, line 4]
+2014-11-24 12:10:20 Error: [FatalErrorException] Cannot redeclare class Update
+Request URL: /cakephp/updates/index/2/3
+Stack Trace:
+#0 /Users/denniscalazans/Sites/dddmg/cakephp/lib/Cake/Error/ErrorHandler.php(203): ErrorHandler::handleFatalError(64, 'Cannot redeclar...', '/Users/dennisca...', 4)
+#1 [internal function]: ErrorHandler::handleError(64, 'Cannot redeclar...', '/Users/dennisca...', 4, Array)
+#2 /Users/denniscalazans/Sites/dddmg/cakephp/lib/Cake/Core/App.php(931): call_user_func('ErrorHandler::h...', 64, 'Cannot redeclar...', '/Users/dennisca...', 4, Array)
+#3 /Users/denniscalazans/Sites/dddmg/cakephp/lib/Cake/Core/App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-11-24 12:10:29 Error: [PDOException] SQLSTATE[42S22]: Column not found: 1054 Unknown column 'Country.update_id' in 'on clause'
+Request URL: /cakephp/updates/index/2/3
+Stack Trace:
+#0 /Users/denniscalazans/Sites/dddmg/cakephp/lib/Cake/Model/Datasource/DboSource.php(458): PDOStatement->execute(Array)
+#1 /Users/denniscalazans/Sites/dddmg/cakephp/lib/Cake/Model/Datasource/DboSource.php(424): DboSource->_execute('SELECT `Update`...', Array)
+#2 /Users/denniscalazans/Sites/dddmg/cakephp/lib/Cake/Model/Datasource/DboSource.php(666): DboSource->execute('SELECT `Update`...', Array, Array)
+#3 /Users/denniscalazans/Sites/dddmg/cakephp/lib/Cake/Model/Datasource/DboSource.php(1106): DboSource->fetchAll('SELECT `Update`...', false)
+#4 /Users/denniscalazans/Sites/dddmg/cakephp/lib/Cake/Model/Model.php(2947): DboSource->read(Object(Update), Array)
+#5 /Users/denniscalazans/Sites/dddmg/cakephp/lib/Cake/Model/Model.php(2919): Model->_readDataSource('all', Array)
+#6 /Users/denniscalazans/Sites/dddmg/cakephp/app/Controller/UpdatesController.php(11): Model->find('all')
+#7 [internal function]: UpdatesController->index('2', '3')
+#8 /Users/denniscalazans/Sites/dddmg/cakephp/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(UpdatesController), Array)
+#9 /Users/denniscalazans/Sites/dddmg/cakephp/lib/Cake/Routing/Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#10 /Users/denniscalazans/Sites/dddmg/cakephp/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(UpdatesController), Object(CakeRequest))
+#11 /Users/denniscalazans/Sites/dddmg/cakephp/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#12 {main}
+2014-11-24 12:11:21 Error: [PDOException] SQLSTATE[42S22]: Column not found: 1054 Unknown column 'Country.update_id' in 'field list'
+Request URL: /cakephp/updates/index/2/3
+Stack Trace:
+#0 /Users/denniscalazans/Sites/dddmg/cakephp/lib/Cake/Model/Datasource/DboSource.php(458): PDOStatement->execute(Array)
+#1 /Users/denniscalazans/Sites/dddmg/cakephp/lib/Cake/Model/Datasource/DboSource.php(424): DboSource->_execute('SELECT `Country...', Array)
+#2 /Users/denniscalazans/Sites/dddmg/cakephp/lib/Cake/Model/Datasource/DboSource.php(666): DboSource->execute('SELECT `Country...', Array, Array)
+#3 /Users/denniscalazans/Sites/dddmg/cakephp/lib/Cake/Model/Datasource/DboSource.php(1417): DboSource->fetchAll('SELECT `Country...', false)
+#4 /Users/denniscalazans/Sites/dddmg/cakephp/lib/Cake/Model/Datasource/DboSource.php(1254): DboSource->_fetchHasMany(Object(Update), 'SELECT `Country...', Array)
+#5 /Users/denniscalazans/Sites/dddmg/cakephp/lib/Cake/Model/Datasource/DboSource.php(1137): DboSource->queryAssociation(Object(Update), Object(Country), 'hasMany', 'Country', Array, Array, true, Array, 0, Array)
+#6 /Users/denniscalazans/Sites/dddmg/cakephp/lib/Cake/Model/Model.php(2947): DboSource->read(Object(Update), Array)
+#7 /Users/denniscalazans/Sites/dddmg/cakephp/lib/Cake/Model/Model.php(2919): Model->_readDataSource('all', Array)
+#8 /Users/denniscalazans/Sites/dddmg/cakephp/app/Controller/UpdatesController.php(11): Model->find('all')
+#9 [internal function]: UpdatesController->index('2', '3')
+#10 /Users/denniscalazans/Sites/dddmg/cakephp/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(UpdatesController), Array)
+#11 /Users/denniscalazans/Sites/dddmg/cakephp/lib/Cake/Routing/Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#12 /Users/denniscalazans/Sites/dddmg/cakephp/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(UpdatesController), Object(CakeRequest))
+#13 /Users/denniscalazans/Sites/dddmg/cakephp/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#14 {main}
+2014-11-24 12:11:46 Error: [PDOException] SQLSTATE[42S22]: Column not found: 1054 Unknown column 'Country.update_id' in 'on clause'
+Request URL: /cakephp/updates/index/2/3
+Stack Trace:
+#0 /Users/denniscalazans/Sites/dddmg/cakephp/lib/Cake/Model/Datasource/DboSource.php(458): PDOStatement->execute(Array)
+#1 /Users/denniscalazans/Sites/dddmg/cakephp/lib/Cake/Model/Datasource/DboSource.php(424): DboSource->_execute('SELECT `Update`...', Array)
+#2 /Users/denniscalazans/Sites/dddmg/cakephp/lib/Cake/Model/Datasource/DboSource.php(666): DboSource->execute('SELECT `Update`...', Array, Array)
+#3 /Users/denniscalazans/Sites/dddmg/cakephp/lib/Cake/Model/Datasource/DboSource.php(1106): DboSource->fetchAll('SELECT `Update`...', false)
+#4 /Users/denniscalazans/Sites/dddmg/cakephp/lib/Cake/Model/Model.php(2947): DboSource->read(Object(Update), Array)
+#5 /Users/denniscalazans/Sites/dddmg/cakephp/lib/Cake/Model/Model.php(2919): Model->_readDataSource('all', Array)
+#6 /Users/denniscalazans/Sites/dddmg/cakephp/app/Controller/UpdatesController.php(11): Model->find('all')
+#7 [internal function]: UpdatesController->index('2', '3')
+#8 /Users/denniscalazans/Sites/dddmg/cakephp/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(UpdatesController), Array)
+#9 /Users/denniscalazans/Sites/dddmg/cakephp/lib/Cake/Routing/Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#10 /Users/denniscalazans/Sites/dddmg/cakephp/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(UpdatesController), Object(CakeRequest))
+#11 /Users/denniscalazans/Sites/dddmg/cakephp/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#12 {main}
+2014-11-24 12:13:03 Error: [PDOException] SQLSTATE[42S22]: Column not found: 1054 Unknown column 'Country.update_id' in 'on clause'
+Request URL: /cakephp/updates/index/2/3
+Stack Trace:
+#0 /Users/denniscalazans/Sites/dddmg/cakephp/lib/Cake/Model/Datasource/DboSource.php(458): PDOStatement->execute(Array)
+#1 /Users/denniscalazans/Sites/dddmg/cakephp/lib/Cake/Model/Datasource/DboSource.php(424): DboSource->_execute('SELECT `Update`...', Array)
+#2 /Users/denniscalazans/Sites/dddmg/cakephp/lib/Cake/Model/Datasource/DboSource.php(666): DboSource->execute('SELECT `Update`...', Array, Array)
+#3 /Users/denniscalazans/Sites/dddmg/cakephp/lib/Cake/Model/Datasource/DboSource.php(1106): DboSource->fetchAll('SELECT `Update`...', false)
+#4 /Users/denniscalazans/Sites/dddmg/cakephp/lib/Cake/Model/Model.php(2947): DboSource->read(Object(Update), Array)
+#5 /Users/denniscalazans/Sites/dddmg/cakephp/lib/Cake/Model/Model.php(2919): Model->_readDataSource('all', Array)
+#6 /Users/denniscalazans/Sites/dddmg/cakephp/app/Controller/UpdatesController.php(11): Model->find('all')
+#7 [internal function]: UpdatesController->index('2', '3')
+#8 /Users/denniscalazans/Sites/dddmg/cakephp/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(UpdatesController), Array)
+#9 /Users/denniscalazans/Sites/dddmg/cakephp/lib/Cake/Routing/Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#10 /Users/denniscalazans/Sites/dddmg/cakephp/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(UpdatesController), Object(CakeRequest))
+#11 /Users/denniscalazans/Sites/dddmg/cakephp/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#12 {main}
+2014-11-24 12:13:04 Error: [PDOException] SQLSTATE[42S22]: Column not found: 1054 Unknown column 'Country.update_id' in 'on clause'
+Request URL: /cakephp/updates/index/2/3
+Stack Trace:
+#0 /Users/denniscalazans/Sites/dddmg/cakephp/lib/Cake/Model/Datasource/DboSource.php(458): PDOStatement->execute(Array)
+#1 /Users/denniscalazans/Sites/dddmg/cakephp/lib/Cake/Model/Datasource/DboSource.php(424): DboSource->_execute('SELECT `Update`...', Array)
+#2 /Users/denniscalazans/Sites/dddmg/cakephp/lib/Cake/Model/Datasource/DboSource.php(666): DboSource->execute('SELECT `Update`...', Array, Array)
+#3 /Users/denniscalazans/Sites/dddmg/cakephp/lib/Cake/Model/Datasource/DboSource.php(1106): DboSource->fetchAll('SELECT `Update`...', false)
+#4 /Users/denniscalazans/Sites/dddmg/cakephp/lib/Cake/Model/Model.php(2947): DboSource->read(Object(Update), Array)
+#5 /Users/denniscalazans/Sites/dddmg/cakephp/lib/Cake/Model/Model.php(2919): Model->_readDataSource('all', Array)
+#6 /Users/denniscalazans/Sites/dddmg/cakephp/app/Controller/UpdatesController.php(11): Model->find('all')
+#7 [internal function]: UpdatesController->index('2', '3')
+#8 /Users/denniscalazans/Sites/dddmg/cakephp/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(UpdatesController), Array)
+#9 /Users/denniscalazans/Sites/dddmg/cakephp/lib/Cake/Routing/Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#10 /Users/denniscalazans/Sites/dddmg/cakephp/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(UpdatesController), Object(CakeRequest))
+#11 /Users/denniscalazans/Sites/dddmg/cakephp/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#12 {main}
+2014-11-24 12:16:29 Error: [PDOException] SQLSTATE[42S22]: Column not found: 1054 Unknown column 'Country.update_id' in 'on clause'
+Request URL: /cakephp/updates/index/2/3
+Stack Trace:
+#0 /Users/denniscalazans/Sites/dddmg/cakephp/lib/Cake/Model/Datasource/DboSource.php(458): PDOStatement->execute(Array)
+#1 /Users/denniscalazans/Sites/dddmg/cakephp/lib/Cake/Model/Datasource/DboSource.php(424): DboSource->_execute('SELECT `Update`...', Array)
+#2 /Users/denniscalazans/Sites/dddmg/cakephp/lib/Cake/Model/Datasource/DboSource.php(666): DboSource->execute('SELECT `Update`...', Array, Array)
+#3 /Users/denniscalazans/Sites/dddmg/cakephp/lib/Cake/Model/Datasource/DboSource.php(1106): DboSource->fetchAll('SELECT `Update`...', false)
+#4 /Users/denniscalazans/Sites/dddmg/cakephp/lib/Cake/Model/Model.php(2947): DboSource->read(Object(Update), Array)
+#5 /Users/denniscalazans/Sites/dddmg/cakephp/lib/Cake/Model/Model.php(2919): Model->_readDataSource('all', Array)
+#6 /Users/denniscalazans/Sites/dddmg/cakephp/app/Controller/UpdatesController.php(11): Model->find('all')
+#7 [internal function]: UpdatesController->index('2', '3')
+#8 /Users/denniscalazans/Sites/dddmg/cakephp/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(UpdatesController), Array)
+#9 /Users/denniscalazans/Sites/dddmg/cakephp/lib/Cake/Routing/Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#10 /Users/denniscalazans/Sites/dddmg/cakephp/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(UpdatesController), Object(CakeRequest))
+#11 /Users/denniscalazans/Sites/dddmg/cakephp/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#12 {main}
+2014-11-24 12:16:58 Error: [PDOException] SQLSTATE[42S22]: Column not found: 1054 Unknown column 'Country.update_id' in 'on clause'
+Request URL: /cakephp/updates/index/2/3
+Stack Trace:
+#0 /Users/denniscalazans/Sites/dddmg/cakephp/lib/Cake/Model/Datasource/DboSource.php(458): PDOStatement->execute(Array)
+#1 /Users/denniscalazans/Sites/dddmg/cakephp/lib/Cake/Model/Datasource/DboSource.php(424): DboSource->_execute('SELECT `Update`...', Array)
+#2 /Users/denniscalazans/Sites/dddmg/cakephp/lib/Cake/Model/Datasource/DboSource.php(666): DboSource->execute('SELECT `Update`...', Array, Array)
+#3 /Users/denniscalazans/Sites/dddmg/cakephp/lib/Cake/Model/Datasource/DboSource.php(1106): DboSource->fetchAll('SELECT `Update`...', false)
+#4 /Users/denniscalazans/Sites/dddmg/cakephp/lib/Cake/Model/Model.php(2947): DboSource->read(Object(Update), Array)
+#5 /Users/denniscalazans/Sites/dddmg/cakephp/lib/Cake/Model/Model.php(2919): Model->_readDataSource('all', Array)
+#6 /Users/denniscalazans/Sites/dddmg/cakephp/app/Controller/UpdatesController.php(11): Model->find('all')
+#7 [internal function]: UpdatesController->index('2', '3')
+#8 /Users/denniscalazans/Sites/dddmg/cakephp/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(UpdatesController), Array)
+#9 /Users/denniscalazans/Sites/dddmg/cakephp/lib/Cake/Routing/Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#10 /Users/denniscalazans/Sites/dddmg/cakephp/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(UpdatesController), Object(CakeRequest))
+#11 /Users/denniscalazans/Sites/dddmg/cakephp/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#12 {main}
+2014-11-24 12:19:09 Error: Fatal Error (4): syntax error, unexpected ':', expecting ')' in [/Users/denniscalazans/Sites/dddmg/cakephp/app/Model/Update.php, line 4]
+2014-11-24 12:19:09 Error: [FatalErrorException] syntax error, unexpected ':', expecting ')'
+Request URL: /cakephp/updates
+Stack Trace:
+#0 /Users/denniscalazans/Sites/dddmg/cakephp/lib/Cake/Error/ErrorHandler.php(203): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/Users/dennisca...', 4)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/Users/dennisca...', 4, Array)
+#2 /Users/denniscalazans/Sites/dddmg/cakephp/lib/Cake/Core/App.php(931): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/Users/dennisca...', 4, Array)
+#3 /Users/denniscalazans/Sites/dddmg/cakephp/lib/Cake/Core/App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-11-24 12:19:11 Error: Fatal Error (4): syntax error, unexpected ':', expecting ')' in [/Users/denniscalazans/Sites/dddmg/cakephp/app/Model/Update.php, line 4]
+2014-11-24 12:19:11 Error: [FatalErrorException] syntax error, unexpected ':', expecting ')'
+Request URL: /cakephp/updates/index/2/3
+Stack Trace:
+#0 /Users/denniscalazans/Sites/dddmg/cakephp/lib/Cake/Error/ErrorHandler.php(203): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/Users/dennisca...', 4)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/Users/dennisca...', 4, Array)
+#2 /Users/denniscalazans/Sites/dddmg/cakephp/lib/Cake/Core/App.php(931): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/Users/dennisca...', 4, Array)
+#3 /Users/denniscalazans/Sites/dddmg/cakephp/lib/Cake/Core/App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-11-24 12:19:20 Error: Fatal Error (4): syntax error, unexpected ':', expecting ')' in [/Users/denniscalazans/Sites/dddmg/cakephp/app/Model/Update.php, line 4]
+2014-11-24 12:19:20 Error: [FatalErrorException] syntax error, unexpected ':', expecting ')'
+Request URL: /cakephp/updates/index/2/3
+Stack Trace:
+#0 /Users/denniscalazans/Sites/dddmg/cakephp/lib/Cake/Error/ErrorHandler.php(203): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/Users/dennisca...', 4)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/Users/dennisca...', 4, Array)
+#2 /Users/denniscalazans/Sites/dddmg/cakephp/lib/Cake/Core/App.php(931): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/Users/dennisca...', 4, Array)
+#3 /Users/denniscalazans/Sites/dddmg/cakephp/lib/Cake/Core/App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-11-24 12:19:35 Error: [PDOException] SQLSTATE[42S22]: Column not found: 1054 Unknown column 'Country.country_id' in 'on clause'
+Request URL: /cakephp/updates/index/2/3
+Stack Trace:
+#0 /Users/denniscalazans/Sites/dddmg/cakephp/lib/Cake/Model/Datasource/DboSource.php(458): PDOStatement->execute(Array)
+#1 /Users/denniscalazans/Sites/dddmg/cakephp/lib/Cake/Model/Datasource/DboSource.php(424): DboSource->_execute('SELECT `Update`...', Array)
+#2 /Users/denniscalazans/Sites/dddmg/cakephp/lib/Cake/Model/Datasource/DboSource.php(666): DboSource->execute('SELECT `Update`...', Array, Array)
+#3 /Users/denniscalazans/Sites/dddmg/cakephp/lib/Cake/Model/Datasource/DboSource.php(1106): DboSource->fetchAll('SELECT `Update`...', false)
+#4 /Users/denniscalazans/Sites/dddmg/cakephp/lib/Cake/Model/Model.php(2947): DboSource->read(Object(Update), Array)
+#5 /Users/denniscalazans/Sites/dddmg/cakephp/lib/Cake/Model/Model.php(2919): Model->_readDataSource('all', Array)
+#6 /Users/denniscalazans/Sites/dddmg/cakephp/app/Controller/UpdatesController.php(11): Model->find('all')
+#7 [internal function]: UpdatesController->index('2', '3')
+#8 /Users/denniscalazans/Sites/dddmg/cakephp/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(UpdatesController), Array)
+#9 /Users/denniscalazans/Sites/dddmg/cakephp/lib/Cake/Routing/Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#10 /Users/denniscalazans/Sites/dddmg/cakephp/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(UpdatesController), Object(CakeRequest))
+#11 /Users/denniscalazans/Sites/dddmg/cakephp/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#12 {main}
+2014-11-24 12:19:45 Error: [PDOException] SQLSTATE[42S22]: Column not found: 1054 Unknown column 'Country.countrsy_id' in 'on clause'
+Request URL: /cakephp/updates/index/2/3
+Stack Trace:
+#0 /Users/denniscalazans/Sites/dddmg/cakephp/lib/Cake/Model/Datasource/DboSource.php(458): PDOStatement->execute(Array)
+#1 /Users/denniscalazans/Sites/dddmg/cakephp/lib/Cake/Model/Datasource/DboSource.php(424): DboSource->_execute('SELECT `Update`...', Array)
+#2 /Users/denniscalazans/Sites/dddmg/cakephp/lib/Cake/Model/Datasource/DboSource.php(666): DboSource->execute('SELECT `Update`...', Array, Array)
+#3 /Users/denniscalazans/Sites/dddmg/cakephp/lib/Cake/Model/Datasource/DboSource.php(1106): DboSource->fetchAll('SELECT `Update`...', false)
+#4 /Users/denniscalazans/Sites/dddmg/cakephp/lib/Cake/Model/Model.php(2947): DboSource->read(Object(Update), Array)
+#5 /Users/denniscalazans/Sites/dddmg/cakephp/lib/Cake/Model/Model.php(2919): Model->_readDataSource('all', Array)
+#6 /Users/denniscalazans/Sites/dddmg/cakephp/app/Controller/UpdatesController.php(11): Model->find('all')
+#7 [internal function]: UpdatesController->index('2', '3')
+#8 /Users/denniscalazans/Sites/dddmg/cakephp/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(UpdatesController), Array)
+#9 /Users/denniscalazans/Sites/dddmg/cakephp/lib/Cake/Routing/Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#10 /Users/denniscalazans/Sites/dddmg/cakephp/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(UpdatesController), Object(CakeRequest))
+#11 /Users/denniscalazans/Sites/dddmg/cakephp/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#12 {main}
+2014-11-24 12:21:16 Error: Fatal Error (4): syntax error, unexpected '$public' (T_VARIABLE), expecting function (T_FUNCTION) in [/Users/denniscalazans/Sites/dddmg/cakephp/app/Model/Update.php, line 4]
+2014-11-24 12:21:16 Error: [FatalErrorException] syntax error, unexpected '$public' (T_VARIABLE), expecting function (T_FUNCTION)
+Request URL: /cakephp/updates/
+Stack Trace:
+#0 /Users/denniscalazans/Sites/dddmg/cakephp/lib/Cake/Error/ErrorHandler.php(203): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/Users/dennisca...', 4)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/Users/dennisca...', 4, Array)
+#2 /Users/denniscalazans/Sites/dddmg/cakephp/lib/Cake/Core/App.php(931): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/Users/dennisca...', 4, Array)
+#3 /Users/denniscalazans/Sites/dddmg/cakephp/lib/Cake/Core/App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-11-24 12:21:25 Error: Fatal Error (4): syntax error, unexpected ''Country'' (T_CONSTANT_ENCAPSED_STRING), expecting ',' or ';' in [/Users/denniscalazans/Sites/dddmg/cakephp/app/Model/Update.php, line 4]
+2014-11-24 12:21:25 Error: [FatalErrorException] syntax error, unexpected ''Country'' (T_CONSTANT_ENCAPSED_STRING), expecting ',' or ';'
+Request URL: /cakephp/updates/
+Stack Trace:
+#0 /Users/denniscalazans/Sites/dddmg/cakephp/lib/Cake/Error/ErrorHandler.php(203): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/Users/dennisca...', 4)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/Users/dennisca...', 4, Array)
+#2 /Users/denniscalazans/Sites/dddmg/cakephp/lib/Cake/Core/App.php(931): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/Users/dennisca...', 4, Array)
+#3 /Users/denniscalazans/Sites/dddmg/cakephp/lib/Cake/Core/App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-11-24 12:21:33 Error: [PDOException] SQLSTATE[42S22]: Column not found: 1054 Unknown column 'Country.update_id' in 'on clause'
+Request URL: /cakephp/updates/
+Stack Trace:
+#0 /Users/denniscalazans/Sites/dddmg/cakephp/lib/Cake/Model/Datasource/DboSource.php(458): PDOStatement->execute(Array)
+#1 /Users/denniscalazans/Sites/dddmg/cakephp/lib/Cake/Model/Datasource/DboSource.php(424): DboSource->_execute('SELECT `Update`...', Array)
+#2 /Users/denniscalazans/Sites/dddmg/cakephp/lib/Cake/Model/Datasource/DboSource.php(666): DboSource->execute('SELECT `Update`...', Array, Array)
+#3 /Users/denniscalazans/Sites/dddmg/cakephp/lib/Cake/Model/Datasource/DboSource.php(1106): DboSource->fetchAll('SELECT `Update`...', false)
+#4 /Users/denniscalazans/Sites/dddmg/cakephp/lib/Cake/Model/Model.php(2947): DboSource->read(Object(Update), Array)
+#5 /Users/denniscalazans/Sites/dddmg/cakephp/lib/Cake/Model/Model.php(2919): Model->_readDataSource('all', Array)
+#6 /Users/denniscalazans/Sites/dddmg/cakephp/app/Controller/UpdatesController.php(11): Model->find('all')
+#7 [internal function]: UpdatesController->index()
+#8 /Users/denniscalazans/Sites/dddmg/cakephp/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(UpdatesController), Array)
+#9 /Users/denniscalazans/Sites/dddmg/cakephp/lib/Cake/Routing/Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#10 /Users/denniscalazans/Sites/dddmg/cakephp/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(UpdatesController), Object(CakeRequest))
+#11 /Users/denniscalazans/Sites/dddmg/cakephp/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#12 {main}
+2014-11-24 12:23:08 Error: [PDOException] SQLSTATE[42S22]: Column not found: 1054 Unknown column 'Country.country_id' in 'on clause'
+Request URL: /cakephp/updates/
+Stack Trace:
+#0 /Users/denniscalazans/Sites/dddmg/cakephp/lib/Cake/Model/Datasource/DboSource.php(458): PDOStatement->execute(Array)
+#1 /Users/denniscalazans/Sites/dddmg/cakephp/lib/Cake/Model/Datasource/DboSource.php(424): DboSource->_execute('SELECT `Update`...', Array)
+#2 /Users/denniscalazans/Sites/dddmg/cakephp/lib/Cake/Model/Datasource/DboSource.php(666): DboSource->execute('SELECT `Update`...', Array, Array)
+#3 /Users/denniscalazans/Sites/dddmg/cakephp/lib/Cake/Model/Datasource/DboSource.php(1106): DboSource->fetchAll('SELECT `Update`...', false)
+#4 /Users/denniscalazans/Sites/dddmg/cakephp/lib/Cake/Model/Model.php(2947): DboSource->read(Object(Update), Array)
+#5 /Users/denniscalazans/Sites/dddmg/cakephp/lib/Cake/Model/Model.php(2919): Model->_readDataSource('all', Array)
+#6 /Users/denniscalazans/Sites/dddmg/cakephp/app/Controller/UpdatesController.php(11): Model->find('all')
+#7 [internal function]: UpdatesController->index()
+#8 /Users/denniscalazans/Sites/dddmg/cakephp/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(UpdatesController), Array)
+#9 /Users/denniscalazans/Sites/dddmg/cakephp/lib/Cake/Routing/Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#10 /Users/denniscalazans/Sites/dddmg/cakephp/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(UpdatesController), Object(CakeRequest))
+#11 /Users/denniscalazans/Sites/dddmg/cakephp/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#12 {main}
+2014-11-24 12:23:37 Error: [PDOException] SQLSTATE[42S22]: Column not found: 1054 Unknown column 'Country.countries_id' in 'on clause'
+Request URL: /cakephp/updates/
+Stack Trace:
+#0 /Users/denniscalazans/Sites/dddmg/cakephp/lib/Cake/Model/Datasource/DboSource.php(458): PDOStatement->execute(Array)
+#1 /Users/denniscalazans/Sites/dddmg/cakephp/lib/Cake/Model/Datasource/DboSource.php(424): DboSource->_execute('SELECT `Update`...', Array)
+#2 /Users/denniscalazans/Sites/dddmg/cakephp/lib/Cake/Model/Datasource/DboSource.php(666): DboSource->execute('SELECT `Update`...', Array, Array)
+#3 /Users/denniscalazans/Sites/dddmg/cakephp/lib/Cake/Model/Datasource/DboSource.php(1106): DboSource->fetchAll('SELECT `Update`...', false)
+#4 /Users/denniscalazans/Sites/dddmg/cakephp/lib/Cake/Model/Model.php(2947): DboSource->read(Object(Update), Array)
+#5 /Users/denniscalazans/Sites/dddmg/cakephp/lib/Cake/Model/Model.php(2919): Model->_readDataSource('all', Array)
+#6 /Users/denniscalazans/Sites/dddmg/cakephp/app/Controller/UpdatesController.php(11): Model->find('all')
+#7 [internal function]: UpdatesController->index()
+#8 /Users/denniscalazans/Sites/dddmg/cakephp/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(UpdatesController), Array)
+#9 /Users/denniscalazans/Sites/dddmg/cakephp/lib/Cake/Routing/Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#10 /Users/denniscalazans/Sites/dddmg/cakephp/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(UpdatesController), Object(CakeRequest))
+#11 /Users/denniscalazans/Sites/dddmg/cakephp/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#12 {main}
+2014-11-24 12:23:56 Error: Fatal Error (4): syntax error, unexpected ')', expecting ',' or ';' in [/Users/denniscalazans/Sites/dddmg/cakephp/app/Model/Update.php, line 4]
+2014-11-24 12:23:56 Error: [FatalErrorException] syntax error, unexpected ')', expecting ',' or ';'
+Request URL: /cakephp/updates/
+Stack Trace:
+#0 /Users/denniscalazans/Sites/dddmg/cakephp/lib/Cake/Error/ErrorHandler.php(203): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/Users/dennisca...', 4)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/Users/dennisca...', 4, Array)
+#2 /Users/denniscalazans/Sites/dddmg/cakephp/lib/Cake/Core/App.php(931): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/Users/dennisca...', 4, Array)
+#3 /Users/denniscalazans/Sites/dddmg/cakephp/lib/Cake/Core/App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-11-24 12:23:59 Error: [PDOException] SQLSTATE[42S22]: Column not found: 1054 Unknown column 'Country.update_id' in 'on clause'
+Request URL: /cakephp/updates/
+Stack Trace:
+#0 /Users/denniscalazans/Sites/dddmg/cakephp/lib/Cake/Model/Datasource/DboSource.php(458): PDOStatement->execute(Array)
+#1 /Users/denniscalazans/Sites/dddmg/cakephp/lib/Cake/Model/Datasource/DboSource.php(424): DboSource->_execute('SELECT `Update`...', Array)
+#2 /Users/denniscalazans/Sites/dddmg/cakephp/lib/Cake/Model/Datasource/DboSource.php(666): DboSource->execute('SELECT `Update`...', Array, Array)
+#3 /Users/denniscalazans/Sites/dddmg/cakephp/lib/Cake/Model/Datasource/DboSource.php(1106): DboSource->fetchAll('SELECT `Update`...', false)
+#4 /Users/denniscalazans/Sites/dddmg/cakephp/lib/Cake/Model/Model.php(2947): DboSource->read(Object(Update), Array)
+#5 /Users/denniscalazans/Sites/dddmg/cakephp/lib/Cake/Model/Model.php(2919): Model->_readDataSource('all', Array)
+#6 /Users/denniscalazans/Sites/dddmg/cakephp/app/Controller/UpdatesController.php(11): Model->find('all')
+#7 [internal function]: UpdatesController->index()
+#8 /Users/denniscalazans/Sites/dddmg/cakephp/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(UpdatesController), Array)
+#9 /Users/denniscalazans/Sites/dddmg/cakephp/lib/Cake/Routing/Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#10 /Users/denniscalazans/Sites/dddmg/cakephp/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(UpdatesController), Object(CakeRequest))
+#11 /Users/denniscalazans/Sites/dddmg/cakephp/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#12 {main}
+2014-11-24 15:05:22 Error: [PDOException] SQLSTATE[42S22]: Column not found: 1054 Unknown column 'Model.created' in 'order clause'
+Request URL: /cakephp/updates
+Stack Trace:
+#0 /Users/denniscalazans/Sites/dddmg/cakephp/lib/Cake/Model/Datasource/DboSource.php(458): PDOStatement->execute(Array)
+#1 /Users/denniscalazans/Sites/dddmg/cakephp/lib/Cake/Model/Datasource/DboSource.php(424): DboSource->_execute('SELECT `Update`...', Array)
+#2 /Users/denniscalazans/Sites/dddmg/cakephp/lib/Cake/Model/Datasource/DboSource.php(666): DboSource->execute('SELECT `Update`...', Array, Array)
+#3 /Users/denniscalazans/Sites/dddmg/cakephp/lib/Cake/Model/Datasource/DboSource.php(1106): DboSource->fetchAll('SELECT `Update`...', false)
+#4 /Users/denniscalazans/Sites/dddmg/cakephp/lib/Cake/Model/Model.php(2947): DboSource->read(Object(Update), Array)
+#5 /Users/denniscalazans/Sites/dddmg/cakephp/lib/Cake/Model/Model.php(2919): Model->_readDataSource('all', Array)
+#6 /Users/denniscalazans/Sites/dddmg/cakephp/app/Controller/UpdatesController.php(14): Model->find('all', Array)
+#7 [internal function]: UpdatesController->index()
+#8 /Users/denniscalazans/Sites/dddmg/cakephp/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(UpdatesController), Array)
+#9 /Users/denniscalazans/Sites/dddmg/cakephp/lib/Cake/Routing/Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#10 /Users/denniscalazans/Sites/dddmg/cakephp/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(UpdatesController), Object(CakeRequest))
+#11 /Users/denniscalazans/Sites/dddmg/cakephp/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#12 {main}
+2014-11-24 15:05:32 Error: [PDOException] SQLSTATE[42S22]: Column not found: 1054 Unknown column 'Model.created' in 'order clause'
+Request URL: /cakephp/updates
+Stack Trace:
+#0 /Users/denniscalazans/Sites/dddmg/cakephp/lib/Cake/Model/Datasource/DboSource.php(458): PDOStatement->execute(Array)
+#1 /Users/denniscalazans/Sites/dddmg/cakephp/lib/Cake/Model/Datasource/DboSource.php(424): DboSource->_execute('SELECT `Update`...', Array)
+#2 /Users/denniscalazans/Sites/dddmg/cakephp/lib/Cake/Model/Datasource/DboSource.php(666): DboSource->execute('SELECT `Update`...', Array, Array)
+#3 /Users/denniscalazans/Sites/dddmg/cakephp/lib/Cake/Model/Datasource/DboSource.php(1106): DboSource->fetchAll('SELECT `Update`...', false)
+#4 /Users/denniscalazans/Sites/dddmg/cakephp/lib/Cake/Model/Model.php(2947): DboSource->read(Object(Update), Array)
+#5 /Users/denniscalazans/Sites/dddmg/cakephp/lib/Cake/Model/Model.php(2919): Model->_readDataSource('all', Array)
+#6 /Users/denniscalazans/Sites/dddmg/cakephp/app/Controller/UpdatesController.php(14): Model->find('all', Array)
+#7 [internal function]: UpdatesController->index()
+#8 /Users/denniscalazans/Sites/dddmg/cakephp/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(UpdatesController), Array)
+#9 /Users/denniscalazans/Sites/dddmg/cakephp/lib/Cake/Routing/Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#10 /Users/denniscalazans/Sites/dddmg/cakephp/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(UpdatesController), Object(CakeRequest))
+#11 /Users/denniscalazans/Sites/dddmg/cakephp/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#12 {main}
+2014-11-24 15:20:27 Error: Fatal Error (1): Call to a member function find() on a non-object in [/Users/denniscalazans/Sites/dddmg/cakephp/app/Controller/UpdatesController.php, line 28]
+2014-11-24 15:20:27 Error: [FatalErrorException] Call to a member function find() on a non-object
+Request URL: /cakephp/updates/add
+Stack Trace:
+#0 /Users/denniscalazans/Sites/dddmg/cakephp/lib/Cake/Error/ErrorHandler.php(203): ErrorHandler::handleFatalError(1, 'Call to a membe...', '/Users/dennisca...', 28)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', '/Users/dennisca...', 28, Array)
+#2 /Users/denniscalazans/Sites/dddmg/cakephp/lib/Cake/Core/App.php(931): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', '/Users/dennisca...', 28, Array)
+#3 /Users/denniscalazans/Sites/dddmg/cakephp/lib/Cake/Core/App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-11-24 15:20:51 Error: Fatal Error (1): Call to a member function find() on a non-object in [/Users/denniscalazans/Sites/dddmg/cakephp/app/Controller/UpdatesController.php, line 28]
+2014-11-24 15:20:51 Error: [FatalErrorException] Call to a member function find() on a non-object
+Request URL: /cakephp/updates/add
+Stack Trace:
+#0 /Users/denniscalazans/Sites/dddmg/cakephp/lib/Cake/Error/ErrorHandler.php(203): ErrorHandler::handleFatalError(1, 'Call to a membe...', '/Users/dennisca...', 28)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', '/Users/dennisca...', 28, Array)
+#2 /Users/denniscalazans/Sites/dddmg/cakephp/lib/Cake/Core/App.php(931): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', '/Users/dennisca...', 28, Array)
+#3 /Users/denniscalazans/Sites/dddmg/cakephp/lib/Cake/Core/App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-11-24 15:22:23 Error: Fatal Error (1): Call to a member function find() on a non-object in [/Users/denniscalazans/Sites/dddmg/cakephp/app/Controller/UpdatesController.php, line 28]
+2014-11-24 15:22:23 Error: [FatalErrorException] Call to a member function find() on a non-object
+Request URL: /cakephp/updates/add
+Stack Trace:
+#0 /Users/denniscalazans/Sites/dddmg/cakephp/lib/Cake/Error/ErrorHandler.php(203): ErrorHandler::handleFatalError(1, 'Call to a membe...', '/Users/dennisca...', 28)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', '/Users/dennisca...', 28, Array)
+#2 /Users/denniscalazans/Sites/dddmg/cakephp/lib/Cake/Core/App.php(931): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', '/Users/dennisca...', 28, Array)
+#3 /Users/denniscalazans/Sites/dddmg/cakephp/lib/Cake/Core/App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-11-24 15:23:15 Error: Fatal Error (1): Call to a member function listar() on a non-object in [/Users/denniscalazans/Sites/dddmg/cakephp/app/Controller/UpdatesController.php, line 28]
+2014-11-24 15:23:15 Error: [FatalErrorException] Call to a member function listar() on a non-object
+Request URL: /cakephp/updates/add
+Stack Trace:
+#0 /Users/denniscalazans/Sites/dddmg/cakephp/lib/Cake/Error/ErrorHandler.php(203): ErrorHandler::handleFatalError(1, 'Call to a membe...', '/Users/dennisca...', 28)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', '/Users/dennisca...', 28, Array)
+#2 /Users/denniscalazans/Sites/dddmg/cakephp/lib/Cake/Core/App.php(931): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', '/Users/dennisca...', 28, Array)
+#3 /Users/denniscalazans/Sites/dddmg/cakephp/lib/Cake/Core/App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-11-24 15:23:56 Error: Fatal Error (64): Cannot redeclare class Countries in [/Users/denniscalazans/Sites/dddmg/cakephp/app/Model/Country.php, line 8]
+2014-11-24 15:23:56 Error: [FatalErrorException] Cannot redeclare class Countries
+Request URL: /cakephp/updates/
+Stack Trace:
+#0 /Users/denniscalazans/Sites/dddmg/cakephp/lib/Cake/Error/ErrorHandler.php(203): ErrorHandler::handleFatalError(64, 'Cannot redeclar...', '/Users/dennisca...', 8)
+#1 [internal function]: ErrorHandler::handleError(64, 'Cannot redeclar...', '/Users/dennisca...', 8, Array)
+#2 /Users/denniscalazans/Sites/dddmg/cakephp/lib/Cake/Core/App.php(931): call_user_func('ErrorHandler::h...', 64, 'Cannot redeclar...', '/Users/dennisca...', 8, Array)
+#3 /Users/denniscalazans/Sites/dddmg/cakephp/lib/Cake/Core/App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-11-24 15:23:59 Error: Fatal Error (1): Call to a member function listar() on a non-object in [/Users/denniscalazans/Sites/dddmg/cakephp/app/Controller/UpdatesController.php, line 28]
+2014-11-24 15:23:59 Error: [FatalErrorException] Call to a member function listar() on a non-object
+Request URL: /cakephp/updates/add
+Stack Trace:
+#0 /Users/denniscalazans/Sites/dddmg/cakephp/lib/Cake/Error/ErrorHandler.php(203): ErrorHandler::handleFatalError(1, 'Call to a membe...', '/Users/dennisca...', 28)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', '/Users/dennisca...', 28, Array)
+#2 /Users/denniscalazans/Sites/dddmg/cakephp/lib/Cake/Core/App.php(931): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', '/Users/dennisca...', 28, Array)
+#3 /Users/denniscalazans/Sites/dddmg/cakephp/lib/Cake/Core/App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-11-24 15:24:23 Error: Fatal Error (1): Call to a member function listar() on a non-object in [/Users/denniscalazans/Sites/dddmg/cakephp/app/Controller/UpdatesController.php, line 28]
+2014-11-24 15:24:23 Error: [FatalErrorException] Call to a member function listar() on a non-object
+Request URL: /cakephp/updates/add
+Stack Trace:
+#0 /Users/denniscalazans/Sites/dddmg/cakephp/lib/Cake/Error/ErrorHandler.php(203): ErrorHandler::handleFatalError(1, 'Call to a membe...', '/Users/dennisca...', 28)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', '/Users/dennisca...', 28, Array)
+#2 /Users/denniscalazans/Sites/dddmg/cakephp/lib/Cake/Core/App.php(931): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', '/Users/dennisca...', 28, Array)
+#3 /Users/denniscalazans/Sites/dddmg/cakephp/lib/Cake/Core/App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-11-24 15:27:45 Error: [PDOException] SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'list' at line 1
+Request URL: /cakephp/updates/add
+Stack Trace:
+#0 /Users/denniscalazans/Sites/dddmg/cakephp/lib/Cake/Model/Datasource/DboSource.php(458): PDOStatement->execute(Array)
+#1 /Users/denniscalazans/Sites/dddmg/cakephp/lib/Cake/Model/Datasource/DboSource.php(424): DboSource->_execute('list', Array)
+#2 /Users/denniscalazans/Sites/dddmg/cakephp/lib/Cake/Model/Datasource/DboSource.php(666): DboSource->execute('list', Array, Array)
+#3 /Users/denniscalazans/Sites/dddmg/cakephp/lib/Cake/Model/Datasource/DboSource.php(609): DboSource->fetchAll('list', Array, Array)
+#4 /Users/denniscalazans/Sites/dddmg/cakephp/lib/Cake/Model/Model.php(808): DboSource->query('list', Array, Object(Country))
+#5 /Users/denniscalazans/Sites/dddmg/cakephp/app/Controller/UpdatesController.php(28): Model->__call('list', Array)
+#6 /Users/denniscalazans/Sites/dddmg/cakephp/app/Controller/UpdatesController.php(28): Country->list('all')
+#7 [internal function]: UpdatesController->add()
+#8 /Users/denniscalazans/Sites/dddmg/cakephp/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(UpdatesController), Array)
+#9 /Users/denniscalazans/Sites/dddmg/cakephp/lib/Cake/Routing/Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#10 /Users/denniscalazans/Sites/dddmg/cakephp/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(UpdatesController), Object(CakeRequest))
+#11 /Users/denniscalazans/Sites/dddmg/cakephp/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#12 {main}
+2014-11-24 15:29:44 Error: Fatal Error (4): syntax error, unexpected '$this' (T_VARIABLE) in [/Users/denniscalazans/Sites/dddmg/cakephp/app/Controller/UpdatesController.php, line 30]
+2014-11-24 15:29:44 Error: [FatalErrorException] syntax error, unexpected '$this' (T_VARIABLE)
+Request URL: /cakephp/updates/add
+Stack Trace:
+#0 /Users/denniscalazans/Sites/dddmg/cakephp/lib/Cake/Error/ErrorHandler.php(203): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/Users/dennisca...', 30)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/Users/dennisca...', 30, Array)
+#2 /Users/denniscalazans/Sites/dddmg/cakephp/lib/Cake/Core/App.php(931): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/Users/dennisca...', 30, Array)
+#3 /Users/denniscalazans/Sites/dddmg/cakephp/lib/Cake/Core/App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-11-24 15:29:53 Error: Fatal Error (4): syntax error, unexpected '$this' (T_VARIABLE) in [/Users/denniscalazans/Sites/dddmg/cakephp/app/Controller/UpdatesController.php, line 30]
+2014-11-24 15:29:53 Error: [FatalErrorException] syntax error, unexpected '$this' (T_VARIABLE)
+Request URL: /cakephp/updates/add
+Stack Trace:
+#0 /Users/denniscalazans/Sites/dddmg/cakephp/lib/Cake/Error/ErrorHandler.php(203): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/Users/dennisca...', 30)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/Users/dennisca...', 30, Array)
+#2 /Users/denniscalazans/Sites/dddmg/cakephp/lib/Cake/Core/App.php(931): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/Users/dennisca...', 30, Array)
+#3 /Users/denniscalazans/Sites/dddmg/cakephp/lib/Cake/Core/App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-11-24 15:32:58 Error: Fatal Error (4): syntax error, unexpected ';', expecting ')' in [/Users/denniscalazans/Sites/dddmg/cakephp/app/Controller/UpdatesController.php, line 28]
+2014-11-24 15:32:58 Error: [FatalErrorException] syntax error, unexpected ';', expecting ')'
+Request URL: /cakephp/updates/add
+Stack Trace:
+#0 /Users/denniscalazans/Sites/dddmg/cakephp/lib/Cake/Error/ErrorHandler.php(203): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/Users/dennisca...', 28)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/Users/dennisca...', 28, Array)
+#2 /Users/denniscalazans/Sites/dddmg/cakephp/lib/Cake/Core/App.php(931): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/Users/dennisca...', 28, Array)
+#3 /Users/denniscalazans/Sites/dddmg/cakephp/lib/Cake/Core/App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-11-24 15:33:10 Error: Fatal Error (4): syntax error, unexpected ';', expecting ')' in [/Users/denniscalazans/Sites/dddmg/cakephp/app/Controller/UpdatesController.php, line 28]
+2014-11-24 15:33:10 Error: [FatalErrorException] syntax error, unexpected ';', expecting ')'
+Request URL: /cakephp/updates/add
+Stack Trace:
+#0 /Users/denniscalazans/Sites/dddmg/cakephp/lib/Cake/Error/ErrorHandler.php(203): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/Users/dennisca...', 28)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/Users/dennisca...', 28, Array)
+#2 /Users/denniscalazans/Sites/dddmg/cakephp/lib/Cake/Core/App.php(931): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/Users/dennisca...', 28, Array)
+#3 /Users/denniscalazans/Sites/dddmg/cakephp/lib/Cake/Core/App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-11-24 15:50:21 Error: [PDOException] SQLSTATE[23000]: Integrity constraint violation: 1452 Cannot add or update a child row: a foreign key constraint fails (`dddmg_org`.`updates`, CONSTRAINT `updates_ibfk_1` FOREIGN KEY (`country_id`) REFERENCES `countries` (`id`))
+Request URL: /cakephp/updates/add
+Stack Trace:
+#0 /Users/denniscalazans/Sites/dddmg/cakephp/lib/Cake/Model/Datasource/DboSource.php(458): PDOStatement->execute(Array)
+#1 /Users/denniscalazans/Sites/dddmg/cakephp/lib/Cake/Model/Datasource/DboSource.php(424): DboSource->_execute('INSERT INTO `dd...', Array)
+#2 /Users/denniscalazans/Sites/dddmg/cakephp/lib/Cake/Model/Datasource/DboSource.php(1012): DboSource->execute('INSERT INTO `dd...')
+#3 /Users/denniscalazans/Sites/dddmg/cakephp/lib/Cake/Model/Model.php(1854): DboSource->create(Object(Update), Array, Array)
+#4 /Users/denniscalazans/Sites/dddmg/cakephp/app/Controller/UpdatesController.php(34): Model->save(Array)
+#5 [internal function]: UpdatesController->add()
+#6 /Users/denniscalazans/Sites/dddmg/cakephp/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(UpdatesController), Array)
+#7 /Users/denniscalazans/Sites/dddmg/cakephp/lib/Cake/Routing/Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#8 /Users/denniscalazans/Sites/dddmg/cakephp/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(UpdatesController), Object(CakeRequest))
+#9 /Users/denniscalazans/Sites/dddmg/cakephp/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#10 {main}
+2014-11-24 15:54:33 Error: Fatal Error (4): syntax error, unexpected '[', expecting identifier (T_STRING) or variable (T_VARIABLE) or '{' or '$' in [/Users/denniscalazans/Sites/dddmg/cakephp/app/Controller/UpdatesController.php, line 34]
+2014-11-24 15:54:33 Error: [FatalErrorException] syntax error, unexpected '[', expecting identifier (T_STRING) or variable (T_VARIABLE) or '{' or '$'
+Request URL: /cakephp/updates/add
+Stack Trace:
+#0 /Users/denniscalazans/Sites/dddmg/cakephp/lib/Cake/Error/ErrorHandler.php(203): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/Users/dennisca...', 34)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/Users/dennisca...', 34, Array)
+#2 /Users/denniscalazans/Sites/dddmg/cakephp/lib/Cake/Core/App.php(931): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/Users/dennisca...', 34, Array)
+#3 /Users/denniscalazans/Sites/dddmg/cakephp/lib/Cake/Core/App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-11-24 16:31:53 Error: [MissingViewException] View file "/Users/denniscalazans/Sites/dddmg/cakephp/app/View/Updates/json/index.ctp" is missing.
+Exception Attributes: array (
+  'file' => '/Users/denniscalazans/Sites/dddmg/cakephp/app/View/Updates/json/index.ctp',
+)
+Request URL: /cakephp/updates/index.json
+Stack Trace:
+#0 /Users/denniscalazans/Sites/dddmg/cakephp/lib/Cake/View/JsonView.php(107): View->_getViewFileName(NULL)
+#1 /Users/denniscalazans/Sites/dddmg/cakephp/lib/Cake/Controller/Controller.php(954): JsonView->render(NULL, NULL)
+#2 /Users/denniscalazans/Sites/dddmg/cakephp/lib/Cake/Routing/Dispatcher.php(198): Controller->render()
+#3 /Users/denniscalazans/Sites/dddmg/cakephp/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(UpdatesController), Object(CakeRequest))
+#4 /Users/denniscalazans/Sites/dddmg/cakephp/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2014-11-24 16:32:17 Error: [MissingViewException] View file "/Users/denniscalazans/Sites/dddmg/cakephp/app/View/Updates/json/index.ctp" is missing.
+Exception Attributes: array (
+  'file' => '/Users/denniscalazans/Sites/dddmg/cakephp/app/View/Updates/json/index.ctp',
+)
+Request URL: /cakephp/updates.json
+Stack Trace:
+#0 /Users/denniscalazans/Sites/dddmg/cakephp/lib/Cake/View/JsonView.php(107): View->_getViewFileName(NULL)
+#1 /Users/denniscalazans/Sites/dddmg/cakephp/lib/Cake/Controller/Controller.php(954): JsonView->render(NULL, NULL)
+#2 /Users/denniscalazans/Sites/dddmg/cakephp/lib/Cake/Routing/Dispatcher.php(198): Controller->render()
+#3 /Users/denniscalazans/Sites/dddmg/cakephp/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(UpdatesController), Object(CakeRequest))
+#4 /Users/denniscalazans/Sites/dddmg/cakephp/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2014-11-24 16:32:28 Error: [MissingActionException] Action UpdatesController::json() could not be found.
+Exception Attributes: array (
+  'controller' => 'UpdatesController',
+  'action' => 'json',
+)
+Request URL: /cakephp/updates/json
+Stack Trace:
+#0 /Users/denniscalazans/Sites/dddmg/cakephp/lib/Cake/Routing/Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#1 /Users/denniscalazans/Sites/dddmg/cakephp/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(UpdatesController), Object(CakeRequest))
+#2 /Users/denniscalazans/Sites/dddmg/cakephp/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2014-11-24 16:32:33 Error: [MissingActionException] Action UpdatesController::json() could not be found.
+Exception Attributes: array (
+  'controller' => 'UpdatesController',
+  'action' => 'json',
+)
+Request URL: /cakephp/updates/json/index.json
+Stack Trace:
+#0 /Users/denniscalazans/Sites/dddmg/cakephp/lib/Cake/Routing/Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#1 /Users/denniscalazans/Sites/dddmg/cakephp/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(UpdatesController), Object(CakeRequest))
+#2 /Users/denniscalazans/Sites/dddmg/cakephp/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2014-11-24 16:32:47 Error: [MissingViewException] View file "/Users/denniscalazans/Sites/dddmg/cakephp/app/View/Updates/json/index.ctp" is missing.
+Exception Attributes: array (
+  'file' => '/Users/denniscalazans/Sites/dddmg/cakephp/app/View/Updates/json/index.ctp',
+)
+Request URL: /cakephp/updates/index.json
+Stack Trace:
+#0 /Users/denniscalazans/Sites/dddmg/cakephp/lib/Cake/View/JsonView.php(107): View->_getViewFileName(NULL)
+#1 /Users/denniscalazans/Sites/dddmg/cakephp/lib/Cake/Controller/Controller.php(954): JsonView->render(NULL, NULL)
+#2 /Users/denniscalazans/Sites/dddmg/cakephp/lib/Cake/Routing/Dispatcher.php(198): Controller->render()
+#3 /Users/denniscalazans/Sites/dddmg/cakephp/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(UpdatesController), Object(CakeRequest))
+#4 /Users/denniscalazans/Sites/dddmg/cakephp/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2014-11-24 16:48:07 Error: [MissingViewException] View file "/Users/denniscalazans/Sites/dddmg/cakephp/app/View/Updates/Array.ctp" is missing.
+Exception Attributes: array (
+  'file' => '/Users/denniscalazans/Sites/dddmg/cakephp/app/View/Updates/Array.ctp',
+)
+Request URL: /cakephp/updates/add
+Stack Trace:
+#0 /Users/denniscalazans/Sites/dddmg/cakephp/lib/Cake/View/View.php(468): View->_getViewFileName(Array)
+#1 /Users/denniscalazans/Sites/dddmg/cakephp/lib/Cake/Controller/Controller.php(954): View->render(Array, NULL)
+#2 /Users/denniscalazans/Sites/dddmg/cakephp/app/Controller/UpdatesController.php(47): Controller->render(Array)
+#3 [internal function]: UpdatesController->add()
+#4 /Users/denniscalazans/Sites/dddmg/cakephp/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(UpdatesController), Array)
+#5 /Users/denniscalazans/Sites/dddmg/cakephp/lib/Cake/Routing/Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#6 /Users/denniscalazans/Sites/dddmg/cakephp/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(UpdatesController), Object(CakeRequest))
+#7 /Users/denniscalazans/Sites/dddmg/cakephp/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#8 {main}
+2014-11-24 16:48:57 Error: [MissingViewException] View file "/Users/denniscalazans/Sites/dddmg/cakephp/app/View/Updates/Array.ctp" is missing.
+Exception Attributes: array (
+  'file' => '/Users/denniscalazans/Sites/dddmg/cakephp/app/View/Updates/Array.ctp',
+)
+Request URL: /cakephp/updates/add
+Stack Trace:
+#0 /Users/denniscalazans/Sites/dddmg/cakephp/lib/Cake/View/View.php(468): View->_getViewFileName(Array)
+#1 /Users/denniscalazans/Sites/dddmg/cakephp/lib/Cake/Controller/Controller.php(954): View->render(Array, NULL)
+#2 /Users/denniscalazans/Sites/dddmg/cakephp/app/Controller/UpdatesController.php(56): Controller->render(Array)
+#3 [internal function]: UpdatesController->add()
+#4 /Users/denniscalazans/Sites/dddmg/cakephp/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(UpdatesController), Array)
+#5 /Users/denniscalazans/Sites/dddmg/cakephp/lib/Cake/Routing/Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#6 /Users/denniscalazans/Sites/dddmg/cakephp/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(UpdatesController), Object(CakeRequest))
+#7 /Users/denniscalazans/Sites/dddmg/cakephp/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#8 {main}
+2014-11-24 16:49:03 Error: [MissingViewException] View file "/Users/denniscalazans/Sites/dddmg/cakephp/app/View/Updates/Array.ctp" is missing.
+Exception Attributes: array (
+  'file' => '/Users/denniscalazans/Sites/dddmg/cakephp/app/View/Updates/Array.ctp',
+)
+Request URL: /cakephp/updates/add
+Stack Trace:
+#0 /Users/denniscalazans/Sites/dddmg/cakephp/lib/Cake/View/View.php(468): View->_getViewFileName(Array)
+#1 /Users/denniscalazans/Sites/dddmg/cakephp/lib/Cake/Controller/Controller.php(954): View->render(Array, NULL)
+#2 /Users/denniscalazans/Sites/dddmg/cakephp/app/Controller/UpdatesController.php(56): Controller->render(Array)
+#3 [internal function]: UpdatesController->add()
+#4 /Users/denniscalazans/Sites/dddmg/cakephp/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(UpdatesController), Array)
+#5 /Users/denniscalazans/Sites/dddmg/cakephp/lib/Cake/Routing/Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#6 /Users/denniscalazans/Sites/dddmg/cakephp/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(UpdatesController), Object(CakeRequest))
+#7 /Users/denniscalazans/Sites/dddmg/cakephp/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#8 {main}
+2014-11-24 16:49:13 Error: [MissingViewException] View file "/Users/denniscalazans/Sites/dddmg/cakephp/app/View/Updates/Array.ctp" is missing.
+Exception Attributes: array (
+  'file' => '/Users/denniscalazans/Sites/dddmg/cakephp/app/View/Updates/Array.ctp',
+)
+Request URL: /cakephp/updates/add
+Stack Trace:
+#0 /Users/denniscalazans/Sites/dddmg/cakephp/lib/Cake/View/View.php(468): View->_getViewFileName(Array)
+#1 /Users/denniscalazans/Sites/dddmg/cakephp/lib/Cake/Controller/Controller.php(954): View->render(Array, NULL)
+#2 /Users/denniscalazans/Sites/dddmg/cakephp/app/Controller/UpdatesController.php(56): Controller->render(Array)
+#3 [internal function]: UpdatesController->add()
+#4 /Users/denniscalazans/Sites/dddmg/cakephp/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(UpdatesController), Array)
+#5 /Users/denniscalazans/Sites/dddmg/cakephp/lib/Cake/Routing/Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#6 /Users/denniscalazans/Sites/dddmg/cakephp/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(UpdatesController), Object(CakeRequest))
+#7 /Users/denniscalazans/Sites/dddmg/cakephp/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#8 {main}
+2014-11-24 16:51:56 Error: [MissingViewException] View file "/Users/denniscalazans/Sites/dddmg/cakephp/app/View/Updates/ajax_response.json.ctp" is missing.
+Exception Attributes: array (
+  'file' => '/Users/denniscalazans/Sites/dddmg/cakephp/app/View/Updates/ajax_response.json.ctp',
+)
+Request URL: /cakephp/updates/add
+Stack Trace:
+#0 /Users/denniscalazans/Sites/dddmg/cakephp/lib/Cake/View/View.php(468): View->_getViewFileName('ajaxResponse.js...')
+#1 /Users/denniscalazans/Sites/dddmg/cakephp/lib/Cake/Controller/Controller.php(954): View->render('ajaxResponse.js...', NULL)
+#2 /Users/denniscalazans/Sites/dddmg/cakephp/app/Controller/UpdatesController.php(59): Controller->render('ajaxResponse.js...')
+#3 [internal function]: UpdatesController->add()
+#4 /Users/denniscalazans/Sites/dddmg/cakephp/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(UpdatesController), Array)
+#5 /Users/denniscalazans/Sites/dddmg/cakephp/lib/Cake/Routing/Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#6 /Users/denniscalazans/Sites/dddmg/cakephp/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(UpdatesController), Object(CakeRequest))
+#7 /Users/denniscalazans/Sites/dddmg/cakephp/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#8 {main}
+2014-11-24 16:52:00 Error: [MissingViewException] View file "/Users/denniscalazans/Sites/dddmg/cakephp/app/View/Updates/json/ajaxResponse.json.ctp" is missing.
+Exception Attributes: array (
+  'file' => '/Users/denniscalazans/Sites/dddmg/cakephp/app/View/Updates/json/ajaxResponse.json.ctp',
+)
+Request URL: /cakephp/updates/add
+Stack Trace:
+#0 /Users/denniscalazans/Sites/dddmg/cakephp/lib/Cake/View/View.php(468): View->_getViewFileName('json/ajaxRespon...')
+#1 /Users/denniscalazans/Sites/dddmg/cakephp/lib/Cake/Controller/Controller.php(954): View->render('json/ajaxRespon...', NULL)
+#2 /Users/denniscalazans/Sites/dddmg/cakephp/app/Controller/UpdatesController.php(59): Controller->render('json/ajaxRespon...')
+#3 [internal function]: UpdatesController->add()
+#4 /Users/denniscalazans/Sites/dddmg/cakephp/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(UpdatesController), Array)
+#5 /Users/denniscalazans/Sites/dddmg/cakephp/lib/Cake/Routing/Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#6 /Users/denniscalazans/Sites/dddmg/cakephp/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(UpdatesController), Object(CakeRequest))
+#7 /Users/denniscalazans/Sites/dddmg/cakephp/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#8 {main}
+2014-11-24 16:54:29 Error: [PDOException] SQLSTATE[23000]: Integrity constraint violation: 1452 Cannot add or update a child row: a foreign key constraint fails (`dddmg_org`.`updates`, CONSTRAINT `updates_ibfk_1` FOREIGN KEY (`country_id`) REFERENCES `countries` (`id`))
+Request URL: /cakephp/updates/add
+Stack Trace:
+#0 /Users/denniscalazans/Sites/dddmg/cakephp/lib/Cake/Model/Datasource/DboSource.php(458): PDOStatement->execute(Array)
+#1 /Users/denniscalazans/Sites/dddmg/cakephp/lib/Cake/Model/Datasource/DboSource.php(424): DboSource->_execute('INSERT INTO `dd...', Array)
+#2 /Users/denniscalazans/Sites/dddmg/cakephp/lib/Cake/Model/Datasource/DboSource.php(1012): DboSource->execute('INSERT INTO `dd...')
+#3 /Users/denniscalazans/Sites/dddmg/cakephp/lib/Cake/Model/Model.php(1854): DboSource->create(Object(Update), Array, Array)
+#4 /Users/denniscalazans/Sites/dddmg/cakephp/app/Controller/UpdatesController.php(43): Model->save(Array)
+#5 [internal function]: UpdatesController->add()
+#6 /Users/denniscalazans/Sites/dddmg/cakephp/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(UpdatesController), Array)
+#7 /Users/denniscalazans/Sites/dddmg/cakephp/lib/Cake/Routing/Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#8 /Users/denniscalazans/Sites/dddmg/cakephp/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(UpdatesController), Object(CakeRequest))
+#9 /Users/denniscalazans/Sites/dddmg/cakephp/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#10 {main}
