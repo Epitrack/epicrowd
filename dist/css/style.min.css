@@ -4997,7 +4997,17 @@ body {
   text-indent: -9999px;
   display: block;
   height: 73px;
-  background: url("../../dist/images/logo-primary.svg");
+  background-size: 100% 73px;
+}
+
+.js-logo-en a {
+  background: url("../../dist/images/logo-primary-en.svg");
+  background-repeat: no-repeat;
+  background-size: 100% 73px;
+}
+
+.js-logo-pt a {
+  background: url("../../dist/images/logo-primary-pt.svg");
   background-repeat: no-repeat;
   background-size: 100% 73px;
 }
@@ -5198,6 +5208,7 @@ body {
 
 .main section {
   min-height: 450px;
+  padding: 20px 0;
 }
 
 .section-title {
@@ -5298,6 +5309,9 @@ body {
   background-position: center bottom;
 }
 .register .section-title {
+  color: #9DDE38;
+}
+.register .section-text {
   color: #9DDE38;
 }
 
