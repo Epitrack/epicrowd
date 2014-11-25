@@ -71,12 +71,11 @@ body { font-size: $fs-root; }
 
   a {
     text-indent: -9999px;
-    background-repeat: no-repeat;
     display: block;
     height: 73px;
     @include path('logo-primary.svg');
     background-repeat: no-repeat;
-    background-size: 244px 73px;
+    background-size: 100% 73px;
   }
 }
 
@@ -85,15 +84,15 @@ body { font-size: $fs-root; }
   time {
     font-family: $ff-primary;
     color: $color-primary;
-    font-size: $fs-extra-medium;
+    font-size: 2.2rem;
     text-transform: uppercase;
+    line-height: $fs-extra-medium;
   }
 
   p {
     color: $color-primary;
     font-family: $ff-secondary;
     font-size: $fs-medium;
-    margin-top: -10px;
   }
 }
 
@@ -277,9 +276,9 @@ body { font-size: $fs-root; }
   background-repeat: repeat;
 }
 
-.agend {
+.agenda {
   background-color: $color-other;
-  @include path('pattern-agend.png');
+  @include path('pattern-agenda.png');
   background-repeat: repeat;
   min-height: 550px;
 
@@ -291,7 +290,7 @@ body { font-size: $fs-root; }
   }
 }
 
-.agend-title {
+.agenda-title {
   font-family: $ff-secondary;
   font-size: $fs-extra-medium;
   position: relative;
@@ -331,7 +330,7 @@ body { font-size: $fs-root; }
   }
 }
 
-.agend-item {
+.agenda-item {
   border-bottom: 2px solid $color-other;
   padding: 10px 12px;
   font-size: $fs-medium;
@@ -494,7 +493,7 @@ body { font-size: $fs-root; }
 @media (min-width: 768px) {
   .header-primary {
     height: 645px;
-    background-position: center 122%;
+    background-position: center;
     background-attachment: fixed;
   }
 
@@ -508,15 +507,14 @@ body { font-size: $fs-root; }
 
   .logo-primary {
     a {
-      background-size: 381px 114px;
+      background-size: 100% 114px;
       height: 114px;
     }
   }
 
   .subtitle {
     time {
-      font-size: $fs-extra-large;
-      letter-spacing: -3px;
+      font-size: $fs-extra-medium;
     }
 
     p {
@@ -547,6 +545,13 @@ body { font-size: $fs-root; }
   .section-text {
     font-size: $fs-medium;
     line-height: $fs-extra-medium;
+  }
+
+  .logo-primary {
+    a {
+      background-size: 100% 134px;
+      height: 134px;
+    }
   }
 }
 

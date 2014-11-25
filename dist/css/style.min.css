@@ -4995,12 +4995,11 @@ body {
 }
 .logo-primary a {
   text-indent: -9999px;
-  background-repeat: no-repeat;
   display: block;
   height: 73px;
   background: url("../../dist/images/logo-primary.svg");
   background-repeat: no-repeat;
-  background-size: 244px 73px;
+  background-size: 100% 73px;
 }
 
 .subtitle {
@@ -5009,14 +5008,14 @@ body {
 .subtitle time {
   font-family: "FocoBlack";
   color: #283A42;
-  font-size: 2.5rem;
+  font-size: 2.2rem;
   text-transform: uppercase;
+  line-height: 2.5rem;
 }
 .subtitle p {
   color: #283A42;
   font-family: "FocoLight";
   font-size: 1.8rem;
-  margin-top: -10px;
 }
 
 @keyframes rotate {
@@ -5221,25 +5220,25 @@ body {
   background-repeat: repeat;
 }
 
-.agend {
+.agenda {
   background-color: #E5E5E5;
-  background: url("../../dist/images/pattern-agend.png");
+  background: url("../../dist/images/pattern-agenda.png");
   background-repeat: repeat;
   min-height: 550px;
 }
-.agend aside {
+.agenda aside {
   display: inline-block;
   padding: 10px;
   margin-top: 10px;
   position: relative;
 }
 
-.agend-title {
+.agenda-title {
   font-family: "FocoLight";
   font-size: 2.5rem;
   position: relative;
 }
-.agend-title::before {
+.agenda-title::before {
   content: '';
   width: 30px;
   height: 30px;
@@ -5248,23 +5247,23 @@ body {
   margin-right: 10px;
   background-repeat: no-repeat;
 }
-.agend-title.conferences::before {
+.agenda-title.conferences::before {
   content: '';
   background: url("../../dist/images/icon-conferences.svg");
   background-size: 30px 30px;
 }
-.agend-title.panels::before {
+.agenda-title.panels::before {
   content: '';
   background: url("../../dist/images/icon-panels.svg");
   background-size: 30px 30px;
 }
-.agend-title.rapid-fire::before {
+.agenda-title.rapid-fire::before {
   content: '';
   background: url("../../dist/images/icon-rapid-fire.svg");
   background-size: 30px 30px;
 }
 
-.agend-item {
+.agenda-item {
   border-bottom: 2px solid #E5E5E5;
   padding: 10px 12px;
   font-size: 1.8rem;
@@ -5276,10 +5275,10 @@ body {
   -o-transition: all 0.2s linear 0s;
   transition: all 0.2s linear 0s;
 }
-.agend-item:last-child {
+.agenda-item:last-child {
   border-bottom: none;
 }
-.agend-item::before {
+.agenda-item::before {
   content: "\e089";
   display: inline-block;
   font-family: "Glyphicons Halflings";
@@ -5287,7 +5286,7 @@ body {
   -webkit-font-smoothing: antialiased;
   color: #9DDE38;
 }
-.agend-item:hover {
+.agenda-item:hover {
   background-color: #283A42;
   color: #E5E5E5;
 }
@@ -5413,7 +5412,7 @@ body {
 @media (min-width: 768px) {
   .header-primary {
     height: 645px;
-    background-position: center 122%;
+    background-position: center;
     background-attachment: fixed;
   }
 
@@ -5426,13 +5425,12 @@ body {
   }
 
   .logo-primary a {
-    background-size: 381px 114px;
+    background-size: 100% 114px;
     height: 114px;
   }
 
   .subtitle time {
-    font-size: 5rem;
-    letter-spacing: -3px;
+    font-size: 2.5rem;
   }
   .subtitle p {
     font-size: 3.2rem;
@@ -5459,5 +5457,10 @@ body {
   .section-text {
     font-size: 1.8rem;
     line-height: 2.5rem;
+  }
+
+  .logo-primary a {
+    background-size: 100% 134px;
+    height: 134px;
   }
 }
