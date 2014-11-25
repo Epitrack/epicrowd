@@ -77,9 +77,8 @@ if( isset($_POST['email'])) {
     $cabecalho .= "MIME-Version: 1.0$quebra_linha";
     $cabecalho .= "Content-type: text/html; charset=uft-8$quebra_linha";
 
-    $envia = mail("thulioph@gmail.com","DDDMG - Register",utf8_decode($mens),$cabecalho,"-r".$emailsender);
-    // $envia = mail("info@dddmg.org","DDDMG - Register",utf8_decode($mens),$cabecalho,"-r".$emailsender);
-    // $envia .= mail("onicio@epitrack.com.br","DDDMG - Register",utf8_decode($mens),$cabecalho,"-r".$emailsender);
+    $envia = mail("info@dddmg.org","DDDMG - Register",utf8_decode($mens),$cabecalho,"-r".$emailsender);
+    $envia .= mail("onicio@epitrack.com.br","DDDMG - Register",utf8_decode($mens),$cabecalho,"-r".$emailsender);
 
 
     if($envia){
