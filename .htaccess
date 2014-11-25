@@ -1,5 +1,6 @@
 # Cache manifest
 AddType text/cache-manifest .manifest
+AddCharset utf-8 .html .css .php .txt .js
 
 #Urls Amigáveis
 <IfModule mod_rewrite.c>
