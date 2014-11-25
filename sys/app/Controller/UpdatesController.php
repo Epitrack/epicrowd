@@ -54,7 +54,7 @@ class UpdatesController extends AppController {
              
            
         } else {
-            $message = __('Nothing to save.');
+            $message = __('Nothing to save!!!');
             $ajaxResponse = $this->ajaxResponse(NULL, $message, FALSE);
         }
 
