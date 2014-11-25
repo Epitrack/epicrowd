@@ -1,10 +1,6 @@
 <?php
 @session_start();
 
-//echo "<pre>";
-//var_dump($_SESSION);
-//var_dump($_POST);
-
 if( isset($_POST['email'])) {
    if($_SESSION['security_code'] == $_POST['security_code'] && !empty($_SESSION['security_code']) ) {
         //se o capicha estiver funcionando vai enviar o email
