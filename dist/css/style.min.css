@@ -4926,6 +4926,361 @@ input:focus, select:focus {
     width: 86%;
   }
 }
+@keyframes upDown {
+  0% {
+    top: 50%;
+  }
+  50% {
+    top: 55%;
+  }
+  100% {
+    top: 50%;
+  }
+}
+@-webkit-keyframes upDown {
+  0% {
+    top: 50%;
+  }
+  50% {
+    top: 55%;
+  }
+  100% {
+    top: 50%;
+  }
+}
+@-moz-keyframes upDown {
+  0% {
+    top: 50%;
+  }
+  50% {
+    top: 55%;
+  }
+  100% {
+    top: 50%;
+  }
+}
+@-ms-keyframes upDown {
+  0% {
+    top: 50%;
+  }
+  50% {
+    top: 55%;
+  }
+  100% {
+    top: 50%;
+  }
+}
+@-o-keyframes upDown {
+  0% {
+    top: 50%;
+  }
+  50% {
+    top: 55%;
+  }
+  100% {
+    top: 50%;
+  }
+}
+.down {
+  -webkit-animation-name: upDown;
+  -webkit-animation-delay: 1s;
+  -webkit-animation-duration: 2s;
+  -webkit-animation-fill-mode: backwards;
+  -webkit-animation-iteration-count: infinite;
+  -webkit-animation-direction: normal;
+  -webkit-animation-timing-function: ease-in-out;
+  -webkit-animation-play-state: running;
+  -moz-animation-name: upDown;
+  -moz-animation-delay: 1s;
+  -moz-animation-duration: 2s;
+  -moz-animation-fill-mode: backwards;
+  -moz-animation-iteration-count: infinite;
+  -moz-animation-direction: normal;
+  -moz-animation-timing-function: ease-in-out;
+  -moz-animation-play-state: running;
+  -ms-animation-name: upDown;
+  -ms-animation-delay: 1s;
+  -ms-animation-duration: 2s;
+  -ms-animation-fill-mode: backwards;
+  -ms-animation-iteration-count: infinite;
+  -ms-animation-direction: normal;
+  -ms-animation-timing-function: ease-in-out;
+  -ms-animation-play-state: running;
+  -o-animation-name: upDown;
+  -o-animation-delay: 1s;
+  -o-animation-duration: 2s;
+  -o-animation-fill-mode: backwards;
+  -o-animation-iteration-count: infinite;
+  -o-animation-direction: normal;
+  -o-animation-timing-function: ease-in-out;
+  -o-animation-play-state: running;
+  animation-name: upDown;
+  animation-delay: 1s;
+  animation-duration: 2s;
+  animation-fill-mode: backwards;
+  animation-iteration-count: infinite;
+  animation-direction: normal;
+  animation-timing-function: ease-in-out;
+  animation-play-state: running;
+}
+
+.down:hover {
+  -webkit-animation-play-state: paused;
+  -moz-animation-play-state: paused;
+  -ms-animation-play-state: paused;
+  -o-animation-play-state: paused;
+  animation-play-state: paused;
+}
+
+@keyframes startLogo {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+@-webkit-keyframes startLogo {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+@-moz-keyframes startLogo {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+@-ms-keyframes startLogo {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+@-o-keyframes startLogo {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+.logo-primary, .subtitle {
+  -webkit-animation-name: startLogo;
+  -webkit-animation-duration: 3s;
+  -webkit-animation-iteration-count: 1;
+  -webkit-animation-direction: normal;
+  -webkit-animation-timing-function: ease-in-out;
+  -webkit-animation-play-state: running;
+  -moz-animation-name: startLogo;
+  -moz-animation-duration: 3s;
+  -moz-animation-iteration-count: 1;
+  -moz-animation-direction: normal;
+  -moz-animation-timing-function: ease-in-out;
+  -moz-animation-play-state: running;
+  -ms-animation-name: startLogo;
+  -ms-animation-duration: 3s;
+  -ms-animation-iteration-count: 1;
+  -ms-animation-direction: normal;
+  -ms-animation-timing-function: ease-in-out;
+  -ms-animation-play-state: running;
+  -o-animation-name: startLogo;
+  -o-animation-duration: 3s;
+  -o-animation-iteration-count: 1;
+  -o-animation-direction: normal;
+  -o-animation-timing-function: ease-in-out;
+  -o-animation-play-state: running;
+  animation-name: startLogo;
+  animation-duration: 3s;
+  animation-iteration-count: 1;
+  animation-direction: normal;
+  animation-timing-function: ease-in-out;
+  animation-play-state: running;
+}
+
+@keyframes switch {
+  from {
+    top: -90px;
+  }
+  to {
+    top: 0;
+  }
+}
+@-webkit-keyframes switch {
+  from {
+    top: -90px;
+  }
+  to {
+    top: 0;
+  }
+}
+@-moz-keyframes switch {
+  from {
+    top: -90px;
+  }
+  to {
+    top: 0;
+  }
+}
+@-ms-keyframes switch {
+  from {
+    top: -90px;
+  }
+  to {
+    top: 0;
+  }
+}
+@-o-keyframes switch {
+  from {
+    top: -90px;
+  }
+  to {
+    top: 0;
+  }
+}
+.switch-language {
+  -webkit-animation-name: switch;
+  -webkit-animation-duration: 2s;
+  -webkit-animation-iteration-count: 1;
+  -webkit-animation-direction: normal;
+  -webkit-animation-timing-function: ease-in-out;
+  -webkit-animation-play-state: running;
+  -moz-animation-name: switch;
+  -moz-animation-duration: 2s;
+  -moz-animation-iteration-count: 1;
+  -moz-animation-direction: normal;
+  -moz-animation-timing-function: ease-in-out;
+  -moz-animation-play-state: running;
+  -ms-animation-name: switch;
+  -ms-animation-duration: 2s;
+  -ms-animation-iteration-count: 1;
+  -ms-animation-direction: normal;
+  -ms-animation-timing-function: ease-in-out;
+  -ms-animation-play-state: running;
+  -o-animation-name: switch;
+  -o-animation-duration: 2s;
+  -o-animation-iteration-count: 1;
+  -o-animation-direction: normal;
+  -o-animation-timing-function: ease-in-out;
+  -o-animation-play-state: running;
+  animation-name: switch;
+  animation-duration: 2s;
+  animation-iteration-count: 1;
+  animation-direction: normal;
+  animation-timing-function: ease-in-out;
+  animation-play-state: running;
+}
+
+@keyframes nav {
+  from {
+    height: 0;
+    background: transparent;
+    z-index: -9;
+    top: 646px;
+  }
+  to {
+    height: 60px;
+    background: #283A42;
+    z-index: 10;
+    top: 586px;
+  }
+}
+@-webkit-keyframes nav {
+  from {
+    height: 0;
+    background: transparent;
+    z-index: -9;
+    top: 646px;
+  }
+  to {
+    height: 60px;
+    background: #283A42;
+    z-index: 10;
+    top: 586px;
+  }
+}
+@-moz-keyframes nav {
+  from {
+    height: 0;
+    background: transparent;
+    z-index: -9;
+    top: 646px;
+  }
+  to {
+    height: 60px;
+    background: #283A42;
+    z-index: 10;
+    top: 586px;
+  }
+}
+@-ms-keyframes nav {
+  from {
+    height: 0;
+    background: transparent;
+    z-index: -9;
+    top: 646px;
+  }
+  to {
+    height: 60px;
+    background: #283A42;
+    z-index: 10;
+    top: 586px;
+  }
+}
+@-o-keyframes nav {
+  from {
+    height: 0;
+    background: transparent;
+    z-index: -9;
+    top: 646px;
+  }
+  to {
+    height: 60px;
+    background: #283A42;
+    z-index: 10;
+    top: 586px;
+  }
+}
+.nav-primary {
+  -webkit-animation-name: nav;
+  -webkit-animation-duration: 2.5s;
+  -webkit-animation-iteration-count: 1;
+  -webkit-animation-direction: normal;
+  -webkit-animation-timing-function: ease-in-out;
+  -webkit-animation-play-state: running;
+  -moz-animation-name: nav;
+  -moz-animation-duration: 2.5s;
+  -moz-animation-iteration-count: 1;
+  -moz-animation-direction: normal;
+  -moz-animation-timing-function: ease-in-out;
+  -moz-animation-play-state: running;
+  -ms-animation-name: nav;
+  -ms-animation-duration: 2.5s;
+  -ms-animation-iteration-count: 1;
+  -ms-animation-direction: normal;
+  -ms-animation-timing-function: ease-in-out;
+  -ms-animation-play-state: running;
+  -o-animation-name: nav;
+  -o-animation-duration: 2s;
+  -o-animation-iteration-count: 1;
+  -o-animation-direction: normal;
+  -o-animation-timing-function: ease-in-out;
+  -o-animation-play-state: running;
+  animation-name: nav;
+  animation-duration: 2s;
+  animation-iteration-count: 1;
+  animation-direction: normal;
+  animation-timing-function: ease-in-out;
+  animation-play-state: running;
+}
+
 body {
   font-size: 62.5%;
 }
@@ -4957,6 +5312,7 @@ body {
   border-radius: 3px;
   display: inline-block;
   margin-top: 25px;
+  position: relative;
 }
 .switch-language button {
   display: inline-block;
@@ -5026,99 +5382,6 @@ body {
   color: #283A42;
   font-family: "FocoLight";
   font-size: 1.8rem;
-}
-
-@keyframes rotate {
-  0% {
-    top: 50%;
-  }
-  50% {
-    top: 55%;
-  }
-  100% {
-    top: 50%;
-  }
-}
-@-webkit-keyframes rotate {
-  0% {
-    top: 50%;
-  }
-  50% {
-    top: 55%;
-  }
-  100% {
-    top: 50%;
-  }
-}
-@-moz-keyframes rotate {
-  0% {
-    top: 50%;
-  }
-  50% {
-    top: 55%;
-  }
-  100% {
-    top: 50%;
-  }
-}
-@-ms-keyframes rotate {
-  0% {
-    top: 50%;
-  }
-  50% {
-    top: 55%;
-  }
-  100% {
-    top: 50%;
-  }
-}
-@-o-keyframes rotate {
-  0% {
-    top: 50%;
-  }
-  50% {
-    top: 55%;
-  }
-  100% {
-    top: 50%;
-  }
-}
-.down {
-  -webkit-animation-name: rotate;
-  -webkit-animation-duration: 2s;
-  -webkit-animation-fill-mode: backwards;
-  -webkit-animation-iteration-count: infinite;
-  -webkit-animation-direction: normal;
-  -webkit-animation-timing-function: ease-in-out;
-  -webkit-animation-play-state: running;
-  -moz-animation-name: rotate;
-  -moz-animation-duration: 2s;
-  -moz-animation-fill-mode: backwards;
-  -moz-animation-iteration-count: infinite;
-  -moz-animation-direction: normal;
-  -moz-animation-timing-function: ease-in-out;
-  -moz-animation-play-state: running;
-  -ms-animation-name: rotate;
-  -ms-animation-duration: 2s;
-  -ms-animation-fill-mode: backwards;
-  -ms-animation-iteration-count: infinite;
-  -ms-animation-direction: normal;
-  -ms-animation-timing-function: ease-in-out;
-  -ms-animation-play-state: running;
-  -o-animation-name: rotate;
-  -o-animation-duration: 2s;
-  -o-animation-fill-mode: backwards;
-  -o-animation-iteration-count: infinite;
-  -o-animation-direction: normal;
-  -o-animation-timing-function: ease-in-out;
-  -o-animation-play-state: running;
-  animation-name: rotate;
-  animation-duration: 2s;
-  animation-fill-mode: backwards;
-  animation-iteration-count: infinite;
-  animation-direction: normal;
-  animation-timing-function: ease-in-out;
-  animation-play-state: running;
 }
 
 .down {

@@ -33,6 +33,8 @@ body { font-size: $fs-root; }
   border-radius: 3px;
   display: inline-block;
   margin-top: 25px;
+  position: relative;
+  @extend %animate-switch;
 
   button {
     display: inline-block;
@@ -68,6 +70,7 @@ body { font-size: $fs-root; }
 .logo-primary {
   margin-top: 80px;
   margin-bottom: 40px;
+  @extend %animate-logo;
 
   a {
     text-indent: -9999px;
@@ -95,6 +98,8 @@ body { font-size: $fs-root; }
 
 .subtitle {
   text-align: center;
+  @extend %animate-logo;
+
   time {
     font-family: $ff-primary;
     color: $color-primary;
@@ -111,78 +116,6 @@ body { font-size: $fs-root; }
 }
 
 // Down
-@keyframes rotate {
-  0% { top: 50%; }
-  50% { top: 55% }
-  100% { top: 50%; }
-}
-
-@-webkit-keyframes rotate {
-  0% { top: 50%; }
-  50% { top: 55% }
-  100% { top: 50%; }
-}
-
-@-moz-keyframes rotate {
-  0% { top: 50%; }
-  50% { top: 55% }
-  100% { top: 50%; }
-}
-
-@-ms-keyframes rotate {
-  0% { top: 50%; }
-  50% { top: 55% }
-  100% { top: 50%; }
-}
-
-@-o-keyframes rotate {
-  0% { top: 50%; }
-  50% { top: 55% }
-  100% { top: 50%; }
-}
-
-%animate-down {
-  -webkit-animation-name: rotate;
-  -webkit-animation-duration: 2s;
-  -webkit-animation-fill-mode: backwards;
-  -webkit-animation-iteration-count: infinite;
-  -webkit-animation-direction: normal;
-  -webkit-animation-timing-function: ease-in-out;
-  -webkit-animation-play-state: running;
-
-  -moz-animation-name: rotate;
-  -moz-animation-duration: 2s;
-  -moz-animation-fill-mode: backwards;
-  -moz-animation-iteration-count: infinite;
-  -moz-animation-direction: normal;
-  -moz-animation-timing-function: ease-in-out;
-  -moz-animation-play-state: running;
-
-  -ms-animation-name: rotate;
-  -ms-animation-duration: 2s;
-  -ms-animation-fill-mode: backwards;
-  -ms-animation-iteration-count: infinite;
-  -ms-animation-direction: normal;
-  -ms-animation-timing-function: ease-in-out;
-  -ms-animation-play-state: running;
-
-  -o-animation-name: rotate;
-  -o-animation-duration: 2s;
-  -o-animation-fill-mode: backwards;
-  -o-animation-iteration-count: infinite;
-  -o-animation-direction: normal;
-  -o-animation-timing-function: ease-in-out;
-  -o-animation-play-state: running;
-
-  animation-name: rotate;
-  animation-duration: 2s;
-  animation-fill-mode: backwards;
-  animation-iteration-count: infinite;
-  animation-direction: normal;
-  animation-timing-function: ease-in-out;
-  animation-play-state: running;
-}
-
 .down {
   width: 35px;
   height: 25px;
@@ -195,9 +128,13 @@ body { font-size: $fs-root; }
   @include path('down.png');
   background-repeat: no-repeat;
   background-size: 35px 25px;
-
   @extend %animate-down;
+
+  &:hover {
+    @extend %paused-animate-down;
+  }
 }
+
 
 // Nav
 .nav-primary {
@@ -206,6 +143,7 @@ body { font-size: $fs-root; }
   position: absolute;
   top: 400px;
   background-color: $color-primary;
+  @extend %animate-nav;
 
   &.js-fixed {
     position: fixed;
