@@ -19,7 +19,7 @@
   <!-- Facebook  -->
   <meta property="og:type" content="website" />
   <meta property="og:url" content="http://www.dddmg.org" />
-  <meta property="og:title" content="DDDMG 2015 | International Simposium on Digital Disease Detection for Masgathering." />
+  <meta property="og:title" content="DDDMG 2015 | International Simposium on Digital Disease Detection for Mass Gathering." />
   <meta property="og:image" content="" />
   <meta property="og:description" content="Description here :)" />
 
@@ -28,7 +28,7 @@
   <meta name="twitter:card" value="summary">
   <meta name="twitter:creator" value="@dddmg2015">
   <meta name="twitter:site" value="@dddmg2015">
-  <meta name="twitter:title" content="International Simposium on Digital Disease Detection for Masgathering.">
+  <meta name="twitter:title" content="International Simposium on Digital Disease Detection for Mass Gathering.">
   <meta name="twitter:description" content="Description here :)">
   <meta name="twitter:image:src" content="">
 
@@ -55,21 +55,21 @@
         </div>
       </div>
 
-      <h1 class="col-xs-11 col-xs-offset-1 col-sm-7 col-sm-offset-3 col-md-4 col-md-offset-4 logo-primary">
-        <a href="#" title="DDD MG">DDD MG</a>
+      <h1 class="col-xs-10 col-xs-offset-1 col-sm-8 col-sm-offset-2 col-md-4 col-md-offset-4 logo-primary">
+        <a href="#" title="DDD MG">DDD|MG 2015</a>
       </h1>
 
-      <div class="col-xs-8 col-xs-offset-2 col-sm-6 col-sm-offset-3 col-md-4 col-md-offset-4 subtitle">
+      <div class="col-xs-8 col-xs-offset-2 col-sm-8 col-sm-offset-2 col-md-4 col-md-offset-4 subtitle">
         <time data-i18n="date.first" datetime="2015-03-25">March 25 -</time><time data-i18n="date.second" datetime="2015-03-27">27</time>
-        <p>Recife, PE - Brazil</p>
+        <p data-i18n="date.local">Recife, PE - Brazil</p>
       </div>
 
-      <div class="down"></div>
+      <div id="down" class="down"></div>
 
       <nav id="nav-primary" class="col-xs-12 nav-primary">
         <ul class="nav-list">
           <li class="col-xs-4 nav-item"><a href="#about" data-i18n="nav.about;[title]nav.aboutTitle" class="nav-link" title="About">About</a></li>
-          <li class="col-xs-4 nav-item"><a href="#agend" data-i18n="nav.agend;[title]nav.agendTitle" class="nav-link" title="Agend">Agend</a></li>
+          <li class="col-xs-4 nav-item"><a href="#agenda" data-i18n="nav.agenda;[title]nav.agendaTitle" class="nav-link" title="Agenda">Agenda</a></li>
           <li class="col-xs-4 nav-item"><a href="#register" data-i18n="nav.register;[title]nav.registerTitle" class="nav-link" title="Register">Register</a></li>
         </ul>
       </nav>
@@ -94,36 +94,36 @@
         </div>
       </section>
 
-      <section id="agend" class="row agend"> <!-- Agend -->
+      <section id="agenda" class="row agenda"> <!-- Agenda -->
         <div class="col-xs-12 col-sm-10 col-sm-offset-1 col-md-10 col-md-offset-1">
-          <h3 data-i18n="agend.title" class="section-title">agend at glance</h3>
+          <h3 data-i18n="agenda.title" class="section-title">agenda at glance</h3>
         </div>
 
         <aside class="col-xs-12 col-sm-10 col-sm-offset-1 col-md-10 col-md-offset-1">
-          <h4 data-i18n="agend.conferencesTitle" class="agend-title conferences">Conferences</h4>
-          <ul class="agend-list">
-            <li class="agend-item" data-i18n="agend.conferenceList01">Challenges in the Mass Gathering Health Surveillance.</li>
-            <li class="agend-item" data-i18n="agend.conferenceList02">Innovation and Health: New waves of innovation in the world and how epidemiology can provide the tools.</li>
-            <li class="agend-item" data-i18n="agend.conferenceList03">Using social media as a strateagy to spread a new model of health communication.</li>
-            <li class="agend-item" data-i18n="agend.conferenceList04">Potential risks of pandemics: Projections to 2016.</li>
+          <h4 data-i18n="agenda.conferencesTitle" class="agenda-title conferences">Conferences</h4>
+          <ul class="agenda-list">
+            <li class="agenda-item" data-i18n="agenda.conferenceList01">Challenges in the Mass Gathering Health Surveillance.</li>
+            <li class="agenda-item" data-i18n="agenda.conferenceList02">Innovation and Health: New waves of innovation in the world and how epidemiology can provide the tools.</li>
+            <li class="agenda-item" data-i18n="agenda.conferenceList03">Using social media as a strateagy to spread a new model of health communication.</li>
+            <li class="agenda-item" data-i18n="agenda.conferenceList04">Potential risks of pandemics: Projections to 2016.</li>
           </ul>
         </aside>
 
         <aside class="col-xs-12 col-sm-10 col-sm-offset-1 col-md-10 col-md-offset-1">
-          <h4 data-i18n="agend.panelsTitle" class="agend-title panels">Panels</h4>
-          <ul class="agend-list">
-            <li class="agend-item" data-i18n="agend.panelsList01">OMG...Is there a Crystal Ball for Pandemics?</li>
-            <li class="agend-item" data-i18n="agend.panelsList02">Limits of ethics in Public Health 2.0 age.</li>
-            <li class="agend-item" data-i18n="agend.panelsList03">Epidemic Intelligence for Mass Gatherings.</li>
-            <li class="agend-item" data-i18n="agend.panelsList04">Strategies for Participatory Surveillance for Mass Gathering.</li>
-            <li class="agend-item" data-i18n="agend.panelsList05">Perspectives of Health Managment for Olympics 2016.</li>
+          <h4 data-i18n="agenda.panelsTitle" class="agenda-title panels">Panels</h4>
+          <ul class="agenda-list">
+            <li class="agenda-item" data-i18n="agenda.panelsList01">OMG...Is there a Crystal Ball for Pandemics?</li>
+            <li class="agenda-item" data-i18n="agenda.panelsList02">Limits of ethics in Public Health 2.0 age.</li>
+            <li class="agenda-item" data-i18n="agenda.panelsList03">Epidemic Intelligence for Mass Gatherings.</li>
+            <li class="agenda-item" data-i18n="agenda.panelsList04">Strategies for Participatory Surveillance for Mass Gathering.</li>
+            <li class="agenda-item" data-i18n="agenda.panelsList05">Perspectives of Health Managment for Olympics 2016.</li>
           </ul>
         </aside>
 
         <aside class="col-xs-12 col-sm-10 col-sm-offset-1 col-md-10 col-md-offset-1">
-          <h4 data-i18n="agend.rapidTitle" class="agend-title rapid-fire">Rapid fire talks</h4>
-          <ul class="agend-list">
-            <li class="agend-item" data-i18n="agend.rapidFireList01">Coming soon</li>
+          <h4 data-i18n="agenda.rapidTitle" class="agenda-title rapid-fire">Rapid fire talks</h4>
+          <ul class="agenda-list">
+            <li class="agenda-item" data-i18n="agenda.rapidFireList01">Coming soon</li>
           </ul>
         </aside>
       </section>
@@ -179,7 +179,7 @@
       </div>
 
       <div class="col-xs-12 col-sm-2 col-sm-offset-3 col-md-1 col-md-offset-6 social">
-        <a href="http://www.facebook.com/pages/DDDMG-2015" target="_blank" class="social-links facebook" title="Facebook">Facebook</a>
+        <a href="https://www.facebook.com/pages/DDDMG-2015/723298371057302" target="_blank" class="social-links facebook" title="Facebook">Facebook</a>
         <a href="https://twitter.com/dddmg2015" target="_blank" class="social-links twitter" title="twitter">Twitter</a>
       </div>
     </footer>
