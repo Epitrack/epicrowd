@@ -75,19 +75,21 @@ body { font-size: $fs-root; }
     height: 73px;
     background-size: 100% 73px;
   }
+}
 
-  &.js-logo-en {
-    a {
-      @include path('logo-primary-en.svg');
-      background-repeat: no-repeat;
-    }
+.js-logo-en {
+  a {
+    @include path('logo-primary-en.svg');
+    background-repeat: no-repeat;
+    background-size: 100% 73px;
   }
+}
 
-  &.js-logo-pt {
-    a {
-      @include path('logo-primary-pt.svg');
-      background-repeat: no-repeat;
-    }
+.js-logo-pt {
+  a {
+    @include path('logo-primary-pt.svg');
+    background-repeat: no-repeat;
+    background-size: 100% 73px;
   }
 }
 

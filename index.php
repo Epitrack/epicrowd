@@ -82,7 +82,7 @@
           <h3 data-i18n="about.title" class="section-title">About</h3>
         </div>
 
-        <div class="col-xs-12 col-sm-10 col-sm-offset-1 col-md-10 col-md-offset-1">
+        <div class="col-xs-12 col-sm-5 col-sm-offset-1 col-md-5">
           <p data-i18n="about.text01" class="section-text">
             Mass gatherings are occasions that provide the overcrowding and with
             it the increased risk of spreading disease. With different dimensions,
@@ -108,7 +108,9 @@
             strategies and participatory surveillance, and web data mining can
             improve the arsenal of options for use on public health.
           </p>
+        </div>
 
+        <div class="col-xs-12 col-sm-5 col-sm-offset-1 col-md-4">
           <p data-i18n="about.text04" class="section-text">
             As an spinoff of Digital Disease Detection conference
             (healthmap.org/ddd), the symposium DDDMG presents an opportunity to

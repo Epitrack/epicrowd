@@ -4999,13 +4999,17 @@ body {
   height: 73px;
   background-size: 100% 73px;
 }
-.logo-primary.js-logo-en a {
+
+.js-logo-en a {
   background: url("../../dist/images/logo-primary-en.svg");
   background-repeat: no-repeat;
+  background-size: 100% 73px;
 }
-.logo-primary.js-logo-pt a {
+
+.js-logo-pt a {
   background: url("../../dist/images/logo-primary-pt.svg");
   background-repeat: no-repeat;
+  background-size: 100% 73px;
 }
 
 .subtitle {
