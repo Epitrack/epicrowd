@@ -19,9 +19,9 @@
   <!-- Facebook  -->
   <meta property="og:type" content="website" />
   <meta property="og:url" content="http://www.dddmg.org" />
-  <meta property="og:title" content="DDDMG 2015 | International Simposium on Digital Disease Detection for Mass Gathering." />
+  <meta property="og:title" content="DDD|MG 2015 - International Simposium on Digital Disease Detection for Mass Gathering." />
   <meta property="og:image" content="" />
-  <meta property="og:description" content="Description here :)" />
+  <meta property="og:description" content="The symposium DDDMG presents an opportunity to exchange experiences and dissemination of DDD use of strategies during mass gatherings." />
 
   <!-- Twitter -->
   <meta name="twitter:card" value="summary_large_image">
@@ -29,10 +29,11 @@
   <meta name="twitter:creator" value="@dddmg2015">
   <meta name="twitter:site" value="@dddmg2015">
   <meta name="twitter:title" content="International Simposium on Digital Disease Detection for Mass Gathering.">
-  <meta name="twitter:description" content="Description here :)">
+  <meta name="twitter:description" content="The symposium DDDMG presents an opportunity to exchange experiences and dissemination of DDD use of strategies during mass gatherings.">
   <meta name="twitter:image:src" content="">
 
   <!-- Apple Touch Icon -->
+  <link rel="icon" type="image/x-icon" href="favicon.ico">
   <link rel="apple-touch-icon" href="touch-icon@2x.png">
   <link rel="apple-touch-icon" sizes="76x76" href="touch-icon-ipad.png">
   <link rel="apple-touch-icon" sizes="120x120" href="touch-icon@2x.png">
@@ -55,7 +56,7 @@
         </div>
       </div>
 
-      <h1 class="col-xs-10 col-xs-offset-1 col-sm-8 col-sm-offset-2 col-md-4 col-md-offset-4 logo-primary">
+      <h1 id="logo-primary" class="col-xs-10 col-xs-offset-1 col-sm-8 col-sm-offset-2 col-md-4 col-md-offset-4 logo-primary">
         <a href="#" title="DDD MG">DDD|MG 2015</a>
       </h1>
 
@@ -82,14 +83,48 @@
         </div>
 
         <div class="col-xs-12 col-sm-10 col-sm-offset-1 col-md-10 col-md-offset-1">
-          <p data-i18n="about.text" class="section-text">
-            Mass gatherings are occasions that provide the overcrowding and with it the increased risk of spreading disease. With different dimensions, depending on your potential, the mass gatherings provide systematic contacts between individuals from different situations and often act as catalysts outbreaks and epidemics.
-            The management of health risks these occasions need to demonstrate full understanding of the possible scenarios that may form, making diagnosis and efficient control new disease outbreaks. And make use of tools that are trends in epidemiology and public health can improve the early detection of potential threats to the health of participants of these events, promoting risk reduction.
-            The digital disease detection has shown, from various experiences around the world, it is possible to identify threats early and thus promote information to the control is done before important disseminations. Instruments such as facebook, twitter or strategies and participatory surveillance, and web data mining can improve the arsenal of options for use on public health.
-            As an spinoff of Digital Disease Detection conference (healthmap.org/ddd), the symposium DDDMG presents an opportunity to exchange experiences and dissemination of DDD use of strategies during mass gatherings.
-            Place in the city of Recife (PE), known as the Brazilian "Silicon Valley", it is considered the largest technology park in Brazil because of its high potential for development of innovation and human capital in information and communication technologies.
-            Will be three days of large exchanges of experiences among participants, by conducting conferences, panels and oral presentations.
-            Stay tuned for the opening of registration and if you want, sign up to stay updated on the event.
+          <p data-i18n="about.text01" class="section-text">
+            Mass gatherings are occasions that provide the overcrowding and with
+            it the increased risk of spreading disease. With different dimensions,
+            depending on your potential, the mass gatherings provide systematic
+            contacts between individuals from different situations and often act
+            as catalysts outbreaks and epidemics.
+          </p>
+
+          <p data-i18n="about.text02" class="section-text">
+            The management of health risks these occasions need to demonstrate
+            full understanding of the possible scenarios that may form, making
+            diagnosis and efficient control new disease outbreaks. And make
+            use of tools that are trends in epidemiology and public health
+            can improve the early detection of potential threats to the
+            health of participants of these events, promoting risk reduction.
+          </p>
+
+          <p data-i18n="about.text03" class="section-text">
+            The digital disease detection has shown, from various experiences
+            around the world, it is possible to identify threats early and thus
+            promote information to the control is done before important
+            disseminations. Instruments such as facebook, twitter or
+            strategies and participatory surveillance, and web data mining can
+            improve the arsenal of options for use on public health.
+          </p>
+
+          <p data-i18n="about.text04" class="section-text">
+            As an spinoff of Digital Disease Detection conference
+            (healthmap.org/ddd), the symposium DDDMG presents an opportunity to
+            exchange experiences and dissemination of DDD use of strategies
+            during mass gatherings.
+          </p>
+
+          <p data-i18n="about.text05" class="section-text">
+            Place in the city of Recife (PE), known as the Brazilian "Silicon
+            Valley", it is considered the largest technology park in Brazil
+            because of its high potential for development of innovation and
+            human capital in information and communication technologies.
+
+            Will be three days of large exchanges of experiences among
+            participants, by conducting conferences, panels and oral
+            presentations.
           </p>
         </div>
       </section>
@@ -131,6 +166,10 @@
       <section id="register" class="row register"> <!-- Register -->
         <div class="col-xs-12 col-sm-10 col-sm-offset-1 col-md-10 col-md-offset-1">
           <h3 data-i18n="register.title" class="section-title">Register</h3>
+
+          <p data-i18n="register.text01" class="section-text">
+            Stay tuned for the opening of registration and if you want, sign up to stay updated on the event.
+          </p>
         </div>
 
         <div class="col-xs-12 col-sm-8 col-sm-offset-2 col-md-10 col-md-offset-1">
