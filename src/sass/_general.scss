@@ -1,3 +1,561 @@
 // —————————————————————————
 //     General
 // —————————————————————————
+
+body { font-size: $fs-root; }
+
+::-moz-selection {
+  background: $color-primary;
+  text-shadow: none;
+  color: $color-other;
+}
+
+::selection {
+  background: $color-primary;
+  text-shadow: none;
+  color: $color-other;
+}
+
+// Header
+.header-primary {
+  height: 460px;
+  max-width: 120%;
+  position: relative;
+  overflow: hidden;
+
+  @include path('bg-header.png');
+  background-repeat: no-repeat;
+  background-position: center 62%;
+}
+
+.switch-language {
+  border: 1px solid $color-primary;
+  border-radius: 3px;
+  display: inline-block;
+  margin-top: 25px;
+
+  button {
+    display: inline-block;
+    cursor: pointer;
+    font-size: $fs-small;
+    text-transform: uppercase;
+    color: $color-primary;
+    background: transparent;
+    border: none;
+    padding: 5px 15px;
+    @include apr(none);
+    @include transition(all, .2s, 0s, linear);
+
+    &:first-child {
+      border-right: 1px solid $color-primary;
+    }
+
+    &:focus {
+      outline: none;
+    }
+
+    &:hover {
+      background-color: $color-primary;
+      color: $color-secondary;
+    }
+
+    &.js-active {
+      @extend button:hover;
+    }
+  }
+}
+
+.logo-primary {
+  margin-top: 80px;
+  margin-bottom: 40px;
+
+  a {
+    text-indent: -9999px;
+    display: block;
+    height: 73px;
+    @include path('logo-primary.svg');
+    background-repeat: no-repeat;
+    background-size: 100% 73px;
+  }
+}
+
+.subtitle {
+  text-align: center;
+  time {
+    font-family: $ff-primary;
+    color: $color-primary;
+    font-size: 2.2rem;
+    text-transform: uppercase;
+    line-height: $fs-extra-medium;
+  }
+
+  p {
+    color: $color-primary;
+    font-family: $ff-secondary;
+    font-size: $fs-medium;
+  }
+}
+
+// Down
+@keyframes rotate {
+  0% { top: 50%; }
+  50% { top: 55% }
+  100% { top: 50%; }
+}
+
+@-webkit-keyframes rotate {
+  0% { top: 50%; }
+  50% { top: 55% }
+  100% { top: 50%; }
+}
+
+@-moz-keyframes rotate {
+  0% { top: 50%; }
+  50% { top: 55% }
+  100% { top: 50%; }
+}
+
+@-ms-keyframes rotate {
+  0% { top: 50%; }
+  50% { top: 55% }
+  100% { top: 50%; }
+}
+
+@-o-keyframes rotate {
+  0% { top: 50%; }
+  50% { top: 55% }
+  100% { top: 50%; }
+}
+
+%animate-down {
+  -webkit-animation-name: rotate;
+  -webkit-animation-duration: 2s;
+  -webkit-animation-fill-mode: backwards;
+  -webkit-animation-iteration-count: infinite;
+  -webkit-animation-direction: normal;
+  -webkit-animation-timing-function: ease-in-out;
+  -webkit-animation-play-state: running;
+
+  -moz-animation-name: rotate;
+  -moz-animation-duration: 2s;
+  -moz-animation-fill-mode: backwards;
+  -moz-animation-iteration-count: infinite;
+  -moz-animation-direction: normal;
+  -moz-animation-timing-function: ease-in-out;
+  -moz-animation-play-state: running;
+
+  -ms-animation-name: rotate;
+  -ms-animation-duration: 2s;
+  -ms-animation-fill-mode: backwards;
+  -ms-animation-iteration-count: infinite;
+  -ms-animation-direction: normal;
+  -ms-animation-timing-function: ease-in-out;
+  -ms-animation-play-state: running;
+
+  -o-animation-name: rotate;
+  -o-animation-duration: 2s;
+  -o-animation-fill-mode: backwards;
+  -o-animation-iteration-count: infinite;
+  -o-animation-direction: normal;
+  -o-animation-timing-function: ease-in-out;
+  -o-animation-play-state: running;
+
+  animation-name: rotate;
+  animation-duration: 2s;
+  animation-fill-mode: backwards;
+  animation-iteration-count: infinite;
+  animation-direction: normal;
+  animation-timing-function: ease-in-out;
+  animation-play-state: running;
+}
+
+.down {
+  width: 35px;
+  height: 25px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin-left: -17.5px;
+  cursor: pointer;
+  margin-top: 100px;
+  @include path('down.png');
+  background-repeat: no-repeat;
+  background-size: 35px 25px;
+
+  @extend %animate-down;
+}
+
+// Nav
+.nav-primary {
+  height: 60px;
+  text-align: center;
+  position: absolute;
+  top: 400px;
+  background-color: $color-primary;
+
+  &.js-fixed {
+    position: fixed;
+    top: 0;
+    z-index: 999;
+  }
+}
+
+.nav-item {
+  overflow: hidden;
+  padding: 2px 4px;
+  height: 60px;
+}
+
+.nav-link {
+  text-decoration: none;
+  display: block;
+  position: relative;
+  color: $color-secondary;
+  text-transform: uppercase;
+  line-height: 60px;
+  font-size: $fs-small;
+  font-family: $ff-secondary;
+  position: relative;
+  overflow: hidden;
+  margin-top: -2px;
+  @include transition(all, .2s, .1s, linear);
+
+  &::before {
+    content: '';
+    width: 100%;
+    height: 4px;
+    position: absolute;
+    top: -3px;
+    left: 0;
+    left: 0;
+    opacity: 0;
+    z-index: -1;
+    background-color: #1D2B30;
+    @include transition(all, .2s, 0s, ease-in);
+  }
+
+  &:hover {
+    text-decoration: none;
+    color: $color-secondary;
+    color: #ffffff;
+    @include scale(1.2);
+
+    &::before {
+      content: '';
+      height: 54px;
+      top: 5px;
+      opacity: 1;
+    }
+  }
+}
+
+// Sections
+.main {
+  section {
+    min-height: 450px;
+  }
+}
+
+.section-title {
+  font-family: $ff-primary;
+  text-transform: uppercase;
+  text-align: left;
+  font-size: $fs-extra-medium;
+}
+
+.section-text {
+  font-size: $fs-small;
+  line-height: $fs-medium;
+  color: $color-primary;
+  text-align: justify;
+  font-family: $ff-secondary;
+}
+
+.about {
+  @include path('pattern-about.png');
+  background-repeat: repeat;
+}
+
+.agenda {
+  background-color: $color-other;
+  @include path('pattern-agenda.png');
+  background-repeat: repeat;
+  min-height: 550px;
+
+  aside {
+    display: inline-block;
+    padding: 10px;
+    margin-top: 10px;
+    position: relative;
+  }
+}
+
+.agenda-title {
+  font-family: $ff-secondary;
+  font-size: $fs-extra-medium;
+  position: relative;
+
+  &::before {
+    content: '';
+    width: 30px;
+    height: 30px;
+    vertical-align: middle;
+    display: inline-block;
+    margin-right: 10px;
+    background-repeat: no-repeat;
+  }
+
+  &.conferences {
+    &::before {
+      content: '';
+      @include path('icon-conferences.svg');
+      background-size: 30px 30px;
+    }
+  }
+
+  &.panels {
+    &::before {
+      content: '';
+      @include path('icon-panels.svg');
+      background-size: 30px 30px;
+    }
+  }
+
+  &.rapid-fire {
+    &::before {
+      content: '';
+      @include path('icon-rapid-fire.svg');
+      background-size: 30px 30px;
+    }
+  }
+}
+
+.agenda-item {
+  border-bottom: 2px solid $color-other;
+  padding: 10px 12px;
+  font-size: $fs-medium;
+  font-family: $ff-secondary;
+  background-color: rgba(255,255,255, .7);
+  @include transition(all, .2s, linear, 0s);
+
+  &:last-child {
+    border-bottom: none;
+  }
+
+  &::before {
+    content: "\e089";
+    display: inline-block;
+    font-family: $ff-icon;
+    margin-right: 10px;
+    -webkit-font-smoothing: antialiased;
+    color: $color-secondary;
+  }
+
+  &:hover {
+    background-color: $color-primary;
+    color: $color-other;
+  }
+}
+
+.register {
+  @include path('bg-register.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center bottom;
+
+  .section-title {
+    color: $color-secondary;
+  }
+}
+
+// Form
+.btn-send {
+  text-align: center;
+
+  .btn-primary {
+    padding: 5px 50px 5px 20px;
+  }
+
+  &::after {
+    content: "\e171";
+    display: inline-block;
+    font-family: $ff-icon;
+    margin-left: -40px;
+    -webkit-font-smoothing: antialiased;
+    color: $color-primary;
+    vertical-align: middle;
+    font-size: 2rem;
+  }
+
+  &:hover {
+    &::after {
+      color: $color-secondary;
+    }
+  }
+}
+
+// Alerts
+.alert {
+  padding: 15px;
+  margin-bottom: 20px;
+  border: 1px solid transparent;
+  border-radius: 3px;
+  font-size: $fs-medium;
+  font-family: $ff-secondary;
+
+  &.alert-info {
+    color: #31708f;
+    background-color: #d9edf7;
+    border-color: #bce8f1;
+  }
+
+  &.alert-success {
+    color: #3c763d;
+    background-color: #dff0d8;
+    border-color: #d6e9c6;
+  }
+
+  &.alert-danger {
+    color: #a94442;
+    background-color: #f2dede;
+    border-color: #ebccd1;
+  }
+}
+
+// Footer
+.footer-primary {
+  min-height: 67px;
+  background-color: $color-other;
+}
+
+.organizers-links {
+  display: inline-block;
+  margin: 20px 0 0 0;
+
+  &.epitrack {
+    @include path('logo-epitrack.svg');
+    background-repeat: no-repeat;
+    width: 97px;
+    height: 17px;
+    background-size: 97px 17px;
+  }
+
+  &.healthmap {
+    @include path('logo-healthmap.png');
+    background-repeat: no-repeat;
+    width: 104px;
+    height: 16px;
+    background-size: 104px 16px;
+  }
+
+  &.skoll {
+    @include path('logo-skoll.svg');
+    background-repeat: no-repeat;
+    width: 71px;
+    height: 21px;
+    background-size: 71px 21px;
+  }
+}
+
+.social {
+  text-align: center;
+}
+
+.social-links {
+  text-align: center;
+  text-indent: -9999px;
+  display: inline-block;
+  margin: 20px 0;
+  @include transition(opacity, .2s, linear, 0s);
+
+  &.facebook {
+    @include path('ico-facebook.svg');
+    background-repeat: no-repeat;
+    width: 32px;
+    height: 32px;
+    background-size: 32px 32px;
+  }
+
+  &.twitter {
+    @include path('ico-twitter.svg');
+    background-repeat: no-repeat;
+    width: 32px;
+    height: 32px;
+    background-size: 32px 32px;
+  }
+
+  &:hover {
+    opacity: .5;
+  }
+}
+
+// iPads
+@media (min-width: 768px) {
+  .header-primary {
+    height: 645px;
+    background-position: center;
+    background-attachment: fixed;
+  }
+
+  .nav-primary {
+    top: 586px;
+  }
+
+  .down {
+    top: 60%;
+  }
+
+  .logo-primary {
+    a {
+      background-size: 100% 114px;
+      height: 114px;
+    }
+  }
+
+  .subtitle {
+    time {
+      font-size: $fs-extra-medium;
+    }
+
+    p {
+      font-size: $fs-large;
+      margin-top: -5px;
+    }
+  }
+
+  .btn-send {
+    text-align: left;
+  }
+
+  .organizers-links {
+    margin: 20px;
+  }
+
+  .social-links {
+    margin-top: 20px;
+  }
+}
+
+// Desktops
+@media (min-width: 992px) {
+  .header-primary {
+    background-position: center 63%;
+  }
+
+  .section-text {
+    font-size: $fs-medium;
+    line-height: $fs-extra-medium;
+  }
+
+  .logo-primary {
+    a {
+      background-size: 100% 134px;
+      height: 134px;
+    }
+  }
+}
+
+// Large
+@media (min-width: 1200px) {
+  // .header-primary { background-color: black; }
+}

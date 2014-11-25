@@ -21,6 +21,9 @@
     "tests"
   ],
   "devDependencies": {
-    "jquery": "~2.1.1"
+    "jquery": "~2.1.1",
+    "bootstrap-sass-official": "~3.3.1",
+    "i18next": "~1.7.4",
+    "handlebars.js": "~2.0.0"
   }
 }

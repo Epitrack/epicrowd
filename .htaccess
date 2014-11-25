@@ -1,6 +1,12 @@
 # Cache manifest
 AddType text/cache-manifest .manifest
 
+#Urls Amigáveis
+<IfModule mod_rewrite.c>
+  RewriteEngine on
+  RewriteRule ^captcha.jpg/?$ CaptchaSecurityImages.php [NC,L]
+</IfModule>
+
 # Utilizando o mod_deflate para compressão de arquivos
 <ifmodule mod_deflate.c>
 	AddOutputFilterByType DEFLATE text/text text/html text/plain text/xml text/css application/x-javascript application/javascript text/javascript

@@ -1,0 +1,50 @@
+{
+  "app": {
+    "name" : "i18next"
+  }
+  ,"nav" : {
+    "about" : "About"
+    ,"aboutTitle" : "About"
+    ,"agenda" : "Agenda"
+    ,"agendaTitle" : "Agenda"
+    ,"register" : "Register"
+    ,"registerTitle" : "Register"
+  },
+  "date" : {
+    "first" : "March 25-"
+    ,"second" : "27"
+    ,"local" : "Recife, PE - Brazil"
+  },
+  "about" : {
+    "title" : "About"
+    ,"text" : "Mass gatherings are occasions that provide the overcrowding and with it the increased risk of spreading disease. With different dimensions, depending on your potential, the mass gatherings provide systematic contacts between individuals from different situations and often act as catalysts outbreaks and epidemics. The management of health risks these occasions need to demonstrate full understanding of the possible scenarios that may form, making diagnosis and efficient control new disease outbreaks. And make use of tools that are trends in epidemiology and public health can improve the early detection of potential threats to the health of participants of these events, promoting risk reduction. The digital disease detection has shown, from various experiences around the world, it is possible to identify threats early and thus promote information to the control is done before important disseminations. Instruments such as facebook, twitter or strategies and participatory surveillance, and web data mining can improve the arsenal of options for use on public health. As an spinoff of Digital Disease Detection conference (healthmap.org/ddd), the symposium DDDMG presents an opportunity to exchange experiences and dissemination of DDD use of strategies during mass gatherings. Place in the city of Recife (PE), known as the Brazilian 'Silicon Valley', it is considered the largest technology park in Brazil because of its high potential for development of innovation and human capital in information and communication technologies. Will be three days of large exchanges of experiences among participants, by conducting conferences, panels and oral presentations. Stay tuned for the opening of registration and if you want, sign up to stay updated on the event."
+  },
+  "agenda": {
+    "title" : "agenda at glance"
+    ,"conferencesTitle" : "Conferences"
+    ,"conferenceList01" : "Challenges in the Mass Gathering Health Surveillance."
+    ,"conferenceList02" : "Innovation and Health: New waves of innovation in the world and how epidemiology can provide the tools."
+    ,"conferenceList03" : "Using social media as a strategy to spread a new model of health communication."
+    ,"conferenceList04" : "Potential risks of pandemics: Projections to 2016."
+    ,"panelsTitle" : "Panels"
+    ,"panelsList01" : "OMG...Is there a Crystal Ball for Pandemics?"
+    ,"panelsList02" : "Limits of ethics in Public Health 2.0 age."
+    ,"panelsList03" : "Epidemic Intelligence for Mass Gatherings."
+    ,"panelsList04" : "Strategies for Participatory Surveillance for Mass Gathering."
+    ,"panelsList05" : "Perspectives of Health Management for Olympics 2016."
+    ,"rapidTitle" : "Rapid fire talks"
+    ,"rapidFireList01" : "Coming soon"
+  },
+  "register": {
+    "title" : "Register"
+    ,"inputName" : "Name"
+    ,"inputEmail" : "Email"
+    ,"inputOrganization" : "Organization"
+    ,"namePlaceholder" : "Your Full Name"
+    ,"emailPlaceholder" : "my-email@example.com"
+    ,"organizationPlaceholder" : "State Health Department of São Paulo"
+    ,"inputCaptcha" : "Enter code here"
+    ,"captchaPlaceholder" : "Enter code here"
+    ,"send" : "Send"
+  }
+}

@@ -50,9 +50,15 @@
     "dist": {
       "files": {
         "dist/js/scripts.min.js": [
+          "src/js/APP.js",
+          "src/js/APP.Language.js",
+          "src/js/APP.Scroll.js",
+          "src/js/APP.Register.js"
         ],
 
         "dist/js/libs.min.js": [
+          "bower_components/jquery/dist/jquery.min.js",
+          "bower_components/i18next/i18next.min.js"
         ]
       }
     }

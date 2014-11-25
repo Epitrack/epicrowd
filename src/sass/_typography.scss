@@ -4,13 +4,17 @@
 
 // Size
 $fs-root:           62.5%;
-$fs-large:          2.4rem;
+$fs-extra-large:    5.0rem;
+$fs-large:          3.2rem;
+$fs-extra-medium:   2.5rem;
 $fs-medium:         1.8rem;
 $fs-small:          1.4rem;
 
 // Family
-$ff-general:        'Titillium Web', sans-serif;
-$ff-secondary:      'Xilosa';
+$ff-general:        'Arial, Helvetica, sans-serif';
+$ff-primary:        'FocoBlack';
+$ff-secondary:      'FocoLight';
+$ff-icon:           'Glyphicons Halflings';
 
 // Style
 $f-italic:          italic;
@@ -22,6 +26,30 @@ $fw-semi-bold:      600;
 
 // Custom Font Face
 @font-face {
-  font-family: 'Xilosa';
-  src: url('http://www.fontsaddict.com/fontface/xilosa.ttf');
+    font-family: 'FocoLight';
+    src: url('../../fonts/foco_std_lt.eot');
+    src: url('../../fonts/foco_std_lt.eot') format('embedded-opentype'),
+         url('../../fonts/foco_std_lt.woff2') format('woff2'),
+         url('../../fonts/foco_std_lt.woff') format('woff'),
+         url('../../fonts/foco_std_lt.ttf') format('truetype'),
+         url('../../fonts/foco_std_lt.svg#FocoLight') format('svg');
+}
+
+@font-face {
+    font-family: 'FocoBlack';
+    src: url('../../fonts/foco_std_blk.eot');
+    src: url('../../fonts/foco_std_blk.eot') format('embedded-opentype'),
+         url('../../fonts/foco_std_blk.woff2') format('woff2'),
+         url('../../fonts/foco_std_blk.woff') format('woff'),
+         url('../../fonts/foco_std_blk.ttf') format('truetype'),
+         url('../../fonts/foco_std_blk.svg#FocoBlack') format('svg');
+}
+
+@font-face {
+  font-family: 'Glyphicons Halflings';
+  src: url("../../fonts/glyphicons-halflings-regular.eot");
+  src: url("../../fonts/glyphicons-halflings-regular.eot?#iefix") format("embedded-opentype"),
+  url("../../fonts/glyphicons-halflings-regular.woff") format("woff"),
+  url("../../fonts/glyphicons-halflings-regular.ttf") format("truetype"),
+  url("../../fonts/glyphicons-halflings-regular.svg#glyphicons_halflingsregular") format("svg");
 }
