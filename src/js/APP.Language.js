@@ -8,23 +8,26 @@ APP.Language = {
   startLanguage: function() {
     i18n.init({
       fallbackLng: 'en-US' // fallback when language is not defined language
-      ,debug: true // debug
+      ,debug: false // debug
       ,fixLng: true // preserve cookie when language is not defined
       ,load: 'current' // define the correct form to describe language
     },
 
     function(translation) {
-      var appName, language;
+      var appName, string;
 
       $('[data-i18n]').i18n();
         appName = translation('app.name');
-        language = navigator.language;
+        string = document.cookie;
 
-      if (language != 'pt-BR') {
-        APP.Language.i18en();
-      } else {
+      if (string.indexOf('i18next=pt-BR') != -1) {
         APP.Language.i18pt();
+        $('.pt').addClass('js-active');
+      } else {
+        APP.Language.i18en();
+        $('.en').addClass('js-active');
       }
+
     });
   },
 
