@@ -14,8 +14,17 @@ APP.Language = {
     },
 
     function(translation) {
+      var appName, language;
+
       $('[data-i18n]').i18n();
-      var appName = translation('app.name');
+        appName = translation('app.name');
+        language = navigator.language;
+
+      if (language != 'pt-BR') {
+        APP.Language.i18en();
+      } else {
+        APP.Language.i18pt();
+      }
     });
   },
 
@@ -23,12 +32,18 @@ APP.Language = {
     i18n.setLng('en-US', {fixLng: true}, function(translation){
       $('[data-i18n]').i18n();
     });
+
+    $('#logo-primary').removeClass('js-logo-pt');
+    $('#logo-primary').addClass('js-logo-en');
   },
 
   i18pt: function() {
     i18n.setLng('pt-BR', {fixLng: true}, function(translation){
       $('[data-i18n]').i18n();
     });
+
+    $('#logo-primary').removeClass('js-logo-en');
+    $('#logo-primary').addClass('js-logo-pt');
   },
 
   activeClass:function(element) {
