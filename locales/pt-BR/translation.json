@@ -1,0 +1,49 @@
+{
+  "app": {
+    "name" : "i18next"
+  }
+  ,"nav" : {
+    "about" : "Sobre"
+    ,"aboutTitle" : "Sobre"
+    ,"agend" : "Agenda"
+    ,"agendTitle" : "Agenda"
+    ,"register" : "Registro"
+    ,"registerTitle" : "Registro"
+  },
+  "date" : {
+    "first" : "Março 25 -"
+    ,"second" : "27"
+  },
+  "about" : {
+    "title" : "Sobre"
+    ,"text" : "Eventos de massa são ocasiões que proporcionam a aglomeração de pessoas e com isso o risco aumentado de disseminação de doenças. Com dimensões variadas, dependendo do seu potencial e público, os eventos de massa proporcionam contatos sistemáticos entre indivíduos de diversas realidades e muitas vezes funcionam como catalisadores de surtos e epidemias. O gerenciamento dos riscos em saúde nestas ocasiões precisam demonstrar integralidade na compreensão dos cenários possíveis que podem se constituir, facilitando o diagnóstico e controle eficiente de novos focos de doenças. E lançar mão de ferramentas que são tendências na epidemiologia e saúde pública podem aprimorar a detecção oportuna de possíveis ameaças à saúde das populações participantes destes eventos, promovendo a redução dos riscos.A detecção digital de doenças tem mostrado, a partir de várias experiências ao redor do mundo, que é possível identificar precocemente ameaças e assim promover informações para que o controle seja feito antes de disseminações importantes. Instrumentos como facebook, twitter ou estratégias como vigilância participativa, e mineração de dados de saúde na web incrementam o arsenal de opções para que a saúde pública consiga estar protegida contra estes riscos. Sendo um braço das conferências de Detecção Digital de Doenças (healthmap.org/ddd), o simpósio DDDMG apresenta uma oportunidade de troca de experiências e divulgação de estratégias do uso de DDD durante eventos de massa. Acontecerá na cidade de Recife (PE), conhecida como o “vale do silício” brasileiro, por ser considerada o maior parque tecnológico do Brasil devido ao seu alto potencial de desenvolvimento de inovação e capital humano em tecnologias da informação e comunicação. Serão 3 dias de grandes trocas de experiências entre os participantes, mediante a condução de conferências, painéis e apresentações orais. Fiquem atentos para a abertura das inscrições e se desejar, registre-se para se manter atualizado sobre o evento."
+  },
+  "agend": {
+    "title" : "Agenda"
+    ,"conferencesTitle" : "Conferências"
+    ,"conferenceList01" : "Desafios na Vigilância Sanitária Mass Gathering."
+    ,"conferenceList02" : "Inovação e Saúde: Novas ondas de inovação no mundo e como a epidemiologia pode oferecer as ferramentas."
+    ,"conferenceList03" : "O uso de mídia social, como estratégia para difundir um novo modelo de comunicação em saúde."
+    ,"conferenceList04" : "Os potenciais riscos de pandemias: Projeções para 2016."
+    ,"panelsTitle" : "Painéis"
+    ,"panelsList01" : "OMG ... Existe uma bola de cristal para a pandemia?"
+    ,"panelsList02" : "Limites da ética em Saúde Pública idade 2.0."
+    ,"panelsList03" : "Epidemic Intelligence para a Missa Recolhimentos."
+    ,"panelsList04" : "Estratégias para Participativo de Vigilância para a Missa Gathering."
+    ,"panelsList05" : "Perspectivas da Gestão em Saúde para Olimpíadas de 2016."
+    ,"rapidTitle" : "Fala fogo rápido"
+    ,"rapidFireList01" : "Em breve"
+  },
+  "register": {
+    "title" : "Registro"
+    ,"inputName" : "Nome"
+    ,"inputEmail" : "Email"
+    ,"inputOrganization" : "Organização"
+    ,"namePlaceholder" : "Nome"
+    ,"emailPlaceholder" : "Email"
+    ,"organizationPlaceholder" : "Organização"
+    ,"inputCaptcha" : "Digite aqui o código"
+    ,"captchaPlaceholder" : "Digite aqui o código"
+    ,"send" : "Enviar"
+  }
+}

@@ -43,31 +43,153 @@
 
   <!-- CSS -->
   <link rel="stylesheet" href="dist/css/style.min.css">
-
 </head>
 
 <body>
-  <header class="header-primary">
-	</header>
+  <div class="container-fluid">
+    <header class="row header-primary">
+      <div class="col-xs-6 col-xs-offset-6 col-sm-offset-8 col-md-2 col-md-offset-10">
+        <div id="switch-language" class="switch-language">
+          <button data-language="pt" class="pt" title="PT">PT</button>
+          <button data-language="en" class="en" title="EN">EN</button>
+        </div>
+      </div>
 
-	<main id="main" class="main">
-	</main>
+      <h1 class="col-xs-11 col-xs-offset-1 col-sm-7 col-sm-offset-3 col-md-4 col-md-offset-4 logo-primary">
+        <a href="#" title="DDD MG">DDD MG</a>
+      </h1>
 
-	<footer class="footer-primary">
-	</footer>
+      <div class="col-xs-8 col-xs-offset-2 col-sm-6 col-sm-offset-3 col-md-4 col-md-offset-4 subtitle">
+        <time data-i18n="date.first" datetime="2015-03-25">March 25 -</time><time data-i18n="date.second" datetime="2015-03-27">27</time>
+        <p>Recife, PE - Brazil</p>
+      </div>
 
+      <div class="down"></div>
 
-	<!-- Libs -->
-	<script src="http://maps.googleapis.com/maps/api/js?sensor=true"></script>
+      <nav id="nav-primary" class="col-xs-12 nav-primary">
+        <ul class="nav-list">
+          <li class="col-xs-4 nav-item"><a href="#about" data-i18n="nav.about;[title]nav.aboutTitle" class="nav-link" title="About">About</a></li>
+          <li class="col-xs-4 nav-item"><a href="#agend" data-i18n="nav.agend;[title]nav.agendTitle" class="nav-link" title="Agend">Agend</a></li>
+          <li class="col-xs-4 nav-item"><a href="#register" data-i18n="nav.register;[title]nav.registerTitle" class="nav-link" title="Register">Register</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <main id="main" class="main">
+      <section id="about" class="row about"> <!-- About -->
+        <div class="col-xs-12 col-sm-10 col-sm-offset-1 col-md-10 col-md-offset-1">
+          <h3 data-i18n="about.title" class="section-title">About</h3>
+        </div>
+
+        <div class="col-xs-12 col-sm-10 col-sm-offset-1 col-md-10 col-md-offset-1">
+          <p data-i18n="about.text" class="section-text">
+            Mass gatherings are occasions that provide the overcrowding and with it the increased risk of spreading disease. With different dimensions, depending on your potential, the mass gatherings provide systematic contacts between individuals from different situations and often act as catalysts outbreaks and epidemics.
+            The management of health risks these occasions need to demonstrate full understanding of the possible scenarios that may form, making diagnosis and efficient control new disease outbreaks. And make use of tools that are trends in epidemiology and public health can improve the early detection of potential threats to the health of participants of these events, promoting risk reduction.
+            The digital disease detection has shown, from various experiences around the world, it is possible to identify threats early and thus promote information to the control is done before important disseminations. Instruments such as facebook, twitter or strategies and participatory surveillance, and web data mining can improve the arsenal of options for use on public health.
+            As an spinoff of Digital Disease Detection conference (healthmap.org/ddd), the symposium DDDMG presents an opportunity to exchange experiences and dissemination of DDD use of strategies during mass gatherings.
+            Place in the city of Recife (PE), known as the Brazilian "Silicon Valley", it is considered the largest technology park in Brazil because of its high potential for development of innovation and human capital in information and communication technologies.
+            Will be three days of large exchanges of experiences among participants, by conducting conferences, panels and oral presentations.
+            Stay tuned for the opening of registration and if you want, sign up to stay updated on the event.
+          </p>
+        </div>
+      </section>
+
+      <section id="agend" class="row agend"> <!-- Agend -->
+        <div class="col-xs-12 col-sm-10 col-sm-offset-1 col-md-10 col-md-offset-1">
+          <h3 data-i18n="agend.title" class="section-title">agend at glance</h3>
+        </div>
+
+        <aside class="col-xs-12 col-sm-10 col-sm-offset-1 col-md-10 col-md-offset-1">
+          <h4 data-i18n="agend.conferencesTitle" class="agend-title conferences">Conferences</h4>
+          <ul class="agend-list">
+            <li class="agend-item" data-i18n="agend.conferenceList01">Challenges in the Mass Gathering Health Surveillance.</li>
+            <li class="agend-item" data-i18n="agend.conferenceList02">Innovation and Health: New waves of innovation in the world and how epidemiology can provide the tools.</li>
+            <li class="agend-item" data-i18n="agend.conferenceList03">Using social media as a strateagy to spread a new model of health communication.</li>
+            <li class="agend-item" data-i18n="agend.conferenceList04">Potential risks of pandemics: Projections to 2016.</li>
+          </ul>
+        </aside>
+
+        <aside class="col-xs-12 col-sm-10 col-sm-offset-1 col-md-10 col-md-offset-1">
+          <h4 data-i18n="agend.panelsTitle" class="agend-title panels">Panels</h4>
+          <ul class="agend-list">
+            <li class="agend-item" data-i18n="agend.panelsList01">OMG...Is there a Crystal Ball for Pandemics?</li>
+            <li class="agend-item" data-i18n="agend.panelsList02">Limits of ethics in Public Health 2.0 age.</li>
+            <li class="agend-item" data-i18n="agend.panelsList03">Epidemic Intelligence for Mass Gatherings.</li>
+            <li class="agend-item" data-i18n="agend.panelsList04">Strategies for Participatory Surveillance for Mass Gathering.</li>
+            <li class="agend-item" data-i18n="agend.panelsList05">Perspectives of Health Managment for Olympics 2016.</li>
+          </ul>
+        </aside>
+
+        <aside class="col-xs-12 col-sm-10 col-sm-offset-1 col-md-10 col-md-offset-1">
+          <h4 data-i18n="agend.rapidTitle" class="agend-title rapid-fire">Rapid fire talks</h4>
+          <ul class="agend-list">
+            <li class="agend-item" data-i18n="agend.rapidFireList01">Coming soon</li>
+          </ul>
+        </aside>
+      </section>
+
+      <section id="register" class="row register"> <!-- Register -->
+        <div class="col-xs-12 col-sm-10 col-sm-offset-1 col-md-10 col-md-offset-1">
+          <h3 data-i18n="register.title" class="section-title">Register</h3>
+        </div>
+
+        <div class="col-xs-12 col-sm-8 col-sm-offset-2 col-md-10 col-md-offset-1">
+          <form action="javascript:;" id="form-register" class="form form-register">
+            <div class="form-group">
+              <label data-i18n="register.inputName" for="inputName">Name</label>
+              <input data-i18n="[placeholder]register.namePlaceholder" id="inputName" type="text" class="form-control input-primary" placeholder="Name">
+            </div>
+
+            <div class="form-group">
+              <label data-i18n="register.inputEmail" for="inputEmail">Email</label>
+              <input data-i18n="[placeholder]register.emailPlaceholder" id="inputEmail" type="email" class="form-control input-primary" placeholder="Email">
+            </div>
+
+            <div class="form-group">
+              <label data-i18n="register.inputOrganization" for="inputOrganization">Organization</label>
+              <input data-i18n="[placeholder]register.organizationPlaceholder" id="inputOrganization" type="text" class="form-control input-primary" placeholder="Organization">
+            </div>
+
+            <div class="form-group captcha">
+              <figure>
+                <img src="captcha.jpg" alt="Captcha">
+              </figure>
+            </div>
+
+            <div class="form-group inline-block">
+              <label data-i18n="register.inputCaptcha" for="inputCaptcha">Enter code here</label>
+              <input data-i18n="[placeholder]register.captchaPlaceholder" type="text" id="inputCaptcha" class="form-control input-primary" placeholder="Enter code here">
+            </div>
+
+            <div class="form-group btn-send">
+              <input data-i18n="[value]register.send" type="submit" class="btn btn-primary" value="send">
+            </div>
+
+            <div id="feedback" class="alert"></div>
+          </form>
+        </div>
+      </section>
+    </main>
+
+    <footer class="row footer-primary">
+      <div class="col-xs-12 col-sm-7 col-md-5 organizers">
+        <a href="http://epitrack.com.br" target="_blank" class="organizers-links epitrack" title="Epitrack"></a>
+        <a href="http://www.skollglobalthreats.org/" target="_blank" class="organizers-links skoll" title="Skoll"></a>
+        <a href="http://healthmap.org" target="_blank" class="organizers-links healthmap" title="HealthMap"></a>
+      </div>
+
+      <div class="col-xs-12 col-sm-2 col-sm-offset-3 col-md-1 col-md-offset-6 social">
+        <a href="http://www.facebook.com/pages/DDDMG-2015" target="_blank" class="social-links facebook" title="Facebook">Facebook</a>
+        <a href="https://twitter.com/dddmg2015" target="_blank" class="social-links twitter" title="twitter">Twitter</a>
+      </div>
+    </footer>
+  </div>
 
 	<!-- JS -->
   <script src="dist/js/scripts.min.js"></script>
   <script src="dist/js/libs.min.js"></script>
+  <script>APP.init()</script>
 
-	<!-- BrowserSync -->
-  <script type='text/javascript'>//<![CDATA[
-;document.write("<script defer src='//HOST:3000/socket.io/socket.io.js'><\/script><script defer src='//HOST:3001/client/browser-sync-client.0.9.1.js'><\/script>".replace(/HOST/g, location.hostname));
-//]]></script>
 
   <!-- Google Analytics -->
   <script>

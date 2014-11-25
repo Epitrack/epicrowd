@@ -7,10 +7,19 @@
 // ——————————————
 
 // Hexadecimals
+$blue:            #283A42;
+$green:           #9DDE38;
+$gray:            #E5E5E5;
 
 // RGB
+$blue-rgb:        rgb(40, 58, 66);
+$green-rgb:       rgb(157, 222, 56);
+$gray-rgb:        rgb(229, 229, 229);
 
 // Names
+$color-primary:   $blue;
+$color-secondary: $green;
+$color-other:     $gray;
 
 // ——————————————————————
 //     Mixins
@@ -19,6 +28,11 @@
 //
 // Gradient
 //
+
+// Background Images
+@mixin path ($rulers...) {
+  background: url('../../dist/images/'+$rulers);
+}
 
 @mixin linear-gradient ($angle, $startColor, $endColor) {
   background-color: $startColor;
@@ -189,9 +203,4 @@
 //     line-height: 18px;
 //     color: $yellow;
 //   }
-// }
-
-// // Tracejados
-// @mixin path ($rulers...) {
-//   background: url('../../dist/images/'+$rulers) no-repeat;
 // }
