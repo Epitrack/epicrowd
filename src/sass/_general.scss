@@ -73,9 +73,21 @@ body { font-size: $fs-root; }
     text-indent: -9999px;
     display: block;
     height: 73px;
-    @include path('logo-primary.svg');
-    background-repeat: no-repeat;
     background-size: 100% 73px;
+  }
+
+  &.js-logo-en {
+    a {
+      @include path('logo-primary-en.svg');
+      background-repeat: no-repeat;
+    }
+  }
+
+  &.js-logo-pt {
+    a {
+      @include path('logo-primary-pt.svg');
+      background-repeat: no-repeat;
+    }
   }
 }
 
@@ -253,6 +265,7 @@ body { font-size: $fs-root; }
 .main {
   section {
     min-height: 450px;
+    padding: 20px 0;
   }
 }
 
@@ -364,6 +377,10 @@ body { font-size: $fs-root; }
   background-position: center bottom;
 
   .section-title {
+    color: $color-secondary;
+  }
+
+  .section-text {
     color: $color-secondary;
   }
 }
