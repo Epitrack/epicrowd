@@ -54,16 +54,12 @@ if( isset($_POST['email'])) {
     </table>
     ";
 
-
-
     if ($_SERVER[HTTP_HOST]) {
             $emailsender= $email; // Substitua essa linha pelo seu e-mail@seudominio
     } else {
             $emailsender = $email;
 
     }
-
-
 
     if(PATH_SEPARATOR == ";") $quebra_linha = "\r\n"; //Se for Windows
     else $quebra_linha = "\n"; //Se "não for Windows"
@@ -93,6 +89,5 @@ if( isset($_POST['email'])) {
     echo "Informe o campo de email";
     die;
 }
-
 
 ?>
