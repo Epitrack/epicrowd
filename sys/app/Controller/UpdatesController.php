@@ -24,15 +24,15 @@ class UpdatesController extends AppController {
 
     public function add() {
 
-        $this->layout = 'json';
+        
         $countries = $this->Update->Country->find("list", array(
             'fields' => array('Country.name_pt')
         ));
 
     	$this->set("countries", $countries);
     	
-        if ($this->request->is('post')) {
-
+        if ($this->request->is(array("post", "put"))) {
+            $this->layout = 'json';
            
             if($this->Update->findByEmail($this->request->data['Update']['email'])) {
                 $message = __('Your email is already registered.');
@@ -49,15 +49,15 @@ class UpdatesController extends AppController {
             } 
 
             
-
+             $this->set('ajaxResponse', $ajaxResponse);
+             $this->render('json/ajaxResponse');
            
         } else {
-          $message = __('Nothing to save.');
-          $ajaxResponse = $this->ajaxResponse(NULL, $message, FALSE);
+         // $message = __('Nothing to save.');
+         // $ajaxResponse = $this->ajaxResponse(NULL, $message, FALSE);
         }
 
-        $this->set('ajaxResponse', $ajaxResponse);
-        $this->render('json/ajaxResponse');
+     
         
     }
 
