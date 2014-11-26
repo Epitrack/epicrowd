@@ -11,7 +11,7 @@ APP.Register = {
       name = $('#inputName').val();
       email = $('#inputEmail').val();
       organization = $('#inputOrganization').val();
-      country = $('#inputCountry').val();
+      country = i18n.t("countries.country"+$('#inputCountry').val());
       security_code = $('#inputCaptcha').val();
 
       $('#feedback').fadeIn();
