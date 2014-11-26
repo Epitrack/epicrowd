@@ -20,7 +20,7 @@ if( isset($_POST['email'])) {
                 <td bgcolor='#283A42' align='center'>
                 &nbsp;&nbsp;&nbsp;&nbsp;
                     <a href='http://dddmg.org'>
-                        <img border='0' alt='' width='270' height='212' src='http://dddmg.org/dist/images/logo-primary.png' />
+                        <img border='0' alt='' width='270' height='212' src='http://dddmg.org/dist/images/logo-primary-en.png' />
                     </a>
                 </td>
             </tr>
@@ -72,9 +72,9 @@ if( isset($_POST['email'])) {
     $cabecalho .= "MIME-Version: 1.0$quebra_linha";
     $cabecalho .= "Content-type: text/html; charset=uft-8$quebra_linha";
 
-    $envia = mail("info@dddmg.org","DDDMG - Register",utf8_decode($mens),$cabecalho,"-r".$emailsender);
+    $envia = mail("denniscalazans@gmail.com","DDDMG - Register",utf8_decode($mens),$cabecalho,"-r".$emailsender);
+    $envia .= mail("info@dddmg.org","DDDMG - Register",utf8_decode($mens),$cabecalho,"-r".$emailsender);
     $envia .= mail("onicio@epitrack.com.br","DDDMG - Register",utf8_decode($mens),$cabecalho,"-r".$emailsender);
-    $envia .= mail("denniscalazans@gmail.com","DDDMG - Register",utf8_decode($mens),$cabecalho,"-r".$emailsender);
 
 
     if($envia){
