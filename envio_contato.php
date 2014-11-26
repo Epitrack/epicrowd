@@ -20,7 +20,7 @@ if( isset($_POST['email'])) {
                 <td bgcolor='#FFFFFF' align='center'>
                 &nbsp;&nbsp;&nbsp;&nbsp;
                     <a href='http://dddmg.org'>
-                        <img border='0' alt='' width='382' height='116' src='http://dddmg.org/dist/images/logo-primary-pt.png' />
+                        <img border='0' alt='' width='382' height='116' src='http://dddmg.org/dist/images/logo-primary-en.png' />
                     </a>
                 </td>
             </tr>
@@ -32,11 +32,11 @@ if( isset($_POST['email'])) {
                         <tr>
                             <td align='left' valign='top' style='border: solid 1px #ccc; background:#fff; padding: 20px;' bgcolor='#E5E5E5'>
 
-                                <b>Nome:</b> ".$name."<br /><br />
+                                <b>Name:</b> ".$name."<br /><br />
                                 <b>Email:</b> ".$email."<br /><br />
-                                <b>Organização:</b> ".$organization."<br /><br />
-                                <b>País:</b> ".$country."<br /><br />
-                                <b>Data:</b> ".date("d/m/Y H:i:s")."<br /><br />
+                                <b>Organization:</b> ".$organization."<br /><br />
+                                <b>Country:</b> ".$country."<br /><br />
+                                <b>Date:</b> ".date("d/m/Y H:i:s")."<br /><br />
                                 <b>IP:</b> ".$_SERVER['REMOTE_ADDR']."<br /><br />
                             </td>
                         </tr>
@@ -78,7 +78,7 @@ if( isset($_POST['email'])) {
     $envia .= mail("info@dddmg.org","DDDMG - Register",utf8_decode($mens),$cabecalho,"-r".$emailsender);
     $envia .= mail("onicio@epitrack.com.br","DDDMG - Register",utf8_decode($mens),$cabecalho,"-r".$emailsender);
 
-
+    echo $mens;
     if($envia){
         echo "Email enviado com sucesso!";
         die;
