@@ -5,7 +5,7 @@ AddCharset utf-8 .html .css .php .txt .js
 #Urls Amigáveis
 <IfModule mod_rewrite.c>
   RewriteEngine on
-  RewriteRule ^captcha.jpg/?$ CaptchaSecurityImages.php [NC,L]
+  RewriteRule ^captcha.png/?$ CaptchaSecurityImages.php [NC,L]
 </IfModule>
 
 # Utilizando o mod_deflate para compressão de arquivos

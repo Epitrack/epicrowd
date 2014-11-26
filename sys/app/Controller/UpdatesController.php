@@ -1,25 +1,35 @@
 <?php
-
+App::uses('AppController', 'Controller');
+/**
+ * Updates Controller
+ *
+ */
 class UpdatesController extends AppController {
 
-    public $helpers = array('Html', 'Form', 'Session');
+/**
+ * Scaffold
+ *
+ * @var mixed
+ */
+	public $scaffold;
+ 	public $helpers = array('Html', 'Form', 'Session');
     public $components = array('Session', 'RequestHandler');
 
-    public function index() {
+    // public function index() {
 
-        $updates = $this->Update->find('threaded', array(
-            'conditions' => array('Update.created >=' => 1),
-            'order' => array('Update.created', 'Update.created DESC'),
-        ));
+    //     $updates = $this->Update->find('threaded', array(
+    //         'conditions' => array('Update.created >=' => 1),
+    //         'order' => array('Update.created', 'Update.created DESC'),
+    //     ));
 
-        if(!$updates) {
-            $ajaxResponse = $this->ajaxResponse(NULL, "No updates");
-        } else {
-            $ajaxResponse = $this->ajaxResponse($updates);
-        }
+    //     if(!$updates) {
+    //         $ajaxResponse = $this->ajaxResponse(NULL, "No updates");
+    //     } else {
+    //         $ajaxResponse = $this->ajaxResponse($updates);
+    //     }
 
-        $this->set('updates', $ajaxResponse);
-    }
+    //     $this->set('updates', $ajaxResponse);
+    // }
 
 
     public function add() {
@@ -62,7 +72,4 @@ class UpdatesController extends AppController {
         $this->set('ajaxResponse', $ajaxResponse);
         $this->render('json/ajaxResponse');
     }
-
 }
-
-?>

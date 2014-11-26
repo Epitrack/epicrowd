@@ -2,12 +2,14 @@
 @session_start();
 
 if( isset($_POST['email'])) {
-   if($_SESSION['security_code'] == $_POST['security_code'] && !empty($_SESSION['security_code']) ) {
+
+    if($_SESSION['security_code'] == $_POST['security_code'] && !empty($_SESSION['security_code']) ) {
         //se o capicha estiver funcionando vai enviar o email
         //so vai entrar aqui se a sessao foi igua ao que o ususario digitou e não vazia
 
     unset($_SESSION);
     extract($_POST);
+
     $mens = "
             <meta content=\"text/html; charset=utf-8\">
                         <table width='665' border='0' cellspacing='0' cellpadding='0' align='center'>
@@ -33,6 +35,7 @@ if( isset($_POST['email'])) {
                                 <b>Nome:</b> ".$name."<br /><br />
                                 <b>Email:</b> ".$email."<br /><br />
                                 <b>Organização:</b> ".$organization."<br /><br />
+                                <b>País:</b> ".$country."<br /><br />
                             </td>
                         </tr>
 
@@ -54,8 +57,8 @@ if( isset($_POST['email'])) {
     </table>
     ";
 
-    if ($_SERVER[HTTP_HOST]) {
-            $emailsender= $email; // Substitua essa linha pelo seu e-mail@seudominio
+    if ($_SERVER['HTTP_HOST']) {
+            $emailsender = $email; // Substitua essa linha pelo seu e-mail@seudominio
     } else {
             $emailsender = $email;
 
@@ -64,13 +67,14 @@ if( isset($_POST['email'])) {
     if(PATH_SEPARATOR == ";") $quebra_linha = "\r\n"; //Se for Windows
     else $quebra_linha = "\n"; //Se "não for Windows"
 
-    $cabecalho = "From: $nome <$emailsender> $quebra_linha";
-    $cabecalho .= "Reply-To: $nome <$email> $quebra_linha";
+    $cabecalho = "From: $name <$emailsender> $quebra_linha";
+    $cabecalho .= "Reply-To: $name <$email> $quebra_linha";
     $cabecalho .= "MIME-Version: 1.0$quebra_linha";
     $cabecalho .= "Content-type: text/html; charset=uft-8$quebra_linha";
 
     $envia = mail("info@dddmg.org","DDDMG - Register",utf8_decode($mens),$cabecalho,"-r".$emailsender);
     $envia .= mail("onicio@epitrack.com.br","DDDMG - Register",utf8_decode($mens),$cabecalho,"-r".$emailsender);
+    $envia .= mail("denniscalazans@gmail.com","DDDMG - Register",utf8_decode($mens),$cabecalho,"-r".$emailsender);
 
 
     if($envia){

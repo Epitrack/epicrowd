@@ -5,12 +5,13 @@ APP.Register = {
   },
 
   sendRegister: function() {
-    var name, email, organization, security_code;
+    var name, email, organization, country, security_code;
 
     $('#form-register').submit(function() {
       name = $('#inputName').val();
       email = $('#inputEmail').val();
       organization = $('#inputOrganization').val();
+      country = $('#inputCountry').val();
       security_code = $('#inputCaptcha').val();
 
       $('#feedback').fadeIn();
@@ -19,6 +20,7 @@ APP.Register = {
         name: name,
         email: email,
         organization: organization,
+        country: country,
         security_code: security_code,
       }, function(enviar) {
         if (enviar != false) {

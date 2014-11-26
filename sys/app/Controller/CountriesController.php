@@ -1,11 +1,17 @@
 <?php
+App::uses('AppController', 'Controller');
 
+/**
+ * Countries Controller
+ *
+ */
 class CountriesController extends AppController {
 
-	public $helpers = array('Html', 'Form', 'Session');
-    public $components = array('Session');
-
+/**
+ * Scaffold
+ *
+ * @var mixed
+ */
+	public $scaffold;
 
 }
-
-?>
