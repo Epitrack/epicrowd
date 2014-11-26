@@ -20,7 +20,7 @@ if( isset($_POST['email'])) {
                 <td bgcolor='#283A42' align='center'>
                 &nbsp;&nbsp;&nbsp;&nbsp;
                     <a href='http://dddmg.org'>
-                        <img border='0' alt='' width='270' height='212' src='http://dddmg.org/dist/images/logo-primary.svg' />
+                        <img border='0' alt='' width='270' height='212' src='http://dddmg.org/dist/images/logo-primary.png' />
                     </a>
                 </td>
             </tr>
