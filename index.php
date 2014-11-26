@@ -44,13 +44,6 @@
 
   <!-- CSS -->
   <link rel="stylesheet" href="dist/css/style.min.css">
-
-  <style>
-    .input-group-addon {
-      background-color: #283A42;
-      color: #9DDE38;
-    }
-  </style>
 </head>
 
 <body>
