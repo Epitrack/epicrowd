@@ -46,5 +46,9 @@ class AppController extends Controller {
 
 	}
 
+	public function beforeFilter() {
+	    Configure::write('Config.language', 'por');
+	}
+
 }
 ?>

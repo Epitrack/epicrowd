@@ -5,7 +5,7 @@ APP.Register = {
   },
 
   sendRegister: function() {
-    var name, email, organization, country, security_code;
+    var name, email, organization, country, security_code, language;
 
     $('#form-register').submit(function() {
       name = $('#inputName').val();
@@ -13,6 +13,7 @@ APP.Register = {
       organization = $('#inputOrganization').val();
       country = $('#inputCountry').val();
       security_code = $('#inputCaptcha').val();
+      language = i18n.lng();
 
       $('#feedback').fadeIn();
       $('#feedback').html('Enviando...');
@@ -22,6 +23,7 @@ APP.Register = {
         "data[Update][organization]": organization,
         "data[Update][country_id]": country,
         security_code: security_code,
+        language: language
       }, function(enviar) {
         if (enviar != false) {
           $('#feedback').html(enviar);

@@ -1,0 +1,306 @@
+# LANGUAGE translation of CakePHP Application
+# Copyright YEAR NAME <EMAIL@ADDRESS>
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: PROJECT VERSION\n"
+"POT-Creation-Date: 2014-11-27 07:58+0100\n"
+"PO-Revision-Date: 2014-11-27 04:07-0300\n"
+"Last-Translator: \n"
+"Language-Team:  <EMAIL@ADDRESS>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+"X-Generator: Poedit 1.6.10\n"
+"Language: pt_BR\n"
+
+#: Controller/PostsController.php:14;20;39;44
+msgid "Invalid post"
+msgstr "Post inválido"
+
+#: Controller/PostsController.php:30
+msgid "Your post has been saved."
+msgstr "O seu post foi salvo."
+
+#: Controller/PostsController.php:33
+msgid "Unable to add your post."
+msgstr "Não foi possível adicionar o seu post"
+
+#: Controller/PostsController.php:50
+msgid "Your post has been updated."
+msgstr "O seu post foi atualizado."
+
+#: Controller/PostsController.php:53
+msgid "Unable to update your post."
+msgstr "Não foi possível atualizar o seu post."
+
+#: Controller/PostsController.php:68
+msgid "The post with id: %s has been deleted."
+msgstr "O post com o id: %s foi deletado."
+
+#: Controller/UpdatesController.php:66
+msgid "Wrong code. Try again."
+msgstr "Código errado. Tente novamente"
+
+#: Controller/UpdatesController.php:74
+msgid "Your email is already registered."
+msgstr "O seu e-mail já está registrado."
+
+#: Controller/UpdatesController.php:90
+msgid "Your contact information has been saved."
+msgstr "As suas informações de contato foram armazenadas."
+
+#: Controller/UpdatesController.php:94
+msgid "Your contact information could not be saved."
+msgstr "As suas informações de contato não puderam ser armazenadas."
+
+#: Controller/UpdatesController.php:98
+msgid "Some information are not valid: "
+msgstr "Algumas informações não são válidas"
+
+#: Controller/UpdatesController.php:111
+msgid "Nothing to save!!!"
+msgstr "Não existem informações para serem armazenadas."
+
+#: View/Countries/add.ctp:4
+msgid "Add Country"
+msgstr "Adicionar País"
+
+#: View/Countries/add.ctp:10 View/Countries/admin_add.ctp:10
+#: View/Countries/admin_edit.ctp:11 View/Countries/edit.ctp:11
+#: View/Updates/add.ctp:13 View/Updates/admin_add.ctp:13
+#: View/Updates/admin_edit.ctp:14 View/Updates/edit.ctp:14
+msgid "Submit"
+msgstr "Enviar"
+
+#: View/Countries/add.ctp:13 View/Countries/admin_add.ctp:13
+#: View/Countries/admin_edit.ctp:14 View/Countries/admin_index.ctp:9;42
+#: View/Countries/admin_view.ctp:22;45 View/Countries/edit.ctp:14
+#: View/Countries/index.ctp:9;42 View/Countries/view.ctp:22;45
+#: View/Updates/add.ctp:16 View/Updates/admin_add.ctp:16
+#: View/Updates/admin_edit.ctp:17 View/Updates/admin_index.ctp:17;57
+#: View/Updates/admin_view.ctp:47 View/Updates/edit.ctp:17
+#: View/Updates/index.ctp:18;58 View/Updates/view.ctp:47
+msgid "Actions"
+msgstr "Ações"
+
+#: View/Countries/add.ctp:16 View/Countries/admin_add.ctp:16
+#: View/Countries/admin_edit.ctp:18 View/Countries/admin_view.ctp:26
+#: View/Countries/edit.ctp:18 View/Countries/view.ctp:26
+#: View/Updates/add.ctp:20 View/Updates/admin_add.ctp:20
+#: View/Updates/admin_edit.ctp:22 View/Updates/admin_index.ctp:60
+#: View/Updates/admin_view.ctp:53 View/Updates/edit.ctp:22
+#: View/Updates/index.ctp:61 View/Updates/view.ctp:53
+msgid "List Countries"
+msgstr "Listar Países"
+
+#: View/Countries/add.ctp:17 View/Countries/admin_add.ctp:17
+#: View/Countries/admin_edit.ctp:19 View/Countries/admin_index.ctp:45
+#: View/Countries/admin_view.ctp:28 View/Countries/edit.ctp:19
+#: View/Countries/index.ctp:45 View/Countries/view.ctp:28
+#: View/Updates/add.ctp:19 View/Updates/admin_add.ctp:19
+#: View/Updates/admin_edit.ctp:21 View/Updates/admin_view.ctp:51
+#: View/Updates/edit.ctp:21 View/Updates/view.ctp:51
+msgid "List Updates"
+msgstr "Listar Updates"
+
+#: View/Countries/add.ctp:18 View/Countries/admin_add.ctp:18
+#: View/Countries/admin_edit.ctp:20 View/Countries/admin_index.ctp:46
+#: View/Countries/admin_view.ctp:29;69 View/Countries/edit.ctp:20
+#: View/Countries/index.ctp:46 View/Countries/view.ctp:29;69
+#: View/Updates/admin_index.ctp:59 View/Updates/admin_view.ctp:52
+#: View/Updates/index.ctp:60 View/Updates/view.ctp:52
+msgid "New Update"
+msgstr "Novo Update"
+
+#: View/Countries/admin_add.ctp:4
+msgid "Admin Add Country"
+msgstr "Adicionar País - Admin"
+
+#: View/Countries/admin_edit.ctp:4
+msgid "Admin Edit Country"
+msgstr "Editar País - Admin"
+
+#: View/Countries/admin_edit.ctp:17 View/Countries/admin_index.ctp:21
+#: View/Countries/admin_view.ctp:60 View/Countries/edit.ctp:17
+#: View/Countries/index.ctp:21 View/Countries/view.ctp:60
+#: View/Updates/admin_edit.ctp:20 View/Updates/admin_index.ctp:36
+#: View/Updates/edit.ctp:20 View/Updates/index.ctp:37
+msgid "Delete"
+msgstr "Deletar"
+
+#: View/Countries/admin_edit.ctp:17 View/Countries/admin_index.ctp:21
+#: View/Countries/admin_view.ctp:25;60 View/Countries/edit.ctp:17
+#: View/Countries/index.ctp:21 View/Countries/view.ctp:25;60
+#: View/Updates/admin_edit.ctp:20 View/Updates/admin_index.ctp:36
+#: View/Updates/admin_view.ctp:50 View/Updates/edit.ctp:20
+#: View/Updates/index.ctp:37 View/Updates/view.ctp:50
+msgid "Are you sure you want to delete # %s?"
+msgstr "Você tem certeza que quer deletar # %s?"
+
+#: View/Countries/admin_index.ctp:2 View/Countries/index.ctp:2
+msgid "Countries"
+msgstr "Países"
+
+#: View/Countries/admin_index.ctp:19 View/Countries/admin_view.ctp:58
+#: View/Countries/index.ctp:19 View/Countries/view.ctp:58
+#: View/Updates/admin_index.ctp:34 View/Updates/index.ctp:35
+msgid "View"
+msgstr "Visão"
+
+#: View/Countries/admin_index.ctp:20 View/Countries/admin_view.ctp:59
+#: View/Countries/index.ctp:20 View/Countries/view.ctp:59
+#: View/Updates/admin_index.ctp:35 View/Updates/index.ctp:36
+msgid "Edit"
+msgstr "Editar"
+
+#: View/Countries/admin_index.ctp:30 View/Countries/index.ctp:30
+#: View/Updates/admin_index.ctp:45 View/Updates/index.ctp:46
+msgid ""
+"Page {:page} of {:pages}, showing {:current} records out of {:count} total, "
+"starting on record {:start}, ending on {:end}"
+msgstr ""
+"Página {:page} de {:pages}, exibindo {:current} registros de {:count} total, "
+"começando com o registros {:start}, e finalizando em {:end}"
+
+#: View/Countries/admin_index.ctp:35 View/Countries/index.ctp:35
+#: View/Updates/admin_index.ctp:50 View/Updates/index.ctp:51
+msgid "previous"
+msgstr "anterior"
+
+#: View/Countries/admin_index.ctp:37 View/Countries/index.ctp:37
+#: View/Updates/admin_index.ctp:52 View/Updates/index.ctp:53
+msgid "next"
+msgstr "próximo"
+
+#: View/Countries/admin_index.ctp:44 View/Countries/admin_view.ctp:27
+#: View/Countries/index.ctp:44 View/Countries/view.ctp:27
+#: View/Updates/add.ctp:21 View/Updates/admin_add.ctp:21
+#: View/Updates/admin_edit.ctp:23 View/Updates/admin_index.ctp:61
+#: View/Updates/admin_view.ctp:54 View/Updates/edit.ctp:23
+#: View/Updates/index.ctp:62 View/Updates/view.ctp:54
+msgid "New Country"
+msgstr "Novo País"
+
+#: View/Countries/admin_view.ctp:2 View/Countries/view.ctp:2
+#: View/Updates/admin_view.ctp:9 View/Updates/view.ctp:9
+msgid "Country"
+msgstr "País"
+
+#: View/Countries/admin_view.ctp:4;37 View/Countries/view.ctp:4;37
+#: View/Updates/admin_view.ctp:4 View/Updates/view.ctp:4
+msgid "Id"
+msgstr "Id"
+
+#: View/Countries/admin_view.ctp:9 View/Countries/view.ctp:9
+msgid "Name Pt"
+msgstr "Nome Pt"
+
+#: View/Countries/admin_view.ctp:14 View/Countries/view.ctp:14
+msgid "Name En"
+msgstr "Nome En"
+
+#: View/Countries/admin_view.ctp:24 View/Countries/edit.ctp:4
+#: View/Countries/view.ctp:24
+msgid "Edit Country"
+msgstr "Editar País"
+
+#: View/Countries/admin_view.ctp:25 View/Countries/view.ctp:25
+msgid "Delete Country"
+msgstr "Deletar País"
+
+#: View/Countries/admin_view.ctp:33 View/Countries/view.ctp:33
+msgid "Related Updates"
+msgstr "Updates relacionados"
+
+#: View/Countries/admin_view.ctp:38 View/Countries/view.ctp:38
+msgid "Country Id"
+msgstr "Id do País"
+
+#: View/Countries/admin_view.ctp:39 View/Countries/view.ctp:39
+#: View/Updates/admin_view.ctp:14 View/Updates/view.ctp:14
+msgid "Enabled"
+msgstr "Habilitar"
+
+#: View/Countries/admin_view.ctp:40 View/Countries/view.ctp:40
+#: View/Updates/admin_view.ctp:19 View/Updates/view.ctp:19
+msgid "Created"
+msgstr "Criado"
+
+#: View/Countries/admin_view.ctp:41 View/Countries/view.ctp:41
+#: View/Updates/admin_view.ctp:24 View/Updates/view.ctp:24
+msgid "Modified"
+msgstr "Modificado"
+
+#: View/Countries/admin_view.ctp:42 View/Countries/view.ctp:42
+#: View/Updates/admin_view.ctp:29 View/Updates/view.ctp:29
+msgid "Name"
+msgstr "Nome"
+
+#: View/Countries/admin_view.ctp:43 View/Countries/view.ctp:43
+#: View/Updates/admin_view.ctp:34 View/Updates/view.ctp:34
+msgid "Email"
+msgstr "Email"
+
+#: View/Countries/admin_view.ctp:44 View/Countries/view.ctp:44
+#: View/Updates/admin_view.ctp:39 View/Updates/view.ctp:39
+msgid "Organization"
+msgstr "Organização"
+
+#: View/Updates/add.ctp:4
+msgid "Add Update"
+msgstr "Adicionar Update"
+
+#: View/Updates/admin_add.ctp:4
+msgid "Admin Add Update"
+msgstr "Adicionar Update - Admin"
+
+#: View/Updates/admin_edit.ctp:4
+msgid "Admin Edit Update"
+msgstr "Editar Update - Admin"
+
+#: View/Updates/admin_index.ctp:2 View/Updates/index.ctp:2
+msgid "Updates"
+msgstr "Atualizações"
+
+#: View/Updates/admin_view.ctp:2 View/Updates/view.ctp:2
+msgid "Update"
+msgstr "Atualizar"
+
+#: View/Updates/admin_view.ctp:49 View/Updates/edit.ctp:4
+#: View/Updates/view.ctp:49
+msgid "Edit Update"
+msgstr "Editar Update"
+
+#: View/Updates/admin_view.ctp:50 View/Updates/view.ctp:50
+msgid "Delete Update"
+msgstr "Deletar Update"
+
+#: Model/Update.php:validation for field id
+msgid "notEmpty"
+msgstr "notEmpty"
+
+#: Model/Update.php:validation for field country_id
+msgid "numeric"
+msgstr "numeric"
+
+#: Model/Update.php:validation for field enabled
+msgid "boolean"
+msgstr "booleano"
+
+#: Model/Update.php:validation for field created;validation modified
+msgid "datetime"
+msgstr "datetime"
+
+#: Model/Update.php:validation for field name
+msgid "What is your name, please?"
+msgstr "Qual o seu nome, por favor?"
+
+#: Model/Update.php:validation for field email
+msgid "This is a not valid e-mail address."
+msgstr "Esse não é um endereço de e-mail válido."
+
+#: Model/Update.php:validation for field organization
+msgid "Organization is a required field."
+msgstr "O campos organização é obrigatório"

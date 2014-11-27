@@ -1,5 +1,9 @@
 <div class="updates index">
 	<h2><?php echo __('Updates'); ?></h2>
+
+	<p>
+		<?php echo "Código: ".$_SESSION['security_code']; ?>
+	</p>
 	<table cellpadding="0" cellspacing="0">
 	<thead>
 	<tr>
