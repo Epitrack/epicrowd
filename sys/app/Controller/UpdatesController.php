@@ -50,13 +50,13 @@ class UpdatesController extends AppController {
 
         $email = new CakeEmail();
         $res = $email
-            ->config('default')
+            ->config('smtp')
             ->subject('DDDMG Registration')
             ->from(array('noreply@dddmg.org' => 'DDDMG 2015'))
             ->to(array("denniscalazans@gmail.com", "Dennis Calazans"))
             //->cc(array("onicio@gmail.com", "Onicio Neto"))
             ->sender($data['Update']['email'], $data['Update']['name'])
-            ->send($data);
+            ->send($data['Update']['name']);
 
         return $res;
 
@@ -77,7 +77,7 @@ class UpdatesController extends AppController {
 
         //If its post or PUT
         if ($this->request->is("post") || $this->request->is("put")) {
-            
+
            $this->Session->write("security_code", "123456");
 
             $language = ($this->request->data['language'] == "pt-BR") ? "por" : "eng";
@@ -113,8 +113,8 @@ class UpdatesController extends AppController {
                     if ($this->Update->save($this->request->data)) {
 
                         $message = __('Your contact information has been saved.');
-                        $res = $this->_sendMail($this->request->data);
-                        $this->request->data['emailRes'] = $res;
+                        //$res = $this->_sendMail($this->request->data);
+                        //$this->request->data['emailRes'] = $res;
                         
                         $ajaxResponse = $this->ajaxResponse($this->request->data, $message);
 
