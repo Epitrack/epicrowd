@@ -113,8 +113,8 @@ class UpdatesController extends AppController {
                     if ($this->Update->save($this->request->data)) {
 
                         $message = __('Your contact information has been saved.');
-                        //$res = $this->_sendMail($this->request->data);
-                        //$this->request->data['emailRes'] = $res;
+                        $res = $this->_sendMail($this->request->data);
+                        $this->request->data['emailRes'] = $res;
                         
                         $ajaxResponse = $this->ajaxResponse($this->request->data, $message);
 
