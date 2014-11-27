@@ -135,7 +135,6 @@ body { font-size: $fs-root; }
   }
 }
 
-
 // Nav
 .nav-primary {
   height: 60px;
@@ -227,6 +226,8 @@ body { font-size: $fs-root; }
 .about {
   @include path('pattern-about.png');
   background-repeat: repeat;
+  background-attachment: fixed;
+  @extend %animate-bgTile;
 }
 
 .agenda {
@@ -322,6 +323,91 @@ body { font-size: $fs-root; }
 
   .section-text {
     color: $color-secondary;
+  }
+}
+
+.organizing {
+  @include path('pattern-about.png');
+  background-repeat: repeat;
+  background-attachment: fixed;
+  background-position: 0 0;
+  min-height: 370px !important;
+  @extend %animate-bgTile;
+}
+
+.comittee {
+  background-color: rgba(0, 0, 0, .1);
+  min-height: 250px;
+  margin-bottom: 20px;
+  padding: 0;
+  position: relative;
+
+  &::before {
+    content: '';
+    width: 0;
+    height: 0;
+    border-top: 40px solid white;
+    border-right: 40px solid transparent;
+    position: absolute;
+  }
+
+  &::after {
+    content: '';
+    width: 0;
+    height: 0;
+    border-bottom: 40px solid white;
+    border-left: 40px solid transparent;
+    position: absolute;
+    right: 0;
+    bottom: 0;
+  }
+}
+
+.comittee-logo {
+  width: 100%;
+  height: 110px;
+  text-align: center;
+
+  &.skoll {
+    @include path('logo-skoll.svg');
+    background-repeat: no-repeat;
+    background-size: 90% auto;
+    background-position: center center;
+  }
+
+  &.epitrack {
+    @include path('logo-epitrack.svg');
+    background-repeat: no-repeat;
+    background-size: 90% auto;
+    background-position: center center;
+    margin-left: 10px;
+  }
+
+  &.healthmap {
+    @include path('logo-healthmap.png');
+    background-repeat: no-repeat;
+    background-size: 83% auto;
+    background-position: center center;
+  }
+}
+
+.comittee-item {
+  color: $color-primary;
+  font-size: $fs-medium;
+  font-family: $ff-secondary;
+  padding: 10px 0;
+  text-align: center;
+  position: relative;
+
+  &::before {
+    content: '';
+    display: block;
+    bottom: 10px;
+    background-color: $color-secondary;
+    position: absolute;
+    height: 1px;
+    left: 38%;
+    width: 25%;
   }
 }
 
@@ -481,7 +567,8 @@ body { font-size: $fs-root; }
   }
 
   .btn-send {
-    text-align: left;
+    text-align: right;
+    margin-right: 20px;
   }
 
   .organizers-links {
