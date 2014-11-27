@@ -56,7 +56,7 @@ class UpdatesController extends AppController {
             ->to(array("denniscalazans@gmail.com", "Dennis Calazans"))
             //->cc(array("onicio@gmail.com", "Onicio Neto"))
             ->sender($data['Update']['email'], $data['Update']['name'])
-            ->send($data['Update']['name']);
+            ->send(json_encode($data));
 
         return $res;
 
