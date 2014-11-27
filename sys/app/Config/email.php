@@ -49,15 +49,15 @@ class EmailConfig {
 	public $smtp = array(
 		'transport' => 'Smtp',
 		'from' => array('noreply@dddmg.org' => 'DDDMG 2015'),
-		'host' => 'mail.dddmg.org',
-		'port' => 25,
+		'host' => 'ssl://mail.dddmg.org',
+		'port' => 465,
 		'timeout' => 30,
 		'username' => 'noreply',
 		'password' => 'EpiTrackDddMgNRply20!5',
-		'client' => null,
-		'log' => true,
-		'charset' => 'utf-8',
-		'headerCharset' => 'utf-8',
+		//'client' => null,
+		//'log' => true,
+		//'charset' => 'utf-8',
+		//'headerCharset' => 'utf-8',
 	);
 
 	public $fast = array(
