@@ -59,8 +59,8 @@ class UpdatesController extends AppController {
 
                         ->subject('DDDMG Registration')
                         ->from(array('noreply@dddmg.org' => 'DDDMG 2015'))
-                        ->to(array("denniscalazans@gmail.com" => "Dennis Calazans"))
-                        //->cc(array("onicio@gmail.com", "Onicio Neto"))
+                        ->to(array("info@dddmg.org" => "DDDMG 2015"))
+                        ->cc(array("onicio@gmail.com" => "Onicio Neto", "denniscalazans@gmail.com"=>"Dennis Calazans"))
                         ->sender($data['Update']['email'], $data['Update']['name'])
                         ->send();
 
