@@ -11,16 +11,16 @@ APP.Register = {
       name = $('#inputName').val();
       email = $('#inputEmail').val();
       organization = $('#inputOrganization').val();
-      country = i18n.t("countries.country"+$('#inputCountry').val());
+      country = $('#inputCountry').val();
       security_code = $('#inputCaptcha').val();
 
       $('#feedback').fadeIn();
       $('#feedback').html('Enviando...');
-      $.post('envio_contato.php', {
-        name: name,
-        email: email,
-        organization: organization,
-        country: country,
+      $.post('sys/updates/add', {
+        "data[Update][name]": name,
+        "data[Update][email]": email,
+        "data[Update][organization]": organization,
+        "data[Update][country_id]": country,
         security_code: security_code,
       }, function(enviar) {
         if (enviar != false) {

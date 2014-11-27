@@ -31,6 +31,15 @@ class UpdatesController extends AppController {
     //     $this->set('updates', $ajaxResponse);
     // }
 
+    public function captcha() {
+        $this->set('captcha', "O Valor vai ser... ".$this->Session->read('teste'));
+    }
+
+    public function teste() {
+        $this->layout = 'ajax';
+        $this->response->type("text/plain");
+        $this->set('request', $this->request);
+    }
 
     public function add() {
         $this->layout = 'json';
@@ -46,19 +55,30 @@ class UpdatesController extends AppController {
         
         if ($this->request->is("post") || $this->request->is("put")) {
            
-           
-            if($this->Update->findByEmail($this->request->data['Update']['email'])) {
+           if($this->request->data['security_code'] != $this->Session->read("security_code")) {
+                $this->request->data['real_captcha'] = $this->Session->read("security_code");
+
+                $message = __('Wrong code. Try again.');
+                $ajaxResponse = $this->ajaxResponse($this->request->data, $message, FALSE);
+
+           } else if($this->Update->findByEmail($this->request->data['Update']['email'])) {
+
                 $message = __('Your email is already registered.');
                 $ajaxResponse = $this->ajaxResponse($this->request->data, $message, FALSE);
+
             } else {
+
                 $this->request->data['Update']['enabled'] = 1;
 
                 $this->Update->create();
 
                 if ($this->Update->save($this->request->data)) {
+
                     $message = __('Your contact information has been saved.');
                     $ajaxResponse = $this->ajaxResponse($this->request->data, $message);
+
                 } 
+
             } 
 
              
@@ -68,7 +88,6 @@ class UpdatesController extends AppController {
             $ajaxResponse = $this->ajaxResponse(NULL, $message, FALSE);
         }
 
-     
         $this->set('ajaxResponse', $ajaxResponse);
         $this->render('json/ajaxResponse');
     }

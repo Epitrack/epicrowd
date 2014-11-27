@@ -36,7 +36,10 @@
  */
 	CakePlugin::routes();
 	Router::mapResources('updates');
-	Router::parseExtensions();
+	Router::parseExtensions("png");
+
+
+	Router::connect('/captcha.png', array('controller' => 'captchas', 'action' => 'index'));
 
 /**
  * Load the CakePHP default routes. Only remove this if you do not want to use

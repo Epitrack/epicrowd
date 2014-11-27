@@ -454,7 +454,7 @@
               <div class="input-group">
                 <span class="input-group-addon">
                   <figure>
-                   <img src="captcha.png" alt="Captcha">
+                   <img src="sys/captcha.png" alt="Captcha">
                   </figure>
                 </span>
                 <input data-i18n="[placeholder]register.captchaPlaceholder" type="text" id="inputCaptcha" class="form-control input-primary" placeholder="Enter code here">
