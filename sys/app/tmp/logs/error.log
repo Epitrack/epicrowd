@@ -1,0 +1,22 @@
+2014-11-27 21:33:58 Error: [MissingConnectionException] Database connection "Mysql" is missing, or could not be created.
+Exception Attributes: array (
+  'class' => 'Mysql',
+  'message' => 'SQLSTATE[28000] [1045] Access denied for user \'root\'@\'localhost\' (using password: YES)',
+  'enabled' => true,
+)
+Request URL: /Freelas/em-andamento/dddmg/sys/updates/action
+Stack Trace:
+#0 /Applications/MAMP/htdocs/Freelas/em-andamento/dddmg/sys/lib/Cake/Model/Datasource/DboSource.php(260): Mysql->connect()
+#1 /Applications/MAMP/htdocs/Freelas/em-andamento/dddmg/sys/lib/Cake/Model/ConnectionManager.php(105): DboSource->__construct(Array)
+#2 /Applications/MAMP/htdocs/Freelas/em-andamento/dddmg/sys/lib/Cake/Model/Model.php(3540): ConnectionManager::getDataSource('default')
+#3 /Applications/MAMP/htdocs/Freelas/em-andamento/dddmg/sys/lib/Cake/Model/Model.php(1136): Model->setDataSource('default')
+#4 /Applications/MAMP/htdocs/Freelas/em-andamento/dddmg/sys/lib/Cake/Model/Model.php(3567): Model->setSource('countries')
+#5 /Applications/MAMP/htdocs/Freelas/em-andamento/dddmg/sys/lib/Cake/Model/Model.php(2947): Model->getDataSource()
+#6 /Applications/MAMP/htdocs/Freelas/em-andamento/dddmg/sys/lib/Cake/Model/Model.php(2919): Model->_readDataSource('list', Array)
+#7 /Applications/MAMP/htdocs/Freelas/em-andamento/dddmg/sys/app/Controller/UpdatesController.php(62): Model->find('list', Array)
+#8 [internal function]: UpdatesController->action()
+#9 /Applications/MAMP/htdocs/Freelas/em-andamento/dddmg/sys/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(UpdatesController), Array)
+#10 /Applications/MAMP/htdocs/Freelas/em-andamento/dddmg/sys/lib/Cake/Routing/Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#11 /Applications/MAMP/htdocs/Freelas/em-andamento/dddmg/sys/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(UpdatesController), Object(CakeRequest))
+#12 /Applications/MAMP/htdocs/Freelas/em-andamento/dddmg/sys/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#13 {main}

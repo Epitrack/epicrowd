@@ -61,7 +61,7 @@ APP.Scroll = {
   goAbout: function() {
     $('#down').on('click', function() {
       $('html, body').animate({
-        scrollTop: (580)
+        scrollTop: (590)
       }, 2000);
     });
   },

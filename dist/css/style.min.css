@@ -5286,6 +5286,69 @@ input:focus, select:focus {
   animation-play-state: running;
 }
 
+@keyframes bgTile {
+  from {
+    background-position: 0 0;
+  }
+  to {
+    background-position: -300px 0;
+  }
+}
+@-webkit-keyframes bgTile {
+  from {
+    background-position: 0 0;
+  }
+  to {
+    background-position: -300px 0;
+  }
+}
+@-moz-keyframes bgTile {
+  from {
+    background-position: 0 0;
+  }
+  to {
+    background-position: -300px 0;
+  }
+}
+@-ms-keyframes bgTile {
+  from {
+    background-position: 0 0;
+  }
+  to {
+    background-position: -300px 0;
+  }
+}
+@-o-keyframes bgTile {
+  from {
+    background-position: 0 0;
+  }
+  to {
+    background-position: -300px 0;
+  }
+}
+.about, .organizing {
+  -webkit-animation-name: bgTile;
+  -webkit-animation-duration: 10s;
+  -webkit-animation-timing-function: linear;
+  -webkit-animation-iteration-count: infinite;
+  -moz-animation-name: bgTile;
+  -moz-animation-duration: 10s;
+  -moz-animation-timing-function: linear;
+  -moz-animation-iteration-count: infinite;
+  -ms-animation-name: bgTile;
+  -ms-animation-duration: 10s;
+  -ms-animation-timing-function: linear;
+  -ms-animation-iteration-count: infinite;
+  -o-animation-name: bgTile;
+  -o-animation-duration: 10s;
+  -o-animation-timing-function: linear;
+  -o-animation-iteration-count: infinite;
+  animation-name: bgTile;
+  animation-duration: 10s;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+}
+
 body {
   font-size: 62.5%;
 }
@@ -5497,6 +5560,7 @@ body {
 .about {
   background: url("../../dist/images/pattern-about.png");
   background-repeat: repeat;
+  background-attachment: fixed;
 }
 
 .agenda {
@@ -5581,6 +5645,84 @@ body {
 }
 .register .section-text {
   color: #9DDE38;
+}
+
+.organizing {
+  background: url("../../dist/images/pattern-about.png");
+  background-repeat: repeat;
+  background-attachment: fixed;
+  background-position: 0 0;
+  min-height: 370px !important;
+}
+
+.comittee {
+  background-color: rgba(0, 0, 0, 0.1);
+  min-height: 250px;
+  margin-bottom: 20px;
+  padding: 0;
+  position: relative;
+}
+.comittee::before {
+  content: '';
+  width: 0;
+  height: 0;
+  border-top: 40px solid white;
+  border-right: 40px solid transparent;
+  position: absolute;
+}
+.comittee::after {
+  content: '';
+  width: 0;
+  height: 0;
+  border-bottom: 40px solid white;
+  border-left: 40px solid transparent;
+  position: absolute;
+  right: 0;
+  bottom: 0;
+}
+
+.comittee-logo {
+  width: 100%;
+  height: 110px;
+  text-align: center;
+}
+.comittee-logo.skoll {
+  background: url("../../dist/images/logo-skoll.svg");
+  background-repeat: no-repeat;
+  background-size: 90% auto;
+  background-position: center center;
+}
+.comittee-logo.epitrack {
+  background: url("../../dist/images/logo-epitrack.svg");
+  background-repeat: no-repeat;
+  background-size: 90% auto;
+  background-position: center center;
+  margin-left: 10px;
+}
+.comittee-logo.healthmap {
+  background: url("../../dist/images/logo-healthmap.png");
+  background-repeat: no-repeat;
+  background-size: 83% auto;
+  background-position: center center;
+}
+
+.comittee-item {
+  color: #283A42;
+  font-size: 1.8rem;
+  font-family: "FocoLight";
+  padding: 10px 0;
+  text-align: center;
+  position: relative;
+}
+.comittee-item::before {
+  content: '';
+  display: block;
+  bottom: 10px;
+  background-color: #9DDE38;
+  position: absolute;
+  height: 1px;
+  left: 38%;
+  width: 25%;
 }
 
 .btn-send {
@@ -5720,7 +5862,8 @@ body {
   }
 
   .btn-send {
-    text-align: left;
+    text-align: right;
+    margin-right: 20px;
   }
 
   .organizers-links {
