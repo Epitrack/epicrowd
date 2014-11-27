@@ -17,7 +17,7 @@ APP.Register = {
 
       $('#feedback').fadeIn();
       $('#feedback').html('Enviando...');
-      $.post('sys/updates/add', {
+      $.post('sys/updates/action', {
         "data[Update][name]": name,
         "data[Update][email]": email,
         "data[Update][organization]": organization,

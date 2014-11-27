@@ -12,26 +12,11 @@ class UpdatesController extends AppController {
  *
  * @var mixed
  */
-	public $scaffold;
+	
  	public $helpers = array('Html', 'Form', 'Session');
-    public $components = array('Session', 'RequestHandler');
+    public $components = array('Session', 'RequestHandler', 'Paginator');
 
-    // public function index() {
-
-    //     $updates = $this->Update->find('threaded', array(
-    //         'conditions' => array('Update.created >=' => 1),
-    //         'order' => array('Update.created', 'Update.created DESC'),
-    //     ));
-
-    //     if(!$updates) {
-    //         $ajaxResponse = $this->ajaxResponse(NULL, "No updates");
-    //     } else {
-    //         $ajaxResponse = $this->ajaxResponse($updates);
-    //     }
-
-    //     $this->set('updates', $ajaxResponse);
-    // }
-
+ 
     public function captcha() {
         $this->set('captcha', "O Valor vai ser... ".$this->Session->read('teste'));
     }
@@ -69,7 +54,7 @@ class UpdatesController extends AppController {
 
     }
 
-    public function add() {
+    public function action() {
         $this->layout = 'json';
         
         $countries = $this->Update->Country->find("list", array(
@@ -146,5 +131,188 @@ class UpdatesController extends AppController {
 
         $this->set('ajaxResponse', $ajaxResponse);
         $this->render('json/ajaxResponse');
+    }
+
+
+/**
+ * index method
+ *
+ * @return void
+ */
+    public function index() {
+        $this->Update->recursive = 0;
+        $this->set('updates', $this->Paginator->paginate());
+    }
+
+/**
+ * view method
+ *
+ * @throws NotFoundException
+ * @param string $id
+ * @return void
+ */
+    public function view($id = null) {
+        if (!$this->Update->exists($id)) {
+            throw new NotFoundException(__('Invalid update'));
+        }
+        $options = array('conditions' => array('Update.' . $this->Update->primaryKey => $id));
+        $this->set('update', $this->Update->find('first', $options));
+    }
+
+/**
+ * add method
+ *
+ * @return void
+ */
+    public function add() {
+        if ($this->request->is('post')) {
+            $this->Update->create();
+            if ($this->Update->save($this->request->data)) {
+                $this->Session->setFlash(__('The update has been saved.'));
+                return $this->redirect(array('action' => 'index'));
+            } else {
+                $this->Session->setFlash(__('The update could not be saved. Please, try again.'));
+            }
+        }
+        $countries = $this->Update->Country->find('list');
+        $this->set(compact('countries'));
+    }
+
+/**
+ * edit method
+ *
+ * @throws NotFoundException
+ * @param string $id
+ * @return void
+ */
+    public function edit($id = null) {
+        if (!$this->Update->exists($id)) {
+            throw new NotFoundException(__('Invalid update'));
+        }
+        if ($this->request->is(array('post', 'put'))) {
+            if ($this->Update->save($this->request->data)) {
+                $this->Session->setFlash(__('The update has been saved.'));
+                return $this->redirect(array('action' => 'index'));
+            } else {
+                $this->Session->setFlash(__('The update could not be saved. Please, try again.'));
+            }
+        } else {
+            $options = array('conditions' => array('Update.' . $this->Update->primaryKey => $id));
+            $this->request->data = $this->Update->find('first', $options);
+        }
+        $countries = $this->Update->Country->find('list');
+        $this->set(compact('countries'));
+    }
+
+/**
+ * delete method
+ *
+ * @throws NotFoundException
+ * @param string $id
+ * @return void
+ */
+    public function delete($id = null) {
+        $this->Update->id = $id;
+        if (!$this->Update->exists()) {
+            throw new NotFoundException(__('Invalid update'));
+        }
+        $this->request->allowMethod('post', 'delete');
+        if ($this->Update->delete()) {
+            $this->Session->setFlash(__('The update has been deleted.'));
+        } else {
+            $this->Session->setFlash(__('The update could not be deleted. Please, try again.'));
+        }
+        return $this->redirect(array('action' => 'index'));
+    }
+
+/**
+ * admin_index method
+ *
+ * @return void
+ */
+    public function admin_index() {
+        $this->Update->recursive = 0;
+        $this->set('updates', $this->Paginator->paginate());
+    }
+
+/**
+ * admin_view method
+ *
+ * @throws NotFoundException
+ * @param string $id
+ * @return void
+ */
+    public function admin_view($id = null) {
+        if (!$this->Update->exists($id)) {
+            throw new NotFoundException(__('Invalid update'));
+        }
+        $options = array('conditions' => array('Update.' . $this->Update->primaryKey => $id));
+        $this->set('update', $this->Update->find('first', $options));
+    }
+
+/**
+ * admin_add method
+ *
+ * @return void
+ */
+    public function admin_add() {
+        if ($this->request->is('post')) {
+            $this->Update->create();
+            if ($this->Update->save($this->request->data)) {
+                $this->Session->setFlash(__('The update has been saved.'));
+                return $this->redirect(array('action' => 'index'));
+            } else {
+                $this->Session->setFlash(__('The update could not be saved. Please, try again.'));
+            }
+        }
+        $countries = $this->Update->Country->find('list');
+        $this->set(compact('countries'));
+    }
+
+/**
+ * admin_edit method
+ *
+ * @throws NotFoundException
+ * @param string $id
+ * @return void
+ */
+    public function admin_edit($id = null) {
+        if (!$this->Update->exists($id)) {
+            throw new NotFoundException(__('Invalid update'));
+        }
+        if ($this->request->is(array('post', 'put'))) {
+            if ($this->Update->save($this->request->data)) {
+                $this->Session->setFlash(__('The update has been saved.'));
+                return $this->redirect(array('action' => 'index'));
+            } else {
+                $this->Session->setFlash(__('The update could not be saved. Please, try again.'));
+            }
+        } else {
+            $options = array('conditions' => array('Update.' . $this->Update->primaryKey => $id));
+            $this->request->data = $this->Update->find('first', $options);
+        }
+        $countries = $this->Update->Country->find('list');
+        $this->set(compact('countries'));
+    }
+
+/**
+ * admin_delete method
+ *
+ * @throws NotFoundException
+ * @param string $id
+ * @return void
+ */
+    public function admin_delete($id = null) {
+        $this->Update->id = $id;
+        if (!$this->Update->exists()) {
+            throw new NotFoundException(__('Invalid update'));
+        }
+        $this->request->allowMethod('post', 'delete');
+        if ($this->Update->delete()) {
+            $this->Session->setFlash(__('The update has been deleted.'));
+        } else {
+            $this->Session->setFlash(__('The update could not be deleted. Please, try again.'));
+        }
+        return $this->redirect(array('action' => 'index'));
     }
 }
