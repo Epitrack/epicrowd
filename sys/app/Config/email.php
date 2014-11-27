@@ -52,7 +52,7 @@ class EmailConfig {
 		'host' => 'ssl://mail.dddmg.org',
 		'port' => 465,
 		'timeout' => 30,
-		'username' => 'noreply',
+		'username' => 'noreply@dddmg.org',
 		'password' => 'EpiTrackDddMgNRply20!5',
 		//'client' => null,
 		//'log' => true,
