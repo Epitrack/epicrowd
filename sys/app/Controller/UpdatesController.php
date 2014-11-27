@@ -77,15 +77,14 @@ class UpdatesController extends AppController {
 
         //If its post or PUT
         if ($this->request->is("post") || $this->request->is("put")) {
-
+            
            $this->Session->write("security_code", "123456");
 
             $language = ($this->request->data['language'] == "pt-BR") ? "por" : "eng";
             Configure::write('Config.language', $language); 
 
             //Incorrect security code
-            //if($this->request->data['security_code'] != $this->Session->read("security_code")) {
-            if($this->request->data['security_code'] != "123456") {
+            if($this->request->data['security_code'] != $this->Session->read("security_code")) {
 
                 $this->request->data['real_captcha'] = $this->Session->read("security_code");
 
