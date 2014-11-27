@@ -336,7 +336,7 @@ body { font-size: $fs-root; }
 }
 
 .comittee {
-  background-color: rgba(0, 0, 0, .03);
+  background-color: rgba(0, 0, 0, .1);
   min-height: 250px;
   margin-bottom: 20px;
   padding: 0;
@@ -567,7 +567,8 @@ body { font-size: $fs-root; }
   }
 
   .btn-send {
-    text-align: left;
+    text-align: right;
+    margin-right: 20px;
   }
 
   .organizers-links {
