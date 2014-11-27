@@ -49,14 +49,17 @@ class UpdatesController extends AppController {
         $data['pais'] = $country['Country']['name_en']."/".$country['Country']['name_pt'];
 
         $email = new CakeEmail();
-        $res = $email
-            ->config('smtp')
-            ->subject('DDDMG Registration')
-            ->from(array('noreply@dddmg.org' => 'DDDMG 2015'))
-            ->to(array("denniscalazans@gmail.com", "Dennis Calazans"))
-            //->cc(array("onicio@gmail.com", "Onicio Neto"))
-            ->sender($data['Update']['email'], $data['Update']['name'])
-            ->send(json_encode($data));
+        
+        $email->config('default');
+
+        $email->subject('DDDMG Registration');
+        $email->from(array('noreply@dddmg.org' => 'DDDMG 2015'));
+        $email->to(array("denniscalazans@gmail.com", "Dennis Calazans"));
+        $email//->cc(array("onicio@gmail.com", "Onicio Neto"));
+        $email->sender($data['Update']['email'], $data['Update']['name']);
+
+        $res = $email->send(json_encode($data));
+
 
         return $res;
 
