@@ -20,7 +20,7 @@ class CaptchasController extends AppController {
 
     public function generateCode($characters) {
         /* list all possible characters, similar looking characters and vowels have been removed */
-        $possible = '23456789bcdfghjkmnpqrstvwxyz';
+        $possible = strtoupper('23456789bcdfghjkmnpqrstvwxyz');
         $code = '';
         $i = 0;
         while ($i < $characters) {
@@ -30,15 +30,15 @@ class CaptchasController extends AppController {
         return $code;
     }
 
-    public function index($width='120',$height='20',$characters='4') {
-        $font = APP.'../../fonts/foco_std_lt.ttf';
+    public function index($width='120',$height='21',$characters='4') {
+        $font = APP.'../../fonts/foco_std_blk.ttf';
         $this->layout = 'ajax';
 
         $code = $this->generateCode($characters);
         
 
-        /* font size will be 75% of the image height */
-        $font_size = $height * 0.75;
+        /* font size will be 70% of the image height */
+        $font_size = $height * 0.60;
 
         //$image = @imagecreate($width, $height) or die('Cannot initialize new GD image stream');
         $image = @imagecreatetruecolor($width, $height) or die('Cannot initialize new GD image stream');
@@ -65,7 +65,9 @@ class CaptchasController extends AppController {
         /* create textbox and add text */
         $textbox = imagettfbbox($font_size, 0, $font, $code) or die('Error in imagettfbbox function');
         $x = ($width - $textbox[4])/2;
+        //$y = ($height - $textbox[5])/2;
         $y = ($height - $textbox[5])/2;
+        $y -= 1;
 
         $this->Session->write('security_code', $code);
         $this->response->type("image/png");
