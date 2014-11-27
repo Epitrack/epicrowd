@@ -46,19 +46,23 @@ class UpdatesController extends AppController {
 
 
         $country = $this->Update->Country->findById($data['Update']['country_id']);
-        $data['pais'] = $country['Country']['name_en']."/".$country['Country']['name_pt'];
+        $data['country'] = $country['Country']['name_en']."/".$country['Country']['name_pt'];
 
         $email = new CakeEmail();
         
-        $email->config('smtp');
+        $res = $email
+                        ->config('smtp')
+                        ->emailFormat('html')
+                        ->template('update',null)
+                        ->viewVars(compact("data"))
+                        ->helpers(array('Html', 'Text'))
 
-        $email->subject('DDDMG Registration');
-        $email->from(array('noreply@dddmg.org' => 'DDDMG 2015'));
-        $email->to(array("denniscalazans@gmail.com" => "Dennis Calazans"));
-        //$email->cc(array("onicio@gmail.com", "Onicio Neto"));
-        $email->sender($data['Update']['email'], $data['Update']['name']);
-
-        $res = $email->send(json_encode($data));
+                        ->subject('DDDMG Registration')
+                        ->from(array('noreply@dddmg.org' => 'DDDMG 2015'))
+                        ->to(array("denniscalazans@gmail.com" => "Dennis Calazans"))
+                        //->cc(array("onicio@gmail.com", "Onicio Neto"))
+                        ->sender($data['Update']['email'], $data['Update']['name'])
+                        ->send();
 
 
         return $res;
@@ -81,15 +85,13 @@ class UpdatesController extends AppController {
         //If its post or PUT
         if ($this->request->is("post") || $this->request->is("put")) {
 
-           $this->Session->write("security_code", "123456");
+           // $this->Session->write("security_code", "123456");
 
             $language = ($this->request->data['language'] == "pt-BR") ? "por" : "eng";
             Configure::write('Config.language', $language); 
 
             //Incorrect security code
             if($this->request->data['security_code'] != $this->Session->read("security_code")) {
-
-                $this->request->data['real_captcha'] = $this->Session->read("security_code");
 
                 $message = __('Wrong code. Try again.');
                 $ajaxResponse = $this->ajaxResponse($this->request->data, $message, FALSE);
@@ -115,11 +117,14 @@ class UpdatesController extends AppController {
                 if($this->Update->validates()) {
                     if ($this->Update->save($this->request->data)) {
 
-                        $message = __('Your contact information has been saved.');
                         $res = $this->_sendMail($this->request->data);
-                        $this->request->data['emailRes'] = $res;
-                        
+
+                        unset($this->request->data['Update']['enabled']);
+
+                        $message = __('Your contact information has been saved.');
                         $ajaxResponse = $this->ajaxResponse($this->request->data, $message);
+
+                        //$this->request->data['emailRes'] = $res;
 
                     } else {
                         $message = __('Your contact information could not be saved.');
@@ -130,11 +135,7 @@ class UpdatesController extends AppController {
                     $this->request->data['errors'] = $this->Update->validationErrors;
                     $ajaxResponse = $this->ajaxResponse($this->request->data, $message, FALSE);
                 }
-
             } 
-
-             
-           
         } 
 
         //User access the page withou post information
