@@ -177,7 +177,7 @@
             <ul class="comittee-list">
               <li class="comittee-item">Mark Smolinsk</li>
               <li class="comittee-item">Jennifer Olsen</li>
-              <li class="comittee-item">Mark Smolinsk</li>
+              <li class="comittee-item">Mario Libel</li>
             </ul>
           </aside>
 
