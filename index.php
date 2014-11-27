@@ -167,7 +167,7 @@
 
       <section id="organizing" class="row organizing"> <!-- Organizing Comittee -->
         <div class="col-xs-12 col-sm-10 col-sm-offset-1 col-md-10 col-md-offset-1">
-          <h3 class="section-title">Organizing Comittee</h3>
+          <h3 data-i18n="organizing.title" class="section-title">Organizing Comittee</h3>
         </div>
 
         <div class="col-xs-12 col-sm-10 col-sm-offset-1 col-md-10 col-md-offset-1">
