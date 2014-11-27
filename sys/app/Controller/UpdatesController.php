@@ -50,11 +50,11 @@ class UpdatesController extends AppController {
 
         $email = new CakeEmail();
         
-        $email->config('default');
+        $email->config('smtp');
 
         $email->subject('DDDMG Registration');
         $email->from(array('noreply@dddmg.org' => 'DDDMG 2015'));
-        $email->to(array("denniscalazans@gmail.com", "Dennis Calazans"));
+        $email->to(array("denniscalazans@gmail.com" => "Dennis Calazans"));
         //$email->cc(array("onicio@gmail.com", "Onicio Neto"));
         $email->sender($data['Update']['email'], $data['Update']['name']);
 
