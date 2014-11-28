@@ -69,9 +69,10 @@
 
       <nav id="nav-primary" class="col-xs-12 nav-primary">
         <ul class="nav-list">
-          <li class="col-xs-4 nav-item"><a href="#about" data-i18n="nav.about;[title]nav.aboutTitle" class="nav-link" title="About">About</a></li>
-          <li class="col-xs-4 nav-item"><a href="#agenda" data-i18n="nav.agenda;[title]nav.agendaTitle" class="nav-link" title="Agenda">Agenda</a></li>
-          <li class="col-xs-4 nav-item"><a href="#register" data-i18n="nav.register;[title]nav.registerTitle" class="nav-link" title="Register">Register</a></li>
+          <li class="col-xs-3 nav-item"><a href="#home" data-i18n="nav.home;[title]nav.homeTitle" class="nav-link" title="Home">Home</a></li>
+          <li class="col-xs-3 nav-item"><a href="#about" data-i18n="nav.about;[title]nav.aboutTitle" class="nav-link" title="About">About</a></li>
+          <li class="col-xs-3 nav-item"><a href="#agenda" data-i18n="nav.agenda;[title]nav.agendaTitle" class="nav-link" title="Agenda">Agenda</a></li>
+          <li class="col-xs-3 nav-item"><a href="#register" data-i18n="nav.register;[title]nav.registerTitle" class="nav-link" title="Register">Register</a></li>
         </ul>
       </nav>
     </header>

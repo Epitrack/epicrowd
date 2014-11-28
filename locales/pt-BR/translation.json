@@ -3,7 +3,9 @@
     "name" : "i18next"
   }
   ,"nav" : {
-    "about" : "Sobre"
+    "home" : "Início"
+    ,"homeTitle" : "Início"
+    ,"about" : "Sobre"
     ,"aboutTitle" : "Sobre"
     ,"agenda" : "Agenda"
     ,"agendaTitle" : "Agenda"
