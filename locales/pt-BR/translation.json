@@ -5,6 +5,8 @@
   ,"nav" : {
     "about" : "Sobre"
     ,"aboutTitle" : "Sobre"
+    ,"home" : "Início"
+    ,"aboutHome" : "Início"
     ,"agenda" : "Agenda"
     ,"agendaTitle" : "Agenda"
     ,"register" : "Registro"

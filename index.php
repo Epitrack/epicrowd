@@ -48,7 +48,11 @@
 
 <body>
   <div class="container-fluid">
-    <header class="row header-primary">
+    <header id="header-primary" class="row header-primary">
+
+      <div id="image-header" class="image-header"></div>
+      <div id="pattern-header" class="pattern-header"></div>
+
       <div class="col-xs-6 col-xs-offset-6 col-sm-offset-8 col-md-2 col-md-offset-10">
         <div id="switch-language" class="switch-language">
           <button data-language="pt" class="pt" title="PT">PT</button>
@@ -69,9 +73,11 @@
 
       <nav id="nav-primary" class="col-xs-12 nav-primary">
         <ul class="nav-list">
-          <li class="col-xs-4 nav-item"><a href="#about" data-i18n="nav.about;[title]nav.aboutTitle" class="nav-link" title="About">About</a></li>
-          <li class="col-xs-4 nav-item"><a href="#agenda" data-i18n="nav.agenda;[title]nav.agendaTitle" class="nav-link" title="Agenda">Agenda</a></li>
-          <li class="col-xs-4 nav-item"><a href="#register" data-i18n="nav.register;[title]nav.registerTitle" class="nav-link" title="Register">Register</a></li>
+          <li class="col-xs-2 nav-item"><a href="#header-primary" data-i18n="nav.home;[title]nav.aboutHome" class="nav-link" title="Home">Home</a></li>
+          <li class="col-xs-2 nav-item"><a href="#about" data-i18n="nav.about;[title]nav.aboutTitle" class="nav-link" title="About">About</a></li>
+          <li class="col-xs-4 nav-item nav-logo"><a href="#about" class="nav-link" title="Logo Aqui!">Logo Aqui!</a></li>
+          <li class="col-xs-2 nav-item"><a href="#agenda" data-i18n="nav.agenda;[title]nav.agendaTitle" class="nav-link" title="Agenda">Agenda</a></li>
+          <li class="col-xs-2 nav-item"><a href="#register" data-i18n="nav.register;[title]nav.registerTitle" class="nav-link" title="Register">Register</a></li>
         </ul>
       </nav>
     </header>
@@ -84,49 +90,50 @@
 
         <div class="col-xs-12 col-sm-5 col-sm-offset-1 col-md-5">
           <p data-i18n="about.text01" class="section-text">
-            Mass gatherings are occasions that provide the overcrowding and with
-            it the increased risk of spreading disease. With different dimensions,
-            depending on your potential, the mass gatherings provide systematic
-            contacts between individuals from different situations and often act
-            as catalysts outbreaks and epidemics.
+            Mass gatherings provide a meeting point for great numbers of people,
+            but with this comes an increased risk for the spread of infectious
+            disease. To varying degrees, depending on each event’s size and
+            participants, mass gatherings heighten systematic contact between
+            individuals from diverse places and backgrounds. Such events often
+            become catalysts for outbreaks and epidemics.
           </p>
 
           <p data-i18n="about.text02" class="section-text">
-            The management of health risks these occasions need to demonstrate
-            full understanding of the possible scenarios that may form, making
-            diagnosis and efficient control new disease outbreaks. And make
-            use of tools that are trends in epidemiology and public health
-            can improve the early detection of potential threats to the
-            health of participants of these events, promoting risk reduction.
+            During these gatherings, leaders in health risk management must
+            fully grasp a range of possible scenarios, in order to identify
+            and control new disease hotspots. By deploying the latest tools
+            in epidemiology and public health, these professionals can improve
+            the detection of heath threats among event participants and thus
+            reduce overall risks.
           </p>
 
           <p data-i18n="about.text03" class="section-text">
-            The digital disease detection has shown, from various experiences
-            around the world, it is possible to identify threats early and thus
-            promote information to the control is done before important
-            disseminations. Instruments such as facebook, twitter or
-            strategies and participatory surveillance, and web data mining can
-            improve the arsenal of options for use on public health.
+            Digital Disease Detection has shown, on numerous occasions
+            throughout the world, that it is possible to promptly identify
+            threats and disseminate information in order to control the
+            occurrence before a major outbreak can spread. Tools such as
+            Facebook and Twitter, and strategies like participatory reporting
+            and data-mining of health-related web activity can augment the
+            existing defenses that protect public health.
           </p>
         </div>
 
         <div class="col-xs-12 col-sm-5 col-sm-offset-0 col-md-5">
           <p data-i18n="about.text04" class="section-text">
-            As an spinoff of Digital Disease Detection conference
-            (healthmap.org/ddd), the symposium DDDMG presents an opportunity to
-            exchange experiences and dissemination of DDD use of strategies
-            during mass gatherings.
+            As a branch of the international Digital Disease Detection
+            Conference series (healthmap.org/ddd), the DDDMG symposium will
+            offer an opportunity to share past experiences and successful
+            strategies for using DDD specifically during mass events.
           </p>
 
           <p data-i18n="about.text05" class="section-text">
-            Place in the city of Recife (PE), known as the Brazilian "Silicon
-            Valley", it is considered the largest technology park in Brazil
-            because of its high potential for development of innovation and
-            human capital in information and communication technologies.
+            The symposium will take place in Recife, Pernambuco, known as the
+            Silicon Valley of Brazil. A cradle of innovation, Recife is home
+            to the nation’s largest tech research park and is rich in human
+            capital in the fields of information and communication technology.
 
-            Will be three days of large exchanges of experiences among
-            participants, by conducting conferences, panels and oral
-            presentations.
+            The 3-day symposium will include lively discussions of past
+            experiences, along with formal conference panels and presentations.
           </p>
         </div>
       </section>
@@ -208,7 +215,7 @@
           <h3 data-i18n="register.title" class="section-title">Register</h3>
 
           <p data-i18n="register.text01" class="section-text">
-            Stay tuned for the opening of registration and if you want, sign up to stay updated on the event.
+            Stay tuned for the opening of registration, and if you wish, sign up to receive updates about the event.
           </p>
         </div>
 
@@ -526,7 +533,16 @@
 	<!-- JS -->
   <script src="dist/js/scripts.min.js"></script>
   <script src="dist/js/libs.min.js"></script>
+
+  <script src="src/js/APP.Parallax.js"></script>
   <script>APP.init()</script>
+
+  <!-- BrowserSync -->
+  <!--
+  <script type='text/javascript'>//<![CDATA[
+;document.write("<script defer src='//HOST:3000/socket.io/socket.io.js'><\/script><script defer src='//HOST:3001/client/browser-sync-client.0.9.1.js'><\/script>".replace(/HOST/g, location.hostname));
+//]]></script>
+ -->
 
 
   <!-- Google Analytics -->
