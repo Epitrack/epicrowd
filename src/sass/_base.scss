@@ -31,7 +31,7 @@ $color-other:     $gray;
 
 // Background Images
 @mixin path ($rulers...) {
-  background: url('../../dist/images/'+$rulers);
+  background: url("'../../dist/images/'"+$rulers);
 }
 
 @mixin linear-gradient ($angle, $startColor, $endColor) {
