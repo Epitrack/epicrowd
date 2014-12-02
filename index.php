@@ -69,7 +69,7 @@
         <p data-i18n="date.local">Recife, PE - Brazil</p>
       </div>
 
-      <div class="col-xs-8 col-xs-offset-2 col-sm-8 col-sm-offset-2 col-md-4 col-md-offset-4 countdown" id="countdown">
+      <div class="col-xs-12 col-sm-8 col-sm-offset-2 col-md-4 col-md-offset-4 countdown" id="countdown">
         <p id="days" data-time=""></p>
         <p id="hours" data-time="hr"></p>
         <p id="minutes" data-time="min"></p>
@@ -486,15 +486,92 @@
     </main>
 
     <footer class="row footer-primary">
-      <div class="col-xs-12 col-sm-7 col-md-5 organizers">
-        <a href="http://epitrack.com.br" target="_blank" class="organizers-links epitrack" title="Epitrack"></a>
-        <a href="http://www.skollglobalthreats.org/" target="_blank" class="organizers-links skoll" title="Skoll"></a>
-        <a href="http://healthmap.org" target="_blank" class="organizers-links healthmap" title="HealthMap"></a>
+      <div class="col-xs-12 col-sm-10 col-sm-offset-1 col-md-10 col-md-offset-1 organized">
+        <h3>Organized by</h3>
+
+        <div class="row">
+          <aside class="col-xs-12 col-sm-4 col-md-3 col-md-offset-1 organized-box skoll">
+            <a href="http://www.skollglobalthreats.org/" target="_blank" title="Skoll Global Threats" class="organized-link">
+              <figure class="organized-image">
+                <img src="src/images/logo-skoll.svg" width="180" height="80" alt="">
+              </figure>
+            </a>
+
+            <ul class="organized-list">
+              <li class="organized-item">Mark Smolinsk</li>
+              <li class="organized-item">Jennifer Olsen</li>
+              <li class="organized-item">Mario Libel</li>
+            </ul>
+          </aside>
+
+          <aside class="col-xs-12 col-sm-4 col-md-3 col-md-offset-1 organized-box epitrack">
+            <a href="http://www.epitrack.com.br/" target="_blank" title="Epitrack" class="organized-link">
+              <figure class="organized-image">
+                <img src="src/images/logo-epitrack.svg" width="180" height="80" alt="">
+              </figure>
+            </a>
+
+            <ul class="organized-list">
+              <li class="organized-item">Onicio Leal</li>
+              <li class="organized-item">Juliana Perazzo</li>
+              <li class="organized-item">George Dimech</li>
+              <li class="organized-item">Jones Albuquerque</li>
+              <li class="organized-item">Renata Costa</li>
+            </ul>
+          </aside>
+
+          <aside class="col-xs-12 col-sm-4 col-md-3 col-md-offset-1 organized-box healthmap">
+            <a href="http://healthmap.org/" target="_blank" title="Healthmap" class="organized-link">
+              <figure class="organized-image">
+                <img src="src/images/logo-healthmap.png" width="180" height="28" alt="">
+              </figure>
+            </a>
+
+            <ul class="organized-list">
+              <li class="organized-item">John Brownstein</li>
+            </ul>
+          </aside>
+        </div>
       </div>
 
-      <div class="col-xs-12 col-sm-2 col-sm-offset-3 col-md-1 col-md-offset-6 social">
-        <a href="https://www.facebook.com/pages/DDDMG-2015/723298371057302" target="_blank" class="social-links facebook" title="Facebook">Facebook</a>
-        <a href="https://twitter.com/dddmg2015" target="_blank" class="social-links twitter" title="twitter">Twitter</a>
+      <div class="col-xs-12 col-sm-10 col-sm-offset-1 col-md-10 col-md-offset-1">
+        <nav class="nav-secondary">
+          <ul class="nav-secondary-list">
+            <li class="nav-secondary-item">
+              <a href="#" class="nav-secondary-link" title="Getting Here">getting here</a>
+            </li>
+
+            <li class="nav-secondary-item">
+              <a href="#" class="nav-secondary-link" title="Stay Where">stay where</a>
+            </li>
+
+            <li class="nav-secondary-item">
+              <a href="#" class="nav-secondary-link" title="Staff">staff</a>
+            </li>
+
+            <li class="nav-secondary-item">
+              <a href="#" class="nav-secondary-link" title="Become a Sponsor">become a sponsor</a>
+            </li>
+
+            <li class="nav-secondary-item">
+              <a href="mailto:info@dddmg.org" class="nav-secondary-link" title="Contact us">contact us</a>
+            </li>
+          </ul>
+        </nav>
+      </div>
+
+      <div class="col-xs-12 col-sm-10 col-sm-offset-1 col-md-10 col-md-offset-1">
+        <aside class="social">
+          <a href="https://twitter.com/dddmg2015" target="_blank" class="social-links twitter" title="Twitter">Follow on Twitter</a>
+          <a href="https://www.facebook.com/pages/DDDMG-2015/723298371057302" target="_blank" class="social-links facebook" title="Facebook">Like on Facebook</a>
+          <a href="http://lanyrd.com/profile/dddmg2015/" target="_blank" class="social-links lanyrd" title="Lanyrd">Track on Lanyrd</a>
+        </aside>
+      </div>
+
+
+      <div class="col-xs-12 col-sm-10 col-sm-offset-1 col-md-10 col-md-offset-1">
+        <p class="copyright">DDD-MG is a spinoff of <a href="http://healthmap.org/ddd/" target="_blank" title="DDD Conferences">DDD Conferences</a>.</p>
+        <!-- <p class="copyright">Este evento faz parte da série DDD Conferences</p> -->
       </div>
     </footer>
   </div>
