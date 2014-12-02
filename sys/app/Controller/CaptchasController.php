@@ -15,7 +15,7 @@ class CaptchasController extends AppController {
  */
  	public $helpers = array('Html', 'Form', 'Session');
     public $components = array('Session', 'RequestHandler');
-    
+
 
 
     public function generateCode($characters) {
@@ -31,18 +31,18 @@ class CaptchasController extends AppController {
     }
 
     public function index($width='120',$height='21',$characters='4') {
-        $font = APP.'../../fonts/foco_std_blk.ttf';
+        $font = APP.'../../fonts/futuralt-heavy.ttf';
         $this->layout = 'ajax';
 
         $code = $this->generateCode($characters);
-        
+
 
         /* font size will be 70% of the image height */
         $font_size = $height * 0.60;
 
         //$image = @imagecreate($width, $height) or die('Cannot initialize new GD image stream');
         $image = @imagecreatetruecolor($width, $height) or die('Cannot initialize new GD image stream');
-        
+
         /* set the colours */
         //$background_color = imagecolorallocate($image, 255, 255, 255);
         $black = imagecolorallocate($image, 0, 0, 0);
@@ -51,17 +51,17 @@ class CaptchasController extends AppController {
         $noise_color = imagecolorallocate($image, 100, 120, 180);
 
         imagecolortransparent($image, $black);
-        
+
         /* generate random dots in background */
         for( $i=0; $i<($width*$height)/3; $i++ ) {
             //imagefilledellipse($image, mt_rand(0,$width), mt_rand(0,$height), 1, 1, $noise_color);
         }
-        
+
         /* generate random lines in background */
         for( $i=0; $i<($width*$height)/150; $i++ ) {
             //imageline($image, mt_rand(0,$width), mt_rand(0,$height), mt_rand(0,$width), mt_rand(0,$height), $noise_color);
         }
-        
+
         /* create textbox and add text */
         $textbox = imagettfbbox($font_size, 0, $font, $code) or die('Error in imagettfbbox function');
         $x = ($width - $textbox[4])/2;
