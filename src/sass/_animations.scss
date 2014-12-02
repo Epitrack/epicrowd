@@ -4,33 +4,33 @@
 
 // Animation Dow
 @keyframes upDown {
-  0% { top: 60%; }
-  50% { top: 65%; }
-  100% { top: 60%; }
+  0% { top: 50%; }
+  50% { top: 55%; }
+  100% { top: 50%; }
 }
 
 @-webkit-keyframes upDown {
-  0% { top: 60%; }
-  50% { top: 65%;}
-  100% { top: 60%; }
+  0% { top: 50%; }
+  50% { top: 55%;}
+  100% { top: 50%; }
 }
 
 @-moz-keyframes upDown {
-  0% { top: 60%; }
-  50% { top: 65%;}
-  100% { top: 60%; }
+  0% { top: 50%; }
+  50% { top: 55%;}
+  100% { top: 50%; }
 }
 
 @-ms-keyframes upDown {
-  0% { top: 60%; }
-  50% { top: 65%;}
-  100% { top: 60%; }
+  0% { top: 50%; }
+  50% { top: 55%;}
+  100% { top: 50%; }
 }
 
 @-o-keyframes upDown {
-  0% { top: 60%; }
-  50% { top: 65%;}
-  100% { top: 60%; }
+  0% { top: 50%; }
+  50% { top: 55%;}
+  100% { top: 50%; }
 }
 
 %animate-down {
@@ -88,73 +88,37 @@
   animation-play-state: paused;
 }
 
-// // start-down
-// @keyframes startDown {
-//   from {opacity: 0;}
-//   to {opacity: 1;}
-// }
+@media (min-width: 768px) {
+  @keyframes upDown {
+    0% { top: 60%; }
+    50% { top: 65%; }
+    100% { top: 60%; }
+  }
 
-// @-webkit-keyframes startDown {
-//   from {opacity: 0;}
-//   to {opacity: 1;}
-// }
+  @-webkit-keyframes upDown {
+    0% { top: 60%; }
+    50% { top: 65%;}
+    100% { top: 60%; }
+  }
 
-// @-moz-keyframes startDown {
-//   from {opacity: 0;}
-//   to {opacity: 1;}
-// }
+  @-moz-keyframes upDown {
+    0% { top: 60%; }
+    50% { top: 65%;}
+    100% { top: 60%; }
+  }
 
-// @-ms-keyframes startDown {
-//   from {opacity: 0;}
-//   to {opacity: 1;}
-// }
+  @-ms-keyframes upDown {
+    0% { top: 60%; }
+    50% { top: 65%;}
+    100% { top: 60%; }
+  }
 
-// @-o-keyframes startDown {
-//   from {opacity: 0;}
-//   to {opacity: 1;}
-// }
-
-// %start-down {
-//   -webkit-animation-name: startDown;
-//   -webkit-animation-delay: 2s;
-//   -webkit-animation-duration: 1s;
-//   -webkit-animation-iteration-count: 1;
-//   -webkit-animation-direction: normal;
-//   -webkit-animation-timing-function: linear;
-//   -webkit-animation-play-state: running;
-
-//   -moz-animation-name: startDown;
-//   -moz-animation-delay: 2s;
-//   -moz-animation-duration: 1s;
-//   -moz-animation-iteration-count: 1;
-//   -moz-animation-direction: normal;
-//   -moz-animation-timing-function: linear;
-//   -moz-animation-play-state: running;
-
-//   -ms-animation-name: startDown;
-//   -ms-animation-delay: 2s;
-//   -ms-animation-duration: 1s;
-//   -ms-animation-iteration-count: 1;
-//   -ms-animation-direction: normal;
-//   -ms-animation-timing-function: linear;
-//   -ms-animation-play-state: running;
-
-//   -o-animation-name: startDown;
-//   -o-animation-delay: 2s;
-//   -o-animation-duration: 1s;
-//   -o-animation-iteration-count: 1;
-//   -o-animation-direction: normal;
-//   -o-animation-timing-function: linear;
-//   -o-animation-play-state: running;
-
-//   animation-name: startDown;
-//   animation-delay: 2s;
-//   animation-duration: 1s;
-//   animation-iteration-count: 1;
-//   animation-direction: normal;
-//   animation-timing-function: linear;
-//   animation-play-state: running;
-// }
+  @-o-keyframes upDown {
+    0% { top: 60%; }
+    50% { top: 65%;}
+    100% { top: 60%; }
+  }
+}
 
 
 // Animation inicial Logo
