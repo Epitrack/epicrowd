@@ -28,8 +28,10 @@ APP.Scroll = {
     $(window).on('scroll', function() {
       if ($(document).scrollTop() >= 585) {
         $('#nav-primary').addClass('js-fixed');
+        // APP.Scroll.addLogo();
       } else if ($(document).scrollTop() <= 586) {
         $('#nav-primary').removeClass('js-fixed');
+        // APP.Scroll.removeLogo();
       }
     });
   },
@@ -72,5 +74,13 @@ APP.Scroll = {
         scrollTop: (420)
       }, 2000);
     });
+  },
+
+  addLogo: function() {
+    console.log('Adiciona!');
+  },
+
+  removeLogo: function() {
+    console.log('Remove!');
   }
 }
