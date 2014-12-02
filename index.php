@@ -3,9 +3,9 @@
 <!doctype html>
 <html xmlns:og="http://ogp.me/ns" lang="pt-br">
 <head>
-	<meta charset="utf-8" />
+  <meta charset="utf-8" />
 
-	<title><?php echo _TITLE ?></title>
+  <title><?php echo _TITLE ?></title>
 
   <!-- META TAGS -->
   <meta name="viewport" content="width=device-width, user-scalable=no">
@@ -574,7 +574,7 @@
     </footer>
   </div>
 
-	<!-- JS -->
+  <!-- JS -->
   <script src="dist/js/scripts.min.js"></script>
   <script src="dist/js/libs.min.js"></script>
   <script>APP.init()</script>

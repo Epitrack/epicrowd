@@ -3,7 +3,9 @@
     "name" : "i18next"
   }
   ,"nav" : {
-    "about" : "About"
+    "home" : "Home"
+    ,"homeTitle" : "Home"
+    ,"about" : "About"
     ,"aboutTitle" : "About"
     ,"home" : "Home"
     ,"aboutHome" : "Home"
