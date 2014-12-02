@@ -98,30 +98,30 @@
         <div class="col-xs-12 col-sm-5 col-sm-offset-1 col-md-5">
           <p data-i18n="about.text01" class="section-text">
             Mass gatherings provide a meeting point for great numbers of people,
-            but with this comes an increased risk for the spread of infectious
-            disease. To varying degrees, depending on each event’s size and
-            participants, mass gatherings heighten systematic contact between
-            individuals from diverse places and backgrounds. Such events often
-            become catalysts for outbreaks and epidemics.
+             but with this comes an increased risk for the spread of infectious
+             disease. To varying degrees, depending on each event’s size and
+             participants, mass gatherings heighten systematic contact between
+             individuals from diverse places and backgrounds. Such events often
+             become catalysts for outbreaks and epidemics.
           </p>
 
           <p data-i18n="about.text02" class="section-text">
             During these gatherings, leaders in health risk management must
-            fully grasp a range of possible scenarios, in order to identify
-            and control new disease hotspots. By deploying the latest tools
-            in epidemiology and public health, these professionals can improve
-            the detection of heath threats among event participants and thus
-            reduce overall risks.
+            fully grasp a range of possible scenarios, in order to identify and
+            control new disease hotspots. By deploying the latest tools in
+            epidemiology and public health, these professionals can improve the
+            detection of heath threats among event participants and thus reduce
+            overall risks.
           </p>
 
           <p data-i18n="about.text03" class="section-text">
             Digital Disease Detection has shown, on numerous occasions
             throughout the world, that it is possible to promptly identify
-            threats and disseminate information in order to control the
-            occurrence before a major outbreak can spread. Tools such as
-            Facebook and Twitter, and strategies like participatory reporting
-            and data-mining of health-related web activity can augment the
-            existing defenses that protect public health.
+            threats and disseminate information in order to control outbreaks
+            before an outbreak can spread. Tools such as Facebook and Twitter,
+            and strategies like participatory reporting and data-mining of
+            health-related web activity can augment the existing defenses that
+            protect public health.
           </p>
         </div>
 
@@ -135,8 +135,8 @@
 
           <p data-i18n="about.text05" class="section-text">
             The symposium will take place in Recife, Pernambuco, known as the
-            Silicon Valley of Brazil. A cradle of innovation, Recife is home
-            to the nation’s largest tech research park and is rich in human
+            Silicon Valley of Brazil. A cradle of innovation, Recife is home to
+            the nation’s largest tech research park and is rich in human
             capital in the fields of information and communication technology.
 
             The 3-day symposium will include lively discussions of past
