@@ -579,10 +579,6 @@
 	<!-- JS -->
   <script src="dist/js/scripts.min.js"></script>
   <script src="dist/js/libs.min.js"></script>
-
-  <script src="bower_components/jquery.countdown/dist/jquery.countdown.min.js"></script>
-  <script src="src/js/APP.Parallax.js"></script>
-  <script src="src/js/APP.Countdown.js"></script>
   <script>APP.init()</script>
 
   <!-- BrowserSync -->
