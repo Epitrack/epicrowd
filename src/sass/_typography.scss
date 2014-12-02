@@ -12,8 +12,8 @@ $fs-small:          1.4rem;
 
 // Family
 $ff-general:        'Arial, Helvetica, sans-serif';
-$ff-primary:        'FocoBlack';
-$ff-secondary:      'FocoLight';
+$ff-primary:        'FuturaLTHeavy';
+$ff-secondary:      'FuturaLTRegular';
 $ff-icon:           'Glyphicons Halflings';
 
 // Style
@@ -26,23 +26,23 @@ $fw-semi-bold:      600;
 
 // Custom Font Face
 @font-face {
-    font-family: 'FocoLight';
-    src: url('../../fonts/foco_std_lt.eot');
-    src: url('../../fonts/foco_std_lt.eot') format('embedded-opentype'),
-         url('../../fonts/foco_std_lt.woff2') format('woff2'),
-         url('../../fonts/foco_std_lt.woff') format('woff'),
-         url('../../fonts/foco_std_lt.ttf') format('truetype'),
-         url('../../fonts/foco_std_lt.svg#FocoLight') format('svg');
+    font-family: 'FuturaLTRegular';
+    src: url('../../fonts/futuralt.eot');
+    src: url('../../fonts/futuralt.eot') format('embedded-opentype'),
+         url('../../fonts/futuralt.woff2') format('woff2'),
+         url('../../fonts/futuralt.woff') format('woff'),
+         url('../../fonts/futuralt.ttf') format('truetype'),
+         url('../../fonts/futuralt.svg#FuturaLTRegular') format('svg');
 }
 
 @font-face {
-    font-family: 'FocoBlack';
-    src: url('../../fonts/foco_std_blk.eot');
-    src: url('../../fonts/foco_std_blk.eot') format('embedded-opentype'),
-         url('../../fonts/foco_std_blk.woff2') format('woff2'),
-         url('../../fonts/foco_std_blk.woff') format('woff'),
-         url('../../fonts/foco_std_blk.ttf') format('truetype'),
-         url('../../fonts/foco_std_blk.svg#FocoBlack') format('svg');
+    font-family: 'FuturaLTHeavy';
+    src: url('../../fonts/futuralt-heavy.eot');
+    src: url('../../fonts/futuralt-heavy.eot') format('embedded-opentype'),
+         url('../../fonts/futuralt-heavy.woff2') format('woff2'),
+         url('../../fonts/futuralt-heavy.woff') format('woff'),
+         url('../../fonts/futuralt-heavy.ttf') format('truetype'),
+         url('../../fonts/futuralt-heavy.svg#FuturaLTHeavy') format('svg');
 }
 
 @font-face {
