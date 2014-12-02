@@ -69,6 +69,13 @@
         <p data-i18n="date.local">Recife, PE - Brazil</p>
       </div>
 
+      <div class="col-xs-8 col-xs-offset-2 col-sm-8 col-sm-offset-2 col-md-4 col-md-offset-4 countdown" id="countdown">
+        <p id="days" data-time=""></p>
+        <p id="hours" data-time="hr"></p>
+        <p id="minutes" data-time="min"></p>
+        <p id="seconds" data-time="sec"></p>
+      </div>
+
       <div id="down" class="down"></div>
 
       <nav id="nav-primary" class="col-xs-12 nav-primary">
@@ -170,44 +177,6 @@
             <li class="agenda-item" data-i18n="agenda.rapidFireList01">Coming soon</li>
           </ul>
         </aside>
-      </section>
-
-      <section id="organizing" class="row organizing"> <!-- Organizing Comittee -->
-        <div class="col-xs-12 col-sm-10 col-sm-offset-1 col-md-10 col-md-offset-1">
-          <h3 data-i18n="organizing.title" class="section-title">Organizing Comittee</h3>
-        </div>
-
-        <div class="col-xs-12 col-sm-10 col-sm-offset-1 col-md-10 col-md-offset-1">
-          <aside class="comittee col-xs-12 col-sm-3 col-sm-offset-0 col-md-3 col-md-offset-0">
-            <div class="comittee-logo skoll"></div>
-
-            <ul class="comittee-list">
-              <li class="comittee-item">Mark Smolinsk</li>
-              <li class="comittee-item">Jennifer Olsen</li>
-              <li class="comittee-item">Mario Libel</li>
-            </ul>
-          </aside>
-
-          <aside class="comittee col-xs-12 col-sm-3 col-sm-offset-1 col-md-3 col-md-offset-1">
-            <div class="comittee-logo epitrack"></div>
-
-            <ul class="comittee-list">
-              <li class="comittee-item">Onicio Leal</li>
-              <li class="comittee-item">Juliana Perazzo</li>
-              <li class="comittee-item">George Dimech</li>
-              <li class="comittee-item">Jones Albuquerque</li>
-              <li class="comittee-item">Renata Costa</li>
-            </ul>
-          </aside>
-
-          <aside class="comittee col-xs-12 col-sm-3 col-sm-offset-1 col-md-3 col-md-offset-1">
-            <div class="comittee-logo healthmap"></div>
-
-            <ul class="comittee-list">
-              <li class="comittee-item">John Brownstein</li>
-            </ul>
-          </aside>
-        </div>
       </section>
 
       <section id="register" class="row register"> <!-- Register -->
@@ -534,7 +503,9 @@
   <script src="dist/js/scripts.min.js"></script>
   <script src="dist/js/libs.min.js"></script>
 
+  <script src="bower_components/jquery.countdown/dist/jquery.countdown.min.js"></script>
   <script src="src/js/APP.Parallax.js"></script>
+  <script src="src/js/APP.Countdown.js"></script>
   <script>APP.init()</script>
 
   <!-- BrowserSync -->
