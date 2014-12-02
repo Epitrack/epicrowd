@@ -7,7 +7,7 @@ APP.Register = {
   sendRegister: function() {
     var name, email, organization, country, security_code, language;
 
-    $('#form-register').submit(function() {
+    $('#form-register').submit(function(event) {
       name = $('#inputName').val();
       email = $('#inputEmail').val();
       organization = $('#inputOrganization').val();
@@ -25,6 +25,7 @@ APP.Register = {
         security_code: security_code,
         language: language
       }, function(enviar) {
+        console.log('Retorno enviar: ' + enviar);
         if (enviar != false) {
           $('#feedback').html(enviar);
           $('#form-register')[0].reset();
