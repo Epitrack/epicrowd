@@ -3,9 +3,9 @@
 <!doctype html>
 <html xmlns:og="http://ogp.me/ns" lang="pt-br">
 <head>
-	<meta charset="utf-8" />
+  <meta charset="utf-8" />
 
-	<title><?php echo _TITLE ?></title>
+  <title><?php echo _TITLE ?></title>
 
   <!-- META TAGS -->
   <meta name="viewport" content="width=device-width, user-scalable=no">
@@ -48,7 +48,11 @@
 
 <body>
   <div class="container-fluid">
-    <header class="row header-primary">
+    <header id="header-primary" class="row header-primary">
+
+      <div id="image-header" class="image-header"></div>
+      <div id="pattern-header" class="pattern-header"></div>
+
       <div class="col-xs-6 col-xs-offset-6 col-sm-offset-8 col-md-2 col-md-offset-10">
         <div id="switch-language" class="switch-language">
           <button data-language="pt" class="pt" title="PT">PT</button>
@@ -65,14 +69,22 @@
         <p data-i18n="date.local">Recife, PE - Brazil</p>
       </div>
 
+      <div class="col-xs-12 col-sm-8 col-sm-offset-2 col-md-4 col-md-offset-4 countdown" id="countdown">
+        <p id="days" data-i18n="countdown.days" data-time=""></p>
+        <p id="hours" data-i18n="countdown.hours" data-time="hr"></p>
+        <p id="minutes" data-i18n="countdown.minutes" data-time="min"></p>
+        <p id="seconds" data-i18n="countdown.seconds" data-time="sec"></p>
+      </div>
+
       <div id="down" class="down"></div>
 
       <nav id="nav-primary" class="col-xs-12 nav-primary">
         <ul class="nav-list">
-          <li class="col-xs-3 nav-item"><a href="#home" data-i18n="nav.home;[title]nav.homeTitle" class="nav-link" title="Home">Home</a></li>
-          <li class="col-xs-3 nav-item"><a href="#about" data-i18n="nav.about;[title]nav.aboutTitle" class="nav-link" title="About">About</a></li>
-          <li class="col-xs-3 nav-item"><a href="#agenda" data-i18n="nav.agenda;[title]nav.agendaTitle" class="nav-link" title="Agenda">Agenda</a></li>
-          <li class="col-xs-3 nav-item"><a href="#register" data-i18n="nav.register;[title]nav.registerTitle" class="nav-link" title="Register">Register</a></li>
+          <li class="col-xs-2 nav-item"><a href="#header-primary" data-i18n="nav.home;[title]nav.aboutHome" class="nav-link" title="Home">Home</a></li>
+          <li class="col-xs-2 nav-item"><a href="#about" data-i18n="nav.about;[title]nav.aboutTitle" class="nav-link" title="About">About</a></li>
+          <li class="col-xs-4 nav-item nav-logo"><a href="#about" class="nav-link" title="Logo Aqui!">Logo Aqui!</a></li>
+          <li class="col-xs-2 nav-item"><a href="#agenda" data-i18n="nav.agenda;[title]nav.agendaTitle" class="nav-link" title="Agenda">Agenda</a></li>
+          <li class="col-xs-2 nav-item"><a href="#register" data-i18n="nav.register;[title]nav.registerTitle" class="nav-link" title="Register">Register</a></li>
         </ul>
       </nav>
     </header>
@@ -85,49 +97,50 @@
 
         <div class="col-xs-12 col-sm-5 col-sm-offset-1 col-md-5">
           <p data-i18n="about.text01" class="section-text">
-            Mass gatherings are occasions that provide the overcrowding and with
-            it the increased risk of spreading disease. With different dimensions,
-            depending on your potential, the mass gatherings provide systematic
-            contacts between individuals from different situations and often act
-            as catalysts outbreaks and epidemics.
+            Mass gatherings provide a meeting point for great numbers of people,
+             but with this comes an increased risk for the spread of infectious
+             disease. To varying degrees, depending on each event’s size and
+             participants, mass gatherings heighten systematic contact between
+             individuals from diverse places and backgrounds. Such events often
+             become catalysts for outbreaks and epidemics.
           </p>
 
           <p data-i18n="about.text02" class="section-text">
-            The management of health risks these occasions need to demonstrate
-            full understanding of the possible scenarios that may form, making
-            diagnosis and efficient control new disease outbreaks. And make
-            use of tools that are trends in epidemiology and public health
-            can improve the early detection of potential threats to the
-            health of participants of these events, promoting risk reduction.
+            During these gatherings, leaders in health risk management must
+            fully grasp a range of possible scenarios, in order to identify and
+            control new disease hotspots. By deploying the latest tools in
+            epidemiology and public health, these professionals can improve the
+            detection of heath threats among event participants and thus reduce
+            overall risks.
           </p>
 
           <p data-i18n="about.text03" class="section-text">
-            The digital disease detection has shown, from various experiences
-            around the world, it is possible to identify threats early and thus
-            promote information to the control is done before important
-            disseminations. Instruments such as facebook, twitter or
-            strategies and participatory surveillance, and web data mining can
-            improve the arsenal of options for use on public health.
+            Digital Disease Detection has shown, on numerous occasions
+            throughout the world, that it is possible to promptly identify
+            threats and disseminate information in order to control outbreaks
+            before an outbreak can spread. Tools such as Facebook and Twitter,
+            and strategies like participatory reporting and data-mining of
+            health-related web activity can augment the existing defenses that
+            protect public health.
           </p>
         </div>
 
         <div class="col-xs-12 col-sm-5 col-sm-offset-0 col-md-5">
           <p data-i18n="about.text04" class="section-text">
-            As an spinoff of Digital Disease Detection conference
-            (healthmap.org/ddd), the symposium DDDMG presents an opportunity to
-            exchange experiences and dissemination of DDD use of strategies
-            during mass gatherings.
+            As a branch of the international Digital Disease Detection
+            Conference series (healthmap.org/ddd), the DDDMG symposium will
+            offer an opportunity to share past experiences and successful
+            strategies for using DDD specifically during mass events.
           </p>
 
           <p data-i18n="about.text05" class="section-text">
-            Place in the city of Recife (PE), known as the Brazilian "Silicon
-            Valley", it is considered the largest technology park in Brazil
-            because of its high potential for development of innovation and
-            human capital in information and communication technologies.
+            The symposium will take place in Recife, Pernambuco, known as the
+            Silicon Valley of Brazil. A cradle of innovation, Recife is home to
+            the nation’s largest tech research park and is rich in human
+            capital in the fields of information and communication technology.
 
-            Will be three days of large exchanges of experiences among
-            participants, by conducting conferences, panels and oral
-            presentations.
+            The 3-day symposium will include lively discussions of past
+            experiences, along with formal conference panels and presentations.
           </p>
         </div>
       </section>
@@ -166,50 +179,12 @@
         </aside>
       </section>
 
-      <section id="organizing" class="row organizing"> <!-- Organizing Comittee -->
-        <div class="col-xs-12 col-sm-10 col-sm-offset-1 col-md-10 col-md-offset-1">
-          <h3 data-i18n="organizing.title" class="section-title">Organizing Comittee</h3>
-        </div>
-
-        <div class="col-xs-12 col-sm-10 col-sm-offset-1 col-md-10 col-md-offset-1">
-          <aside class="comittee col-xs-12 col-sm-3 col-sm-offset-0 col-md-3 col-md-offset-0">
-            <div class="comittee-logo skoll"></div>
-
-            <ul class="comittee-list">
-              <li class="comittee-item">Mark Smolinsk</li>
-              <li class="comittee-item">Jennifer Olsen</li>
-              <li class="comittee-item">Mario Libel</li>
-            </ul>
-          </aside>
-
-          <aside class="comittee col-xs-12 col-sm-3 col-sm-offset-1 col-md-3 col-md-offset-1">
-            <div class="comittee-logo epitrack"></div>
-
-            <ul class="comittee-list">
-              <li class="comittee-item">Onicio Leal</li>
-              <li class="comittee-item">Juliana Perazzo</li>
-              <li class="comittee-item">George Dimech</li>
-              <li class="comittee-item">Jones Albuquerque</li>
-              <li class="comittee-item">Renata Costa</li>
-            </ul>
-          </aside>
-
-          <aside class="comittee col-xs-12 col-sm-3 col-sm-offset-1 col-md-3 col-md-offset-1">
-            <div class="comittee-logo healthmap"></div>
-
-            <ul class="comittee-list">
-              <li class="comittee-item">John Brownstein</li>
-            </ul>
-          </aside>
-        </div>
-      </section>
-
       <section id="register" class="row register"> <!-- Register -->
         <div class="col-xs-12 col-sm-10 col-sm-offset-1 col-md-10 col-md-offset-1">
           <h3 data-i18n="register.title" class="section-title">Register</h3>
 
           <p data-i18n="register.text01" class="section-text">
-            Stay tuned for the opening of registration and if you want, sign up to stay updated on the event.
+            Stay tuned for the opening of registration, and if you wish, sign up to receive updates about the event.
           </p>
         </div>
 
@@ -511,23 +486,105 @@
     </main>
 
     <footer class="row footer-primary">
-      <div class="col-xs-12 col-sm-7 col-md-5 organizers">
-        <a href="http://epitrack.com.br" target="_blank" class="organizers-links epitrack" title="Epitrack"></a>
-        <a href="http://www.skollglobalthreats.org/" target="_blank" class="organizers-links skoll" title="Skoll"></a>
-        <a href="http://healthmap.org" target="_blank" class="organizers-links healthmap" title="HealthMap"></a>
+      <div class="col-xs-12 col-sm-10 col-sm-offset-1 col-md-10 col-md-offset-1 organized">
+        <h3 data-i18n="footer.title;">Organized by</h3>
+
+        <div class="row">
+          <aside class="col-xs-12 col-sm-4 col-md-3 col-md-offset-1 organized-box skoll">
+            <a href="http://www.skollglobalthreats.org/" target="_blank" title="Skoll Global Threats" class="organized-link">
+              <figure class="organized-image">
+                <img src="src/images/logo-skoll.svg" width="180" height="80" alt="">
+              </figure>
+            </a>
+
+            <ul class="organized-list">
+              <li class="organized-item">Mark Smolinsk</li>
+              <li class="organized-item">Jennifer Olsen</li>
+              <li class="organized-item">Mario Libel</li>
+            </ul>
+          </aside>
+
+          <aside class="col-xs-12 col-sm-4 col-md-3 col-md-offset-1 organized-box epitrack">
+            <a href="http://www.epitrack.com.br/" target="_blank" title="Epitrack" class="organized-link">
+              <figure class="organized-image">
+                <img src="src/images/logo-epitrack.svg" width="180" height="80" alt="">
+              </figure>
+            </a>
+
+            <ul class="organized-list">
+              <li class="organized-item">Onicio Leal</li>
+              <li class="organized-item">Juliana Perazzo</li>
+              <li class="organized-item">George Dimech</li>
+              <li class="organized-item">Jones Albuquerque</li>
+              <li class="organized-item">Renata Costa</li>
+            </ul>
+          </aside>
+
+          <aside class="col-xs-12 col-sm-4 col-md-3 col-md-offset-1 organized-box healthmap">
+            <a href="http://healthmap.org/" target="_blank" title="Healthmap" class="organized-link">
+              <figure class="organized-image">
+                <img src="src/images/logo-healthmap.png" width="180" height="28" alt="">
+              </figure>
+            </a>
+
+            <ul class="organized-list">
+              <li class="organized-item">John Brownstein</li>
+            </ul>
+          </aside>
+        </div>
       </div>
 
-      <div class="col-xs-12 col-sm-2 col-sm-offset-3 col-md-1 col-md-offset-6 social">
-        <a href="https://www.facebook.com/pages/DDDMG-2015/723298371057302" target="_blank" class="social-links facebook" title="Facebook">Facebook</a>
-        <a href="https://twitter.com/dddmg2015" target="_blank" class="social-links twitter" title="twitter">Twitter</a>
+      <div class="col-xs-12 col-sm-10 col-sm-offset-1 col-md-10 col-md-offset-1">
+        <nav class="nav-secondary">
+          <ul class="nav-secondary-list">
+            <li class="nav-secondary-item">
+              <a href="#" data-i18n="navSecondary.link01;[title]navSecondary.link01Title" class="nav-secondary-link" title="Getting Here">getting here</a>
+            </li>
+
+            <li class="nav-secondary-item">
+              <a href="#" data-i18n="navSecondary.link02;[title]navSecondary.link02Title" class="nav-secondary-link" title="Stay Where">stay where</a>
+            </li>
+
+            <li class="nav-secondary-item">
+              <a href="#" data-i18n="navSecondary.link03;[title]navSecondary.link03Title" class="nav-secondary-link" title="Staff">staff</a>
+            </li>
+
+            <li class="nav-secondary-item">
+              <a href="#" data-i18n="navSecondary.link04;[title]navSecondary.link04Title" class="nav-secondary-link" title="Become a Sponsor">become a sponsor</a>
+            </li>
+
+            <li class="nav-secondary-item">
+              <a href="mailto:info@dddmg.org" data-i18n="navSecondary.link05;[title]navSecondary.link05Title" class="nav-secondary-link" title="Contact us">contact us</a>
+            </li>
+          </ul>
+        </nav>
+      </div>
+
+      <div class="col-xs-12 col-sm-10 col-sm-offset-1 col-md-10 col-md-offset-1">
+        <aside class="social">
+          <a href="https://twitter.com/dddmg2015" target="_blank" class="social-links twitter" title="Twitter" data-i18n="social.twitter;[title]social.twitterTitle">Follow on Twitter</a>
+          <a href="https://www.facebook.com/pages/DDDMG-2015/723298371057302" target="_blank" class="social-links facebook" title="Facebook" data-i18n="social.facebook;[title]social.facebookTitle">Like on Facebook</a>
+          <a href="http://lanyrd.com/profile/dddmg2015/" target="_blank" class="social-links lanyrd" title="Lanyrd" data-i18n="social.lanyrd;[title]social.lanyrdTitle">Track on Lanyrd</a>
+        </aside>
+      </div>
+
+      <div class="col-xs-12 col-sm-10 col-sm-offset-1 col-md-10 col-md-offset-1">
+        <p class="copyright">DDD-MG is a spinoff of <a href="http://healthmap.org/ddd/" target="_blank" title="DDD Conferences">DDD Conferences</a>.</p>
       </div>
     </footer>
   </div>
 
-	<!-- JS -->
+  <!-- JS -->
   <script src="dist/js/scripts.min.js"></script>
   <script src="dist/js/libs.min.js"></script>
   <script>APP.init()</script>
+
+  <!-- BrowserSync -->
+  <!--
+  <script type='text/javascript'>//<![CDATA[
+;document.write("<script defer src='//HOST:3000/socket.io/socket.io.js'><\/script><script defer src='//HOST:3001/client/browser-sync-client.0.9.1.js'><\/script>".replace(/HOST/g, location.hostname));
+//]]></script>
+ -->
 
 
   <!-- Google Analytics -->
