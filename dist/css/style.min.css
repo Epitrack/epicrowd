@@ -5134,7 +5134,7 @@ input:focus, select:focus {
     opacity: 1;
   }
 }
-.logo-primary, .subtitle {
+.logo-primary, .subtitle, .countdown {
   -webkit-animation-name: startLogo;
   -webkit-animation-duration: 3s;
   -webkit-animation-iteration-count: 1;

@@ -142,6 +142,7 @@ body { font-size: $fs-root; }
   z-index: 20;
   text-align: center;
   visibility: hidden;
+  @extend %animate-logo;
 
   p {
     font-size: $fs-large;
