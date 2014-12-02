@@ -41,9 +41,6 @@
     ,"rapidTitle" : "Apresentações orais"
     ,"rapidFireList01" : "Em breve"
   },
-  "organizing" : {
-    "title": "Comitê Organizador"
-  },
   "register": {
     "title" : "Registro"
     ,"text01" : "Fiquem atentos para a abertura das inscrições e se desejar, registre-se para se manter atualizado sobre o evento."
@@ -57,6 +54,18 @@
     ,"inputCaptcha" : "Digite aqui o código"
     ,"captchaPlaceholder" : "Digite aqui o código"
     ,"send" : "Enviar"
+  },
+  "navSecondary": {
+    "link01" : "Como Chegar"
+    ,"link01Title" : "Como Chegar"
+    ,"link02" : "Onde Ficar"
+    ,"link02Title" : "Onde Ficar"
+    ,"link03" : "Apoio"
+    ,"link03Title" : "Apoio"
+    ,"link04" : "Patrocinador"
+    ,"link04Title" : "Patrocinador"
+    ,"link05" : "Contato"
+    ,"link05Title" : "Contato"
   },
   "countries": {
     "country1": "AFEGANISTÃO",
@@ -311,5 +320,21 @@
     "country250": "WALLIS E FUTUNA",
     "country251": "ZÂMBIA",
     "country252": "ZIMBABUÉ"
+  },
+  "footer" : {
+    "title": "Organizado por"
+  },
+  "copyright": {
+    "texto01" : "Este evento faz parte da série"
+    ,"texto02" : "DDD Conferences"
+    ,"texto02Title" : "DDD Conferences"
+  },
+  "social" : {
+    "twitter" : "Siga no Twitter"
+    ,"twitterTitle" : "Siga no Twitter"
+    ,"facebook" : "Curta no Facebook"
+    ,"facebookTitle" : "Curta no Facebook"
+    ,"lanyrd" : "Siga no Lanyrd"
+    ,"lanyrdTitle" : "Siga no Lanyrd"
   }
 }

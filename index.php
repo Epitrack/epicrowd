@@ -70,10 +70,10 @@
       </div>
 
       <div class="col-xs-12 col-sm-8 col-sm-offset-2 col-md-4 col-md-offset-4 countdown" id="countdown">
-        <p id="days" data-time=""></p>
-        <p id="hours" data-time="hr"></p>
-        <p id="minutes" data-time="min"></p>
-        <p id="seconds" data-time="sec"></p>
+        <p id="days" data-i18n="countdown.days" data-time=""></p>
+        <p id="hours" data-i18n="countdown.hours" data-time="hr"></p>
+        <p id="minutes" data-i18n="countdown.minutes" data-time="min"></p>
+        <p id="seconds" data-i18n="countdown.seconds" data-time="sec"></p>
       </div>
 
       <div id="down" class="down"></div>
@@ -487,7 +487,7 @@
 
     <footer class="row footer-primary">
       <div class="col-xs-12 col-sm-10 col-sm-offset-1 col-md-10 col-md-offset-1 organized">
-        <h3>Organized by</h3>
+        <h3 data-i18n="footer.title;">Organized by</h3>
 
         <div class="row">
           <aside class="col-xs-12 col-sm-4 col-md-3 col-md-offset-1 organized-box skoll">
@@ -538,23 +538,23 @@
         <nav class="nav-secondary">
           <ul class="nav-secondary-list">
             <li class="nav-secondary-item">
-              <a href="#" class="nav-secondary-link" title="Getting Here">getting here</a>
+              <a href="#" data-i18n="navSecondary.link01;[title]navSecondary.link01Title" class="nav-secondary-link" title="Getting Here">getting here</a>
             </li>
 
             <li class="nav-secondary-item">
-              <a href="#" class="nav-secondary-link" title="Stay Where">stay where</a>
+              <a href="#" data-i18n="navSecondary.link02;[title]navSecondary.link02Title" class="nav-secondary-link" title="Stay Where">stay where</a>
             </li>
 
             <li class="nav-secondary-item">
-              <a href="#" class="nav-secondary-link" title="Staff">staff</a>
+              <a href="#" data-i18n="navSecondary.link03;[title]navSecondary.link03Title" class="nav-secondary-link" title="Staff">staff</a>
             </li>
 
             <li class="nav-secondary-item">
-              <a href="#" class="nav-secondary-link" title="Become a Sponsor">become a sponsor</a>
+              <a href="#" data-i18n="navSecondary.link04;[title]navSecondary.link04Title" class="nav-secondary-link" title="Become a Sponsor">become a sponsor</a>
             </li>
 
             <li class="nav-secondary-item">
-              <a href="mailto:info@dddmg.org" class="nav-secondary-link" title="Contact us">contact us</a>
+              <a href="mailto:info@dddmg.org" data-i18n="navSecondary.link05;[title]navSecondary.link05Title" class="nav-secondary-link" title="Contact us">contact us</a>
             </li>
           </ul>
         </nav>
@@ -562,16 +562,14 @@
 
       <div class="col-xs-12 col-sm-10 col-sm-offset-1 col-md-10 col-md-offset-1">
         <aside class="social">
-          <a href="https://twitter.com/dddmg2015" target="_blank" class="social-links twitter" title="Twitter">Follow on Twitter</a>
-          <a href="https://www.facebook.com/pages/DDDMG-2015/723298371057302" target="_blank" class="social-links facebook" title="Facebook">Like on Facebook</a>
-          <a href="http://lanyrd.com/profile/dddmg2015/" target="_blank" class="social-links lanyrd" title="Lanyrd">Track on Lanyrd</a>
+          <a href="https://twitter.com/dddmg2015" target="_blank" class="social-links twitter" title="Twitter" data-i18n="social.twitter;[title]social.twitterTitle">Follow on Twitter</a>
+          <a href="https://www.facebook.com/pages/DDDMG-2015/723298371057302" target="_blank" class="social-links facebook" title="Facebook" data-i18n="social.facebook;[title]social.facebookTitle">Like on Facebook</a>
+          <a href="http://lanyrd.com/profile/dddmg2015/" target="_blank" class="social-links lanyrd" title="Lanyrd" data-i18n="social.lanyrd;[title]social.lanyrdTitle">Track on Lanyrd</a>
         </aside>
       </div>
 
-
       <div class="col-xs-12 col-sm-10 col-sm-offset-1 col-md-10 col-md-offset-1">
         <p class="copyright">DDD-MG is a spinoff of <a href="http://healthmap.org/ddd/" target="_blank" title="DDD Conferences">DDD Conferences</a>.</p>
-        <!-- <p class="copyright">Este evento faz parte da série DDD Conferences</p> -->
       </div>
     </footer>
   </div>

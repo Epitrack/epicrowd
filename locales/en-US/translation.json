@@ -41,9 +41,6 @@
     ,"rapidTitle" : "Rapid fire talks"
     ,"rapidFireList01" : "Coming soon"
   },
-  "organizing" : {
-    "title": "Organizing Comittee"
-  },
   "register": {
     "title" : "Register"
     ,"text01" : "Stay tuned for the opening of registration, and if you wish, sign up to receive updates about the event."
@@ -57,6 +54,18 @@
     ,"inputCaptcha" : "Enter code here"
     ,"captchaPlaceholder" : "Enter code here"
     ,"send" : "Send"
+  },
+  "navSecondary": {
+    "link01" : "getting here"
+    ,"link01Title" : "Getting Here"
+    ,"link02" : "stay where"
+    ,"link02Title" : "Stay Where"
+    ,"link03" : "staff"
+    ,"link03Title" : "Staff"
+    ,"link04" : "become a sponsor"
+    ,"link04Title" : "Become a Sponsor"
+    ,"link05" : "contact us"
+    ,"link05Title" : "Contact us"
   },
   "countries": {
     "country1": "AFGHANISTAN",
@@ -311,5 +320,21 @@
     "country250": "WALLIS AND FUTUNA",
     "country251": "ZAMBIA",
     "country252": "ZIMBABWE"
+  },
+  "footer" : {
+    "title": "Organized by"
+  },
+  "copyright": {
+    "texto01" : "DDD-MG is a spinoff of"
+    ,"texto02" : "DDD Conferences"
+    ,"texto02Title" : "DDD Conferences"
+  },
+  "social" : {
+    "twitter" : "Follow on Twitter"
+    ,"twitterTitle" : "Follow on Twitter"
+    ,"facebook" : "Like on Facebook"
+    ,"facebookTitle" : "Like on Facebook"
+    ,"lanyrd" : "Track on Lanyrd"
+    ,"lanyrdTitle" : "Track on Lanyrd"
   }
 }
