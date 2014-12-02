@@ -48,32 +48,14 @@ class AppController extends Controller {
 
 
 	public $components = array(
-        'Session',
-        'Auth' => array(
-            'loginRedirect' => array(
-                'controller' => 'users',
-                'action' => 'index',
-                'admin' => true
-            ),
-            'logoutRedirect' => array(
-                'controller' => 'users',
-                'action' => 'index',
-                'admin' => true
-            ),
-            'authenticate' => array(
-                'Form' => array(
-                    'passwordHasher' => 'Blowfish'
-                )
-            ),
-	        'authorize' => array('Controller') // Added this line
-        )
+        'Session'
     );
 
 
 
     public function beforeFilter() {
 	    Configure::write('Config.language', 'por');
-        $this->Auth->allow('index', 'view');
+        //$this->Auth->allow('index', 'view');
     }
 
 

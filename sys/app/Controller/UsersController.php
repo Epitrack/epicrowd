@@ -14,21 +14,45 @@ class UsersController extends AppController {
  *
  * @var array
  */
-	public $components = array('Paginator', 'Session');
+	public $components = array('Paginator', 'Session',
+        'Auth' => array(
+            'loginRedirect' => array(
+                'controller' => 'users',
+                'action' => 'index',
+                'admin' => true
+            ),
+            'logoutRedirect' => array(
+                'controller' => 'users',
+                'action' => 'index',
+                'admin' => true
+            ),
+            'authenticate' => array(
+                'Form' => array(
+                    'passwordHasher' => 'Blowfish'
+                )
+            ),
+	        'authorize' => array('Controller') // Added this line
+        ));
 
 
 
 	public function beforeFilter() {
 	    parent::beforeFilter();
-	  $this->Auth->allow('logout');
+        $this->Auth->allow('index','login', 'view','logout');
 	}
 
+
+public function login() {
+		return $this->redirect(array('action' => 'admin_login', 'admin' =>  true));
+}
 /**
  * index method
  *
  * @return void
  */
 	public function index() {
+
+		return $this->redirect(array('action' => 'admin_login', 'admin' =>  true));
 		$this->User->recursive = 0;
 		$this->set('users', $this->Paginator->paginate());
 	}
@@ -54,6 +78,7 @@ class UsersController extends AppController {
  * @return void
  */
 	public function view($id = null) {
+		return $this->redirect(array('action' => 'admin_login', 'admin' =>  true));
 		if (!$this->User->exists($id)) {
 			throw new NotFoundException(__('Invalid user'));
 		}
@@ -68,6 +93,7 @@ class UsersController extends AppController {
  * @return void
  */
 	public function add() {
+		return $this->redirect(array('action' => 'admin_login', 'admin' =>  true));
 		if ($this->request->is('post')) {
 			$this->User->create();
 			if ($this->User->save($this->request->data)) {
@@ -87,6 +113,7 @@ class UsersController extends AppController {
  * @return void
  */
 	public function edit($id = null) {
+		return $this->redirect(array('action' => 'admin_login', 'admin' =>  true));
         $this->User->id = $id;
 		if (!$this->User->exists()) {
 			throw new NotFoundException(__('Invalid user'));
@@ -112,6 +139,7 @@ class UsersController extends AppController {
  * @return void
  */
 	public function delete($id = null) {
+		return $this->redirect(array('action' => 'admin_login', 'admin' =>  true));
 
 
         $this->request->allowMethod('post');
