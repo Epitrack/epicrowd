@@ -5434,7 +5434,7 @@ body {
   width: 100%;
   height: 645px;
   z-index: 1;
-  background-image: url("../../src/images/bg-header.png");
+  background: url("'../../dist/images/'bg-header.png");
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center 62%;
@@ -5445,7 +5445,7 @@ body {
   height: 645px;
   position: absolute;
   z-index: 2;
-  background-image: url("../../src/images/pattern-header.png");
+  background: url("'../../dist/images/'pattern-header.png");
   background-repeat: repeat;
   background-attachment: fixed;
 }
@@ -5502,13 +5502,13 @@ body {
 }
 
 .js-logo-en a {
-  background-image: url("../../src/images/logo-primary-en.svg");
+  background: url("'../../dist/images/'logo-primary-en.svg");
   background-repeat: no-repeat;
   background-size: 100% 73px;
 }
 
 .js-logo-pt a {
-  background-image: url("../../src/images/logo-primary-pt.svg");
+  background: url("'../../dist/images/'logo-primary-pt.svg");
   background-repeat: no-repeat;
   background-size: 100% 73px;
 }
@@ -5574,7 +5574,7 @@ body {
   cursor: pointer;
   margin-top: 100px;
   z-index: 4;
-  background-image: url("../../src/images/down.png");
+  background: url("'../../dist/images/'down.png");
   background-repeat: no-repeat;
   background-size: 35px 25px;
 }
@@ -5672,14 +5672,14 @@ body {
 }
 
 .about {
-  background-image: url("../../src/images/pattern-about.png");
+  background: url("'../../dist/images/'pattern-about.png");
   background-repeat: repeat;
   background-attachment: fixed;
 }
 
 .agenda {
   background-color: #E5E5E5;
-  background-image: url("../../src/images/pattern-agenda.png");
+  background: url("'../../dist/images/'pattern-agenda.png");
   background-repeat: repeat;
   min-height: 550px;
 }
@@ -5706,17 +5706,17 @@ body {
 }
 .agenda-title.conferences::before {
   content: '';
-  background-image: url("../../src/images/icon-conferences.svg");
+  background: url("'../../dist/images/'icon-conferences.svg");
   background-size: 30px 30px;
 }
 .agenda-title.panels::before {
   content: '';
-  background-image: url("../../src/images/icon-panels.svg");
+  background: url("'../../dist/images/'icon-panels.svg");
   background-size: 30px 30px;
 }
 .agenda-title.rapid-fire::before {
   content: '';
-  background-image: url("../../src/images/icon-rapid-fire.svg");
+  background: url("'../../dist/images/'icon-rapid-fire.svg");
   background-size: 30px 30px;
 }
 
@@ -5749,7 +5749,7 @@ body {
 }
 
 .register {
-  background-image: url("../../src/images/bg-register.png");
+  background: url("'../../dist/images/'bg-register.png");
   background-repeat: no-repeat;
   background-size: cover;
   background-attachment: fixed;
@@ -5943,19 +5943,19 @@ body {
   transition: all 0.2s linear 0s;
 }
 .social-links.facebook {
-  background-image: url("../../src/images/icon-facebook.svg");
+  background: url("'../../dist/images/'icon-facebook.svg");
   background-repeat: no-repeat;
   background-size: 30px 30px;
   background-position: 10px 17px;
 }
 .social-links.twitter {
-  background-image: url("../../src/images/icon-twitter.svg");
+  background: url("'../../dist/images/'icon-twitter.svg");
   background-repeat: no-repeat;
   background-size: 30px 30px;
   background-position: 10px 17px;
 }
 .social-links.lanyrd {
-  background-image: url("../../src/images/icon-lanyrd.svg");
+  background: url("'../../dist/images/'icon-lanyrd.svg");
   background-repeat: no-repeat;
   background-size: 30px 30px;
   background-position: 10px 17px;

@@ -493,7 +493,7 @@
           <aside class="col-xs-12 col-sm-4 col-md-3 col-md-offset-1 organized-box skoll">
             <a href="http://www.skollglobalthreats.org/" target="_blank" title="Skoll Global Threats" class="organized-link">
               <figure class="organized-image">
-                <img src="src/images/logo-skoll.svg" width="180" height="80" alt="">
+                <img src="dist/images/logo-skoll.svg" width="180" height="80" alt="">
               </figure>
             </a>
 
@@ -507,7 +507,7 @@
           <aside class="col-xs-12 col-sm-4 col-md-3 col-md-offset-1 organized-box epitrack">
             <a href="http://www.epitrack.com.br/" target="_blank" title="Epitrack" class="organized-link">
               <figure class="organized-image">
-                <img src="src/images/logo-epitrack.svg" width="180" height="80" alt="">
+                <img src="dist/images/logo-epitrack.svg" width="180" height="80" alt="">
               </figure>
             </a>
 
@@ -523,7 +523,7 @@
           <aside class="col-xs-12 col-sm-4 col-md-3 col-md-offset-1 organized-box healthmap">
             <a href="http://healthmap.org/" target="_blank" title="Healthmap" class="organized-link">
               <figure class="organized-image">
-                <img src="src/images/logo-healthmap.png" width="180" height="28" alt="">
+                <img src="dist/images/logo-healthmap.png" width="180" height="28" alt="">
               </figure>
             </a>
 
