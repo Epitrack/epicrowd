@@ -65,8 +65,7 @@
 <?php endif; ?>
 
 	<div class="actions">
-		<ul>
-			<li><?php echo $this->Html->link(__('New Update'), array('controller' => 'updates', 'action' => 'add')); ?> </li>
-		</ul>
+		<h3><?php echo __('Actions'); ?></h3>
+		<?php echo $this->MenuBuilder->build('main-menu'); ?>
 	</div>
 </div>
