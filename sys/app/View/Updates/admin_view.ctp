@@ -48,9 +48,6 @@
 	<ul>
 		<li><?php echo $this->Html->link(__('Edit Update'), array('action' => 'edit', $update['Update']['id'])); ?> </li>
 		<li><?php echo $this->Form->postLink(__('Delete Update'), array('action' => 'delete', $update['Update']['id']), array(), __('Are you sure you want to delete # %s?', $update['Update']['id'])); ?> </li>
-		<li><?php echo $this->Html->link(__('List Updates'), array('action' => 'index')); ?> </li>
-		<li><?php echo $this->Html->link(__('New Update'), array('action' => 'add')); ?> </li>
-		<li><?php echo $this->Html->link(__('List Countries'), array('controller' => 'countries', 'action' => 'index')); ?> </li>
-		<li><?php echo $this->Html->link(__('New Country'), array('controller' => 'countries', 'action' => 'add')); ?> </li>
 	</ul>
+	<?php echo $this->MenuBuilder->build('main-menu'); ?>
 </div>

@@ -11,10 +11,5 @@
 </div>
 <div class="actions">
 	<h3><?php echo __('Actions'); ?></h3>
-	<ul>
-
-		<li><?php echo $this->Html->link(__('List Countries'), array('action' => 'index')); ?></li>
-		<li><?php echo $this->Html->link(__('List Updates'), array('controller' => 'updates', 'action' => 'index')); ?> </li>
-		<li><?php echo $this->Html->link(__('New Update'), array('controller' => 'updates', 'action' => 'add')); ?> </li>
-	</ul>
+	<?php echo $this->MenuBuilder->build('main-menu'); ?>
 </div>

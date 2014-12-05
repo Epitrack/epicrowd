@@ -18,8 +18,6 @@
 	<ul>
 
 		<li><?php echo $this->Form->postLink(__('Delete'), array('action' => 'delete', $this->Form->value('Update.id')), array(), __('Are you sure you want to delete # %s?', $this->Form->value('Update.id'))); ?></li>
-		<li><?php echo $this->Html->link(__('List Updates'), array('action' => 'index')); ?></li>
-		<li><?php echo $this->Html->link(__('List Countries'), array('controller' => 'countries', 'action' => 'index')); ?> </li>
-		<li><?php echo $this->Html->link(__('New Country'), array('controller' => 'countries', 'action' => 'add')); ?> </li>
 	</ul>
+	<?php echo $this->MenuBuilder->build('main-menu'); ?>
 </div>
