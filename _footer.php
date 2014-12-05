@@ -82,6 +82,6 @@
   </div>
 
   <div class="col-xs-12 col-sm-10 col-sm-offset-1 col-md-10 col-md-offset-1">
-    <p class="copyright">DDD-MG is a spinoff of <a href="http://healthmap.org/ddd/" target="_blank" title="DDD Conferences">DDD Conferences</a>.</p>
+    <p class="copyright"><sup>©</sup> 2015 <a href="http://epitrack.com.br" target="_blank" title="Epitrack">Epitrack </a>.</p>
   </div>
 </footer>

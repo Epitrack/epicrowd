@@ -326,11 +326,6 @@
   "footer" : {
     "title": "Organized by"
   },
-  "copyright": {
-    "texto01" : "DDD-MG is a spinoff of"
-    ,"texto02" : "DDD Conferences"
-    ,"texto02Title" : "DDD Conferences"
-  },
   "social" : {
     "twitter" : "Follow on Twitter"
     ,"twitterTitle" : "Follow on Twitter"

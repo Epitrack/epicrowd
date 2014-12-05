@@ -326,11 +326,6 @@
   "footer" : {
     "title": "Organizado por"
   },
-  "copyright": {
-    "texto01" : "Este evento faz parte da série"
-    ,"texto02" : "DDD Conferences"
-    ,"texto02Title" : "DDD Conferences"
-  },
   "social" : {
     "twitter" : "Siga no Twitter"
     ,"twitterTitle" : "Siga no Twitter"
