@@ -4,7 +4,7 @@
 
     <div class="row">
       <aside class="col-xs-12 organized-box epitrack">
-        <a href="http://www.epitrack.com.br/" target="_blank" title="Epitrack" class="organized-link">
+        <a href="organizers" title="Epitrack" class="organized-link">
           <figure class="organized-image">
             <img src="dist/images/logo-epitrack.svg" width="180" height="80" alt="">
           </figure>
@@ -16,7 +16,7 @@
 
     <div class="row">
       <aside class="col-xs-12 organized-box skoll">
-        <a href="http://www.skollglobalthreats.org/" target="_blank" title="Skoll Global Threats" class="organized-link">
+        <a href="organizers" title="Skoll Global Threats" class="organized-link">
           <figure class="organized-image">
             <img src="dist/images/logo-skoll.svg" width="180" height="80" alt="">
           </figure>
@@ -33,7 +33,7 @@
         </li>
 
         <li class="nav-secondary-item">
-          <a href="#" data-i18n="navSecondary.link02;[title]navSecondary.link02Title" class="nav-secondary-link" title="Stay Where">stay where</a>
+          <a href="lodging" data-i18n="navSecondary.link02;[title]navSecondary.link02Title" class="nav-secondary-link" title="Lodging">Lodging</a>
         </li>
 
         <li class="nav-secondary-item">
@@ -41,7 +41,7 @@
         </li>
 
         <li class="nav-secondary-item">
-          <a href="mailto:info@dddmg.org" data-i18n="navSecondary.link05;[title]navSecondary.link05Title" class="nav-secondary-link" title="Contact us">contact us</a>
+          <a href="mailto:info@dddmg.org?subject=Contact DDDMG" data-i18n="navSecondary.link05;[title]navSecondary.link05Title" class="nav-secondary-link" title="Contact us">contact us</a>
         </li>
       </ul>
     </nav>
