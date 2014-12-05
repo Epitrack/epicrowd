@@ -4867,7 +4867,7 @@ select:focus {
 }
 
 input {
-  font-family: "FuturaLTRegular";
+  font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
 }
 input:focus, select:focus {
   outline: none;
@@ -4883,7 +4883,7 @@ input:focus, select:focus {
   color: #9DDE38;
   text-transform: uppercase;
   font-size: 1.4rem;
-  font-family: "FuturaLTRegular";
+  font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
 }
 .form-group.captcha {
   width: 120px;
@@ -5526,7 +5526,7 @@ body {
 }
 .subtitle p {
   color: #283A42;
-  font-family: "FuturaLTRegular";
+  font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
   font-size: 1.8rem;
 }
 
@@ -5538,7 +5538,7 @@ body {
 .countdown p {
   font-size: 3.2rem;
   display: inline-block;
-  font-family: "FuturaLTRegular";
+  font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
   position: relative;
   width: 70px;
 }
@@ -5547,7 +5547,7 @@ body {
   position: absolute;
   bottom: -15px;
   display: inline-block;
-  font-family: "FuturaLTRegular";
+  font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
   font-size: 1.4rem;
   text-transform: uppercase;
 }
@@ -5607,7 +5607,7 @@ body {
   text-transform: uppercase;
   line-height: 60px;
   font-size: 1.4rem;
-  font-family: "FuturaLTRegular";
+  font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
   position: relative;
   overflow: hidden;
   margin-top: -2px;
@@ -5668,7 +5668,7 @@ body {
   line-height: 1.8rem;
   color: #283A42;
   text-align: justify;
-  font-family: "FuturaLTRegular";
+  font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
 }
 
 .about {
@@ -5691,7 +5691,7 @@ body {
 }
 
 .agenda-title {
-  font-family: "FuturaLTRegular";
+  font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
   font-size: 2.5rem;
   position: relative;
 }
@@ -5724,7 +5724,7 @@ body {
   border-bottom: 2px solid #E5E5E5;
   padding: 10px 12px;
   font-size: 1.8rem;
-  font-family: "FuturaLTRegular";
+  font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
   background-color: rgba(255, 255, 255, 0.7);
   -webkit-transition: all 0.2s linear 0s;
   -moz-transition: all 0.2s linear 0s;
@@ -5788,7 +5788,7 @@ body {
   border: 1px solid transparent;
   border-radius: 3px;
   font-size: 1.8rem;
-  font-family: "FuturaLTRegular";
+  font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
 }
 .alert.alert-info {
   color: #31708f;
@@ -5819,7 +5819,7 @@ body {
 .organized h3 {
   text-align: center;
   text-transform: uppercase;
-  font-family: "FuturaLTRegular";
+  font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
   font-size: 1.4rem;
   color: #A5A5A5;
 }
@@ -5855,7 +5855,7 @@ body {
 .nav-secondary-link {
   font-size: 1.2rem;
   color: #283A42;
-  font-family: "FuturaLTRegular";
+  font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
   font-weight: 600;
   margin-right: 20px;
   text-transform: uppercase;
@@ -5933,7 +5933,7 @@ body {
 
 .copyright {
   font-size: 1.4rem;
-  font-family: "FuturaLTRegular";
+  font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
   text-align: center;
   margin-bottom: 30px;
 }
