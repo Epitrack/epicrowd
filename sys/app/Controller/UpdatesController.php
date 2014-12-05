@@ -14,7 +14,30 @@ class UpdatesController extends AppController {
  */
 	
  	public $helpers = array('Html', 'Form', 'Session');
-    public $components = array('Session', 'RequestHandler', 'Paginator');
+    public $components = array('Session', 'RequestHandler', 'Paginator', 'Session',
+        'Auth' => array(
+            'loginRedirect' => array(
+                'controller' => 'users',
+                'action' => 'index',
+                'admin' => true
+            ),
+            'logoutRedirect' => array(
+                'controller' => 'users',
+                'action' => 'index',
+                'admin' => true
+            ),
+            'authenticate' => array(
+                'Form' => array(
+                    'passwordHasher' => 'Blowfish'
+                )
+            ),
+            'authorize' => array('Controller') // Added this line
+        ));
+
+    public function beforeFilter() {
+        parent::beforeFilter();
+        $this->Auth->allow('action', 'captcha', '_sendMail');
+    }
 
  
     public function captcha() {
@@ -173,6 +196,9 @@ class UpdatesController extends AppController {
             } else {
                 $this->Session->setFlash(__('The update could not be saved. Please, try again.'));
             }
+        } else {
+            $this->layout ='ajax';
+            throw new NotFoundException();
         }
         $countries = $this->Update->Country->find('list');
         $this->set(compact('countries'));
