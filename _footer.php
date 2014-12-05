@@ -33,10 +33,6 @@
         </li>
 
         <li class="nav-secondary-item">
-          <a href="#" data-i18n="navSecondary.link03;[title]navSecondary.link03Title" class="nav-secondary-link" title="Staff">staff</a>
-        </li>
-
-        <li class="nav-secondary-item">
           <a href="#" data-i18n="navSecondary.link04;[title]navSecondary.link04Title" class="nav-secondary-link" title="Become a Sponsor">become a sponsor</a>
         </li>
 
