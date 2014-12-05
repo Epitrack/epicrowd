@@ -479,21 +479,7 @@ body { font-size: $fs-root; }
   padding-bottom: 20px;
 }
 
-.organized-box {
-  overflow: hidden;
-
-  &.healthmap {
-    .organized-image { margin-top: 20px; }
-    .organized-link { margin-bottom: -10px; }
-  }
-
-  &:hover {
-    // height: auto;
-    .organized-item {
-      // @include translate3d(0, 0, 0);
-    }
-  }
-}
+.organized-box { overflow: hidden; }
 
 .organized-link {
   width: 180px;
@@ -503,20 +489,6 @@ body { font-size: $fs-root; }
   @include transition(all, .2s, linear, 0s);
 
   &:hover { opacity: .5; }
-}
-
-.organized-item {
-  font-family: $ff-secondary;
-  font-size: $fs-small;
-  margin: 5px 0;
-  text-align: center;
-  // @include translate3d(-250px, 0, 0);
-
-  &:nth-child(1) { @include transition(all, .2s, linear, .1s); }
-  &:nth-child(2) { @include transition(all, .2s, linear, .2s); }
-  &:nth-child(3) { @include transition(all, .2s, linear, .3s); }
-  &:nth-child(4) { @include transition(all, .2s, linear, .4s); }
-  &:nth-child(5) { @include transition(all, .2s, linear, .5s); }
 }
 
 // Nav secondary

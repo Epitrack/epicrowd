@@ -10,14 +10,123 @@
         </div>
 
         <div class="col-xs-12 col-sm-10 col-sm-offset-1 col-md-10 col-md-offset-1">
-          <aside id="skoll" class="organizer-box">
+          <aside id="skoll" class="organizer-box"> <!-- Skoll -->
             <ul class="organizer-list">
               <li class="organizer-item">
                 <figure class="organizer-image">
                   <img src="" alt="">
                 </figure>
 
-                <h4 class="organizer-name">Name here</h4>
+                <h4 class="organizer-name">Mark Smolinsk</h4>
+                <p class="organizer-description">
+                  Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                  Vero nobis deserunt dolor modi quia error! Minus quas itaque
+                  reiciendis repudiandae excepturi molestias aperiam minima
+                  maxime debitis, et sit vero deleniti quod corporis magnam
+                  eaque suscipit possimus cum alias. Exercitationem, deleniti.
+                </p>
+              </li>
+
+              <li class="organizer-item">
+                <figure class="organizer-image">
+                  <img src="" alt="">
+                </figure>
+
+                <h4 class="organizer-name">Jennifer Olsen</h4>
+                <p class="organizer-description">
+                  Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                  Vero nobis deserunt dolor modi quia error! Minus quas itaque
+                  reiciendis repudiandae excepturi molestias aperiam minima
+                  maxime debitis, et sit vero deleniti quod corporis magnam
+                  eaque suscipit possimus cum alias. Exercitationem, deleniti.
+                </p>
+              </li>
+
+              <li class="organizer-item">
+                <figure class="organizer-image">
+                  <img src="" alt="">
+                </figure>
+
+                <h4 class="organizer-name">Mario Libel</h4>
+                <p class="organizer-description">
+                  Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                  Vero nobis deserunt dolor modi quia error! Minus quas itaque
+                  reiciendis repudiandae excepturi molestias aperiam minima
+                  maxime debitis, et sit vero deleniti quod corporis magnam
+                  eaque suscipit possimus cum alias. Exercitationem, deleniti.
+                </p>
+              </li>
+            </ul>
+          </aside>
+
+          <aside id="epitrack" class="organizer-box"> <!-- Epitrack -->
+            <ul class="organizer-list">
+              <li class="organizer-item">
+                <figure class="organizer-image">
+                  <img src="" alt="">
+                </figure>
+
+                <h4 class="organizer-name">Onicio Leal</h4>
+                <p class="organizer-description">
+                  Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                  Vero nobis deserunt dolor modi quia error! Minus quas itaque
+                  reiciendis repudiandae excepturi molestias aperiam minima
+                  maxime debitis, et sit vero deleniti quod corporis magnam
+                  eaque suscipit possimus cum alias. Exercitationem, deleniti.
+                </p>
+              </li>
+
+              <li class="organizer-item">
+                <figure class="organizer-image">
+                  <img src="" alt="">
+                </figure>
+
+                <h4 class="organizer-name">Juliana Perazzo</h4>
+                <p class="organizer-description">
+                  Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                  Vero nobis deserunt dolor modi quia error! Minus quas itaque
+                  reiciendis repudiandae excepturi molestias aperiam minima
+                  maxime debitis, et sit vero deleniti quod corporis magnam
+                  eaque suscipit possimus cum alias. Exercitationem, deleniti.
+                </p>
+              </li>
+
+              <li class="organizer-item">
+                <figure class="organizer-image">
+                  <img src="" alt="">
+                </figure>
+
+                <h4 class="organizer-name">George Dimech</h4>
+                <p class="organizer-description">
+                  Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                  Vero nobis deserunt dolor modi quia error! Minus quas itaque
+                  reiciendis repudiandae excepturi molestias aperiam minima
+                  maxime debitis, et sit vero deleniti quod corporis magnam
+                  eaque suscipit possimus cum alias. Exercitationem, deleniti.
+                </p>
+              </li>
+
+              <li class="organizer-item">
+                <figure class="organizer-image">
+                  <img src="" alt="">
+                </figure>
+
+                <h4 class="organizer-name">Jones Albuquerque</h4>
+                <p class="organizer-description">
+                  Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                  Vero nobis deserunt dolor modi quia error! Minus quas itaque
+                  reiciendis repudiandae excepturi molestias aperiam minima
+                  maxime debitis, et sit vero deleniti quod corporis magnam
+                  eaque suscipit possimus cum alias. Exercitationem, deleniti.
+                </p>
+              </li>
+
+              <li class="organizer-item">
+                <figure class="organizer-image">
+                  <img src="" alt="">
+                </figure>
+
+                <h4 class="organizer-name">Renata Costa</h4>
                 <p class="organizer-description">
                   Lorem ipsum dolor sit amet, consectetur adipisicing elit.
                   Vero nobis deserunt dolor modi quia error! Minus quas itaque
