@@ -43,9 +43,9 @@ class AppController extends Controller {
 			'data' => $data,
 			'message' => $message
 		);
-
 	}
 
+	var $helpers = array('MenuBuilder.MenuBuilder');
 
 	public $components = array(
         'Session'
@@ -56,6 +56,38 @@ class AppController extends Controller {
     public function beforeFilter() {
 	    Configure::write('Config.language', 'por');
         //$this->Auth->allow('index', 'view');
+   	
+	   	$menu = array(
+	        'main-menu' => array(
+	            array(
+	                'title' => 'Updates - List',
+	                'url' => '/admin/updates'
+	            )
+	            ,array(
+	                'title' => 'Updates - Add',
+	                'url' => '/admin/updates/add'
+	            )
+	            ,array(
+	                'title' => 'Users - List',
+	                'url' => '/admin/users'
+	            )
+	            ,array(
+	                'title' => 'Users - Add',
+	                'url' => '/admin/users/add'
+	            )
+	            ,array(
+	                'title' => 'Country - List',
+	                'url' => '/admin/countries'
+	            )
+	            ,array(
+	                'title' => 'Country - Add',
+	                'url' => '/admin/countries/add'
+	            )
+	        )
+	    );
+
+	    // For default settings name must be menu
+	    $this->set(compact('menu'));
     }
 
 
