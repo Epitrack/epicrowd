@@ -322,7 +322,8 @@
     "country252": "ZIMBABWE"
   },
   "footer" : {
-    "title": "Organized by"
+    "title01": "Organized by"
+    ,"title02": "Support by"
   },
   "social" : {
     "twitter" : "Follow on Twitter"

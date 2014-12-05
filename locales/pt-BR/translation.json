@@ -322,7 +322,8 @@
     "country252": "ZIMBABUÉ"
   },
   "footer" : {
-    "title": "Organizado por"
+    "title01": "Organizado por"
+    ,"title02": "Apoio por"
   },
   "social" : {
     "twitter" : "Siga no Twitter"

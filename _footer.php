@@ -1,20 +1,24 @@
 <footer class="row footer-primary">
   <div class="col-xs-12 col-sm-10 col-sm-offset-1 col-md-10 col-md-offset-1 organized">
-    <h3 data-i18n="footer.title;">Organized by</h3>
+    <h3 data-i18n="footer.title01;">Organized by</h3>
 
     <div class="row">
-      <aside class="col-xs-12 col-sm-4 col-md-5 col-md-offset-1 organized-box skoll">
-        <a href="http://www.skollglobalthreats.org/" target="_blank" title="Skoll Global Threats" class="organized-link">
-          <figure class="organized-image">
-            <img src="dist/images/logo-skoll.svg" width="180" height="80" alt="">
-          </figure>
-        </a>
-      </aside>
-
-      <aside class="col-xs-12 col-sm-4 col-md-5 organized-box epitrack">
+      <aside class="col-xs-12 organized-box epitrack">
         <a href="http://www.epitrack.com.br/" target="_blank" title="Epitrack" class="organized-link">
           <figure class="organized-image">
             <img src="dist/images/logo-epitrack.svg" width="180" height="80" alt="">
+          </figure>
+        </a>
+      </aside>
+    </div>
+
+    <h3 data-i18n="footer.title02;">Support by</h3>
+
+    <div class="row">
+      <aside class="col-xs-12 organized-box skoll">
+        <a href="http://www.skollglobalthreats.org/" target="_blank" title="Skoll Global Threats" class="organized-link">
+          <figure class="organized-image">
+            <img src="dist/images/logo-skoll.svg" width="180" height="80" alt="">
           </figure>
         </a>
       </aside>
