@@ -37,8 +37,9 @@
 	CakePlugin::routes();
 	Router::mapResources('updates');
 	Router::parseExtensions("png");
+	Router::parseExtensions('csv');
 
-
+	Router::connect('/updates.csv', array('controller' => 'updates', 'action' => 'exportar'));
 	Router::connect('/captcha.png', array('controller' => 'captchas', 'action' => 'index'));
 
 /**

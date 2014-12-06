@@ -14,10 +14,14 @@ class UpdatesController extends AppController {
  */
 	
  	public $helpers = array('Html', 'Form', 'Session');
-    public $components = array('Session', 'RequestHandler', 'Paginator', 'Session',
+    public $components = array('Session', 'RequestHandler', 'Paginator', 'Session', 'CsvView.CsvView',
+
+        'RequestHandler' => array(
+            'viewClassMap' => array('csv' => 'CsvView.Csv')
+        ),
         'Auth' => array(
             'loginRedirect' => array(
-                'controller' => 'users',
+                'controller' => 'updates',
                 'action' => 'index',
                 'admin' => true
             ),
@@ -36,18 +40,37 @@ class UpdatesController extends AppController {
 
     public function beforeFilter() {
         parent::beforeFilter();
-        $this->Auth->allow('action', 'captcha', '_sendMail');
+        $this->Auth->allow('action');
     }
 
- 
-    public function captcha() {
-        $this->set('captcha', "O Valor vai ser... ".$this->Session->read('teste'));
-    }
+    public function exportar() {
+        $data = $this->Update->find('all');
 
-    public function teste() {
-        $this->layout = 'ajax';
-        $this->response->type("text/plain");
-        $this->set('request', $this->request);
+        $excludePaths = array(
+            'Update.id'
+            ,'Update.country_id'
+            ,'Update.enabled'
+            ,'Update.modified'
+            ,'Country.id'
+            ,'Country.name_en'
+        ); // Exclude all id fields
+
+        $customHeaders = array(
+             'Update.name' => 'Name'
+            ,'Country.name_pt' => "Country"
+            ,'Update.organization' => "Organization"
+            ,'Update.email' => "Email"
+            ,'Update.created' => "Date"
+        );
+
+        
+        $this->response->type("application/csv");
+        $this->response->charset("UTF-8");
+
+        $name = "updates_".date("d_m_Y_H_i_s").".csv";
+        $this->CsvView->quickExport($data, $excludePaths, $customHeaders);
+        $this->response->download($name); // <= setting the file name
+        return false;
     }
 
     public function _sendMail($data) {
@@ -163,8 +186,8 @@ class UpdatesController extends AppController {
  * @return void
  */
     public function index() {
-        $this->Update->recursive = 0;
-        $this->set('updates', $this->Paginator->paginate());
+        $data = $this->Update->find('all');
+        $this->set('data', $data);
     }
 
 /**
