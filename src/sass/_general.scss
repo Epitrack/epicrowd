@@ -25,6 +25,7 @@ body { font-size: $fs-root; }
   height: 460px;
   max-width: 120%;
   position: relative;
+  overflow: hidden;
 }
 
 .image-header {
@@ -466,7 +467,7 @@ body { font-size: $fs-root; }
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-position: center 40%;
-  background-size: 100% auto;
+  background-size: cover;
 
   .section-title { color: #fff; }
 }
@@ -768,10 +769,6 @@ body { font-size: $fs-root; }
   .organizers-links {
     margin: 20px;
   }
-
-  // .social-links {
-  //   margin-top: 20px;
-  // }
 }
 
 // Desktops
@@ -790,6 +787,10 @@ body { font-size: $fs-root; }
       background-size: 100% 134px;
       height: 134px;
     }
+  }
+
+  .getting-here {
+    background-size: 100% auto;
   }
 }
 

@@ -5383,7 +5383,7 @@ input:focus, select:focus {
     background-position: -300px 0;
   }
 }
-.about {
+.about, .organizers {
   -webkit-animation-name: bgTile;
   -webkit-animation-duration: 50s;
   -webkit-animation-timing-function: linear;
@@ -5426,6 +5426,7 @@ body {
   height: 460px;
   max-width: 120%;
   position: relative;
+  overflow: hidden;
 }
 
 .image-header {
@@ -5723,7 +5724,7 @@ body {
   font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
 }
 
-.about {
+.about, .organizers {
   background-image: url("../../src/images/pattern-about.png");
   background-repeat: repeat;
   background-attachment: fixed;
@@ -5813,7 +5814,7 @@ body {
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-position: center 40%;
-  background-size: 100% auto;
+  background-size: cover;
 }
 .getting-here .section-title {
   color: #fff;
@@ -6089,5 +6090,90 @@ body {
   .logo-primary a {
     background-size: 100% 134px;
     height: 134px;
+  }
+
+  .getting-here {
+    background-size: 100% auto;
+  }
+}
+.organizers-item {
+  border-bottom: 1px solid #E5E5E5;
+  padding-bottom: 30px;
+  margin-bottom: 40px;
+  text-align: center;
+}
+.organizers-item:first-child {
+  padding-top: 40px;
+}
+
+.organizers-image img {
+  width: 180px;
+  height: 180px;
+  border-radius: 100%;
+  background-color: #283A42;
+}
+
+.organizers-description {
+  vertical-align: top;
+}
+.organizers-description p {
+  text-align: justify;
+  font-size: 1.4rem;
+  line-height: 1.8rem;
+  color: #283A42;
+  font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+}
+.organizers-description a {
+  text-decoration: none;
+  color: #9DDE38;
+  font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+  font-size: 1.8rem;
+  display: inline-block;
+  margin: 20px 30px 0 0;
+  -webkit-transition: color 0.2s linear 0s;
+  -moz-transition: color 0.2s linear 0s;
+  -ms-transition: color 0.2s linear 0s;
+  -o-transition: color 0.2s linear 0s;
+  transition: color 0.2s linear 0s;
+}
+.organizers-description a.web::before {
+  content: '';
+  display: inline-block;
+  width: 20px;
+  height: 20px;
+  margin-right: 10px;
+  vertical-align: middle;
+  background-repeat: no-repeat;
+  background-size: 20px 20px;
+  background-image: url("../../src/images/icon-web.svg");
+}
+.organizers-description a.company::before {
+  content: '';
+  display: inline-block;
+  width: 20px;
+  height: 20px;
+  margin-right: 10px;
+  vertical-align: middle;
+  background-repeat: no-repeat;
+  background-size: 20px 20px;
+  background-image: url("../../src/images/icon-company.svg");
+}
+.organizers-description a:hover {
+  color: #283A42;
+}
+
+.organizers-name {
+  text-transform: uppercase;
+  font-family: "FuturaLTHeavy";
+  font-size: 2.5rem;
+}
+
+@media (min-width: 768px) {
+  .organizers-item {
+    text-align: left;
+  }
+
+  .organizers-description p {
+    text-align: left;
   }
 }
