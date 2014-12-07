@@ -16,6 +16,7 @@ $ff-general:        'Arial, Helvetica, sans-serif';
 $ff-primary:        'FuturaLTHeavy';
 $ff-secondary:      'Lucida Sans Unicode', 'Lucida Grande', sans-serif;
 $ff-icon:           'Glyphicons Halflings';
+$ff-title:          'FuturaLTBook';
 
 // Style
 $f-italic:          italic;
@@ -27,16 +28,6 @@ $fw-semi-bold:      600;
 
 // Custom Font Face
 @font-face {
-    font-family: 'FuturaLTRegular';
-    src: url('../../fonts/futuralt.eot');
-    src: url('../../fonts/futuralt.eot') format('embedded-opentype'),
-         url('../../fonts/futuralt.woff2') format('woff2'),
-         url('../../fonts/futuralt.woff') format('woff'),
-         url('../../fonts/futuralt.ttf') format('truetype'),
-         url('../../fonts/futuralt.svg#FuturaLTRegular') format('svg');
-}
-
-@font-face {
     font-family: 'FuturaLTHeavy';
     src: url('../../fonts/futuralt-heavy.eot');
     src: url('../../fonts/futuralt-heavy.eot') format('embedded-opentype'),
@@ -44,6 +35,16 @@ $fw-semi-bold:      600;
          url('../../fonts/futuralt-heavy.woff') format('woff'),
          url('../../fonts/futuralt-heavy.ttf') format('truetype'),
          url('../../fonts/futuralt-heavy.svg#FuturaLTHeavy') format('svg');
+}
+
+@font-face {
+    font-family: 'FuturaLTBook';
+    src: url('../../fonts/futuralt-book.eot');
+    src: url('../../fonts/futuralt-book.eot') format('embedded-opentype'),
+         url('../../fonts/futuralt-book.woff2') format('woff2'),
+         url('../../fonts/futuralt-book.woff') format('woff'),
+         url('../../fonts/futuralt-book.ttf') format('truetype'),
+         url('../../fonts/futuralt-book.svg#FuturaLTBook') format('svg');
 }
 
 @font-face {
