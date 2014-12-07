@@ -485,6 +485,23 @@ body { font-size: $fs-root; }
   height: 400px;
 }
 
+.box-images-hotel {
+  height: 100%;
+  overflow: hidden;
+  margin: 0;
+}
+
+.image-hotel {
+  float: left;
+  padding: 0;
+
+  img {
+    max-width: 100%;
+    vertical-align: middle;
+    display: inline-block;
+  }
+}
+
 
 //
 // Register

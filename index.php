@@ -105,6 +105,20 @@
         </aside>
 
         <div id="location-map" class="location-map"></div>
+
+        <div class="row box-images-hotel">
+          <div class="col-xs-12 col-sm-4 col-md-4 image-hotel">
+            <img src="src/images/mar-hotel-01.jpg" height="100%" width="100%" alt="">
+          </div>
+
+          <div class="col-xs-12 col-sm-4 col-md-4 image-hotel">
+            <img src="src/images/mar-hotel-02.jpg" height="100%" width="100%" alt="">
+          </div>
+
+          <div class="col-xs-12 col-sm-4 col-md-4 image-hotel">
+            <img src="src/images/mar-hotel-03.jpg" height="100%" width="100%" alt="">
+          </div>
+        </div>
       </section>
 
       <section id="register" class="row register"> <!-- Register -->
