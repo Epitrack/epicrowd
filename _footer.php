@@ -29,7 +29,7 @@
     <nav class="nav-secondary">
       <ul class="nav-secondary-list">
         <li class="nav-secondary-item">
-          <a href="#" data-i18n="navSecondary.link01;[title]navSecondary.link01Title" class="nav-secondary-link" title="Getting Here">getting here</a>
+          <a id="link-getting-here" href="#getting-here" data-i18n="navSecondary.link01;[title]navSecondary.link01Title" class="nav-secondary-link" title="Getting Here">getting here</a>
         </li>
 
         <li class="nav-secondary-item">
