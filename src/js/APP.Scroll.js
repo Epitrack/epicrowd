@@ -6,21 +6,34 @@ APP.Scroll = {
   },
 
   getClick: function() {
-    var target, href;
+    var target;
 
-    href = window.location.href;
-
+    // nav links
     $('.nav-list').on('click', 'a', function(event) {
       event.preventDefault();
       target = $( $(this).attr('href') );
+      console.log(target);
 
-      APP.Scroll.smoothScroll(target);
+      APP.Scroll.smoothScroll(target, 30);
+
+      // adds and removes active class
+      $('.nav-list a').removeClass('js-nav-active');
+      $(this).addClass('js-nav-active');
+    });
+
+    // footer link
+    $('#link-getting-here').on('click', function(event) {
+      event.preventDefault();
+
+      target = $( $(this).attr('href') );
+
+      APP.Scroll.smoothScroll(target, 50);
     });
   },
 
-  smoothScroll: function(target) {
+  smoothScroll: function(target, offset) {
     $('html, body').animate({
-      scrollTop: target.offset().top
+      scrollTop: target.offset().top - offset
     }, 2000);
   },
 
@@ -28,10 +41,10 @@ APP.Scroll = {
     $(window).on('scroll', function() {
       if ($(document).scrollTop() >= 585) {
         $('#nav-primary').addClass('js-fixed');
-        // APP.Scroll.addLogo();
+        APP.Scroll.addLogo();
       } else if ($(document).scrollTop() <= 586) {
         $('#nav-primary').removeClass('js-fixed');
-        // APP.Scroll.removeLogo();
+        APP.Scroll.removeLogo();
       }
     });
   },
@@ -77,10 +90,21 @@ APP.Scroll = {
   },
 
   addLogo: function() {
-    console.log('Adiciona!');
+    $('.nav-item').removeClass('col-xs-3');
+    $('.nav-item').addClass('col-xs-2');
+
+    $('.nav-logo').removeClass('invisible col-xs-1');
+    $('.nav-logo').addClass('col-xs-4');
   },
 
   removeLogo: function() {
-    console.log('Remove!');
+    $('.nav-item').removeClass('col-xs-2');
+    $('.nav-item').addClass('col-xs-3');
+
+    $('.nav-item:nth-child(2)').removeClass('col-xs-3');
+    $('.nav-item:nth-child(2)').addClass('col-xs-2');
+
+    $('.nav-logo').removeClass('col-xs-4');
+    $('.nav-logo').addClass('invisible col-xs-1');
   }
 }
