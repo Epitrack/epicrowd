@@ -93,6 +93,20 @@
         </aside>
       </section>
 
+      <section id="getting-here" class="row getting-here"> <!-- Getting Here -->
+        <div class="col-xs-12 col-sm-10 col-sm-offset-1 col-md-10 col-md-offset-1">
+          <h3 data-i18n="" class="section-title">Getting here</h3>
+        </div>
+
+        <aside class="col-xs-12 col-sm-10 col-sm-offset-1 col-md-10 col-md-offset-1 location-info">
+          <p>Mar Hotel</p>
+          <p>R. Barão de Souza Leão, 451 - Boa Viagem, 51030-300</p>
+          <p>Recife / PE - Brasil</p>
+        </aside>
+
+        <div id="location-map" class="location-map"></div>
+      </section>
+
       <section id="register" class="row register"> <!-- Register -->
         <div class="col-xs-12 col-sm-10 col-sm-offset-1 col-md-10 col-md-offset-1">
           <h3 data-i18n="register.title" class="section-title">Register</h3>
