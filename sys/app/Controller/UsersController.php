@@ -17,7 +17,7 @@ class UsersController extends AppController {
 	public $components = array('Paginator', 'Session',
         'Auth' => array(
             'loginRedirect' => array(
-                'controller' => 'users',
+                'controller' => 'updates',
                 'action' => 'index',
                 'admin' => true
             ),

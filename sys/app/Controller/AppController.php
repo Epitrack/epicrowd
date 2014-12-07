@@ -60,6 +60,10 @@ class AppController extends Controller {
 	   	$menu = array(
 	        'main-menu' => array(
 	            array(
+	                'title' => 'Updates - CSV',
+	                'url' => '/updates.csv'
+	            )
+	            ,array(
 	                'title' => 'Updates - List',
 	                'url' => '/admin/updates'
 	            )
@@ -82,6 +86,10 @@ class AppController extends Controller {
 	            ,array(
 	                'title' => 'Country - Add',
 	                'url' => '/admin/countries/add'
+	            )
+	            ,array(
+	                'title' => 'Logout',
+	                'url' => '/admin/users/logout'
 	            )
 	        )
 	    );
