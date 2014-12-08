@@ -131,15 +131,15 @@
         </div>
 
         <div class="col-xs-12 col-sm-8 col-sm-offset-2 col-md-10 col-md-offset-1">
-          <form action="javascript:;" id="form-register" class="form form-register">
+          <form action="javascript:;" id="form-register" role="form" class="form form-register">
             <div class="form-group">
               <label data-i18n="register.inputName" for="inputName">Name</label>
-              <input data-i18n="[placeholder]register.namePlaceholder" id="inputName" type="text" class="form-control input-primary" placeholder="Name">
+              <input data-i18n="[placeholder]register.namePlaceholder" id="inputName" type="text" class="form-control input-primary" placeholder="Name" required>
             </div>
 
             <div class="form-group">
               <label data-i18n="register.inputEmail" for="inputEmail">Email</label>
-              <input data-i18n="[placeholder]register.emailPlaceholder" id="inputEmail" type="email" class="form-control input-primary" placeholder="Email">
+              <input data-i18n="[placeholder]register.emailPlaceholder" id="inputEmail" type="email" class="form-control input-primary" placeholder="Email" required>
             </div>
 
             <div class="form-group">
@@ -407,21 +407,26 @@
 
             <div class="form-group">
               <label data-i18n="register.inputCaptcha" for="inputCaptcha">Enter code here</label>
+
               <div class="input-group">
                 <span class="input-group-addon">
                   <figure>
                    <img src="sys/captcha.png" alt="Captcha">
                   </figure>
                 </span>
-                <input data-i18n="[placeholder]register.captchaPlaceholder" type="text" id="inputCaptcha" class="form-control input-primary" placeholder="Enter code here">
+
+                <input data-i18n="[placeholder]register.captchaPlaceholder" type="text" id="inputCaptcha" class="form-control input-primary" placeholder="Enter code here" required>
               </div>
             </div>
 
             <div class="form-group btn-send">
               <input data-i18n="[value]register.send" type="submit" class="btn btn-primary" value="send">
+              <span class="glyphicon glyphicon-send"></span>
             </div>
 
-            <div id="feedback" class="alert"></div>
+            <div class="form-group">
+              <div id="feedback" class="alert"></div>
+            </div>
           </form>
         </div>
       </section>

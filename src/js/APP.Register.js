@@ -25,13 +25,15 @@ APP.Register = {
         security_code: security_code,
         language: language
       }, function(enviar) {
-        console.log('Retorno enviar: ' + enviar);
-        if (enviar != false) {
-          $('#feedback').html(enviar);
+        if (enviar.status != false) { // send ok
+          $('#feedback').removeClass();
+          $('#feedback').addClass('alert alert-success');
+          $('#feedback').html(enviar.message);
           $('#form-register')[0].reset();
-        } else {
-          $('#feedback').addClass('alert-danger');
-          $('#feedback').html('Ocorreu um erro, tente novamente em alguns minutos.');
+        } else if (enviar.status == false) { // send error
+          $('#feedback').removeClass();
+          $('#feedback').addClass('alert alert-danger');
+          $('#feedback').html(enviar.message);
         }
       });
     });
