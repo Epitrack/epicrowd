@@ -531,12 +531,9 @@ body { font-size: $fs-root; }
 .btn-send {
   text-align: center;
 
-  .btn-primary {
-    padding: 5px 50px 5px 20px;
-  }
+  .btn-primary { padding: 5px 50px 5px 20px; }
 
-  &::after {
-    content: "\e171";
+  span {
     display: inline-block;
     font-family: $ff-icon;
     margin-left: -40px;
@@ -547,9 +544,7 @@ body { font-size: $fs-root; }
   }
 
   &:hover {
-    &::after {
-      color: $color-secondary;
-    }
+    span { color: $color-primary; }
   }
 }
 
@@ -563,8 +558,10 @@ body { font-size: $fs-root; }
   margin-bottom: 20px;
   border: 1px solid transparent;
   border-radius: 3px;
+  float: left;
   font-size: $fs-medium;
   font-family: $ff-secondary;
+  color: $color-secondary;
 
   &.alert-info {
     color: #31708f;
@@ -780,6 +777,7 @@ body { font-size: $fs-root; }
 
   .btn-send {
     text-align: right;
+    float: right;
     margin-right: 20px;
   }
 

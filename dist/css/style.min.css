@@ -5869,8 +5869,7 @@ body {
 .btn-send .btn-primary {
   padding: 5px 50px 5px 20px;
 }
-.btn-send::after {
-  content: "\e171";
+.btn-send span {
   display: inline-block;
   font-family: "Glyphicons Halflings";
   margin-left: -40px;
@@ -5879,8 +5878,8 @@ body {
   vertical-align: middle;
   font-size: 2rem;
 }
-.btn-send:hover::after {
-  color: #9DDE38;
+.btn-send:hover span {
+  color: #283A42;
 }
 
 .alert {
@@ -5888,8 +5887,10 @@ body {
   margin-bottom: 20px;
   border: 1px solid transparent;
   border-radius: 3px;
+  float: left;
   font-size: 1.8rem;
   font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+  color: #9DDE38;
 }
 .alert.alert-info {
   color: #31708f;
@@ -6086,6 +6087,7 @@ body {
 
   .btn-send {
     text-align: right;
+    float: right;
     margin-right: 20px;
   }
 

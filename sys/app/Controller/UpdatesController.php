@@ -12,7 +12,7 @@ class UpdatesController extends AppController {
  *
  * @var mixed
  */
-	
+
  	public $helpers = array('Html', 'Form', 'Session');
     public $components = array('Session', 'RequestHandler', 'Paginator', 'Session', 'CsvView.CsvView',
 
@@ -63,7 +63,7 @@ class UpdatesController extends AppController {
             ,'Update.created' => "Date"
         );
 
-        
+
         $this->response->type("application/csv");
         $this->response->charset("UTF-8");
 
@@ -80,7 +80,7 @@ class UpdatesController extends AppController {
         $data['country'] = $country['Country']['name_en']."/".$country['Country']['name_pt'];
 
         $email = new CakeEmail();
-        
+
         $res = $email
                         ->config('smtp')
                         ->emailFormat('html')
@@ -91,7 +91,7 @@ class UpdatesController extends AppController {
                         ->subject('DDDMG Registration')
                         ->from(array('noreply@dddmg.org' => 'DDDMG 2015'))
                         ->to(array("info@dddmg.org" => "DDDMG 2015"))
-                        ->cc(array("onicio@gmail.com" => "Onicio Neto", "denniscalazans@gmail.com"=>"Dennis Calazans"))
+                        ->cc(array("onicio@gmail.com" => "Onicio Neto", "denniscalazans@gmail.com"=>"Dennis Calazans", "thulioph@gmail.com"=>"Thulio Philipe"))
                         ->sender($data['Update']['email'], $data['Update']['name'])
                         ->send();
 
@@ -102,7 +102,7 @@ class UpdatesController extends AppController {
 
     public function action() {
         $this->layout = 'json';
-        
+
         $countries = $this->Update->Country->find("list", array(
             'fields' => array('Country.name_pt')
         ));
@@ -111,7 +111,7 @@ class UpdatesController extends AppController {
 
         //$this->set("request", $this->request->env());
         //return $this->render("debug");
-        
+
 
         //If its post or PUT
         if ($this->request->is("post") || $this->request->is("put")) {
@@ -119,7 +119,7 @@ class UpdatesController extends AppController {
            // $this->Session->write("security_code", "123456");
 
             $language = ($this->request->data['language'] == "pt-BR") ? "por" : "eng";
-            Configure::write('Config.language', $language); 
+            Configure::write('Config.language', $language);
 
             //Incorrect security code
             if($this->request->data['security_code'] != $this->Session->read("security_code")) {
@@ -127,7 +127,7 @@ class UpdatesController extends AppController {
                 $message = __('Wrong code. Try again.');
                 $ajaxResponse = $this->ajaxResponse($this->request->data, $message, FALSE);
 
-           } 
+           }
 
            //User already registered
            else if($this->Update->findByEmail($this->request->data['Update']['email'])) {
@@ -135,7 +135,7 @@ class UpdatesController extends AppController {
                 $message = __('Your email is already registered.');
                 $ajaxResponse = $this->ajaxResponse($this->request->data, $message, FALSE);
 
-            } 
+            }
 
             //Everythings fine
             else {
@@ -166,8 +166,8 @@ class UpdatesController extends AppController {
                     $this->request->data['errors'] = $this->Update->validationErrors;
                     $ajaxResponse = $this->ajaxResponse($this->request->data, $message, FALSE);
                 }
-            } 
-        } 
+            }
+        }
 
         //User access the page withou post information
         else {
