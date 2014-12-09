@@ -9,6 +9,7 @@ AddCharset utf-8 .html .css .php .txt .js
 
   RewriteRule ^index/?$ index.php [NC,L]
   RewriteRule ^organizers/?$ organizers.php [NC,L]
+  RewriteRule ^become-a-sponsor/?$ become-a-sponsor.php [NC,L]
 </IfModule>
 
 # Utilizando o mod_deflate para compressão de arquivos

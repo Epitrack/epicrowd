@@ -4,6 +4,7 @@
 
 <script src="http://maps.googleapis.com/maps/api/js?key=AIzaSyBaTdjugjXQ2DuUsARrnV8sb1dVoGtIqCI&sensor=false"></script>
 <script src="src/js/APP.Maps.js"></script>
+<script src="src/js/APP.External.js"></script>
 <script>APP.init()</script>
 
 <!-- BrowserSync -->

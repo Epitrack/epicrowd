@@ -4,7 +4,7 @@
 
     <div class="row">
       <aside class="col-xs-12 organized-box epitrack">
-        <a href="organizers" title="Epitrack" class="organized-link">
+        <a href="organizers.html" title="Epitrack" class="organized-link external">
           <figure class="organized-image">
             <img src="dist/images/logo-epitrack.svg" width="180" height="80" alt="">
           </figure>
@@ -16,7 +16,7 @@
 
     <div class="row">
       <aside class="col-xs-12 organized-box skoll">
-        <a href="organizers" title="Skoll Global Threats" class="organized-link">
+        <a href="organizers.html" title="Skoll Global Threats" class="organized-link external">
           <figure class="organized-image">
             <img src="dist/images/logo-skoll.svg" width="180" height="80" alt="">
           </figure>
@@ -37,7 +37,7 @@
         </li>
 
         <li class="nav-secondary-item">
-          <a href="#" data-i18n="navSecondary.link04;[title]navSecondary.link04Title" class="nav-secondary-link" title="Become a Sponsor">become a sponsor</a>
+          <a href="become-a-sponsor.html" data-i18n="navSecondary.link04;[title]navSecondary.link04Title" class="nav-secondary-link external" title="Become a Sponsor">become a sponsor</a>
         </li>
 
         <li class="nav-secondary-item">
