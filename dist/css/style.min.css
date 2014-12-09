@@ -5594,8 +5594,8 @@ body {
 }
 .nav-primary.js-fixed {
   position: fixed;
-  top: 0;
-  z-index: 999;
+  top: 0 !important;
+  z-index: 999 !important;
 }
 
 .nav-item {
@@ -6288,7 +6288,19 @@ body {
   list-style-type: none;
 }
 .lodging-item.featured {
-  background-color: pink;
+  position: relative;
+}
+.lodging-item.featured::before {
+  content: '';
+  width: 109%;
+  position: absolute;
+  height: 200%;
+  top: -16px;
+  left: -33px;
+  background-image: url("../../src/images/featured.svg");
+  background-repeat: no-repeat;
+  background-size: 100% 240%;
+  background-position: center;
 }
 
 .lodging-link {

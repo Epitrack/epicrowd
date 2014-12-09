@@ -238,8 +238,8 @@ body { font-size: $fs-root; }
 
   &.js-fixed {
     position: fixed;
-    top: 0;
-    z-index: 999;
+    top: 0 !important;
+    z-index: 999 !important;
   }
 }
 

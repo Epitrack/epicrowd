@@ -26,7 +26,7 @@
     <p id="seconds" data-i18n="countdown.seconds" data-time="sec"></p>
   </div>
 
-  <div id="down" class="down"></div>
+  <a id="down" href="#about" class="down scroll"></a>
 
   <nav id="nav-primary" class="col-xs-12 nav-primary">
     <ul class="nav-list">

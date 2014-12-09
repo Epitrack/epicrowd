@@ -65,27 +65,9 @@ APP.Scroll = {
 
     if (iphone == null) {
       APP.Scroll.getPosition();
-      APP.Scroll.goAbout();
     } else {
       APP.Scroll.getPositionMobile();
-      APP.Scroll.goAboutMobile();
     }
-  },
-
-  goAbout: function() {
-    $('#down').on('click', function() {
-      $('html, body').animate({
-        scrollTop: (590)
-      }, 2000);
-    });
-  },
-
-  goAboutMobile: function() {
-    $('#down').on('click', function() {
-      $('html, body').animate({
-        scrollTop: (420)
-      }, 2000);
-    });
   },
 
   addLogo: function() {
