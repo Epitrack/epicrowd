@@ -15,6 +15,10 @@
   &:first-child {
     padding-top: 40px;
   }
+
+  &:last-child {
+    border-bottom: none;
+  }
 }
 
 .organizers-image {

@@ -731,6 +731,42 @@ body { font-size: $fs-root; }
 
 
 //
+// Become a Sponsor
+//
+
+#external {
+  @include transition(all, 2s, linear, 0s);
+}
+
+.become-a-sponsor {
+  text-align: center;
+  min-height: 300px !important;
+  @include linear-gradient(top, $color-other, #DBD9D9);
+  @include bsd(0 1px 5px $color-primary);
+
+  p {
+    font-family: $ff-secondary;
+    font-size: $fs-medium;
+    color: $color-primary;
+
+    &:first-child { margin-top: 30px; display: inline;}
+    &:last-child { font-weight: $fw-semi-bold; margin-top: 15px; }
+  }
+
+  a {
+    color: $color-secondary;
+    font-size: $fs-medium;
+    text-decoration: none;
+    display: inline-block;
+
+    &:hover {
+      text-decoration: underline;
+    }
+  }
+}
+
+
+//
 // Media queries
 //
 

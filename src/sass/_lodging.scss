@@ -36,6 +36,10 @@
   &:last-child {
     list-style-type: none;
   }
+
+  &.featured {
+    background-color: pink;
+  }
 }
 
 .lodging-link {
