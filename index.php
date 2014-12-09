@@ -95,7 +95,7 @@
 
       <section id="getting-here" class="row getting-here"> <!-- Getting Here -->
         <div class="col-xs-12 col-sm-10 col-sm-offset-1 col-md-10 col-md-offset-1">
-          <h3 data-i18n="" class="section-title">Getting here</h3>
+          <h3 data-i18n="gettingHere.title;" class="section-title">Getting Here</h3>
         </div>
 
         <aside class="col-xs-12 col-sm-10 col-sm-offset-1 col-md-10 col-md-offset-1 location-info">
@@ -117,6 +117,95 @@
 
           <div class="col-xs-12 col-sm-4 col-md-4 image-hotel">
             <img src="src/images/mar-hotel-03.jpg" height="100%" width="100%" alt="">
+          </div>
+        </div>
+      </section>
+
+      <section id="lodging" class="row lodging"> <!-- Lodging -->
+        <div class="col-xs-12 col-sm-10 col-sm-offset-1 col-md-10 col-md-offset-1">
+          <h3 data-i18n="lodging.title;" class="section-title">Lodging</h3>
+        </div>
+
+        <div class="container">
+          <div class="row">
+            <aside class="col-xs-11 col-xs-offset-1 col-sm-3 col-md-3 col-lg-3 lodging-info">
+              <h4 data-i18n="lodging.title01" class="lodging-title">Mar Hotel</h4>
+
+              <ul class="lodging-list">
+                <li class="lodging-item">
+                  <a data-i18n="lodging.address01" href="https://www.google.com.br/maps/place/Mar+Hotel/@-8.132154,-34.904355,17z/data=!3m1!4b1!4m2!3m1!1s0x7ab1fcb08ad1401:0xd24bd3d576e3012a" class="lodging-link" target="_blank">
+                    R. Barão de Souza Leão, 451 - Boa Viagem, 51030-300 Recife / PE - Brasil
+                  </a>
+                </li>
+
+                <li data-i18n="lodging.obs01" class="lodging-item">
+                  This hotel will accommodate the speakers and all Symposium sessions will be held here.
+                </li>
+
+                <li class="lodging-item">
+                  <span data-i18n="lodging.single">Single Room:</span> <p data-i18n="lodging.single01">R$ 250/room/night (+taxes)</p>
+                  <span data-i18n="lodging.double">Double Room:</span> <p data-i18n="lodging.double02">R$ 280/room/night (+taxes)</p>
+                </li>
+
+                <li class="lodging-item">
+                  <a href="tel:+558133024444" class="lodging-link">(81) 3302-4444</a>
+                </li>
+
+                <li class="lodging-item">
+                  <a href="http://www.ponteshoteis.com.br/mar-hotel/" class="lodging-link reserve" data-i18n="lodging.reserva" target="_blank">Reserve</a>
+                </li>
+              </ul>
+            </aside>
+
+            <aside class="col-xs-11 col-xs-offset-1 col-sm-3 col-md-3 col-lg-3 lodging-info">
+              <h4 data-i18n="lodging.title02" class="lodging-title">Atlante Plaza Hotel</h4>
+
+              <ul class="lodging-list">
+                <li class="lodging-item">
+                  <a data-i18n="lodging.address02" href="https://www.google.com.br/maps/place/Hotel+Atlante+Plaza/@-8.136386,-34.901949,17z/data=!3m1!4b1!4m2!3m1!1s0x7ab1fcdc520f683:0x15d162afb789dc8f?hl=pt-BR" class="lodging-link" target="_blank">
+                    Av. Boa Viagem, 5426 - Boa Viagem, Recife - PE, 51030-000
+                  </a>
+                </li>
+
+                <li class="lodging-item">
+                  <span data-i18n="lodging.single">Single Room:</span> <p data-i18n="lodging.single02">R$ 315/room/night (+taxes)</p>
+                  <span data-i18n="lodging.double">Double Room:</span> <p data-i18n="lodging.double02">R$ 355/room/night (+taxes)</p>
+                </li>
+
+                <li class="lodging-item">
+                  <a href="tel:+558133023333" class="lodging-link">(81) 3302-3333</a>
+                </li>
+
+                <li class="lodging-item">
+                  <a href="http://www.ponteshoteis.com.br/atlante-plaza" class="lodging-link reserve" data-i18n="lodging.reserva" target="_blank">Reserve</a>
+                </li>
+              </ul>
+            </aside>
+
+            <aside class="col-xs-11 col-xs-offset-1 col-sm-3 col-md-3 col-lg-3 lodging-info">
+              <h4 data-i18n="lodging.title03" class="lodging-title">Golden Tulip Recife Palace</h4>
+
+              <ul class="lodging-list">
+                <li class="lodging-item">
+                  <a data-i18n="lodging.address03" href="https://www.google.com.br/maps/place/Golden+Tulip+Recife+Palace/@-8.125035,-34.897617,17z/data=!3m1!4b1!4m2!3m1!1s0x7ab1fa5a6634907:0xa43153ccb1293de3?hl=pt-BR" class="lodging-link" target="_blank">
+                    Av. Boa Viagem, 4070 - Boa Viagem, Recife - PE, 51021-000
+                  </a>
+                </li>
+
+                <li class="lodging-item">
+                  <span data-i18n="lodging.single">Single Room:</span> <p data-i18n="lodging.single03">R$ XXX/room/night (+taxes)</p>
+                  <span data-i18n="lodging.double">Double Room:</span> <p data-i18n="lodging.double03">R$ XXX/room/night (+taxes)</p>
+                </li>
+
+                <li class="lodging-item">
+                  <a href="tel:+558132018200" class="lodging-link">(81) 3201-8200</a>
+                </li>
+
+                <li class="lodging-item">
+                  <a href="http://www.goldentuliprecifepalace.com/en" class="lodging-link reserve" data-i18n="lodging.reserva" target="_blank">Reserve</a>
+                </li>
+              </ul>
+            </aside>
           </div>
         </div>
       </section>

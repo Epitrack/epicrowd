@@ -33,7 +33,7 @@
         </li>
 
         <li class="nav-secondary-item">
-          <a href="lodging" data-i18n="navSecondary.link02;[title]navSecondary.link02Title" class="nav-secondary-link" title="Lodging">Lodging</a>
+          <a id="link-lodging" href="#lodging" data-i18n="navSecondary.link02;[title]navSecondary.link02Title" class="nav-secondary-link" title="Lodging">Lodging</a>
         </li>
 
         <li class="nav-secondary-item">

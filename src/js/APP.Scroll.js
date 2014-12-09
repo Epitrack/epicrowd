@@ -22,7 +22,7 @@ APP.Scroll = {
     });
 
     // footer link
-    $('#link-getting-here').on('click', function(event) {
+    $('#link-getting-here, #link-lodging').on('click', function(event) {
       event.preventDefault();
 
       target = $( $(this).attr('href') );
