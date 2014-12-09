@@ -57,6 +57,28 @@
     ,"captchaPlaceholder" : "Digite aqui o código"
     ,"send" : "Enviar"
   },
+  "gettingHere": {
+    "title" : "Como chegar"
+  },
+  "lodging": {
+    "title" : "Hospedagem"
+    ,"title01" : "Mar Hotel"
+    ,"title02" : "Atlante Plaza Hotel"
+    ,"title03" : "Golden Tulip Recife Palace"
+    ,"address01" : "R. Barão de Souza Leão, 451 - Boa Viagem, 51030-300 Recife / PE - Brasil"
+    ,"address02" : "Av. Boa Viagem, 5426 - Boa Viagem, Recife - PE, 51030-000"
+    ,"address03" : "Av. Boa Viagem, 4070 - Boa Viagem, Recife - PE, 51021-000"
+    ,"obs01" : "Este hotel irá acomodar todos os palestrantes e todo o simpósio que será realizado aqui."
+    ,"single" : "Quarto individual:"
+    ,"double" : "Quarto duplo:"
+    ,"single01" : "R$ 250/quarto/noite (+taxas)"
+    ,"double01" : "R$ 280/quarto/noite (+taxas)"
+    ,"single02" : "R$ 315/quarto/noite (+taxas)"
+    ,"double02" : "R$ 355/quarto/noite (+taxas)"
+    ,"single03" : "R$ XXX/quarto/noite (+taxas)"
+    ,"double03" : "R$ XXX/quarto/noite (+taxas)"
+    ,"reserva" : "Reserva"
+  },
   "navSecondary": {
     "link01" : "Como Chegar"
     ,"link01Title" : "Como Chegar"

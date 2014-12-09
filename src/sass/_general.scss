@@ -373,7 +373,7 @@ body { font-size: $fs-root; }
 //
 
 .agenda {
-  @include linear-gradient(top, #213239, $color-primary);
+  @include linear-gradient(top, $color-secondary, #B6DE78);
   min-height: 550px;
 
   aside {
@@ -384,7 +384,7 @@ body { font-size: $fs-root; }
   }
 
   .section-title {
-    color: #fff;
+    color: $color-primary;
   }
 }
 
@@ -392,7 +392,7 @@ body { font-size: $fs-root; }
   font-family: $ff-secondary;
   font-size: $fs-extra-medium;
   position: relative;
-  color: #fff;
+  color: $color-primary;
 
   &::before {
     content: '';
@@ -489,17 +489,15 @@ body { font-size: $fs-root; }
   height: 100%;
   overflow: hidden;
   margin: 0;
+  position: relative;
+  @include bsd(0 -1px 6px #000);
 }
 
 .image-hotel {
   float: left;
   padding: 0;
 
-  img {
-    max-width: 100%;
-    vertical-align: middle;
-    display: inline-block;
-  }
+  img { max-width: 100%; }
 }
 
 
@@ -784,6 +782,8 @@ body { font-size: $fs-root; }
   .organizers-links {
     margin: 20px;
   }
+
+  .box-images-hotel { height: 130px; }
 }
 
 // Desktops
@@ -791,6 +791,8 @@ body { font-size: $fs-root; }
   .header-primary {
     background-position: center 63%;
   }
+
+  .box-images-hotel { height: 173px; }
 
   .section-text {
     font-size: $fs-medium;

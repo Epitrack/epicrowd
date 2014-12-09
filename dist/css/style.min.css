@@ -5731,12 +5731,12 @@ body {
 }
 
 .agenda {
-  background-color: #213239;
-  background-image: -webkit-linear-gradient(top, #213239, #283A42);
-  background-image: -moz-linear-gradient(top, #213239, #283A42);
-  background-image: -ms-linear-gradient(top, #213239, #283A42);
-  background-image: -o-linear-gradient(top, #213239, #283A42);
-  background-image: linear-gradient(top, #213239, #283A42);
+  background-color: #9DDE38;
+  background-image: -webkit-linear-gradient(top, #9DDE38, #B6DE78);
+  background-image: -moz-linear-gradient(top, #9DDE38, #B6DE78);
+  background-image: -ms-linear-gradient(top, #9DDE38, #B6DE78);
+  background-image: -o-linear-gradient(top, #9DDE38, #B6DE78);
+  background-image: linear-gradient(top, #9DDE38, #B6DE78);
   min-height: 550px;
 }
 .agenda aside {
@@ -5746,14 +5746,14 @@ body {
   position: relative;
 }
 .agenda .section-title {
-  color: #fff;
+  color: #283A42;
 }
 
 .agenda-title {
   font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
   font-size: 2.5rem;
   position: relative;
-  color: #fff;
+  color: #283A42;
 }
 .agenda-title::before {
   content: '';
@@ -5837,6 +5837,12 @@ body {
   height: 100%;
   overflow: hidden;
   margin: 0;
+  position: relative;
+  -webkit-box-shadow: 0 -1px 6px #000;
+  -moz-box-shadow: 0 -1px 6px #000;
+  -ms-box-shadow: 0 -1px 6px #000;
+  -o-box-shadow: 0 -1px 6px #000;
+  box-shadow: 0 -1px 6px #000;
 }
 
 .image-hotel {
@@ -5845,8 +5851,6 @@ body {
 }
 .image-hotel img {
   max-width: 100%;
-  vertical-align: middle;
-  display: inline-block;
 }
 
 .register {
@@ -6094,10 +6098,18 @@ body {
   .organizers-links {
     margin: 20px;
   }
+
+  .box-images-hotel {
+    height: 130px;
+  }
 }
 @media (min-width: 992px) {
   .header-primary {
     background-position: center 63%;
+  }
+
+  .box-images-hotel {
+    height: 173px;
   }
 
   .section-text {
@@ -6194,4 +6206,70 @@ body {
   .organizers-description p {
     text-align: left;
   }
+}
+.lodging {
+  background-color: #283A42;
+  background-image: -webkit-linear-gradient(top, #283A42, #3F535C);
+  background-image: -moz-linear-gradient(top, #283A42, #3F535C);
+  background-image: -ms-linear-gradient(top, #283A42, #3F535C);
+  background-image: -o-linear-gradient(top, #283A42, #3F535C);
+  background-image: linear-gradient(top, #283A42, #3F535C);
+}
+.lodging .section-title {
+  color: #E5E5E5;
+}
+
+.lodging-info {
+  margin-top: 20px;
+}
+
+.lodging-title {
+  color: #E5E5E5;
+  font-size: 1.8rem;
+  font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+  text-transform: uppercase;
+}
+
+.lodging-item {
+  font-size: 1.4rem;
+  color: #E5E5E5;
+  font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+  margin-bottom: 20px;
+  list-style-type: circle;
+}
+.lodging-item span {
+  font-weight: 600;
+}
+.lodging-item:last-child {
+  list-style-type: none;
+}
+
+.lodging-link {
+  text-decoration: none;
+  color: #E5E5E5;
+  -webkit-transition: color 0.2s linear 0s;
+  -moz-transition: color 0.2s linear 0s;
+  -ms-transition: color 0.2s linear 0s;
+  -o-transition: color 0.2s linear 0s;
+  transition: color 0.2s linear 0s;
+}
+.lodging-link:hover, .lodging-link:focus {
+  color: #9DDE38;
+  text-decoration: none;
+}
+.lodging-link.reserve {
+  border-radius: 3px;
+  border: 1px solid #E5E5E5;
+  padding: 3px 5px;
+  text-transform: uppercase;
+  font-size: 1.2rem;
+  -webkit-transition: all 0.2s linear 0s;
+  -moz-transition: all 0.2s linear 0s;
+  -ms-transition: all 0.2s linear 0s;
+  -o-transition: all 0.2s linear 0s;
+  transition: all 0.2s linear 0s;
+}
+.lodging-link.reserve:hover {
+  background-color: #E5E5E5;
+  color: #283A42;
 }

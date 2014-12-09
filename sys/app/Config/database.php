@@ -14,7 +14,7 @@ class DATABASE_CONFIG {
 		'persistent' => true,
 		'host' => 'localhost',
 		'login' => 'root',
-		'password' => '123456',
+		'password' => '',
 		'database' => 'dddmg_org',
 		'encoding' => 'utf8'
 	);

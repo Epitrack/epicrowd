@@ -57,6 +57,28 @@
     ,"captchaPlaceholder" : "Enter code here"
     ,"send" : "Send"
   },
+  "gettingHere": {
+    "title" : "Getting Here"
+  },
+  "lodging": {
+    "title" : "Lodging"
+    ,"title01" : "Mar Hotel"
+    ,"title02" : "Atlante Plaza Hotel"
+    ,"title03" : "Golden Tulip Recife Palace"
+    ,"address01" : "R. Barão de Souza Leão, 451 - Boa Viagem, 51030-300 Recife / PE - Brasil"
+    ,"address02" : "Av. Boa Viagem, 5426 - Boa Viagem, Recife - PE, 51030-000"
+    ,"address03" : "Av. Boa Viagem, 4070 - Boa Viagem, Recife - PE, 51021-000"
+    ,"obs01" : "This hotel will accommodate the speakers and all Symposium sessions will be held here."
+    ,"single" : "Single Room:"
+    ,"double" : "Double Room:"
+    ,"single01" : "R$ 250/room/night (+taxes)"
+    ,"double01" : "R$ 280/room/night (+taxes)"
+    ,"single02" : "R$ 315/room/night (+taxes)"
+    ,"double02" : "R$ 355/room/night (+taxes)"
+    ,"single03" : "R$ XXX/room/night (+taxes)"
+    ,"double03" : "R$ XXX/room/night (+taxes)"
+    ,"reserva" : "Reserve"
+  },
   "navSecondary": {
     "link01" : "getting here"
     ,"link01Title" : "Getting Here"
