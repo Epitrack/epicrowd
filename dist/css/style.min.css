@@ -5731,12 +5731,7 @@ body {
 }
 
 .agenda {
-  background-color: #9DDE38;
-  background-image: -webkit-linear-gradient(top, #9DDE38, #B6DE78);
-  background-image: -moz-linear-gradient(top, #9DDE38, #B6DE78);
-  background-image: -ms-linear-gradient(top, #9DDE38, #B6DE78);
-  background-image: -o-linear-gradient(top, #9DDE38, #B6DE78);
-  background-image: linear-gradient(top, #9DDE38, #B6DE78);
+  background-color: #E5E5E5;
   min-height: 550px;
 }
 .agenda aside {

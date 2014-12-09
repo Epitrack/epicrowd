@@ -354,5 +354,8 @@
     ,"facebookTitle" : "Like on Facebook"
     ,"lanyrd" : "Track on Lanyrd"
     ,"lanyrdTitle" : "Track on Lanyrd"
+  },
+  "sponsor" : {
+    "title": "Become a Sponsor"
   }
 }

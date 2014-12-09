@@ -354,5 +354,8 @@
     ,"facebookTitle" : "Curta no Facebook"
     ,"lanyrd" : "Siga no Lanyrd"
     ,"lanyrdTitle" : "Siga no Lanyrd"
+  },
+  "sponsor" : {
+    "title": "Torne-se um patrocinador"
   }
 }

@@ -12,7 +12,6 @@ APP.Scroll = {
     $('.nav-list').on('click', 'a', function(event) {
       event.preventDefault();
       target = $( $(this).attr('href') );
-      console.log(target);
 
       APP.Scroll.smoothScroll(target, 30);
 
@@ -22,7 +21,7 @@ APP.Scroll = {
     });
 
     // footer link
-    $('#link-getting-here, #link-lodging').on('click', function(event) {
+    $('.scroll').on('click', function(event) {
       event.preventDefault();
 
       target = $( $(this).attr('href') );

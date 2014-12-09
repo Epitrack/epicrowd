@@ -4,7 +4,7 @@
 
     <div class="row">
       <aside class="col-xs-12 organized-box epitrack">
-        <a href="organizers.html" title="Epitrack" class="organized-link external">
+        <a href="#epitrack" title="Epitrack" class="organized-link scroll">
           <figure class="organized-image">
             <img src="dist/images/logo-epitrack.svg" width="180" height="80" alt="">
           </figure>
@@ -16,7 +16,7 @@
 
     <div class="row">
       <aside class="col-xs-12 organized-box skoll">
-        <a href="organizers.html" title="Skoll Global Threats" class="organized-link external">
+        <a href="#skoll" title="Skoll Global Threats" class="organized-link scroll">
           <figure class="organized-image">
             <img src="dist/images/logo-skoll.svg" width="180" height="80" alt="">
           </figure>
@@ -29,11 +29,11 @@
     <nav class="nav-secondary">
       <ul class="nav-secondary-list">
         <li class="nav-secondary-item">
-          <a id="link-getting-here" href="#getting-here" data-i18n="navSecondary.link01;[title]navSecondary.link01Title" class="nav-secondary-link" title="Getting Here">getting here</a>
+          <a href="#getting-here" data-i18n="navSecondary.link01;[title]navSecondary.link01Title" class="nav-secondary-link scroll" title="Getting Here">getting here</a>
         </li>
 
         <li class="nav-secondary-item">
-          <a id="link-lodging" href="#lodging" data-i18n="navSecondary.link02;[title]navSecondary.link02Title" class="nav-secondary-link" title="Lodging">Lodging</a>
+          <a href="#lodging" data-i18n="navSecondary.link02;[title]navSecondary.link02Title" class="nav-secondary-link scroll" title="Lodging">Lodging</a>
         </li>
 
         <li class="nav-secondary-item">
