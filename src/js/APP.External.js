@@ -8,7 +8,6 @@ APP.External = {
     var href;
 
     $('.external').on('click', function(event) {
-      console.log(this);
       event.preventDefault();
 
       href = $(this).attr('href');
