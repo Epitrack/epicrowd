@@ -68,15 +68,15 @@
     ,"address01" : "R. Barão de Souza Leão, 451 - Boa Viagem, 51030-300 Recife / PE - Brasil"
     ,"address02" : "Av. Boa Viagem, 5426 - Boa Viagem, Recife - PE, 51030-000"
     ,"address03" : "Av. Boa Viagem, 4070 - Boa Viagem, Recife - PE, 51021-000"
-    ,"obs01" : "Este hotel irá acomodar todos os palestrantes e todo o simpósio que será realizado aqui."
+    ,"obs01" : "Este hotel irá acomodar todos os palestrantes e todo o simpósio será realizado aqui."
     ,"single" : "Quarto individual:"
     ,"double" : "Quarto duplo:"
-    ,"single01" : "R$ 250/quarto/noite (+taxas)"
-    ,"double01" : "R$ 280/quarto/noite (+taxas)"
-    ,"single02" : "R$ 315/quarto/noite (+taxas)"
-    ,"double02" : "R$ 355/quarto/noite (+taxas)"
-    ,"single03" : "R$ XXX/quarto/noite (+taxas)"
-    ,"double03" : "R$ XXX/quarto/noite (+taxas)"
+    ,"single01" : "R$ 250/quarto/noite (+ISS)"
+    ,"double01" : "R$ 280/quarto/noite (+ISS)"
+    ,"single02" : "R$ 315/quarto/noite (+ISS)"
+    ,"double02" : "R$ 355/quarto/noite (+ISS)"
+    ,"single03" : "R$ XXX/quarto/noite (+ISS)"
+    ,"double03" : "R$ XXX/quarto/noite (+ISS)"
     ,"reserva" : "Reserva"
   },
   "navSecondary": {
@@ -357,5 +357,8 @@
   },
   "sponsor" : {
     "title": "Torne-se um patrocinador"
+    ,"texto01": "Obrigado pelo seu interesse em tornar-se um patrocinador DDDMG. Possuimos vários níveis de patrocínio e estamos abertos para discutir as opções que atende a sua empresa ou organização. Esperamos um contato seu em"
+    ,"text02Title": "Envie um Email"
+    ,"texto03": "DDDMG não vende, empresta ou distribui sua lista de discussões ou endereços de email para patrocinadores e parceiros."
   }
 }

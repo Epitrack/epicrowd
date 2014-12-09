@@ -448,7 +448,7 @@
                   </a>
                 </li>
 
-                <li data-i18n="lodging.obs01" class="lodging-item">
+                <li data-i18n="lodging.obs01" class="lodging-item featured">
                   This hotel will accommodate the speakers and all Symposium sessions will be held here.
                 </li>
 
