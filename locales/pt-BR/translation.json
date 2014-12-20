@@ -30,18 +30,20 @@
   "agenda": {
     "title" : "Agenda"
     ,"conferencesTitle" : "Conferências"
-    ,"conferenceList01" : "Desafios em Vigilância em Saúde durante Eventos de Massa."
-    ,"conferenceList02" : "Inovação e Saúde: Novas ondas de inovação no mundo e como a epidemiologia pode fornecer ferramentas inteligentes."
-    ,"conferenceList03" : "Uso de mídias sociais como estratégia um novo modelo de comunicação em saúde."
-    ,"conferenceList04" : "Potenciais riscos de pandemias: Projeções para 2016."
-    ,"panelsTitle" : "Painéis"
-    ,"panelsList01" : "Existe uma bola de cristal para prever pandemias?"
-    ,"panelsList02" : "Limites da ética na era da Saúde Pública 2.0."
-    ,"panelsList03" : "Inteligência epidemiológica para eventos de massa."
-    ,"panelsList04" : "Estratégias de vigilância participativa durante eventos de massa."
-    ,"panelsList05" : "Perspectivas do gerenciamento dos riscos em saúde para as Olimpíadas 2016."
-    ,"rapidTitle" : "Apresentações orais"
-    ,"rapidFireList01" : "Em breve"
+    ,"conferenceList01" : "Abertura - Avanços e Potenciais da Detecção Digital de Doenças para eventos de massa."
+    ,"conferenceList02" : "O maravilhoso mundo da vigilância em eventos de massa."
+    ,"conferenceList03" : "Novas ondas de inovação no mundo e seus impactos na saúde pública."
+    ,"conferenceList04" : "Da prática acadêmica à aplicação aos serviços: como unir forças para os novos problemas na saúde pública?"
+    ,"panelsTitle" : "Paineis"
+    ,"panelsList01" : "Existe uma bola de cristal para pandemias?"
+    ,"panelsList02" : "Perspectivas do gerenciamento da saúde para as Olimpíadas de 2016."
+    ,"panelsList03" : "Limites da ética na era 2.0 da Saúde Pública."
+    ,"panelsList04" : "Quão profundo a “epitecnologia” poderá fazer pelos eventos de massa?"
+    ,"panelsList05" : "Estratégias de vigilância participativa e eventos de massa."
+    ,"panelsList06" : "Saúde global e o impacto da disseminação de ameaças infecciosas durante eventos de massa."
+    ,"panelsList07" : "Como implementar ferramentas para vigilância em saúde durante eventos de massa?"
+    ,"rapidTitle" : "Rapid fire talks"
+    ,"rapidFireList01" : "Coming soon"
   },
   "register": {
     "title" : "Registro"
@@ -75,8 +77,8 @@
     ,"double01" : "R$ 280/quarto/noite (+ISS)"
     ,"single02" : "R$ 315/quarto/noite (+ISS)"
     ,"double02" : "R$ 355/quarto/noite (+ISS)"
-    ,"single03" : "R$ XXX/quarto/noite (+ISS)"
-    ,"double03" : "R$ XXX/quarto/noite (+ISS)"
+    ,"single03" : "R$ 370/quarto/noite (+ISS)"
+    ,"double03" : "R$ 420/quarto/noite (+ISS)"
     ,"reserva" : "Reserva"
   },
   "navSecondary": {
@@ -88,6 +90,8 @@
     ,"link04Title" : "Patrocinador"
     ,"link05" : "Contato"
     ,"link05Title" : "Contato"
+    ,"link06" : "Organizadores"
+    ,"link06Title" : "Organizadores"
   },
   "countries": {
     "country1": "AFEGANISTÃO",
@@ -357,8 +361,27 @@
   },
   "sponsor" : {
     "title": "Torne-se um patrocinador"
-    ,"texto01": "Obrigado pelo seu interesse em tornar-se um patrocinador DDDMG. Possuimos vários níveis de patrocínio e estamos abertos para discutir as opções que atende a sua empresa ou organização. Esperamos um contato seu em"
+    ,"texto01": "Obrigado pelo seu interesse em ser um patrocinador do EpiCrowd. Temos várias cotas de patrocínio, e estamos abertos a discutir quais as melhores opções para sua empresa ou organização. Esperamos seu contato em "
     ,"text02Title": "Envie um Email"
-    ,"texto03": "DDDMG não vende, empresta ou distribui sua lista de discussões ou endereços de email para patrocinadores e parceiros."
+    ,"texto03": "Não cedemos ou distribuimos mailing list para patrocinadores e parceiros."
+  },
+  "organizers": {
+    "title" : "Organizadores"
+    ,"marioLibelTitle" : "Marlo Libel, MD"
+    ,"marioLibelText" : "Médico, mestre em saúde pública com foco em Epidemiologia. Coordenou a criação das redes de vigilância de doenças infecciosas emergentes no Cone Sul, da Bacia Amazônica e na América Central. Coordenou também as operações de alerta e resposta aos surtos da OPAS. Consultor na Skoll Global Threats Fund para vigilância participativa e detecção digital de doenças em eventos de massa."
+    ,"markSmolinskiTitle" : "Mark Smolinski"
+    ,"markSmolinskiText" : "Médico intensivista com especialidade em medicina preventiva e saúde pública listado pela revista Wired como uma das 15 pessoas de quem o presidente americano deveria ouvir conselhos, Mark integra o quadro de diretores da Skoll Global Threats Funding."
+    ,"jenniferOlsenTitle" : "Jennifer Olsen"
+    ,"jenniferOlsenText" : "Mestre em saúde pública com foco em Epidemiologia, certificada em Armas de Destruição de massa, Jennifer faz parte do quadro de gestores da divisão de pandemias da Skoll Global Threats Fund."
+    ,"onicioTitle" : "Onicio Leal"
+    ,"onicioText" : "Epidemiologista, mestre em saúde pública com experiência em detecção digital de doenças. Fundador da Epitrack, tem trabalhado continuamente em busca de inovações em saúde pública."
+    ,"jonesAlbuquerqueTitle" : "Jones Albuquerque"
+    ,"jonesAlbuquerqueText" : "Doutor em ciências da computação e cofundador da Epitrack, fornece à equipe ferramentas em inovação tecnológica."
+    ,"julianaPerazzoTitle" : "Juliana Perazzo"
+    ,"julianaPerazzoText" : "Epidemiologista, mestre em saúde pública e diretora de produtos na Epitrack."
+    ,"georgeDimechTitle" : "George Dimech"
+    ,"georgeDimechText" : "Epidemiologista, mestre em saúde pública. Trabalha com emergências e vigilância em eventos de massa. Consultor técnico na Epitrack."
+    ,"renataVasconcelosTitlte" : "Renata Vasconcelos"
+    ,"renataVasconcelosText" : "Biomédica, mestre em biologia celular e molecular. Gerente de projetos e planejamento de eventos na Epitrack."
   }
 }

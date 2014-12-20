@@ -18,19 +18,19 @@
 
   <!-- Facebook  -->
   <meta property="og:type" content="website" />
-  <meta property="og:url" content="http://www.dddmg.org" />
-  <meta property="og:title" content="DDD|MG 2015 - International Simposium on Digital Disease Detection for Mass Gathering." />
-  <meta property="og:image" content="" />
-  <meta property="og:description" content="The symposium DDDMG presents an opportunity to exchange experiences and dissemination of DDD use of strategies during mass gatherings." />
+  <meta property="og:url" content="http://www.epicrowd.org" />
+  <meta property="og:title" content="Epicrowd - 2015" />
+  <meta property="og:image" content="http://www.epicrowd.org/dist/images/facebook.png" />
+  <meta property="og:description" content="Making Mass Gatherings Safe." />
 
   <!-- Twitter -->
   <meta name="twitter:card" value="summary_large_image">
   <meta name="twitter:card" value="summary">
-  <meta name="twitter:creator" value="@dddmg2015">
-  <meta name="twitter:site" value="@dddmg2015">
-  <meta name="twitter:title" content="International Simposium on Digital Disease Detection for Mass Gathering.">
-  <meta name="twitter:description" content="The symposium DDDMG presents an opportunity to exchange experiences and dissemination of DDD use of strategies during mass gatherings.">
-  <meta name="twitter:image:src" content="">
+  <meta name="twitter:creator" value="@epicrowd">
+  <meta name="twitter:site" value="@epicrowd">
+  <meta name="twitter:title" content="Epicrowd - 2015">
+  <meta name="twitter:description" content="EpiCrowd symposium presents an opportunity to exchange experiences and disseminate strategies to make mass gatherings safe.">
+  <meta name="twitter:image:src" content="http://www.epicrowd.org/dist/images/facebook.png">
 
   <!-- Apple Touch Icon -->
   <link rel="icon" type="image/x-icon" href="favicon.ico">
@@ -40,7 +40,7 @@
   <link rel="apple-touch-icon" sizes="152x152" href="touch-icon-ipad@2x.png">
 
   <!-- Humans -->
-  <link type="text/plain" rel="author" href="http://www.dddmg.org/humans.txt" />
+  <link type="text/plain" rel="author" href="http://www.epicrowd.org/humans.txt" />
 
   <!-- CSS -->
   <link rel="stylesheet" href="dist/css/style.min.css">

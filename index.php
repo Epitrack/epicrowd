@@ -67,10 +67,10 @@
         <aside class="col-xs-12 col-sm-10 col-sm-offset-1 col-md-10 col-md-offset-1">
           <h4 data-i18n="agenda.conferencesTitle" class="agenda-title conferences">Conferences</h4>
           <ul class="agenda-list">
-            <li class="agenda-item" data-i18n="agenda.conferenceList01">Challenges in the Mass Gathering Health Surveillance.</li>
-            <li class="agenda-item" data-i18n="agenda.conferenceList02">Innovation and Health: New waves of innovation in the world and how epidemiology can provide the tools.</li>
-            <li class="agenda-item" data-i18n="agenda.conferenceList03">Using social media as a strateagy to spread a new model of health communication.</li>
-            <li class="agenda-item" data-i18n="agenda.conferenceList04">Potential risks of pandemics: Projections to 2016.</li>
+            <li class="agenda-item" data-i18n="agenda.conferenceList01">Welcome remarks and open talk - DDD advances and potential for mass gatherings.</li>
+            <li class="agenda-item" data-i18n="agenda.conferenceList02">The Wonderful World of Mass Gatherings Surveillance.</li>
+            <li class="agenda-item" data-i18n="agenda.conferenceList03">New waves of innovation in the world and how health can play it.</li>
+            <li class="agenda-item" data-i18n="agenda.conferenceList04">From academic practices to the services application: how to close links to new issues in public health?</li>
           </ul>
         </aside>
 
@@ -78,10 +78,12 @@
           <h4 data-i18n="agenda.panelsTitle" class="agenda-title panels">Panels</h4>
           <ul class="agenda-list">
             <li class="agenda-item" data-i18n="agenda.panelsList01">OMG...Is there a Crystal Ball for Pandemics?</li>
-            <li class="agenda-item" data-i18n="agenda.panelsList02">Limits of ethics in Public Health 2.0 age.</li>
-            <li class="agenda-item" data-i18n="agenda.panelsList03">Epidemic Intelligence for Mass Gatherings.</li>
-            <li class="agenda-item" data-i18n="agenda.panelsList04">Strategies for Participatory Surveillance for Mass Gathering.</li>
-            <li class="agenda-item" data-i18n="agenda.panelsList05">Perspectives of Health Managment for Olympics 2016.</li>
+            <li class="agenda-item" data-i18n="agenda.panelsList02">Perspectives of Health Managment for Olympics 2016.</li>
+            <li class="agenda-item" data-i18n="agenda.panelsList03">Limits of ethics in Public Health 2.0 age.</li>
+            <li class="agenda-item" data-i18n="agenda.panelsList04">How deep (epi)technology could go through mass gatherings?</li>
+            <li class="agenda-item" data-i18n="agenda.panelsList05">Strategies for Participatory Surveillance for Mass Gathering.</li>
+            <li class="agenda-item" data-i18n="agenda.panelsList06">Global Health and the impact dissemination of infectious threats during mass gatherings.</li>
+            <li class="agenda-item" data-i18n="agenda.panelsList07">How to delivery tools for surveillance during mass gatherings?</li>
           </ul>
         </aside>
 
@@ -418,15 +420,18 @@
 
         <div class="row box-images-hotel">
           <div class="col-xs-12 col-sm-4 col-md-4 image-hotel">
-            <img src="src/images/mar-hotel-01.jpg" height="100%" width="100%" alt="">
+            <img src="src/images/mar-hotel-01.jpg" height="100%" width="100%" alt="Imagens do Mar Hotel">
+            <img class="image-hover" src="src/images/mar-hotel-01-hover.jpg" height="100%" width="100%" alt="Imagens do Mar Hotel">
           </div>
 
           <div class="col-xs-12 col-sm-4 col-md-4 image-hotel">
-            <img src="src/images/mar-hotel-02.jpg" height="100%" width="100%" alt="">
+            <img src="src/images/mar-hotel-02.jpg" height="100%" width="100%" alt="Imagens do Mar Hotel">
+            <img class="image-hover" src="src/images/mar-hotel-02-hover.jpg" height="100%" width="100%" alt="Imagens do Mar Hotel">
           </div>
 
           <div class="col-xs-12 col-sm-4 col-md-4 image-hotel">
-            <img src="src/images/mar-hotel-03.jpg" height="100%" width="100%" alt="">
+            <img src="src/images/mar-hotel-03.jpg" height="100%" width="100%" alt="Imagens do Mar Hotel">
+            <img class="image-hover" src="src/images/mar-hotel-03-hover.jpg" height="100%" width="100%" alt="Imagens do Mar Hotel">
           </div>
         </div>
       </section>
@@ -449,7 +454,7 @@
                 </li>
 
                 <li data-i18n="lodging.obs01" class="lodging-item featured">
-                  This hotel will accommodate the speakers and all Symposium sessions will be held here.
+                  This hotel will accomodate the speakers and all Symposium sessions will be held here
                 </li>
 
                 <li class="lodging-item">
@@ -503,8 +508,8 @@
                 </li>
 
                 <li class="lodging-item">
-                  <span data-i18n="lodging.single">Single Room:</span> <p data-i18n="lodging.single03">R$ XXX/room/night (+taxes)</p>
-                  <span data-i18n="lodging.double">Double Room:</span> <p data-i18n="lodging.double03">R$ XXX/room/night (+taxes)</p>
+                  <span data-i18n="lodging.single">Single Room:</span> <p data-i18n="lodging.single03">R$ 370/room/night (+taxes)</p>
+                  <span data-i18n="lodging.double">Double Room:</span> <p data-i18n="lodging.double03">R$ 420/room/night (+taxes)</p>
                 </li>
 
                 <li class="lodging-item">
@@ -517,182 +522,6 @@
               </ul>
             </aside>
           </div>
-        </div>
-      </section>
-
-      <section id="organizers" class="row organizers"> <!-- Organizers -->
-        <div class="col-xs-12 col-sm-10 col-sm-offset-1 col-md-10 col-md-offset-1">
-          <h3 data-i18n="organizers.title" class="section-title">Organizers</h3>
-        </div>
-
-        <div class="col-xs-12 col-sm-10 col-sm-offset-1 col-md-10 col-md-offset-1">
-          <aside id="skoll" class="organizers-box skoll"> <!-- Skoll -->
-            <ul class="organizers-list">
-              <li class="row organizers-item">
-                <figure class="col-xs-12 col-sm-4 col-md-3 organizers-image">
-                  <img src="" alt="">
-                </figure>
-
-                <div class="col-xs-12 col-sm-8 col-md-9 organizers-description">
-                  <h4 class="organizers-name">Mark Smolinsk</h4>
-                  <p>
-                    Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-                    Vero nobis deserunt dolor modi quia error! Minus quas itaque
-                    reiciendis repudiandae excepturi molestias aperiam minima
-                    maxime debitis, et sit vero deleniti quod corporis magnam
-                    eaque suscipit possimus cum alias. Exercitationem, deleniti.
-                  </p>
-
-                  <a href="#" class="web">meusite.com</a>
-                  <a href="http://www.skollglobalthreats.org" target="_blank" class="company skoll">skollglobalthreats.org</a>
-                </div>
-              </li>
-
-              <li class="row organizers-item">
-                <figure class="col-xs-12 col-sm-4 col-md-3 organizers-image">
-                  <img src="" alt="">
-                </figure>
-
-                <div class="col-xs-12 col-sm-8 col-md-9 organizers-description">
-                  <h4 class="organizers-name">Jennifer Olsen</h4>
-                  <p>
-                    Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-                    Vero nobis deserunt dolor modi quia error! Minus quas itaque
-                    reiciendis repudiandae excepturi molestias aperiam minima
-                    maxime debitis, et sit vero deleniti quod corporis magnam
-                    eaque suscipit possimus cum alias. Exercitationem, deleniti.
-                  </p>
-
-                  <a href="#" class="web">meusite.com</a>
-                  <a href="http://www.skollglobalthreats.org" target="_blank" class="company skoll">skollglobalthreats.org</a>
-                </div>
-              </li>
-
-              <li class="row organizers-item">
-                <figure class="col-xs-12 col-sm-4 col-md-3 organizers-image">
-                  <img src="" alt="">
-                </figure>
-
-                <div class="col-xs-12 col-sm-8 col-md-9 organizers-description">
-                  <h4 class="organizers-name">Mario Libel</h4>
-                  <p>
-                    Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-                    Vero nobis deserunt dolor modi quia error! Minus quas itaque
-                    reiciendis repudiandae excepturi molestias aperiam minima
-                    maxime debitis, et sit vero deleniti quod corporis magnam
-                    eaque suscipit possimus cum alias. Exercitationem, deleniti.
-                  </p>
-
-                  <a href="#" class="web">meusite.com</a>
-                  <a href="http://www.skollglobalthreats.org" target="_blank" class="company skoll">skollglobalthreats.org</a>
-                </div>
-              </li>
-            </ul>
-          </aside>
-
-          <aside id="epitrack" class="organizers-box epitrack"> <!-- Epitrack -->
-            <ul class="organizers-list">
-              <li class="row organizers-item">
-                <figure class="col-xs-12 col-sm-4 col-md-3 organizers-image">
-                  <img src="" alt="">
-                </figure>
-
-                <div class="col-xs-12 col-sm-8 col-md-9 organizers-description">
-                  <h4 class="organizers-name">Onicio Leal</h4>
-                  <p>
-                    Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-                    Vero nobis deserunt dolor modi quia error! Minus quas itaque
-                    reiciendis repudiandae excepturi molestias aperiam minima
-                    maxime debitis, et sit vero deleniti quod corporis magnam
-                    eaque suscipit possimus cum alias. Exercitationem, deleniti.
-                  </p>
-
-                  <a href="#" class="web">meusite.com</a>
-                  <a href="http://www.epitrack.com.br" target="_blank" class="company epitrack">epitrack.com.br</a>
-                </div>
-              </li>
-
-              <li class="row organizers-item">
-                <figure class="col-xs-12 col-sm-4 col-md-3 organizers-image">
-                  <img src="" alt="">
-                </figure>
-
-                <div class="col-xs-12 col-sm-8 col-md-9 organizers-description">
-                  <h4 class="organizers-name">Juliana Perazzo</h4>
-                  <p>
-                    Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-                    Vero nobis deserunt dolor modi quia error! Minus quas itaque
-                    reiciendis repudiandae excepturi molestias aperiam minima
-                    maxime debitis, et sit vero deleniti quod corporis magnam
-                    eaque suscipit possimus cum alias. Exercitationem, deleniti.
-                  </p>
-
-                  <a href="#" class="web">meusite.com</a>
-                  <a href="http://www.epitrack.com.br" target="_blank" class="company epitrack">epitrack.com.br</a>
-                </div>
-              </li>
-
-              <li class="row organizers-item">
-                <figure class="col-xs-12 col-sm-4 col-md-3 organizers-image">
-                  <img src="" alt="">
-                </figure>
-
-                <div class="col-xs-12 col-sm-8 col-md-9 organizers-description">
-                  <h4 class="organizers-name">George Dimech</h4>
-                  <p>
-                    Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-                    Vero nobis deserunt dolor modi quia error! Minus quas itaque
-                    reiciendis repudiandae excepturi molestias aperiam minima
-                    maxime debitis, et sit vero deleniti quod corporis magnam
-                    eaque suscipit possimus cum alias. Exercitationem, deleniti.
-                  </p>
-
-                  <a href="#" class="web">meusite.com</a>
-                  <a href="http://www.epitrack.com.br" target="_blank" class="company epitrack">epitrack.com.br</a>
-                </div>
-              </li>
-
-              <li class="row organizers-item">
-                <figure class="col-xs-12 col-sm-4 col-md-3 organizers-image">
-                  <img src="" alt="">
-                </figure>
-
-                <div class="col-xs-12 col-sm-8 col-md-9 organizers-description">
-                  <h4 class="organizers-name">Jones Albuquerque</h4>
-                  <p>
-                    Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-                    Vero nobis deserunt dolor modi quia error! Minus quas itaque
-                    reiciendis repudiandae excepturi molestias aperiam minima
-                    maxime debitis, et sit vero deleniti quod corporis magnam
-                    eaque suscipit possimus cum alias. Exercitationem, deleniti.
-                  </p>
-
-                  <a href="#" class="web">meusite.com</a>
-                  <a href="http://www.epitrack.com.br" target="_blank" class="company epitrack">epitrack.com.br</a>
-                </div>
-              </li>
-
-              <li class="row organizers-item">
-                <figure class="col-xs-12 col-sm-4 col-md-3 organizers-image">
-                  <img src="" alt="">
-                </figure>
-
-                <div class="col-xs-12 col-sm-8 col-md-9 organizers-description">
-                  <h4 class="organizers-name">Renata Costa</h4>
-                  <p>
-                    Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-                    Vero nobis deserunt dolor modi quia error! Minus quas itaque
-                    reiciendis repudiandae excepturi molestias aperiam minima
-                    maxime debitis, et sit vero deleniti quod corporis magnam
-                    eaque suscipit possimus cum alias. Exercitationem, deleniti.
-                  </p>
-
-                  <a href="#" class="web">meusite.com</a>
-                  <a href="http://www.epitrack.com.br" target="_blank" class="company epitrack">epitrack.com.br</a>
-                </div>
-              </li>
-            </ul>
-          </aside>
         </div>
       </section>
 
