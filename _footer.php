@@ -1,9 +1,9 @@
 <footer class="row footer-primary">
   <div class="col-xs-12 col-sm-10 col-sm-offset-1 col-md-10 col-md-offset-1 organized">
-    <h3 data-i18n="footer.title01;">Organized by</h3>
 
-    <div class="row">
-      <aside class="col-xs-12 organized-box epitrack">
+    <div class="col-xs-12 col-sm-4 col-sm-offset-2 col-md-4 col-md-offset-2">
+      <h3 data-i18n="footer.title01;">Organized by</h3>
+      <aside class="organized-box epitrack">
         <a href="#epitrack" title="Epitrack" class="organized-link scroll">
           <figure class="organized-image">
             <img src="dist/images/logo-epitrack.svg" width="180" height="80" alt="">
@@ -12,10 +12,9 @@
       </aside>
     </div>
 
-    <h3 data-i18n="footer.title02;">Support by</h3>
-
-    <div class="row">
-      <aside class="col-xs-12 organized-box skoll">
+    <div class="col-xs-12 col-sm-4 col-md-4">
+      <h3 data-i18n="footer.title02;">Support by</h3>
+      <aside class="organized-box skoll">
         <a href="#skoll" title="Skoll Global Threats" class="organized-link scroll">
           <figure class="organized-image">
             <img src="dist/images/logo-skoll.svg" width="180" height="80" alt="">
@@ -60,6 +59,6 @@
   </div>
 
   <div class="col-xs-12 col-sm-10 col-sm-offset-1 col-md-10 col-md-offset-1">
-    <p class="copyright"><sup>©</sup> 2015 <a href="http://epitrack.com.br" target="_blank" title="Epitrack">Epitrack </a>.</p>
+    <p class="copyright"><sup>©</sup> 2015 <a href="http://epitrack.com.br" target="_blank" title="Epitrack">Epitrack</a>.</p>
   </div>
 </footer>

@@ -13,6 +13,7 @@ APP.Maps = {
       zoom: 17,
       center: myLatlng,
       panControl: false,
+      // scrollwheel:false,
       mapTypeControlOptions: {
         mapTypeIds: [google.maps.MapTypeId.ROADMAP, 'map_style']
       }

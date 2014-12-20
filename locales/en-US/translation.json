@@ -2,7 +2,7 @@
   "app": {
     "name" : "i18next"
   }
-  ,"nav" : {
+  ,"nav": {
     "home" : "Home"
     ,"homeTitle" : "Home"
     ,"about" : "About"
@@ -14,18 +14,22 @@
     ,"register" : "Register"
     ,"registerTitle" : "Register"
   },
-  "date" : {
+  "date": {
     "first" : "March 25-"
     ,"second" : "27"
     ,"local" : "Recife, PE - Brazil"
   },
-  "about" : {
+  "countdown": {
+    "days" : "days"
+    ,"hours" : "hours"
+    ,"minutes" : "minutes"
+    ,"seconds" : "seconds"
+  },
+  "about": {
     "title" : "About"
-    ,"text01" : "Mass gatherings provide a meeting point for great numbers of people, but with this comes an increased risk for the spread of infectious disease. To varying degrees, depending on each event’s size and participants, mass gatherings heighten systematic contact between individuals from diverse places and backgrounds. Such events often become catalysts for outbreaks and epidemics."
-    ,"text02" : "During these gatherings, leaders in health risk management must fully grasp a range of possible scenarios, in order to identify and control new disease hotspots. By deploying the latest tools in epidemiology and public health, these professionals can improve the detection of heath threats among event participants and thus reduce overall risks."
-    ,"text03" : "Digital Disease Detection has shown, on numerous occasions throughout the world, that it is possible to promptly identify threats and disseminate information in order to control outbreaks before an outbreak can spread. Tools such as Facebook and Twitter, and strategies like participatory reporting and data-mining of health-related web activity can augment the existing defenses that protect public health."
-    ,"text04" : "As a branch of the international Digital Disease Detection Conference series (healthmap.org/ddd), the DDDMG symposium will offer an opportunity to share past experiences and successful strategies for using DDD specifically during mass events."
-    ,"text05" : "The symposium will take place in Recife, Pernambuco, known as the Silicon Valley of Brazil. A cradle of innovation, Recife is home to the nation’s largest tech research park and is rich in human capital in the fields of information and communication technology.The 3-day symposium will include lively discussions of past experiences, along with formal conference panels and presentations."
+    ,"text01" : "Mass gatherings provide a meeting point for great numbers of people, but with this comes an increased risk for the spread of infectious disease. To varying degrees, depending on each event’s size and participants, mass gatherings heighten systematic contact between individuals from diverse places and backgrounds. Such events often become catalysts for outbreaks and epidemics. During these gatherings, leaders in health risk management must fully grasp a range of possible scenarios, in order to identify and control new disease hotspots."
+    ,"text02" : "By deploying the latest tools in epidemiology and public health, these professionals can improve the detection of heath threats among event participants and thus reduce overall risks. Digital Disease Detection has shown, on numerous occasions throughout the world, that it is possible to promptly identify threats and disseminate information in order to control outbreaks before an outbreak can spread. Tools such as Facebook and Twitter, and strategies like participatory reporting and data-mining of"
+    ,"text03" : " health-related web activity can augment the existing defenses that protect public health. The symposium will take place in Recife, Pernambuco, known as the Silicon Valley of Brazil. A cradle of innovation, Recife is home to the nation’s largest tech research park and is rich in human capital in the fields of information and communication technology. The 3-day symposium will include lively discussions of past experiences, along with formal conference panels and presentations."
   },
   "agenda": {
     "title" : "agenda at glance"
@@ -61,6 +65,15 @@
   },
   "gettingHere": {
     "title" : "Getting Here"
+    ,"planeTitle" : "by plane"
+    ,"planeText" : "Recife's international airport Gilberto Freyre has lots of flights to many major cities in the world. Facilities at the airport are listed"
+    ,"planeLink" : "Here"
+    ,"carTitle" : "by car"
+    ,"carText" : "Recife is close to many cities in the Northeast coast of Brazil, as João Pessoa, Maceió and Natal. Get the itinerary using Google Maps Directions."
+    ,"taxiTitle" : "Taking a taxi"
+    ,"taxiText" : "At the airport, you can use ordinary or special taxi services. Special taxi rates are fixed by location, and cost about $ XX (R$ XX) for the hotels listed below, due to the proximity of the airport. Ordinary taxis calculate the price for path, being slightly cheaper. Special taxi service agents are in the arrivals hall or South Arrival gate, and conventional taxi service agents are on the airport sidewalk in front of the North Arrival gate. Outside the airport, you can also use one of these taxi apps"
+    ,"appsTitle" : "Other useful apps"
+    ,"appsLink01" : "Tour Guide"
   },
   "lodging": {
     "title" : "Lodging"
@@ -347,11 +360,11 @@
     "country251": "ZAMBIA",
     "country252": "ZIMBABWE"
   },
-  "footer" : {
+  "footer": {
     "title01": "Organized by"
     ,"title02": "Support by"
   },
-  "social" : {
+  "social": {
     "twitter" : "Follow on Twitter"
     ,"twitterTitle" : "Follow on Twitter"
     ,"facebook" : "Like on Facebook"
@@ -359,7 +372,7 @@
     ,"lanyrd" : "Track on Lanyrd"
     ,"lanyrdTitle" : "Track on Lanyrd"
   },
-  "sponsor" : {
+  "sponsor": {
     "title": "Become a Sponsor"
     ,"texto01": "Thank you for your interest in becoming a EpiCrowd sponsor.There are many levels of sponsorship, and we are open to discuss options that suit your company or organization. We hope to hear from you at "
     ,"text02Title": "Send a E-mail"

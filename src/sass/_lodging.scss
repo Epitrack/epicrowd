@@ -36,24 +36,6 @@
   &:last-child {
     list-style-type: none;
   }
-
-  &.featured {
-    position: relative;
-
-    &::before {
-      content: '';
-      width: 109%;
-      position: absolute;
-      height: 200%;
-      top: -16px;
-      left: -33px;
-
-      @include path('featured.svg');
-      background-repeat: no-repeat;
-      background-size: 100% 240%;
-      background-position: center;
-    }
-  }
 }
 
 .lodging-link {
