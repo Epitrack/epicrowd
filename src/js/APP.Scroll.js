@@ -87,5 +87,22 @@ APP.Scroll = {
 
     $('.nav-logo').removeClass('col-xs-4');
     $('.nav-logo').addClass('invisible col-xs-1');
-  }
+  },
+
+  getClickArrow: function() {
+    var arrow;
+
+    arrow = document.querySelector('#arrow');
+    arrow.style.top = '20px';
+
+    $(arrow).on('click', function(event) {
+      event.preventDefault();
+      console.log(this);
+    });
+  },
+
+  showArrow: function() {
+  },
+
+  hideArrow: function() {}
 }

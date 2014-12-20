@@ -2,7 +2,7 @@
   "app": {
     "name" : "i18next"
   }
-  ,"nav" : {
+  ,"nav": {
     "home" : "Início"
     ,"homeTitle" : "Início"
     ,"about" : "Sobre"
@@ -14,25 +14,29 @@
     ,"register" : "Registro"
     ,"registerTitle" : "Registro"
   },
-  "date" : {
+  "date": {
     "first" : "25-"
     ,"second" : "27 de Março de 2015"
     ,"local" : "Recife, PE - Brasil"
   },
+  "countdown": {
+    "days" : "dias"
+    ,"hours" : "horas"
+    ,"minutes" : "minutos"
+    ,"seconds" : "segundos"
+  },
   "about" : {
     "title" : "Sobre"
-    ,"text01" : "Eventos de massa são ocasiões que proporcionam a aglomeração de pessoas e com isso o risco aumentado de disseminação de doenças. Com dimensões variadas, dependendo do seu potencial e público, os eventos de massa proporcionam contatos sistemáticos entre indivíduos de diversas realidades e muitas vezes funcionam como catalisadores de surtos e epidemias."
-    ,"text02" : "O gerenciamento dos riscos em saúde nestas ocasiões precisam demonstrar integralidade na compreensão dos cenários possíveis que podem se constituir, facilitando o diagnóstico e controle eficiente de novos focos de doenças. E lançar mão de ferramentas que são tendências na epidemiologia e saúde pública podem aprimorar a detecção oportuna de possíveis ameaças à saúde das populações participantes destes eventos, promovendo a redução dos riscos."
-    ,"text03" : "A detecção digital de doenças tem mostrado, a partir de várias experiências ao redor do mundo, que é possível identificar precocemente ameaças e assim promover informações para que o controle seja feito antes de disseminações importantes. Instrumentos como facebook, twitter ou estratégias como vigilância participativa, e mineração de dados de saúde na web incrementam o arsenal de opções para que a saúde pública consiga estar protegida contra estes riscos."
-    ,"text04" : "Sendo um braço das conferências de Detecção Digital de Doenças (healthmap.org/ddd), o simpósio DDDMG apresenta uma oportunidade de troca de experiências e divulgação de estratégias do uso de DDD durante eventos de massa."
-    ,"text05" : "Acontecerá na cidade de Recife (PE), conhecida como o “vale do silício” brasileiro, por ser considerada o maior parque tecnológico do Brasil devido ao seu alto potencial de desenvolvimento de inovação e capital humano em tecnologias da informação e comunicação.Serão 3 dias de grandes trocas de experiências entre os participantes, mediante a condução de conferências, painéis e apresentações orais."
+    ,"text01" : "Mass gatherings provide a meeting point for great numbers of people, but with this comes an increased risk for the spread of infectious disease. To varying degrees, depending on each event’s size and participants, mass gatherings heighten systematic contact between individuals from diverse places and backgrounds. Such events often become catalysts for outbreaks and epidemics. During these gatherings, leaders in health risk management must fully grasp a range of possible scenarios, in order to identify and control new disease hotspots."
+    ,"text02" : "By deploying the latest tools in epidemiology and public health, these professionals can improve the detection of heath threats among event participants and thus reduce overall risks. Digital Disease Detection has shown, on numerous occasions throughout the world, that it is possible to promptly identify threats and disseminate information in order to control outbreaks before an outbreak can spread. Tools such as Facebook and Twitter, and strategies like participatory reporting and data-mining of"
+    ,"text03" : " health-related web activity can augment the existing defenses that protect public health. The symposium will take place in Recife, Pernambuco, known as the Silicon Valley of Brazil. A cradle of innovation, Recife is home to the nation’s largest tech research park and is rich in human capital in the fields of information and communication technology. The 3-day symposium will include lively discussions of past experiences, along with formal conference panels and presentations."
   },
   "agenda": {
     "title" : "Agenda"
     ,"conferencesTitle" : "Conferências"
     ,"conferenceList01" : "Abertura - Avanços e Potenciais da Detecção Digital de Doenças para eventos de massa."
     ,"conferenceList02" : "O maravilhoso mundo da vigilância em eventos de massa."
-    ,"conferenceList03" : "Novas ondas de inovação no mundo e seus impactos na saúde pública."
+    ,"conferenceList03" : "Novas ondas de inovação e seus impactos na saúde pública."
     ,"conferenceList04" : "Da prática acadêmica à aplicação aos serviços: como unir forças para os novos problemas na saúde pública?"
     ,"panelsTitle" : "Paineis"
     ,"panelsList01" : "Existe uma bola de cristal para pandemias?"
@@ -42,8 +46,8 @@
     ,"panelsList05" : "Estratégias de vigilância participativa e eventos de massa."
     ,"panelsList06" : "Saúde global e o impacto da disseminação de ameaças infecciosas durante eventos de massa."
     ,"panelsList07" : "Como implementar ferramentas para vigilância em saúde durante eventos de massa?"
-    ,"rapidTitle" : "Rapid fire talks"
-    ,"rapidFireList01" : "Coming soon"
+    ,"rapidTitle" : "Apresentações Orais"
+    ,"rapidFireList01" : "Em breve"
   },
   "register": {
     "title" : "Registro"
@@ -61,6 +65,15 @@
   },
   "gettingHere": {
     "title" : "Como chegar"
+    ,"planeTitle" : "Chegar de avião"
+    ,"planeText" : "O Aeroporto Internacional de Recife Gilberto Freyre tem muitos dos voos para muitas das grandes cidades do mundo. As instalações do aeroporto estão listadas"
+    ,"planeLink" : "aqui"
+    ,"carTitle" : "Chegar de carro"
+    ,"carText" : "Recife está perto de muitas cidades na costa Nordeste do Brasil, como João Pessoa, Maceió e Natal. Obtenha o itinerário usando as coordenadas do Google Maps."
+    ,"taxiTitle" : "Pegando um táxi"
+    ,"taxiText" : "At the airport, you can use ordinary or special taxi services. Special taxi rates are fixed by location, and cost about $ XX (R$ XX) for the hotels listed below, due to the proximity of the airport. Ordinary taxis calculate the price for path, being slightly cheaper. Special taxi service agents are in the arrivals hall or South Arrival gate, and conventional taxi service agents are on the airport sidewalk in front of the North Arrival gate. Outside the airport, you can also use one of these taxi apps"
+    ,"appsTitle" : "Outros aplicativos úteis"
+    ,"appsLink01" : "Guia Turistico"
   },
   "lodging": {
     "title" : "Hospedagem"
@@ -347,11 +360,11 @@
     "country251": "ZÂMBIA",
     "country252": "ZIMBABUÉ"
   },
-  "footer" : {
+  "footer": {
     "title01": "Organizado por"
     ,"title02": "Apoio por"
   },
-  "social" : {
+  "social": {
     "twitter" : "Siga no Twitter"
     ,"twitterTitle" : "Siga no Twitter"
     ,"facebook" : "Curta no Facebook"
@@ -359,7 +372,7 @@
     ,"lanyrd" : "Siga no Lanyrd"
     ,"lanyrdTitle" : "Siga no Lanyrd"
   },
-  "sponsor" : {
+  "sponsor": {
     "title": "Torne-se um patrocinador"
     ,"texto01": "Obrigado pelo seu interesse em ser um patrocinador do EpiCrowd. Temos várias cotas de patrocínio, e estamos abertos a discutir quais as melhores opções para sua empresa ou organização. Esperamos seu contato em "
     ,"text02Title": "Envie um Email"

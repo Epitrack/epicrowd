@@ -184,8 +184,8 @@ body { font-size: $fs-root; }
 //
 
 .down {
-  width: 35px;
-  height: 25px;
+  width: 42px;
+  height: 18px;
   position: absolute;
   top: 50%;
   left: 50%;
@@ -196,7 +196,7 @@ body { font-size: $fs-root; }
 
   @include path('down.png');
   background-repeat: no-repeat;
-  background-size: 35px 25px;
+  background-size: 42px 18px;
   @extend %animate-down;
 
   &:hover {
@@ -204,6 +204,18 @@ body { font-size: $fs-root; }
   }
 }
 
+.arrow {
+  width: 49px;
+  height: 49px;
+  position: fixed;
+  right: 3%;
+  background-color: $color-primary-dark;
+  border: 1px solid $color-primary;
+  border-radius: 100%;
+  z-index: 99;
+  cursor: pointer;
+  @include transition(all, .2s, ease-in-out-, 0s);
+}
 
 //
 // Nav primary
@@ -329,9 +341,11 @@ body { font-size: $fs-root; }
 //
 
 .main {
+  position: relative;
+
   section {
     min-height: 450px;
-    padding: 20px 0;
+    padding: 20px 0 60px 0;
   }
 }
 
@@ -346,7 +360,7 @@ body { font-size: $fs-root; }
   font-size: $fs-small;
   line-height: $fs-medium;
   color: $color-primary;
-  text-align: justify;
+  text-align: left;
   font-family: $ff-secondary;
 }
 
@@ -460,23 +474,67 @@ body { font-size: $fs-root; }
 //
 
 .getting-here {
-  padding-bottom: 0 !important;
-  @include path('bg-getting-here.jpg');
-  background-repeat: no-repeat;
-  background-attachment: fixed;
-  background-position: center 40%;
-  background-size: cover;
+  .section-title { color: $color-primary; }
+}
 
-  .section-title { color: #fff; }
+.location-box {
+  border-bottom: 2px solid $color-other;
 }
 
 .location-info {
-  text-align: center;
-  font-size: $fs-medium;
-  font-family: $ff-secondary;
-  color: #ffffff;
-  padding: 70px 0;
+  margin-bottom: 20px;
+
+  h3 {
+    color: $color-primary;
+    text-align: left;
+    font-family: $ff-title;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+    font-size: $fs-medium;
+  }
+
+  .icon {
+    width: 70px;
+    height: 70px;
+    display: inline-block;
+    float: left;
+    margin-right: 20px;
+    background-repeat: no-repeat;
+    background-size: 70px 70px;
+
+    &.plane {
+      @include path('icon-plane.svg');
+    }
+
+    &.car {
+      @include path('icon-car.svg');
+    }
+
+    &.taxi {
+      @include path('icon-taxi.svg');
+    }
+
+    &.apps {
+      @include path('icon-app.svg');
+    }
+  }
+
+  p {
+    color: $color-primary;
+    display: inline;
+    font-size: $fs-small;
+    line-height: $fs-extra-medium;
+    font-family: $ff-secondary;
+  }
+
+  a {
+    display: inline;
+    text-decoration: none;
+    color: $color-primary-dark;
+    font-size: $fs-small;
+  }
 }
+
 
 .location-map {
   width: 100%;
@@ -545,6 +603,7 @@ body { font-size: $fs-root; }
 
   .section-text {
     color: $color-secondary;
+    padding: 20px 0;
   }
 }
 
@@ -615,6 +674,7 @@ body { font-size: $fs-root; }
 .footer-primary {
   height: auto;
   background-color: $color-other;
+  padding: 20px;
 }
 
 
@@ -865,10 +925,6 @@ body { font-size: $fs-root; }
       background-size: 100% 134px;
       height: 134px;
     }
-  }
-
-  .getting-here {
-    background-size: 100% auto;
   }
 }
 

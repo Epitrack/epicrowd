@@ -4,58 +4,53 @@
     <?php include('_header.php'); ?>
 
     <main id="main" class="main">
+      <a id="arrow" href="#" class="arrow"></a>
+
       <section id="about" class="row about"> <!-- About -->
         <div class="col-xs-12 col-sm-10 col-sm-offset-1 col-md-10 col-md-offset-1">
           <h3 data-i18n="about.title" class="section-title">About</h3>
         </div>
 
-        <div class="col-xs-12 col-sm-5 col-sm-offset-1 col-md-5">
-          <p data-i18n="about.text01" class="section-text">
-            Mass gatherings provide a meeting point for great numbers of people,
-             but with this comes an increased risk for the spread of infectious
-             disease. To varying degrees, depending on each event’s size and
-             participants, mass gatherings heighten systematic contact between
-             individuals from diverse places and backgrounds. Such events often
-             become catalysts for outbreaks and epidemics.
-          </p>
+        <div class="col-xs-12 col-sm-10 col-sm-offset-1 col-md-10 col-md-offset-1">
+          <div class="col-xs-12 col-sm-4 col-sm-offset-0 col-md-4">
+            <p data-i18n="about.text01" class="section-text">
+              Mass gatherings provide a meeting point for great numbers of people,
+               but with this comes an increased risk for the spread of infectious
+               disease. To varying degrees, depending on each event’s size and
+               participants, mass gatherings heighten systematic contact between
+               individuals from diverse places and backgrounds. Such events often
+               become catalysts for outbreaks and epidemics. During these
+               gatherings, leaders in health risk management must fully grasp a
+               range of possible scenarios, in order to identify and control new
+               disease hotspots.
+            </p>
+          </div>
 
-          <p data-i18n="about.text02" class="section-text">
-            During these gatherings, leaders in health risk management must
-            fully grasp a range of possible scenarios, in order to identify and
-            control new disease hotspots. By deploying the latest tools in
-            epidemiology and public health, these professionals can improve the
-            detection of heath threats among event participants and thus reduce
-            overall risks.
-          </p>
+          <div class="col-xs-12 col-sm-4 col-sm-offset-0 col-md-4">
+            <p data-i18n="about.text02" class="section-text">
+              By deploying the latest tools in epidemiology and public health,
+              these professionals can improve the detection of heath threats
+              among event participants and thus reduce overall risks. Digital
+              Disease Detection has shown, on numerous occasions throughout the
+              world, that it is possible to promptly identify threats and
+              disseminate information in order to control outbreaks before an
+              outbreak can spread. Tools such as Facebook and Twitter, and
+              strategies like participatory reporting and data-mining of
+            </p>
+          </div>
 
-          <p data-i18n="about.text03" class="section-text">
-            Digital Disease Detection has shown, on numerous occasions
-            throughout the world, that it is possible to promptly identify
-            threats and disseminate information in order to control outbreaks
-            before an outbreak can spread. Tools such as Facebook and Twitter,
-            and strategies like participatory reporting and data-mining of
-            health-related web activity can augment the existing defenses that
-            protect public health.
-          </p>
-        </div>
-
-        <div class="col-xs-12 col-sm-5 col-sm-offset-0 col-md-5">
-          <p data-i18n="about.text04" class="section-text">
-            As a branch of the international Digital Disease Detection
-            Conference series (healthmap.org/ddd), the DDDMG symposium will
-            offer an opportunity to share past experiences and successful
-            strategies for using DDD specifically during mass events.
-          </p>
-
-          <p data-i18n="about.text05" class="section-text">
-            The symposium will take place in Recife, Pernambuco, known as the
-            Silicon Valley of Brazil. A cradle of innovation, Recife is home to
-            the nation’s largest tech research park and is rich in human
-            capital in the fields of information and communication technology.
-
-            The 3-day symposium will include lively discussions of past
-            experiences, along with formal conference panels and presentations.
-          </p>
+          <div class="col-xs-12 col-sm-4 col-sm-offset-0 col-md-4">
+            <p data-i18n="about.text03" class="section-text">
+              health-related web activity can augment the existing defenses that
+              protect public health. The symposium will take place in Recife,
+              Pernambuco, known as the Silicon Valley of Brazil. A cradle of
+              innovation, Recife is home to the nation’s largest tech research
+              park and is rich in human capital in the fields of information and
+              communication technology. The 3-day symposium will include lively
+              discussions of past experiences, along with formal conference panels
+              and presentations.
+            </p>
+          </div>
         </div>
       </section>
 
@@ -410,11 +405,64 @@
           <h3 data-i18n="gettingHere.title;" class="section-title">Getting Here</h3>
         </div>
 
-        <aside class="col-xs-12 col-sm-10 col-sm-offset-1 col-md-10 col-md-offset-1 location-info">
-          <p>Mar Hotel</p>
-          <p>R. Barão de Souza Leão, 451 - Boa Viagem, 51030-300</p>
-          <p>Recife / PE - Brasil</p>
-        </aside>
+        <div class="col-xs-12 col-sm10 col-sm-offset-1 col-md-10 col-md-offset-1 location-box">
+          <aside class="col-xs-12 col-sm-5 col-md-5 location-info"> <!-- by plane -->
+            <h3 data-i18n="gettingHere.planeTitle">by plane</h3>
+            <div class="icon plane"></div>
+            <p data-i18n="gettingHere.planeText">
+              Recife's international airport Gilberto Freyre has lots of
+              flights to many major cities in the world. Facilities at the
+              airport are listed
+            </p>
+
+            <a data-i18n="gettingHere.planeLink" target="_blank" href="http://www.infraero.gov.br/portal/index.php/us/airports/pernambuco/recife-international-airport/facilities.html">Here</a> .
+          </aside>
+
+          <aside class="col-xs-12 col-sm-5 col-sm-offset-1 col-md-5 col-md-offset-1 location-info"> <!-- by car -->
+            <h3 data-i18n="gettingHere.carTitle">by car</h3>
+            <div class="icon car"></div>
+            <p data-i18n="gettingHere.carText">
+              Recife is close to many cities in the Northeast coast of Brazil,
+              as João Pessoa, Maceió and Natal. Get the itinerary using
+              Google Maps Directions.
+            </p>
+          </aside>
+
+          <aside class="col-xs-12 col-sm-5 col-md-5 location-info"> <!-- by taxi -->
+            <h3 data-i18n="gettingHere.taxiTitle">Taking a taxi</h3>
+            <div class="icon taxi"></div>
+            <p data-i18n="gettingHere.taxiText">
+              At the airport, you can use ordinary or special taxi services.
+              Special taxi rates are fixed by location, and cost about $ XX
+              (R$ XX) for the hotels listed below, due to the proximity of the
+              airport. Ordinary taxis calculate the price for path, being
+              slightly cheaper. Special taxi service agents are in the arrivals
+              hall or South Arrival gate, and conventional taxi service agents
+              are on the airport sidewalk in front of the North Arrival gate.
+
+              Outside the airport, you can also use one of these taxi apps
+            </p>
+
+            <a href="http://www.99taxis.com/">99taxis</a>,
+            <a href="http://www.easytaxi.com/">Easy taxi</a>
+          </aside>
+
+          <aside class="col-xs-12 col-sm-5 col-sm-offset-1 col-md-5 col-md-offset-1 location-info"> <!-- apps -->
+            <h3 data-i18n="gettingHere.appsTitle">Other useful apps</h3>
+            <div class="icon apps"></div>
+            <ul>
+              <li>
+                <a data-i18n="gettingHere.appsLink01" href="https://itunes.apple.com/br/app/recife-guia-turistico/id710535197?mt=8">Tour Guide</a>
+              </li>
+              <li>
+                <a href="https://www.sonarapp.com.br/">Sonar</a>
+              </li>
+              <li>
+                <a href="http://www.mobiclub.com.br/">Mobiclub</a>
+              </li>
+            </ul>
+          </aside>
+        </div>
 
         <div id="location-map" class="location-map"></div>
 
@@ -441,87 +489,85 @@
           <h3 data-i18n="lodging.title;" class="section-title">Lodging</h3>
         </div>
 
-        <div class="container">
-          <div class="row">
-            <aside class="col-xs-11 col-xs-offset-1 col-sm-3 col-md-3 col-lg-3 lodging-info">
-              <h4 data-i18n="lodging.title01" class="lodging-title">Mar Hotel</h4>
+        <div class="col-xs-12 col-md-10 col-md-offset-1">
+          <aside class="col-xs-11 col-sm-3 col-md-4 col-lg-4 lodging-info">
+            <h4 data-i18n="lodging.title01" class="lodging-title">Mar Hotel</h4>
 
-              <ul class="lodging-list">
-                <li class="lodging-item">
-                  <a data-i18n="lodging.address01" href="https://www.google.com.br/maps/place/Mar+Hotel/@-8.132154,-34.904355,17z/data=!3m1!4b1!4m2!3m1!1s0x7ab1fcb08ad1401:0xd24bd3d576e3012a" class="lodging-link" target="_blank">
-                    R. Barão de Souza Leão, 451 - Boa Viagem, 51030-300 Recife / PE - Brasil
-                  </a>
-                </li>
+            <ul class="lodging-list">
+              <li class="lodging-item">
+                <a data-i18n="lodging.address01" href="https://www.google.com.br/maps/place/Mar+Hotel/@-8.132154,-34.904355,17z/data=!3m1!4b1!4m2!3m1!1s0x7ab1fcb08ad1401:0xd24bd3d576e3012a" class="lodging-link" target="_blank">
+                  R. Barão de Souza Leão, 451 - Boa Viagem, 51030-300 Recife / PE - Brasil
+                </a>
+              </li>
 
-                <li data-i18n="lodging.obs01" class="lodging-item featured">
-                  This hotel will accomodate the speakers and all Symposium sessions will be held here
-                </li>
+              <li data-i18n="lodging.obs01" class="lodging-item featured">
+                This hotel will accomodate the speakers and all Symposium sessions will be held here
+              </li>
 
-                <li class="lodging-item">
-                  <span data-i18n="lodging.single">Single Room:</span> <p data-i18n="lodging.single01">R$ 250/room/night (+taxes)</p>
-                  <span data-i18n="lodging.double">Double Room:</span> <p data-i18n="lodging.double02">R$ 280/room/night (+taxes)</p>
-                </li>
+              <li class="lodging-item">
+                <span data-i18n="lodging.single">Single Room:</span> <p data-i18n="lodging.single01">R$ 250/room/night (+taxes)</p>
+                <span data-i18n="lodging.double">Double Room:</span> <p data-i18n="lodging.double02">R$ 280/room/night (+taxes)</p>
+              </li>
 
-                <li class="lodging-item">
-                  <a href="tel:+558133024444" class="lodging-link">(81) 3302-4444</a>
-                </li>
+              <li class="lodging-item">
+                <a href="tel:+558133024444" class="lodging-link">(81) 3302-4444</a>
+              </li>
 
-                <li class="lodging-item">
-                  <a href="http://www.ponteshoteis.com.br/mar-hotel/" class="lodging-link reserve" data-i18n="lodging.reserva" target="_blank">Reserve</a>
-                </li>
-              </ul>
-            </aside>
+              <li class="lodging-item">
+                <a href="http://www.ponteshoteis.com.br/mar-hotel/" class="lodging-link reserve" data-i18n="lodging.reserva" target="_blank">Reserve</a>
+              </li>
+            </ul>
+          </aside>
 
-            <aside class="col-xs-11 col-xs-offset-1 col-sm-3 col-md-3 col-lg-3 lodging-info">
-              <h4 data-i18n="lodging.title02" class="lodging-title">Atlante Plaza Hotel</h4>
+          <aside class="col-xs-11 col-sm-3 col-md-4 col-lg-4 lodging-info">
+            <h4 data-i18n="lodging.title02" class="lodging-title">Atlante Plaza Hotel</h4>
 
-              <ul class="lodging-list">
-                <li class="lodging-item">
-                  <a data-i18n="lodging.address02" href="https://www.google.com.br/maps/place/Hotel+Atlante+Plaza/@-8.136386,-34.901949,17z/data=!3m1!4b1!4m2!3m1!1s0x7ab1fcdc520f683:0x15d162afb789dc8f?hl=pt-BR" class="lodging-link" target="_blank">
-                    Av. Boa Viagem, 5426 - Boa Viagem, Recife - PE, 51030-000
-                  </a>
-                </li>
+            <ul class="lodging-list">
+              <li class="lodging-item">
+                <a data-i18n="lodging.address02" href="https://www.google.com.br/maps/place/Hotel+Atlante+Plaza/@-8.136386,-34.901949,17z/data=!3m1!4b1!4m2!3m1!1s0x7ab1fcdc520f683:0x15d162afb789dc8f?hl=pt-BR" class="lodging-link" target="_blank">
+                  Av. Boa Viagem, 5426 - Boa Viagem, Recife - PE, 51030-000
+                </a>
+              </li>
 
-                <li class="lodging-item">
-                  <span data-i18n="lodging.single">Single Room:</span> <p data-i18n="lodging.single02">R$ 315/room/night (+taxes)</p>
-                  <span data-i18n="lodging.double">Double Room:</span> <p data-i18n="lodging.double02">R$ 355/room/night (+taxes)</p>
-                </li>
+              <li class="lodging-item">
+                <span data-i18n="lodging.single">Single Room:</span> <p data-i18n="lodging.single02">R$ 315/room/night (+taxes)</p>
+                <span data-i18n="lodging.double">Double Room:</span> <p data-i18n="lodging.double02">R$ 355/room/night (+taxes)</p>
+              </li>
 
-                <li class="lodging-item">
-                  <a href="tel:+558133023333" class="lodging-link">(81) 3302-3333</a>
-                </li>
+              <li class="lodging-item">
+                <a href="tel:+558133023333" class="lodging-link">(81) 3302-3333</a>
+              </li>
 
-                <li class="lodging-item">
-                  <a href="http://www.ponteshoteis.com.br/atlante-plaza" class="lodging-link reserve" data-i18n="lodging.reserva" target="_blank">Reserve</a>
-                </li>
-              </ul>
-            </aside>
+              <li class="lodging-item">
+                <a href="http://www.ponteshoteis.com.br/atlante-plaza" class="lodging-link reserve" data-i18n="lodging.reserva" target="_blank">Reserve</a>
+              </li>
+            </ul>
+          </aside>
 
-            <aside class="col-xs-11 col-xs-offset-1 col-sm-3 col-md-3 col-lg-3 lodging-info">
-              <h4 data-i18n="lodging.title03" class="lodging-title">Golden Tulip Recife Palace</h4>
+          <aside class="col-xs-11 col-sm-3 col-md-4 col-lg-4 lodging-info">
+            <h4 data-i18n="lodging.title03" class="lodging-title">Golden Tulip Recife Palace</h4>
 
-              <ul class="lodging-list">
-                <li class="lodging-item">
-                  <a data-i18n="lodging.address03" href="https://www.google.com.br/maps/place/Golden+Tulip+Recife+Palace/@-8.125035,-34.897617,17z/data=!3m1!4b1!4m2!3m1!1s0x7ab1fa5a6634907:0xa43153ccb1293de3?hl=pt-BR" class="lodging-link" target="_blank">
-                    Av. Boa Viagem, 4070 - Boa Viagem, Recife - PE, 51021-000
-                  </a>
-                </li>
+            <ul class="lodging-list">
+              <li class="lodging-item">
+                <a data-i18n="lodging.address03" href="https://www.google.com.br/maps/place/Golden+Tulip+Recife+Palace/@-8.125035,-34.897617,17z/data=!3m1!4b1!4m2!3m1!1s0x7ab1fa5a6634907:0xa43153ccb1293de3?hl=pt-BR" class="lodging-link" target="_blank">
+                  Av. Boa Viagem, 4070 - Boa Viagem, Recife - PE, 51021-000
+                </a>
+              </li>
 
-                <li class="lodging-item">
-                  <span data-i18n="lodging.single">Single Room:</span> <p data-i18n="lodging.single03">R$ 370/room/night (+taxes)</p>
-                  <span data-i18n="lodging.double">Double Room:</span> <p data-i18n="lodging.double03">R$ 420/room/night (+taxes)</p>
-                </li>
+              <li class="lodging-item">
+                <span data-i18n="lodging.single">Single Room:</span> <p data-i18n="lodging.single03">R$ 370/room/night (+taxes)</p>
+                <span data-i18n="lodging.double">Double Room:</span> <p data-i18n="lodging.double03">R$ 420/room/night (+taxes)</p>
+              </li>
 
-                <li class="lodging-item">
-                  <a href="tel:+558132018200" class="lodging-link">(81) 3201-8200</a>
-                </li>
+              <li class="lodging-item">
+                <a href="tel:+558132018200" class="lodging-link">(81) 3201-8200</a>
+              </li>
 
-                <li class="lodging-item">
-                  <a href="http://www.goldentuliprecifepalace.com/en" class="lodging-link reserve" data-i18n="lodging.reserva" target="_blank">Reserve</a>
-                </li>
-              </ul>
-            </aside>
-          </div>
+              <li class="lodging-item">
+                <a href="http://www.goldentuliprecifepalace.com/en" class="lodging-link reserve" data-i18n="lodging.reserva" target="_blank">Reserve</a>
+              </li>
+            </ul>
+          </aside>
         </div>
       </section>
 
