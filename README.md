@@ -1,6 +1,8 @@
 # DDDMG 2015
 Source of the main website for [DDDMG](http://dddmg.org) simposium.
 
+[![Deployment status from dploy.io](https://dddmg2015.dploy.io/badge/34534835931300/15142.png)](http://dploy.io)
+
 ## Setup
 
 1. If you don't have installed [npm](http://npmjs.org), [bower](http://bower.io) and [grunt](http://gruntjs.com/) do it now.
