@@ -1,5 +1,5 @@
-# DDDMG 2015
-Source of the main website for [DDDMG](http://dddmg.org) simposium.
+# Epicrowd
+Source of the main website for [Epicrowd](http://epicrowd.org) simposium.
 
 [![Deployment status from dploy.io](https://dddmg2015.dploy.io/badge/45290641919850/17093.png)](http://dploy.io)
 
