@@ -31,6 +31,18 @@ APP.Maps = {
       animation: google.maps.Animation.DROP
     });
 
+    // Parâmetros do texto que será exibido no balão do mapa.
+    var contentString = '<h2 class="maps-title">Mar Hotel</h2>' +
+    '<p class="maps-description">R. Barão de Souza Leão, 451 - Boa Viagem, 51030-300.</p>' +
+    '<p class="maps-description">Recife / PE - Brasil</p>';
+
+    var infowindow = new google.maps.InfoWindow({
+      content: contentString,
+      maxWidth: 500
+    });
+
+    infowindow.open(map,marcadorPersonalizado);
+
     // Estilizando o mapa;
     // Criando um array com os estilos
     var styles = [

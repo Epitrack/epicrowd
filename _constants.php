@@ -1,4 +1,4 @@
 <?php
-	define('_TITLE', 'DDDMG 2015 - International Simposium on Digital Disease Detection for Mass Gathering.');
+	define('_TITLE', 'Epicrowd 2015');
 	define('_BASEPATH', 'src/images/');
 ?>

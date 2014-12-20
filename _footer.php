@@ -37,6 +37,10 @@
         </li>
 
         <li class="nav-secondary-item">
+          <a href="organizers.html" data-i18n="navSecondary.link06;[title]navSecondary.link04Title" class="nav-secondary-link external" title="Organizers">Organizers</a>
+        </li>
+
+        <li class="nav-secondary-item">
           <a href="become-a-sponsor.html" data-i18n="navSecondary.link04;[title]navSecondary.link04Title" class="nav-secondary-link external" title="Become a Sponsor">become a sponsor</a>
         </li>
 
@@ -49,9 +53,9 @@
 
   <div class="col-xs-12 col-sm-10 col-sm-offset-1 col-md-10 col-md-offset-1">
     <aside class="social">
-      <a href="https://twitter.com/dddmg2015" target="_blank" class="social-links twitter" title="Twitter" data-i18n="social.twitter;[title]social.twitterTitle">Follow on Twitter</a>
-      <a href="https://www.facebook.com/pages/DDDMG-2015/723298371057302" target="_blank" class="social-links facebook" title="Facebook" data-i18n="social.facebook;[title]social.facebookTitle">Like on Facebook</a>
-      <a href="http://lanyrd.com/profile/dddmg2015/" target="_blank" class="social-links lanyrd" title="Lanyrd" data-i18n="social.lanyrd;[title]social.lanyrdTitle">Track on Lanyrd</a>
+      <a href="https://twitter.com/epicrowd" target="_blank" class="social-links twitter" title="Twitter" data-i18n="social.twitter;[title]social.twitterTitle">Follow on Twitter</a>
+      <a href="https://www.facebook.com/pages/EpiCrowd-2015/723298371057302" target="_blank" class="social-links facebook" title="Facebook" data-i18n="social.facebook;[title]social.facebookTitle">Like on Facebook</a>
+      <a href="http://lanyrd.com/profile/epicrowd/" target="_blank" class="social-links lanyrd" title="Lanyrd" data-i18n="social.lanyrd;[title]social.lanyrdTitle">Track on Lanyrd</a>
     </aside>
   </div>
 

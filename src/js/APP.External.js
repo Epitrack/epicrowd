@@ -5,14 +5,21 @@ APP.External = {
   },
 
   getClick: function() {
-    var href;
+    var href, lng;
 
     $('.external').on('click', function(event) {
       event.preventDefault();
 
       href = $(this).attr('href');
+      lng = i18n.lng();
 
-      APP.External.request(href);
+      if (lng != 'en-US') {
+        var hrefPt = href.replace('.html', '-pt.html');
+        APP.External.request(hrefPt);
+      } else {
+        APP.External.request(href);
+      }
+
     });
   },
 

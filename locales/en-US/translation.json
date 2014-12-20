@@ -30,16 +30,18 @@
   "agenda": {
     "title" : "agenda at glance"
     ,"conferencesTitle" : "Conferences"
-    ,"conferenceList01" : "Challenges in the Mass Gathering Health Surveillance."
-    ,"conferenceList02" : "Innovation and Health: New waves of innovation in the world and how epidemiology can provide the tools."
-    ,"conferenceList03" : "Using social media as a strategy to spread a new model of health communication."
-    ,"conferenceList04" : "Potential risks of pandemics: Projections to 2016."
+    ,"conferenceList01" : "Welcome remarks and open talk - DDD advances and potential for mass gatherings."
+    ,"conferenceList02" : "The Wonderful World of Mass Gatherings Surveillance."
+    ,"conferenceList03" : "New waves of innovation in the world and how health can play it."
+    ,"conferenceList04" : "From academic practices to the services application: how to close links to new issues in public health?"
     ,"panelsTitle" : "Panels"
     ,"panelsList01" : "OMG...Is there a Crystal Ball for Pandemics?"
-    ,"panelsList02" : "Limits of ethics in Public Health 2.0 age."
-    ,"panelsList03" : "Epidemic Intelligence for Mass Gatherings."
-    ,"panelsList04" : "Strategies for Participatory Surveillance for Mass Gathering."
-    ,"panelsList05" : "Perspectives of Health Management for Olympics 2016."
+    ,"panelsList02" : "Perspectives of Health Managment for Olympics 2016."
+    ,"panelsList03" : "Limits of ethics in Public Health 2.0 age."
+    ,"panelsList04" : "How deep (epi)technology could go through mass gatherings?"
+    ,"panelsList05" : "Strategies for Participatory Surveillance for Mass Gathering."
+    ,"panelsList06" : "Global Health and the impact dissemination of infectious threats during mass gatherings."
+    ,"panelsList07" : "How to delivery tools for surveillance during mass gatherings?"
     ,"rapidTitle" : "Rapid fire talks"
     ,"rapidFireList01" : "Coming soon"
   },
@@ -68,15 +70,15 @@
     ,"address01" : "R. Barão de Souza Leão, 451 - Boa Viagem, 51030-300 Recife / PE - Brasil"
     ,"address02" : "Av. Boa Viagem, 5426 - Boa Viagem, Recife - PE, 51030-000"
     ,"address03" : "Av. Boa Viagem, 4070 - Boa Viagem, Recife - PE, 51021-000"
-    ,"obs01" : "This hotel will accommodate the speakers and all Symposium sessions will be held here."
+    ,"obs01" : "This hotel will accomodate the speakers and all Symposium sessions will be held here."
     ,"single" : "Single Room:"
     ,"double" : "Double Room:"
     ,"single01" : "R$ 250/room/night (+taxes)"
     ,"double01" : "R$ 280/room/night (+taxes)"
     ,"single02" : "R$ 315/room/night (+taxes)"
     ,"double02" : "R$ 355/room/night (+taxes)"
-    ,"single03" : "R$ XXX/room/night (+taxes)"
-    ,"double03" : "R$ XXX/room/night (+taxes)"
+    ,"single03" : "R$ 370/room/night (+taxes)"
+    ,"double03" : "R$ 420/room/night (+taxes)"
     ,"reserva" : "Reserve"
   },
   "navSecondary": {
@@ -88,6 +90,8 @@
     ,"link04Title" : "Become a Sponsor"
     ,"link05" : "contact us"
     ,"link05Title" : "Contact us"
+    ,"link06" : "Organizers"
+    ,"link06Title" : "Organizers"
   },
   "countries": {
     "country1": "AFGHANISTAN",
@@ -357,8 +361,27 @@
   },
   "sponsor" : {
     "title": "Become a Sponsor"
-    ,"texto01": "Thank you for your interest in becoming a DDDMG sponsor. There are many levels of sponsorship, and we are open to discuss options that suit your company or organization. We hope to hear from you at"
-    ,"text02Title": "Send a email"
-    ,"texto03": "DDDMG does not sell, loan or distribute its mailing list or e-mail addresses to sponsors and partners."
+    ,"texto01": "Thank you for your interest in becoming a EpiCrowd sponsor.There are many levels of sponsorship, and we are open to discuss options that suit your company or organization. We hope to hear from you at "
+    ,"text02Title": "Send a E-mail"
+    ,"texto03": "EpiCrowd does not sell, loan or distribute its mailing list or e-mail addresses to sponsors and partners."
+  },
+  "organizers": {
+    "title" : "Organizers"
+    ,"marioLibelTitle" : "Marlo Libel, MD"
+    ,"marioLibelText" : "Public Health MSc with a focus on Epidemiology. Coordinated the establishment of the Emerging Infectious Diseases Surveillance Networks in the Southern Cone, Amazon Basin and Central America. Under the International Health Regulations, coordinated PAHO’s outbreak alert and response  operations. Consultant with Skoll Global Threats Fund on participatory surveillance and digital disease detection at mass gatherings."
+    ,"markSmolinskiTitle" : "Mark Smolinski"
+    ,"markSmolinskiText" : "Trained Internist and board certified in Preventive Medicine and Public Health. WIRED magazine’s 2008 Smart List of 15 people the next president should listen to included Mark, a.k.a., the threat detective. Director for Global Health Threats at Skoll Global Threats Fund."
+    ,"jenniferOlsenTitle" : "Jennifer Olsen"
+    ,"jenniferOlsenText" : "Public Health MSc. with a focus on Epidemiology. She also holds a Certificate in Weapons of Mass Destruction from the Uniformed Services University for Health Sciences. Manager for Pandemics at Skoll Global Threats Fund."
+    ,"onicioTitle" : "Onicio Leal"
+    ,"onicioText" : "Epitrack Founder, has been working constantly striving for innovation in public health. Heavy user, early adopter and eHealth advocate, understands that the novelty is our friend."
+    ,"jonesAlbuquerqueTitle" : "Jones Albuquerque"
+    ,"jonesAlbuquerqueText" : "Computer scientist Ph.D and  Epitrack co-founder, provides all the time new trends on modern epidemiology."
+    ,"julianaPerazzoTitle" : "Juliana Perazzo"
+    ,"julianaPerazzoText" : "Epidemiologist, Public Health MSc. Chief Product Officer at Epitrack."
+    ,"georgeDimechTitle" : "George Dimech"
+    ,"georgeDimechText" : "Epidemiologist, Public Health MSc. Works on public health emergency and surveillance and mass gathering events. Technical Consultant at Epitrack."
+    ,"renataVasconcelosTitlte" : "Renata Vasconcelos"
+    ,"renataVasconcelosText" : "Biomedical Scientist, MsC. Event Planner and Project Manager at Epitrack."
   }
 }
