@@ -204,30 +204,6 @@ body { font-size: $fs-root; }
   }
 }
 
-.arrow {
-  width: 49px;
-  height: 49px;
-  position: fixed;
-  right: 3%;
-  bottom: 15%;
-  border-radius: 100%;
-  z-index: 99;
-  cursor: pointer;
-  @include transition(all, .2s, ease-in-out, 0s);
-
-  @include path('arrow.svg');
-  background-color: $color-primary-dark;
-  background-repeat: no-repeat;
-  background-size: 49px 49px;
-
-  &.bottom {
-    @include rotate(-90deg);
-  }
-
-  &.top {
-    @include rotate(90deg);
-  }
-}
 
 //
 // Nav primary
@@ -317,7 +293,6 @@ body { font-size: $fs-root; }
   height: 60px;
   padding: 0;
   width: 0;
-  // padding: 2px 4px;
 
   @include path('logo-secondary-en.svg');
   background-size: 100% 80px;

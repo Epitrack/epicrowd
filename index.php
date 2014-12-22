@@ -4,8 +4,6 @@
     <?php include('_header.php'); ?>
 
     <main id="main" class="main">
-      <a id="arrow" href="#header-primary" class="arrow"></a>
-
       <section id="about" class="row about"> <!-- About -->
         <div class="col-xs-12 col-sm-10 col-sm-offset-1 col-md-10 col-md-offset-1">
           <h3 data-i18n="about.title" class="section-title">About</h3>
@@ -34,15 +32,13 @@
               Disease Detection has shown, on numerous occasions throughout the
               world, that it is possible to promptly identify threats and
               disseminate information in order to control outbreaks before an
-              outbreak can spread. Tools such as Facebook and Twitter, and
-              strategies like participatory reporting and data-mining of
+              outbreak can spread.
             </p>
           </div>
 
           <div class="col-xs-12 col-sm-4 col-sm-offset-0 col-md-4">
             <p data-i18n="about.text03" class="section-text">
-              health-related web activity can augment the existing defenses that
-              protect public health. The symposium will take place in Recife,
+              The symposium will take place in Recife,
               Pernambuco, known as the Silicon Valley of Brazil. A cradle of
               innovation, Recife is home to the nation’s largest tech research
               park and is rich in human capital in the fields of information and

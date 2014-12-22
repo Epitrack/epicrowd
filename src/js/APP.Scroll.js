@@ -3,8 +3,6 @@ APP.Scroll = {
   setUp: function(){
     this.getClick();
     this.getHeader();
-    this.getClickArrow();
-    this.hideArrow();
   },
 
   getClick: function() {
@@ -44,11 +42,9 @@ APP.Scroll = {
       if ($(document).scrollTop() >= 585) {
         $('#nav-primary').addClass('js-fixed');
         that.addLogo();
-        that.showArrow();
       } else if ($(document).scrollTop() <= 586) {
         $('#nav-primary').removeClass('js-fixed');
         that.removeLogo();
-        that.hideArrow();
       }
     });
   },
@@ -96,40 +92,5 @@ APP.Scroll = {
     $('.nav-logo').addClass('invisible col-md-1');
     $('.nav-logo').css('width', '0');
     $('.nav-logo').css('padding', '0');
-  },
-
-  getClickArrow: function() {
-    var that = this;
-
-    $('#arrow').on('click', function(event) {
-      event.preventDefault();
-      target = $( $(this).attr('href') );
-
-      that.smoothScroll(target, 30);
-    });
-  },
-
-  showArrow: function() {
-    var that = this;
-
-    $('#arrow').show();
-    that.changeArrow();
-  },
-
-  hideArrow: function() {
-    var that = this;
-
-    $('#arrow').hide();
-    that.changeArrow();
-  },
-
-  changeArrow: function() {
-    if ($(document).scrollTop() >= 4210) {
-      $('#arrow').removeClass();
-      $('#arrow').addClass('arrow bottom');
-    } else {
-      $('#arrow').removeClass();
-      $('#arrow').addClass('top arrow');
-    }
   }
 }

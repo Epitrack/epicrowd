@@ -54,7 +54,7 @@
     <aside class="social">
       <a href="https://twitter.com/epicrowd" target="_blank" class="social-links twitter" title="Twitter" data-i18n="social.twitter;[title]social.twitterTitle">Follow on Twitter</a>
       <a href="https://www.facebook.com/pages/EpiCrowd-2015/723298371057302" target="_blank" class="social-links facebook" title="Facebook" data-i18n="social.facebook;[title]social.facebookTitle">Like on Facebook</a>
-      <a href="http://lanyrd.com/profile/epicrowd/" target="_blank" class="social-links lanyrd" title="Lanyrd" data-i18n="social.lanyrd;[title]social.lanyrdTitle">Track on Lanyrd</a>
+      <a href="http://lanyrd.com/2015/epicrowd2015/" target="_blank" class="social-links lanyrd" title="Lanyrd" data-i18n="social.lanyrd;[title]social.lanyrdTitle">Track on Lanyrd</a>
     </aside>
   </div>
 

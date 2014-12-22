@@ -25,7 +25,7 @@
     ,"minutes" : "minutos"
     ,"seconds" : "segundos"
   },
-  "about" : {
+  "about": {
     "title" : "Sobre"
     ,"text01" : "Mass gatherings provide a meeting point for great numbers of people, but with this comes an increased risk for the spread of infectious disease. To varying degrees, depending on each event’s size and participants, mass gatherings heighten systematic contact between individuals from diverse places and backgrounds. Such events often become catalysts for outbreaks and epidemics. During these gatherings, leaders in health risk management must fully grasp a range of possible scenarios, in order to identify and control new disease hotspots."
     ,"text02" : "By deploying the latest tools in epidemiology and public health, these professionals can improve the detection of heath threats among event participants and thus reduce overall risks. Digital Disease Detection has shown, on numerous occasions throughout the world, that it is possible to promptly identify threats and disseminate information in order to control outbreaks before an outbreak can spread. Tools such as Facebook and Twitter, and strategies like participatory reporting and data-mining of"
@@ -65,13 +65,13 @@
   },
   "gettingHere": {
     "title" : "Como chegar"
-    ,"planeTitle" : "Chegar de avião"
-    ,"planeText" : "O Aeroporto Internacional de Recife Gilberto Freyre tem muitos dos voos para muitas das grandes cidades do mundo. As instalações do aeroporto estão listadas"
+    ,"planeTitle" : "De avião"
+    ,"planeText" : "O aeroporto internacional Gilberto Freyre recebe vôos de muitas das grandes cidades do mundo. Para maiores informações sobre os serviços encontrados no aeroporto, visite este link"
     ,"planeLink" : "aqui"
-    ,"carTitle" : "Chegar de carro"
+    ,"carTitle" : "De carro"
     ,"carText" : "Recife está perto de muitas cidades na costa Nordeste do Brasil, como João Pessoa, Maceió e Natal. Obtenha o itinerário usando as coordenadas do Google Maps."
-    ,"taxiTitle" : "Pegando um táxi"
-    ,"taxiText" : "At the airport, you can use ordinary or special taxi services. Special taxi rates are fixed by location, and cost about $ XX (R$ XX) for the hotels listed below, due to the proximity of the airport. Ordinary taxis calculate the price for path, being slightly cheaper. Special taxi service agents are in the arrivals hall or South Arrival gate, and conventional taxi service agents are on the airport sidewalk in front of the North Arrival gate. Outside the airport, you can also use one of these taxi apps"
+    ,"taxiTitle" : "De táxi"
+    ,"taxiText" : "No aeroporto, você pode usar os serviços de táxi comum ou especial. As tarifas de táxi especial são estabelecidas por bairro de destino, e custam cerca de R$ XX para os hotéis listados abaixo, devido à proximidade do aeroporto. Táxis comuns calculam o preço pelo taxímetro, sendo um pouco mais baratos (média de R$ XX, também para os hotéis listados abaixo). Você vai encontrar agentes de serviço dos táxis especiais no saguão de desembarque ou no portão de desembarque Sul. Caso prefira utilizar o táxi comum, os agentes estarão apenas em frente ao portão de desembarque norte.Fora do aeroporto, você também pode usar um desses aplicativos para chamar um táxi:"
     ,"appsTitle" : "Outros aplicativos úteis"
     ,"appsLink01" : "Guia Turistico"
   },
@@ -361,8 +361,8 @@
     "country252": "ZIMBABUÉ"
   },
   "footer": {
-    "title01": "Organizado por"
-    ,"title02": "Apoio por"
+    "title01": "Organização"
+    ,"title02": "Apoio"
   },
   "social": {
     "twitter" : "Siga no Twitter"

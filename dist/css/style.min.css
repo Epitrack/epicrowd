@@ -5540,40 +5540,6 @@ body {
   background-size: 42px 18px;
 }
 
-.arrow {
-  width: 49px;
-  height: 49px;
-  position: fixed;
-  right: 3%;
-  bottom: 15%;
-  border-radius: 100%;
-  z-index: 99;
-  cursor: pointer;
-  -webkit-transition: all 0.2s ease-in-out 0s;
-  -moz-transition: all 0.2s ease-in-out 0s;
-  -ms-transition: all 0.2s ease-in-out 0s;
-  -o-transition: all 0.2s ease-in-out 0s;
-  transition: all 0.2s ease-in-out 0s;
-  background-image: url("../../src/images/arrow.svg");
-  background-color: #009ee1;
-  background-repeat: no-repeat;
-  background-size: 49px 49px;
-}
-.arrow.bottom {
-  -webkit-transform: rotate(-90deg);
-  -moz-transform: rotate(-90deg);
-  -ms-transform: rotate(-90deg);
-  -o-transform: rotate(-90deg);
-  transform: rotate(-90deg);
-}
-.arrow.top {
-  -webkit-transform: rotate(90deg);
-  -moz-transform: rotate(90deg);
-  -ms-transform: rotate(90deg);
-  -o-transform: rotate(90deg);
-  transform: rotate(90deg);
-}
-
 .nav-primary {
   height: 60px;
   text-align: center;
