@@ -5668,8 +5668,9 @@ body {
 
 .nav-logo {
   overflow: hidden;
-  padding: 2px 4px;
   height: 60px;
+  padding: 0;
+  width: 0;
   background-image: url("../../src/images/logo-secondary-en.svg");
   background-size: 100% 80px;
   background-repeat: no-repeat;

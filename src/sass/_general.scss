@@ -314,8 +314,10 @@ body { font-size: $fs-root; }
 
 .nav-logo {
   overflow: hidden;
-  padding: 2px 4px;
   height: 60px;
+  padding: 0;
+  width: 0;
+  // padding: 2px 4px;
 
   @include path('logo-secondary-en.svg');
   background-size: 100% 80px;
