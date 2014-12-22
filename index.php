@@ -4,7 +4,7 @@
     <?php include('_header.php'); ?>
 
     <main id="main" class="main">
-      <a id="arrow" href="#" class="arrow"></a>
+      <a id="arrow" href="#header-primary" class="arrow"></a>
 
       <section id="about" class="row about"> <!-- About -->
         <div class="col-xs-12 col-sm-10 col-sm-offset-1 col-md-10 col-md-offset-1">

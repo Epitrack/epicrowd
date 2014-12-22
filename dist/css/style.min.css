@@ -5383,29 +5383,6 @@ input:focus, select:focus {
     background-position: -300px 0;
   }
 }
-.about, .organizers {
-  -webkit-animation-name: bgTile;
-  -webkit-animation-duration: 50s;
-  -webkit-animation-timing-function: linear;
-  -webkit-animation-iteration-count: infinite;
-  -moz-animation-name: bgTile;
-  -moz-animation-duration: 50s;
-  -moz-animation-timing-function: linear;
-  -moz-animation-iteration-count: infinite;
-  -ms-animation-name: bgTile;
-  -ms-animation-duration: 50s;
-  -ms-animation-timing-function: linear;
-  -ms-animation-iteration-count: infinite;
-  -o-animation-name: bgTile;
-  -o-animation-duration: 50s;
-  -o-animation-timing-function: linear;
-  -o-animation-iteration-count: infinite;
-  animation-name: bgTile;
-  animation-duration: 50s;
-  animation-timing-function: linear;
-  animation-iteration-count: infinite;
-}
-
 body {
   font-size: 62.5%;
 }
@@ -5568,16 +5545,33 @@ body {
   height: 49px;
   position: fixed;
   right: 3%;
-  background-color: #009ee1;
-  border: 1px solid #004d6e;
+  bottom: 15%;
   border-radius: 100%;
   z-index: 99;
   cursor: pointer;
-  -webkit-transition: all 0.2s ease-in-out- 0s;
-  -moz-transition: all 0.2s ease-in-out- 0s;
-  -ms-transition: all 0.2s ease-in-out- 0s;
-  -o-transition: all 0.2s ease-in-out- 0s;
-  transition: all 0.2s ease-in-out- 0s;
+  -webkit-transition: all 0.2s ease-in-out 0s;
+  -moz-transition: all 0.2s ease-in-out 0s;
+  -ms-transition: all 0.2s ease-in-out 0s;
+  -o-transition: all 0.2s ease-in-out 0s;
+  transition: all 0.2s ease-in-out 0s;
+  background-image: url("../../src/images/arrow.svg");
+  background-color: #009ee1;
+  background-repeat: no-repeat;
+  background-size: 49px 49px;
+}
+.arrow.bottom {
+  -webkit-transform: rotate(-90deg);
+  -moz-transform: rotate(-90deg);
+  -ms-transform: rotate(-90deg);
+  -o-transform: rotate(-90deg);
+  transform: rotate(-90deg);
+}
+.arrow.top {
+  -webkit-transform: rotate(90deg);
+  -moz-transform: rotate(90deg);
+  -ms-transform: rotate(90deg);
+  -o-transform: rotate(90deg);
+  transform: rotate(90deg);
 }
 
 .nav-primary {
@@ -5722,7 +5716,7 @@ body {
 }
 .main section {
   min-height: 450px;
-  padding: 20px 0 60px 0;
+  padding-top: 20px;
 }
 
 .section-title {
@@ -5738,6 +5732,10 @@ body {
   color: #004d6e;
   text-align: left;
   font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+}
+
+.about, .organizers {
+  padding-bottom: 60px;
 }
 
 .agenda {
@@ -5828,6 +5826,7 @@ body {
 
 .location-box {
   border-bottom: 2px solid #e6e6e6;
+  padding-bottom: 60px;
 }
 
 .location-info {

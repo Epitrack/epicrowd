@@ -33,7 +33,7 @@
   <meta name="twitter:image:src" content="http://www.epicrowd.org/dist/images/facebook.png">
 
   <!-- Apple Touch Icon -->
-  <link rel="icon" type="image/x-icon" href="favicon.ico">
+  <link rel="icon" type="image/x-icon" href="favicon.ico?v=2">
   <link rel="apple-touch-icon" href="touch-icon@2x.png">
   <link rel="apple-touch-icon" sizes="76x76" href="touch-icon-ipad.png">
   <link rel="apple-touch-icon" sizes="120x120" href="touch-icon@2x.png">

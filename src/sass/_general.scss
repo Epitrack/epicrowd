@@ -209,12 +209,24 @@ body { font-size: $fs-root; }
   height: 49px;
   position: fixed;
   right: 3%;
-  background-color: $color-primary-dark;
-  border: 1px solid $color-primary;
+  bottom: 15%;
   border-radius: 100%;
   z-index: 99;
   cursor: pointer;
-  @include transition(all, .2s, ease-in-out-, 0s);
+  @include transition(all, .2s, ease-in-out, 0s);
+
+  @include path('arrow.svg');
+  background-color: $color-primary-dark;
+  background-repeat: no-repeat;
+  background-size: 49px 49px;
+
+  &.bottom {
+    @include rotate(-90deg);
+  }
+
+  &.top {
+    @include rotate(90deg);
+  }
 }
 
 //
@@ -345,7 +357,7 @@ body { font-size: $fs-root; }
 
   section {
     min-height: 450px;
-    padding: 20px 0 60px 0;
+    padding-top: 20px;
   }
 }
 
@@ -370,7 +382,7 @@ body { font-size: $fs-root; }
 //
 
 .about {
-  @extend %animate-bgTile;
+  padding-bottom: 60px;
 }
 
 
@@ -479,6 +491,7 @@ body { font-size: $fs-root; }
 
 .location-box {
   border-bottom: 2px solid $color-other;
+  padding-bottom: 60px;
 }
 
 .location-info {

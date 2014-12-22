@@ -3,6 +3,8 @@ APP.Scroll = {
   setUp: function(){
     this.getClick();
     this.getHeader();
+    this.getClickArrow();
+    this.hideArrow();
   },
 
   getClick: function() {
@@ -23,7 +25,6 @@ APP.Scroll = {
     // footer link
     $('.scroll').on('click', function(event) {
       event.preventDefault();
-
       target = $( $(this).attr('href') );
 
       APP.Scroll.smoothScroll(target, 50);
@@ -37,13 +38,17 @@ APP.Scroll = {
   },
 
   getPosition: function() {
+    var that = this;
+
     $(window).on('scroll', function() {
       if ($(document).scrollTop() >= 585) {
         $('#nav-primary').addClass('js-fixed');
         APP.Scroll.addLogo();
+        that.showArrow();
       } else if ($(document).scrollTop() <= 586) {
         $('#nav-primary').removeClass('js-fixed');
         APP.Scroll.removeLogo();
+        that.hideArrow();
       }
     });
   },
@@ -90,19 +95,37 @@ APP.Scroll = {
   },
 
   getClickArrow: function() {
-    var arrow;
+    var that = this;
 
-    arrow = document.querySelector('#arrow');
-    arrow.style.top = '20px';
-
-    $(arrow).on('click', function(event) {
+    $('#arrow').on('click', function(event) {
       event.preventDefault();
-      console.log(this);
+      target = $( $(this).attr('href') );
+
+      that.smoothScroll(target, 30);
     });
   },
 
   showArrow: function() {
+    var that = this;
+
+    $('#arrow').show();
+    that.changeArrow();
   },
 
-  hideArrow: function() {}
+  hideArrow: function() {
+    var that = this;
+
+    $('#arrow').hide();
+    that.changeArrow();
+  },
+
+  changeArrow: function() {
+    if ($(document).scrollTop() >= 4210) {
+      $('#arrow').removeClass();
+      $('#arrow').addClass('arrow bottom');
+    } else {
+      $('#arrow').removeClass();
+      $('#arrow').addClass('top arrow');
+    }
+  }
 }
