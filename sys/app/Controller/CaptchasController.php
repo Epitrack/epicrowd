@@ -47,7 +47,7 @@ class CaptchasController extends AppController {
         //$background_color = imagecolorallocate($image, 255, 255, 255);
         $black = imagecolorallocate($image, 0, 0, 0);
         $background_color = imagecolorallocate($image, 255, 255, 255);
-        $text_color = imagecolorallocate($image, 255, 255, 255);
+        $text_color = imagecolorallocate($image, 157, 222, 56);
         $noise_color = imagecolorallocate($image, 100, 120, 180);
 
         imagecolortransparent($image, $black);

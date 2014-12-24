@@ -5,7 +5,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
-"POT-Creation-Date: 2014-12-09 05:19+0100\n"
+"POT-Creation-Date: 2014-11-27 07:58+0100\n"
 "PO-Revision-Date: YYYY-mm-DD HH:MM+ZZZZ\n"
 "Last-Translator: NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <EMAIL@ADDRESS>\n"
@@ -13,26 +13,6 @@ msgstr ""
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
-
-#: Controller/CountriesController.php:38;70;95
-msgid "Invalid country"
-msgstr ""
-
-#: Controller/CountriesController.php:53;74
-msgid "The country has been saved."
-msgstr ""
-
-#: Controller/CountriesController.php:56;77
-msgid "The country could not be saved. Please, try again."
-msgstr ""
-
-#: Controller/CountriesController.php:99
-msgid "The country has been deleted."
-msgstr ""
-
-#: Controller/CountriesController.php:101
-msgid "The country could not be deleted. Please, try again."
-msgstr ""
 
 #: Controller/PostsController.php:14;20;39;44
 msgid "Invalid post"
@@ -58,100 +38,115 @@ msgstr ""
 msgid "The post with id: %s has been deleted."
 msgstr ""
 
-#: Controller/UpdatesController.php:127
+#: Controller/UpdatesController.php:66
 msgid "Wrong code. Try again."
 msgstr ""
 
-#: Controller/UpdatesController.php:135
+#: Controller/UpdatesController.php:74
 msgid "Your email is already registered."
 msgstr ""
 
-#: Controller/UpdatesController.php:155
+#: Controller/UpdatesController.php:90
 msgid "Your contact information has been saved."
 msgstr ""
 
-#: Controller/UpdatesController.php:161
+#: Controller/UpdatesController.php:94
 msgid "Your contact information could not be saved."
 msgstr ""
 
-#: Controller/UpdatesController.php:165
+#: Controller/UpdatesController.php:98
 msgid "Some information are not valid: "
 msgstr ""
 
-#: Controller/UpdatesController.php:174
+#: Controller/UpdatesController.php:111
 msgid "Nothing to save!!!"
 msgstr ""
 
-#: Controller/UpdatesController.php:202;239;266;296;330;357
-msgid "Invalid update"
+#: View/Countries/add.ctp:4
+msgid "Add Country"
 msgstr ""
 
-#: Controller/UpdatesController.php:217;243;311;334
-msgid "The update has been saved."
-msgstr ""
-
-#: Controller/UpdatesController.php:220;246;314;337
-msgid "The update could not be saved. Please, try again."
-msgstr ""
-
-#: Controller/UpdatesController.php:270;361
-msgid "The update has been deleted."
-msgstr ""
-
-#: Controller/UpdatesController.php:272;363
-msgid "The update could not be deleted. Please, try again."
-msgstr ""
-
-#: Controller/UsersController.php:65
-msgid "Invalid username or password, try again"
-msgstr ""
-
-#: Controller/UsersController.php:83;119;149;180;212;240
-msgid "Invalid user"
-msgstr ""
-
-#: Controller/UsersController.php:100;123;195;216
-msgid "The user has been saved."
-msgstr ""
-
-#: Controller/UsersController.php:103;126;198;219
-msgid "The user could not be saved. Please, try again."
-msgstr ""
-
-#: Controller/UsersController.php:154;244
-msgid "The user has been deleted."
-msgstr ""
-
-#: Controller/UsersController.php:156;246
-msgid "The user could not be deleted. Please, try again."
-msgstr ""
-
-#: View/Countries/admin_add.ctp:4
-msgid "Admin Add Country"
-msgstr ""
-
+#: View/Countries/add.ctp:10
 #: View/Countries/admin_add.ctp:10
 #: View/Countries/admin_edit.ctp:11
+#: View/Countries/edit.ctp:11
+#: View/Updates/add.ctp:13
 #: View/Updates/admin_add.ctp:13
 #: View/Updates/admin_edit.ctp:14
-#: View/Users/admin_add.ctp:13
-#: View/Users/admin_edit.ctp:12
+#: View/Updates/edit.ctp:14
 msgid "Submit"
 msgstr ""
 
+#: View/Countries/add.ctp:13
 #: View/Countries/admin_add.ctp:13
 #: View/Countries/admin_edit.ctp:14
 #: View/Countries/admin_index.ctp:9;42
-#: View/Countries/admin_view.ctp:22;45;68
+#: View/Countries/admin_view.ctp:22;45
+#: View/Countries/edit.ctp:14
+#: View/Countries/index.ctp:9;42
+#: View/Countries/view.ctp:22;45
+#: View/Updates/add.ctp:16
 #: View/Updates/admin_add.ctp:16
 #: View/Updates/admin_edit.ctp:17
 #: View/Updates/admin_index.ctp:17;57
 #: View/Updates/admin_view.ctp:47
-#: View/Users/admin_add.ctp:16
-#: View/Users/admin_edit.ctp:15
-#: View/Users/admin_index.ctp:12;48
-#: View/Users/admin_view.ctp:37
+#: View/Updates/edit.ctp:17
+#: View/Updates/index.ctp:18;58
+#: View/Updates/view.ctp:47
 msgid "Actions"
+msgstr ""
+
+#: View/Countries/add.ctp:16
+#: View/Countries/admin_add.ctp:16
+#: View/Countries/admin_edit.ctp:18
+#: View/Countries/admin_view.ctp:26
+#: View/Countries/edit.ctp:18
+#: View/Countries/view.ctp:26
+#: View/Updates/add.ctp:20
+#: View/Updates/admin_add.ctp:20
+#: View/Updates/admin_edit.ctp:22
+#: View/Updates/admin_index.ctp:60
+#: View/Updates/admin_view.ctp:53
+#: View/Updates/edit.ctp:22
+#: View/Updates/index.ctp:61
+#: View/Updates/view.ctp:53
+msgid "List Countries"
+msgstr ""
+
+#: View/Countries/add.ctp:17
+#: View/Countries/admin_add.ctp:17
+#: View/Countries/admin_edit.ctp:19
+#: View/Countries/admin_index.ctp:45
+#: View/Countries/admin_view.ctp:28
+#: View/Countries/edit.ctp:19
+#: View/Countries/index.ctp:45
+#: View/Countries/view.ctp:28
+#: View/Updates/add.ctp:19
+#: View/Updates/admin_add.ctp:19
+#: View/Updates/admin_edit.ctp:21
+#: View/Updates/admin_view.ctp:51
+#: View/Updates/edit.ctp:21
+#: View/Updates/view.ctp:51
+msgid "List Updates"
+msgstr ""
+
+#: View/Countries/add.ctp:18
+#: View/Countries/admin_add.ctp:18
+#: View/Countries/admin_edit.ctp:20
+#: View/Countries/admin_index.ctp:46
+#: View/Countries/admin_view.ctp:29;69
+#: View/Countries/edit.ctp:20
+#: View/Countries/index.ctp:46
+#: View/Countries/view.ctp:29;69
+#: View/Updates/admin_index.ctp:59
+#: View/Updates/admin_view.ctp:52
+#: View/Updates/index.ctp:60
+#: View/Updates/view.ctp:52
+msgid "New Update"
+msgstr ""
+
+#: View/Countries/admin_add.ctp:4
+msgid "Admin Add Country"
 msgstr ""
 
 #: View/Countries/admin_edit.ctp:4
@@ -161,142 +156,179 @@ msgstr ""
 #: View/Countries/admin_edit.ctp:17
 #: View/Countries/admin_index.ctp:21
 #: View/Countries/admin_view.ctp:60
+#: View/Countries/edit.ctp:17
+#: View/Countries/index.ctp:21
+#: View/Countries/view.ctp:60
 #: View/Updates/admin_edit.ctp:20
 #: View/Updates/admin_index.ctp:36
-#: View/Users/admin_edit.ctp:18
-#: View/Users/admin_index.ctp:27
+#: View/Updates/edit.ctp:20
+#: View/Updates/index.ctp:37
 msgid "Delete"
 msgstr ""
 
 #: View/Countries/admin_edit.ctp:17
 #: View/Countries/admin_index.ctp:21
 #: View/Countries/admin_view.ctp:25;60
+#: View/Countries/edit.ctp:17
+#: View/Countries/index.ctp:21
+#: View/Countries/view.ctp:25;60
 #: View/Updates/admin_edit.ctp:20
 #: View/Updates/admin_index.ctp:36
 #: View/Updates/admin_view.ctp:50
-#: View/Users/admin_edit.ctp:18
-#: View/Users/admin_index.ctp:27
-#: View/Users/admin_view.ctp:40
+#: View/Updates/edit.ctp:20
+#: View/Updates/index.ctp:37
+#: View/Updates/view.ctp:50
 msgid "Are you sure you want to delete # %s?"
 msgstr ""
 
 #: View/Countries/admin_index.ctp:2
+#: View/Countries/index.ctp:2
 msgid "Countries"
 msgstr ""
 
 #: View/Countries/admin_index.ctp:19
 #: View/Countries/admin_view.ctp:58
+#: View/Countries/index.ctp:19
+#: View/Countries/view.ctp:58
 #: View/Updates/admin_index.ctp:34
-#: View/Users/admin_index.ctp:25
+#: View/Updates/index.ctp:35
 msgid "View"
 msgstr ""
 
 #: View/Countries/admin_index.ctp:20
 #: View/Countries/admin_view.ctp:59
+#: View/Countries/index.ctp:20
+#: View/Countries/view.ctp:59
 #: View/Updates/admin_index.ctp:35
-#: View/Users/admin_index.ctp:26
+#: View/Updates/index.ctp:36
 msgid "Edit"
 msgstr ""
 
 #: View/Countries/admin_index.ctp:30
+#: View/Countries/index.ctp:30
 #: View/Updates/admin_index.ctp:45
-#: View/Users/admin_index.ctp:36
+#: View/Updates/index.ctp:46
 msgid "Page {:page} of {:pages}, showing {:current} records out of {:count} total, starting on record {:start}, ending on {:end}"
 msgstr ""
 
 #: View/Countries/admin_index.ctp:35
+#: View/Countries/index.ctp:35
 #: View/Updates/admin_index.ctp:50
-#: View/Users/admin_index.ctp:41
+#: View/Updates/index.ctp:51
 msgid "previous"
 msgstr ""
 
 #: View/Countries/admin_index.ctp:37
+#: View/Countries/index.ctp:37
 #: View/Updates/admin_index.ctp:52
-#: View/Users/admin_index.ctp:43
+#: View/Updates/index.ctp:53
 msgid "next"
 msgstr ""
 
+#: View/Countries/admin_index.ctp:44
+#: View/Countries/admin_view.ctp:27
+#: View/Countries/index.ctp:44
+#: View/Countries/view.ctp:27
+#: View/Updates/add.ctp:21
+#: View/Updates/admin_add.ctp:21
+#: View/Updates/admin_edit.ctp:23
+#: View/Updates/admin_index.ctp:61
+#: View/Updates/admin_view.ctp:54
+#: View/Updates/edit.ctp:23
+#: View/Updates/index.ctp:62
+#: View/Updates/view.ctp:54
+msgid "New Country"
+msgstr ""
+
 #: View/Countries/admin_view.ctp:2
+#: View/Countries/view.ctp:2
 #: View/Updates/admin_view.ctp:9
+#: View/Updates/view.ctp:9
 msgid "Country"
 msgstr ""
 
 #: View/Countries/admin_view.ctp:4;37
+#: View/Countries/view.ctp:4;37
 #: View/Updates/admin_view.ctp:4
-#: View/Users/admin_view.ctp:4
+#: View/Updates/view.ctp:4
 msgid "Id"
 msgstr ""
 
 #: View/Countries/admin_view.ctp:9
+#: View/Countries/view.ctp:9
 msgid "Name Pt"
 msgstr ""
 
 #: View/Countries/admin_view.ctp:14
+#: View/Countries/view.ctp:14
 msgid "Name En"
 msgstr ""
 
 #: View/Countries/admin_view.ctp:24
+#: View/Countries/edit.ctp:4
+#: View/Countries/view.ctp:24
 msgid "Edit Country"
 msgstr ""
 
 #: View/Countries/admin_view.ctp:25
+#: View/Countries/view.ctp:25
 msgid "Delete Country"
 msgstr ""
 
-#: View/Countries/admin_view.ctp:26
-msgid "List Countries"
-msgstr ""
-
-#: View/Countries/admin_view.ctp:27
-msgid "New Country"
-msgstr ""
-
-#: View/Countries/admin_view.ctp:28
-msgid "List Updates"
-msgstr ""
-
-#: View/Countries/admin_view.ctp:29
-msgid "New Update"
-msgstr ""
-
 #: View/Countries/admin_view.ctp:33
+#: View/Countries/view.ctp:33
 msgid "Related Updates"
 msgstr ""
 
 #: View/Countries/admin_view.ctp:38
+#: View/Countries/view.ctp:38
 msgid "Country Id"
 msgstr ""
 
 #: View/Countries/admin_view.ctp:39
+#: View/Countries/view.ctp:39
 #: View/Updates/admin_view.ctp:14
+#: View/Updates/view.ctp:14
 msgid "Enabled"
 msgstr ""
 
 #: View/Countries/admin_view.ctp:40
+#: View/Countries/view.ctp:40
 #: View/Updates/admin_view.ctp:19
-#: View/Users/admin_view.ctp:24
+#: View/Updates/view.ctp:19
 msgid "Created"
 msgstr ""
 
 #: View/Countries/admin_view.ctp:41
+#: View/Countries/view.ctp:41
 #: View/Updates/admin_view.ctp:24
-#: View/Users/admin_view.ctp:29
+#: View/Updates/view.ctp:24
 msgid "Modified"
 msgstr ""
 
 #: View/Countries/admin_view.ctp:42
+#: View/Countries/view.ctp:42
 #: View/Updates/admin_view.ctp:29
+#: View/Updates/view.ctp:29
 msgid "Name"
 msgstr ""
 
 #: View/Countries/admin_view.ctp:43
+#: View/Countries/view.ctp:43
 #: View/Updates/admin_view.ctp:34
+#: View/Updates/view.ctp:34
 msgid "Email"
 msgstr ""
 
 #: View/Countries/admin_view.ctp:44
+#: View/Countries/view.ctp:44
 #: View/Updates/admin_view.ctp:39
+#: View/Updates/view.ctp:39
 msgid "Organization"
+msgstr ""
+
+#: View/Updates/add.ctp:4
+msgid "Add Update"
 msgstr ""
 
 #: View/Updates/admin_add.ctp:4
@@ -308,63 +340,24 @@ msgid "Admin Edit Update"
 msgstr ""
 
 #: View/Updates/admin_index.ctp:2
+#: View/Updates/index.ctp:2
 msgid "Updates"
 msgstr ""
 
 #: View/Updates/admin_view.ctp:2
+#: View/Updates/view.ctp:2
 msgid "Update"
 msgstr ""
 
 #: View/Updates/admin_view.ctp:49
+#: View/Updates/edit.ctp:4
+#: View/Updates/view.ctp:49
 msgid "Edit Update"
 msgstr ""
 
 #: View/Updates/admin_view.ctp:50
+#: View/Updates/view.ctp:50
 msgid "Delete Update"
-msgstr ""
-
-#: View/Users/admin_add.ctp:4
-msgid "Admin Add User"
-msgstr ""
-
-#: View/Users/admin_edit.ctp:4
-msgid "Admin Edit User"
-msgstr ""
-
-#: View/Users/admin_index.ctp:2
-msgid "Users"
-msgstr ""
-
-#: View/Users/admin_login.ctp:8
-msgid "Please enter your username and password"
-msgstr ""
-
-#: View/Users/admin_login.ctp:14
-msgid "Login"
-msgstr ""
-
-#: View/Users/admin_view.ctp:2
-msgid "User"
-msgstr ""
-
-#: View/Users/admin_view.ctp:9
-msgid "Username"
-msgstr ""
-
-#: View/Users/admin_view.ctp:14
-msgid "Password"
-msgstr ""
-
-#: View/Users/admin_view.ctp:19
-msgid "Role"
-msgstr ""
-
-#: View/Users/admin_view.ctp:39
-msgid "Edit User"
-msgstr ""
-
-#: View/Users/admin_view.ctp:40
-msgid "Delete User"
 msgstr ""
 
 #: Model/Update.php:validation for field id
@@ -393,17 +386,5 @@ msgstr ""
 
 #: Model/Update.php:validation for field organization
 msgid "Organization is a required field."
-msgstr ""
-
-#: Model/User.php:validation for field username
-msgid "A username is required"
-msgstr ""
-
-#: Model/User.php:validation for field password
-msgid "A password is required"
-msgstr ""
-
-#: Model/User.php:validation for field role
-msgid "Please enter a valid role"
 msgstr ""
 

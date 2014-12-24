@@ -20,7 +20,6 @@
  */
 
 App::uses('Controller', 'Controller');
-App::uses('HttpSocket', 'Network/Http');
 
 /**
  * Application Controller
@@ -71,13 +70,6 @@ class AppController extends Controller {
 	            ,array(
 	                'title' => 'Updates - Add',
 	                'url' => '/admin/updates/add'
-	            ),array(
-	                'title' => 'Docs - List',
-	                'url' => '/admin/docs'
-	            )
-	            ,array(
-	                'title' => 'Docs - Add',
-	                'url' => '/admin/docs/add'
 	            )
 	            ,array(
 	                'title' => 'Users - List',
@@ -107,15 +99,7 @@ class AppController extends Controller {
     }
 
 
-     public function _slack($text="") {
-        $http = new HttpSocket();
-        $url = "https://epitrack.slack.com/services/hooks/slackbot?token=FXsBsMTzdbT18UNdvX9NQxop&channel=%23dddmg-back";
-        $query = array();
-        $request = array("body" => $text);
-        $response = $http->post($url,$query,$request);
 
-        return $response;
-    }
 
 
 	public function isAuthorized($user) {

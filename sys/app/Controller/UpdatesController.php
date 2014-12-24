@@ -75,6 +75,10 @@ class UpdatesController extends AppController {
 
     public function _sendMail($data) {
 
+
+        $country = $this->Update->Country->findById($data['Update']['country_id']);
+        $data['country'] = $country['Country']['name_en']."/".$country['Country']['name_pt'];
+
         $email = new CakeEmail();
 
         $res = $email
@@ -95,8 +99,6 @@ class UpdatesController extends AppController {
         return $res;
 
     }
-
- 
 
     public function action() {
         $this->layout = 'json';
@@ -146,16 +148,6 @@ class UpdatesController extends AppController {
                 if($this->Update->validates()) {
                     if ($this->Update->save($this->request->data)) {
 
-
-
-                        $country = $this->Update->Country->findById($this->request->data['Update']['country_id']);
-                        
-                        $countries_names = $country['Country']['name_en']."/".$country['Country']['name_pt'];
-                        $this->request->data['country'] = $countries_names;
-
-                        $datetime = date("d/m/Y H:i:s");
-                        $this->request->data['date'] = $datetime;
-
                         $res = $this->_sendMail($this->request->data);
 
                         unset($this->request->data['Update']['enabled']);
@@ -163,26 +155,7 @@ class UpdatesController extends AppController {
                         $message = __('Your contact information has been saved.');
                         $ajaxResponse = $this->ajaxResponse($this->request->data, $message);
 
-
-
-                       
-
-                        $fields = $this->request->data['Update'];
-
-                        $values = array(
-                            $datetime,
-                            $fields['name'], 
-                            $fields['email'], 
-                            $fields['organization'], 
-                            $countries_names
-                        );
-
-                        $slack = "Update Registration: ".implode(", ",$values);
-                        $this->_slack($slack);
-
                         //$this->request->data['emailRes'] = $res;
-
-
 
                     } else {
                         $message = __('Your contact information could not be saved.');
