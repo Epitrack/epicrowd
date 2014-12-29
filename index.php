@@ -5,12 +5,12 @@
 
     <main id="main" class="main">
       <section id="about" class="row about"> <!-- About -->
-        <div class="col-xs-12 col-sm-10 col-sm-offset-1 col-md-10 col-md-offset-1">
+        <div class="col-xs-12 col-sm-10 col-sm-offset-1 col-md-10 col-md-offset-1 col-lg-10 col-lg-offset-1">
           <h3 data-i18n="about.title" class="section-title">About</h3>
         </div>
 
-        <div class="col-xs-12 col-sm-10 col-sm-offset-1 col-md-10 col-md-offset-1">
-          <div class="col-xs-12 col-sm-4 col-sm-offset-0 col-md-4">
+        <div class="col-xs-12 col-sm-10 col-sm-offset-1 col-md-10 col-md-offset-1 col-lg-10 col-lg-offset-1">
+          <div class="col-xs-12 col-sm-4 col-sm-offset-0 col-md-4 col-lg-4">
             <p data-i18n="about.text01" class="section-text">
               Mass gatherings provide a meeting point for great numbers of people,
                but with this comes an increased risk for the spread of infectious
@@ -24,7 +24,7 @@
             </p>
           </div>
 
-          <div class="col-xs-12 col-sm-4 col-sm-offset-0 col-md-4">
+          <div class="col-xs-12 col-sm-4 col-sm-offset-0 col-md-4 col-lg-4">
             <p data-i18n="about.text02" class="section-text">
               By deploying the latest tools in epidemiology and public health,
               these professionals can improve the detection of heath threats
@@ -36,7 +36,7 @@
             </p>
           </div>
 
-          <div class="col-xs-12 col-sm-4 col-sm-offset-0 col-md-4">
+          <div class="col-xs-12 col-sm-4 col-sm-offset-0 col-md-4 col-lg-4">
             <p data-i18n="about.text03" class="section-text">
               The symposium will take place in Recife,
               Pernambuco, known as the Silicon Valley of Brazil. A cradle of
@@ -51,11 +51,11 @@
       </section>
 
       <section id="agenda" class="row agenda"> <!-- Agenda -->
-        <div class="col-xs-12 col-sm-10 col-sm-offset-1 col-md-10 col-md-offset-1">
+        <div class="col-xs-12 col-sm-10 col-sm-offset-1 col-md-10 col-md-offset-1 col-lg-10 col-lg-offset-1">
           <h3 data-i18n="agenda.title" class="section-title">agenda at glance</h3>
         </div>
 
-        <aside class="col-xs-12 col-sm-10 col-sm-offset-1 col-md-10 col-md-offset-1">
+        <aside class="col-xs-12 col-sm-10 col-sm-offset-1 col-md-10 col-md-offset-1 col-lg-10 col-lg-offset-1">
           <h4 data-i18n="agenda.conferencesTitle" class="agenda-title conferences">Conferences</h4>
           <ul class="agenda-list">
             <li class="agenda-item" data-i18n="agenda.conferenceList01">Welcome remarks and open talk - DDD advances and potential for mass gatherings.</li>
@@ -65,7 +65,7 @@
           </ul>
         </aside>
 
-        <aside class="col-xs-12 col-sm-10 col-sm-offset-1 col-md-10 col-md-offset-1">
+        <aside class="col-xs-12 col-sm-10 col-sm-offset-1 col-md-10 col-md-offset-1 col-lg-10 col-lg-offset-1">
           <h4 data-i18n="agenda.panelsTitle" class="agenda-title panels">Panels</h4>
           <ul class="agenda-list">
             <li class="agenda-item" data-i18n="agenda.panelsList01">OMG...Is there a Crystal Ball for Pandemics?</li>
@@ -78,7 +78,7 @@
           </ul>
         </aside>
 
-        <aside class="col-xs-12 col-sm-10 col-sm-offset-1 col-md-10 col-md-offset-1">
+        <aside class="col-xs-12 col-sm-10 col-sm-offset-1 col-md-10 col-md-offset-1 col-lg-10 col-lg-offset-1">
           <h4 data-i18n="agenda.rapidTitle" class="agenda-title rapid-fire">Rapid fire talks</h4>
           <ul class="agenda-list">
             <li class="agenda-item" data-i18n="agenda.rapidFireList01">Coming soon</li>
@@ -87,7 +87,7 @@
       </section>
 
       <section id="register" class="row register"> <!-- Register -->
-        <div class="col-xs-12 col-sm-10 col-sm-offset-1 col-md-10 col-md-offset-1">
+        <div class="col-xs-12 col-sm-10 col-sm-offset-1 col-md-10 col-md-offset-1 col-lg-10 col-lg-offset-1">
           <h3 data-i18n="register.title" class="section-title">Register</h3>
 
           <p data-i18n="register.text01" class="section-text">
@@ -95,7 +95,7 @@
           </p>
         </div>
 
-        <div class="col-xs-12 col-sm-8 col-sm-offset-2 col-md-10 col-md-offset-1">
+        <div class="col-xs-12 col-sm-8 col-sm-offset-2 col-md-10 col-md-offset-1 col-lg-10 col-lg-offset-1">
           <form action="javascript:;" id="form-register" role="form" class="form form-register">
             <div class="form-group">
               <label data-i18n="register.inputName" for="inputName">Name</label>
@@ -397,12 +397,12 @@
       </section>
 
       <section id="getting-here" class="row getting-here"> <!-- Getting Here -->
-        <div class="col-xs-12 col-sm-10 col-sm-offset-1 col-md-10 col-md-offset-1">
+        <div class="col-xs-12 col-sm-10 col-sm-offset-1 col-md-10 col-md-offset-1 col-lg-10 col-lg-offset-1">
           <h3 data-i18n="gettingHere.title;" class="section-title">Getting Here</h3>
         </div>
 
-        <div class="col-xs-12 col-sm10 col-sm-offset-1 col-md-10 col-md-offset-1 location-box">
-          <aside class="col-xs-12 col-sm-5 col-md-5 location-info"> <!-- by plane -->
+        <div class="col-xs-12 col-sm10 col-sm-offset-1 col-md-10 col-md-offset-1 col-lg-10 col-lg-offset-1 location-box">
+          <aside class="col-xs-12 col-sm-5 col-md-5 col-lg-5 location-info"> <!-- by plane -->
             <h3 data-i18n="gettingHere.planeTitle">by plane</h3>
             <div class="icon plane"></div>
             <p data-i18n="gettingHere.planeText">
@@ -414,7 +414,7 @@
             <a data-i18n="gettingHere.planeLink" target="_blank" href="http://www.infraero.gov.br/portal/index.php/us/airports/pernambuco/recife-international-airport/facilities.html">Here</a> .
           </aside>
 
-          <aside class="col-xs-12 col-sm-5 col-sm-offset-1 col-md-5 col-md-offset-1 location-info"> <!-- by car -->
+          <aside class="col-xs-12 col-sm-5 col-sm-offset-1 col-md-5 col-md-offset-1 col-lg-5 col-lg-offset-1 location-info"> <!-- by car -->
             <h3 data-i18n="gettingHere.carTitle">by car</h3>
             <div class="icon car"></div>
             <p data-i18n="gettingHere.carText">
@@ -424,7 +424,7 @@
             </p>
           </aside>
 
-          <aside class="col-xs-12 col-sm-5 col-md-5 location-info"> <!-- by taxi -->
+          <aside class="col-xs-12 col-sm-5 col-md-5 col-lg-5 location-info"> <!-- by taxi -->
             <h3 data-i18n="gettingHere.taxiTitle">Taking a taxi</h3>
             <div class="icon taxi"></div>
             <p data-i18n="gettingHere.taxiText">
@@ -443,7 +443,7 @@
             <a href="http://www.easytaxi.com/">Easy taxi</a>
           </aside>
 
-          <aside class="col-xs-12 col-sm-5 col-sm-offset-1 col-md-5 col-md-offset-1 location-info"> <!-- apps -->
+          <aside class="col-xs-12 col-sm-5 col-sm-offset-1 col-md-5 col-md-offset-1 col-lg-5 col-lg-offset-1 location-info"> <!-- apps -->
             <h3 data-i18n="gettingHere.appsTitle">Other useful apps</h3>
             <div class="icon apps"></div>
             <ul>
@@ -481,11 +481,11 @@
       </section>
 
       <section id="lodging" class="row lodging"> <!-- Lodging -->
-        <div class="col-xs-12 col-sm-10 col-sm-offset-1 col-md-10 col-md-offset-1">
+        <div class="col-xs-12 col-sm-10 col-sm-offset-1 col-md-10 col-md-offset-1 col-lg-10 col-lg-offset-1">
           <h3 data-i18n="lodging.title;" class="section-title">Lodging</h3>
         </div>
 
-        <div class="col-xs-12 col-md-10 col-md-offset-1">
+        <div class="col-xs-12 col-md-10 col-md-offset-1 col-lg-10 col-lg-offset-1">
           <aside class="col-xs-11 col-sm-3 col-md-4 col-lg-4 lodging-info">
             <h4 data-i18n="lodging.title01" class="lodging-title">Mar Hotel</h4>
 

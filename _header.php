@@ -1,22 +1,22 @@
 <header id="header-primary" class="row header-primary">
 
-  <div class="col-xs-6 col-xs-offset-6 col-sm-offset-8 col-md-2 col-md-offset-10">
+  <div class="col-xs-6 col-xs-offset-6 col-sm-offset-8 col-md-2 col-md-offset-10 col-lg-2 col-lg-offset-10">
     <div id="switch-language" class="switch-language">
       <button data-language="pt" class="pt" title="PT">PT</button>
       <button data-language="en" class="en" title="EN">EN</button>
     </div>
   </div>
 
-  <h1 id="logo-primary" class="col-xs-10 col-xs-offset-1 col-sm-8 col-sm-offset-2 col-md-4 col-md-offset-4 logo-primary">
+  <h1 id="logo-primary" class="col-xs-10 col-xs-offset-1 col-sm-8 col-sm-offset-2 col-md-4 col-md-offset-4 col-lg-4 col-lg-offset-4 logo-primary">
     <a href="#" title="Epicrowd">Epicrowd 2015</a>
   </h1>
 
-  <div class="col-xs-8 col-xs-offset-2 col-sm-8 col-sm-offset-2 col-md-4 col-md-offset-4 subtitle">
+  <div class="col-xs-8 col-xs-offset-2 col-sm-8 col-sm-offset-2 col-md-4 col-md-offset-4 col-lg-4 col-lg-offset-4 subtitle">
     <time data-i18n="date.first" datetime="2015-03-25">March 25 -</time><time data-i18n="date.second" datetime="2015-03-27">27</time>
     <p data-i18n="date.local">Recife, PE - Brazil</p>
   </div>
 
-  <div class="col-xs-12 col-sm-8 col-sm-offset-2 col-md-4 col-md-offset-4 countdown" id="countdown">
+  <div class="col-xs-12 col-sm-8 col-sm-offset-2 col-md-4 col-md-offset-4 col-lg-4 col-lg-offset-4 countdown" id="countdown">
     <p id="days" data-i18n="countdown.days" data-time=""></p>
     <p id="hours" data-i18n="countdown.hours" data-time="hr"></p>
     <p id="minutes" data-i18n="countdown.minutes" data-time="min"></p>
