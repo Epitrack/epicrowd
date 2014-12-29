@@ -464,18 +464,18 @@
 
         <div class="row box-images-hotel">
           <div class="col-xs-12 col-sm-4 col-md-4 image-hotel">
-            <img src="src/images/mar-hotel-01.jpg" height="100%" width="100%" alt="Imagens do Mar Hotel">
-            <img class="image-hover" src="src/images/mar-hotel-01-hover.jpg" height="100%" width="100%" alt="Imagens do Mar Hotel">
+            <img src="src/images/mar-hotel-01-hover.jpg" height="100%" width="100%" alt="Imagens do Mar Hotel">
+            <img class="image-hover" src="src/images/mar-hotel-01.jpg" height="100%" width="100%" alt="Imagens do Mar Hotel">
           </div>
 
           <div class="col-xs-12 col-sm-4 col-md-4 image-hotel">
-            <img src="src/images/mar-hotel-02.jpg" height="100%" width="100%" alt="Imagens do Mar Hotel">
-            <img class="image-hover" src="src/images/mar-hotel-02-hover.jpg" height="100%" width="100%" alt="Imagens do Mar Hotel">
+            <img src="src/images/mar-hotel-02-hover.jpg" height="100%" width="100%" alt="Imagens do Mar Hotel">
+            <img class="image-hover" src="src/images/mar-hotel-02.jpg" height="100%" width="100%" alt="Imagens do Mar Hotel">
           </div>
 
           <div class="col-xs-12 col-sm-4 col-md-4 image-hotel">
-            <img src="src/images/mar-hotel-03.jpg" height="100%" width="100%" alt="Imagens do Mar Hotel">
-            <img class="image-hover" src="src/images/mar-hotel-03-hover.jpg" height="100%" width="100%" alt="Imagens do Mar Hotel">
+            <img src="src/images/mar-hotel-03-hover.jpg" height="100%" width="100%" alt="Imagens do Mar Hotel">
+            <img class="image-hover" src="src/images/mar-hotel-03.jpg" height="100%" width="100%" alt="Imagens do Mar Hotel">
           </div>
         </div>
       </section>

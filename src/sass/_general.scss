@@ -564,7 +564,6 @@ body { font-size: $fs-root; }
       position: absolute;
       top: 0;
       left: 0;
-      @include transition(opacity, .2s, ease, 0s);
     }
 
     &:hover {
@@ -903,7 +902,7 @@ body { font-size: $fs-root; }
 @media (min-width: 992px) {
   .header-primary { background-position: center 63%; }
 
-  .box-images-hotel { height: 173px; }
+  .box-images-hotel { height: 213px; }
 
   .section-text {
     font-size: $fs-medium;
@@ -919,6 +918,4 @@ body { font-size: $fs-root; }
 }
 
 // Large
-@media (min-width: 1200px) {
-  // .header-primary { background-color: black; }
-}
+@media (min-width: 1200px) {}
