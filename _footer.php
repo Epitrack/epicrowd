@@ -1,7 +1,6 @@
 <footer class="row footer-primary">
-  <div class="col-xs-12 col-sm-10 col-sm-offset-1 col-md-10 col-md-offset-1 organized">
-
-    <div class="col-xs-12 col-sm-4 col-sm-offset-2 col-md-4 col-md-offset-2">
+  <div class="col-xs-12 col-sm-10 col-sm-offset-1 col-md-10 col-md-offset-1 col-lg-10 col-lg-offset-1 organized">
+    <div class="col-xs-12 col-sm-4 col-sm-offset-2 col-md-4 col-md-offset-2 col-lg-4 col-lg-offset-2">
       <h3 data-i18n="footer.title01;">Organized by</h3>
       <aside class="organized-box epitrack">
         <a href="http://www.epitrack.com.br" target="_blank" title="Epitrack" class="organized-link">
@@ -12,7 +11,7 @@
       </aside>
     </div>
 
-    <div class="col-xs-12 col-sm-4 col-md-4">
+    <div class="col-xs-12 col-sm-4 col-md-4 col-lg-4">
       <h3 data-i18n="footer.title02;">Support by</h3>
       <aside class="organized-box skoll">
         <a href="http://www.skollglobalthreats.org/" target="_blank" title="Skoll Global Threats" class="organized-link">
@@ -24,7 +23,7 @@
     </div>
   </div>
 
-  <div class="col-xs-12 col-sm-10 col-sm-offset-1 col-md-10 col-md-offset-1">
+  <div class="col-xs-12 col-sm-10 col-sm-offset-1 col-md-10 col-md-offset-1 col-lg-10 col-lg-offset-1">
     <nav class="nav-secondary">
       <ul class="nav-secondary-list">
         <li class="nav-secondary-item">
@@ -50,7 +49,7 @@
     </nav>
   </div>
 
-  <div class="col-xs-12 col-sm-10 col-sm-offset-1 col-md-10 col-md-offset-1">
+  <div class="col-xs-12 col-sm-10 col-sm-offset-1 col-md-10 col-md-offset-1 col-lg-10 col-lg-offset-1">
     <aside class="social">
       <a href="https://twitter.com/epicrowd" target="_blank" class="social-links twitter" title="Twitter" data-i18n="social.twitter;[title]social.twitterTitle">Follow on Twitter</a>
       <a href="https://www.facebook.com/pages/EpiCrowd-2015/723298371057302" target="_blank" class="social-links facebook" title="Facebook" data-i18n="social.facebook;[title]social.facebookTitle">Like on Facebook</a>
@@ -58,7 +57,7 @@
     </aside>
   </div>
 
-  <div class="col-xs-12 col-sm-10 col-sm-offset-1 col-md-10 col-md-offset-1">
+  <div class="col-xs-12 col-sm-10 col-sm-offset-1 col-md-10 col-md-offset-1 col-lg-10 col-lg-offset-1">
     <p class="copyright"><sup>©</sup> 2015 <a href="http://epitrack.com.br" target="_blank" title="Epitrack">Epitrack</a>.</p>
   </div>
 </footer>
