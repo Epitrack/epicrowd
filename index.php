@@ -414,17 +414,7 @@
             <a data-i18n="gettingHere.planeLink" target="_blank" href="http://www.infraero.gov.br/portal/index.php/us/airports/pernambuco/recife-international-airport/facilities.html">Here</a> .
           </aside>
 
-          <aside class="col-xs-12 col-sm-5 col-sm-offset-1 col-md-5 col-md-offset-1 col-lg-5 col-lg-offset-1 location-info"> <!-- by car -->
-            <h3 data-i18n="gettingHere.carTitle">by car</h3>
-            <div class="icon car"></div>
-            <p data-i18n="gettingHere.carText">
-              Recife is close to many cities in the Northeast coast of Brazil,
-              as João Pessoa, Maceió and Natal. Get the itinerary using
-              Google Maps Directions.
-            </p>
-          </aside>
-
-          <aside class="col-xs-12 col-sm-5 col-md-5 col-lg-5 location-info"> <!-- by taxi -->
+          <aside class="col-xs-12 col-sm-5 col-sm-offset-1 col-md-5 col-md-offset-1 col-lg-5 col-lg-offset-1 location-info"> <!-- by taxi -->
             <h3 data-i18n="gettingHere.taxiTitle">Taking a taxi</h3>
             <div class="icon taxi"></div>
             <p data-i18n="gettingHere.taxiText">
@@ -441,6 +431,16 @@
 
             <a href="http://www.99taxis.com/">99taxis</a>,
             <a href="http://www.easytaxi.com/">Easy taxi</a>
+          </aside>
+
+          <aside class="col-xs-12 col-sm-5 col-md-5 col-lg-5 location-info"> <!-- by car -->
+            <h3 data-i18n="gettingHere.carTitle">by car</h3>
+            <div class="icon car"></div>
+            <p data-i18n="gettingHere.carText">
+              Recife is close to many cities in the Northeast coast of Brazil,
+              as João Pessoa, Maceió and Natal. Get the itinerary using
+              Google Maps Directions.
+            </p>
           </aside>
 
           <aside class="col-xs-12 col-sm-5 col-sm-offset-1 col-md-5 col-md-offset-1 col-lg-5 col-lg-offset-1 location-info"> <!-- apps -->
