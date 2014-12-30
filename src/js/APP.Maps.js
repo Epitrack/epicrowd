@@ -35,7 +35,7 @@ APP.Maps = {
     // Parâmetros do texto que será exibido no balão do mapa.
     var contentString = '<h2 class="maps-title">Mar Hotel</h2>' +
     '<p class="maps-description">R. Barão de Souza Leão, 451 - Boa Viagem, 51030-300.</p>' +
-    '<p class="maps-description">Recife / PE - Brasil</p>';
+    '<p class="maps-description">Recife / PE - Brasil</p>' + '<a class="maps-link" target="_blank" href="https://www.google.com.br/maps/dir//Mar+Hotel+-+Rua+Bar%C3%A3o+de+Souza+Le%C3%A3o,+451+-+Boa+Viagem,+Recife+-+PE,+51030-300/@-8.0584705,-34.9120554,12z/data=!4m13!1m4!3m3!1s0x7ab1fcb08ad1401:0xd24bd3d576e3012a!2sMar+Hotel!3b1!4m7!1m0!1m5!1m1!1s0x7ab1fcb08ad1401:0xd24bd3d576e3012a!2m2!1d-34.904355!2d-8.132154?hl=pt-BR">Rota</a>';
 
     var infowindow = new google.maps.InfoWindow({
       content: contentString,
