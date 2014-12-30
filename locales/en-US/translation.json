@@ -27,9 +27,9 @@
   },
   "about": {
     "title" : "About"
-    ,"text01" : "Mass gatherings provide a meeting point for great numbers of people, but with this comes an increased risk for the spread of infectious disease. To varying degrees, depending on each event’s size and participants, mass gatherings heighten systematic contact between individuals from diverse places and backgrounds. Such events often become catalysts for outbreaks and epidemics. During these gatherings, leaders in health risk management must fully grasp a range of possible scenarios, in order to identify and control new disease hotspots."
-    ,"text02" : "By deploying the latest tools in epidemiology and public health, these professionals can improve the detection of heath threats among event participants and thus reduce overall risks. Digital Disease Detection has shown, on numerous occasions throughout the world, that it is possible to promptly identify threats and disseminate information in order to control outbreaks before an outbreak can spread."
-    ,"text03" : "The symposium will take place in Recife, Pernambuco, known as the Silicon Valley of Brazil. A cradle of innovation, Recife is home to the nation’s largest tech research park and is rich in human capital in the fields of information and communication technology. The 3-day symposium will include lively discussions of past experiences, along with formal conference panels and presentations."
+    ,"text01" : "Mass gatherings provide a meeting point for great numbers of people, but with this comes an increased risk for the spread of infectious disease. To varying degrees, depending on each event’s size and participants, mass gatherings heighten systematic contact between individuals from diverse places and backgrounds. Such events often become catalysts for outbreaks and epidemics. During these gatherings, leaders in health risk management must fully grasp "
+    ,"text02" : "a range of possible scenarios, in order to identify and control new disease hotspots. By deploying the latest tools in epidemiology and public health, these professionals can improve the detection of heath threats among event participants and thus reduce overall risks. Digital Disease Detection has shown, on numerous occasions throughout the world, that it is possible to promptly identify threats and disseminate information in order to control "
+    ,"text03" : "outbreaks before an outbreak can spread. The symposium will take place in Recife, Pernambuco, known as the Silicon Valley of Brazil. A cradle of innovation, Recife is home to the nation’s largest tech research park and is rich in human capital in the fields of information and communication technology. The 3-day symposium will include lively discussions of past experiences, along with formal conference panels and presentations."
   },
   "agenda": {
     "title" : "agenda at glance"
@@ -67,7 +67,7 @@
     "title" : "Getting Here"
     ,"planeTitle" : "by plane"
     ,"planeText" : "Recife's international airport Gilberto Freyre has lots of flights to many major cities in the world. Facilities at the airport are listed"
-    ,"planeLink" : "Here"
+    ,"planeLink" : "here"
     ,"carTitle" : "by car"
     ,"carText" : "Recife is close to many cities in the Northeast coast of Brazil, as João Pessoa, Maceió and Natal. Get the itinerary using Google Maps Directions."
     ,"taxiTitle" : "Taking a taxi"
