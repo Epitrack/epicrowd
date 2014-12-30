@@ -4834,17 +4834,21 @@ a.label:hover, a.label:focus {
 @font-face {
   font-family: 'FuturaLTHeavy';
   src: url("../../fonts/futuralt-heavy.eot");
-  src: url("../../fonts/futuralt-heavy.eot") format("embedded-opentype"), url("../../fonts/futuralt-heavy.woff2") format("woff2"), url("../../fonts/futuralt-heavy.woff") format("woff"), url("../../fonts/futuralt-heavy.ttf") format("truetype"), url("../../fonts/futuralt-heavy.svg#FuturaLTHeavy") format("svg");
+  src: url("../../fonts/futuralt-heavy.eot?#iefix") format("embedded-opentype"), url("../../fonts/futuralt-heavy.woff") format("woff"), url("../../fonts/futuralt-heavy.ttf") format("truetype"), url("../../fonts/futuralt-heavy.svg#FuturaLTHeavy") format("svg");
 }
 @font-face {
   font-family: 'FuturaLTBook';
   src: url("../../fonts/futuralt-book.eot");
-  src: url("../../fonts/futuralt-book.eot") format("embedded-opentype"), url("../../fonts/futuralt-book.woff2") format("woff2"), url("../../fonts/futuralt-book.woff") format("woff"), url("../../fonts/futuralt-book.ttf") format("truetype"), url("../../fonts/futuralt-book.svg#FuturaLTBook") format("svg");
+  src: url("../../fonts/futuralt-book.eot?#iefix") format("embedded-opentype"), url("../../fonts/futuralt-book.woff") format("woff"), url("../../fonts/futuralt-book.ttf") format("truetype"), url("../../fonts/futuralt-book.svg#FuturaLTBook") format("svg");
 }
 @font-face {
   font-family: 'Glyphicons Halflings';
   src: url("../../fonts/glyphicons-halflings-regular.eot");
   src: url("../../fonts/glyphicons-halflings-regular.eot?#iefix") format("embedded-opentype"), url("../../fonts/glyphicons-halflings-regular.woff") format("woff"), url("../../fonts/glyphicons-halflings-regular.ttf") format("truetype"), url("../../fonts/glyphicons-halflings-regular.svg#glyphicons_halflingsregular") format("svg");
+}
+@font-face {
+  font-family: 'Lato Bold';
+  src: url("http://www.fontsaddict.com/fontface/lato-bold.ttf");
 }
 ::-webkit-input-placeholder {
   color: gray;
@@ -5387,6 +5391,10 @@ body {
   font-size: 62.5%;
 }
 
+svg {
+  font-family: "Lato Bold" !important;
+}
+
 ::-moz-selection {
   background: #004d6e;
   text-shadow: none;
@@ -5637,9 +5645,10 @@ body {
   height: 60px;
   padding: 0;
   width: 0;
-  background-image: url("../../src/images/logo-secondary-en.svg");
-  background-size: 100% 80px;
+  background-size: 100% 55px;
   background-repeat: no-repeat;
+  background-position: center center;
+  background-size: contain;
   -webkit-transition: all 0.2s linear 0s;
   -moz-transition: all 0.2s linear 0s;
   -ms-transition: all 0.2s linear 0s;
@@ -5701,7 +5710,7 @@ body {
   font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
 }
 
-.about, .organizers {
+.about {
   padding-bottom: 60px;
 }
 
@@ -5849,14 +5858,18 @@ body {
 
 .maps-title {
   color: #004d6e;
-  font-family: "FuturaLTBook";
+  font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
   font-size: 2.5rem;
 }
 
-.maps-description {
+.maps-description, .maps-link {
   font-size: 1.4rem;
   color: #009ee1;
   font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+}
+
+.maps-link {
+  text-decoration: underline;
 }
 
 .box-images-hotel {
@@ -6041,20 +6054,20 @@ body {
 .social-links.facebook {
   background-image: url("../../src/images/icon-facebook.svg");
   background-repeat: no-repeat;
-  background-size: 30px 30px;
-  background-position: 10px 17px;
+  background-size: contain;
+  background-position: 17px 12px;
 }
 .social-links.twitter {
   background-image: url("../../src/images/icon-twitter.svg");
   background-repeat: no-repeat;
-  background-size: 30px 30px;
-  background-position: 10px 17px;
+  background-size: contain;
+  background-position: 8px 13px;
 }
 .social-links.lanyrd {
   background-image: url("../../src/images/icon-lanyrd.svg");
   background-repeat: no-repeat;
-  background-size: 30px 30px;
-  background-position: 10px 17px;
+  background-size: contain;
+  background-position: 18px 12px;
 }
 .social-links:hover, .social-links:active, .social-links:focus {
   text-decoration: none;
@@ -6063,13 +6076,13 @@ body {
   border: 1px solid #004d6e;
 }
 .social-links:hover.twitter, .social-links:active.twitter, .social-links:focus.twitter {
-  background-position: 10px 3px;
+  background-position: 9px -10px;
 }
 .social-links:hover.facebook, .social-links:active.facebook, .social-links:focus.facebook {
-  background-position: 10px 2px;
+  background-position: 15px -12px;
 }
 .social-links:hover.lanyrd, .social-links:active.lanyrd, .social-links:focus.lanyrd {
-  background-position: 10px 2px;
+  background-position: 15px -12px;
 }
 .social-links:visited {
   text-decoration: none;
@@ -6104,18 +6117,13 @@ body {
 
 .become-a-sponsor {
   text-align: center;
-  min-height: 300px !important;
-  background-color: #e6e6e6;
-  background-image: -webkit-linear-gradient(top, #e6e6e6, #DBD9D9);
-  background-image: -moz-linear-gradient(top, #e6e6e6, #DBD9D9);
-  background-image: -ms-linear-gradient(top, #e6e6e6, #DBD9D9);
-  background-image: -o-linear-gradient(top, #e6e6e6, #DBD9D9);
-  background-image: linear-gradient(top, #e6e6e6, #DBD9D9);
-  -webkit-box-shadow: 0 1px 5px #004d6e;
-  -moz-box-shadow: 0 1px 5px #004d6e;
-  -ms-box-shadow: 0 1px 5px #004d6e;
-  -o-box-shadow: 0 1px 5px #004d6e;
-  box-shadow: 0 1px 5px #004d6e;
+  min-height: 240px !important;
+  background-color: #ffffff;
+  -webkit-box-shadow: 0 1px 1px #DBD9D9;
+  -moz-box-shadow: 0 1px 1px #DBD9D9;
+  -ms-box-shadow: 0 1px 1px #DBD9D9;
+  -o-box-shadow: 0 1px 1px #DBD9D9;
+  box-shadow: 0 1px 1px #DBD9D9;
 }
 .become-a-sponsor p {
   font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
@@ -6131,9 +6139,9 @@ body {
   margin-top: 15px;
 }
 .become-a-sponsor a {
-  color: #ffffff;
+  color: #004d6e;
   font-size: 1.8rem;
-  text-decoration: none;
+  text-decoration: underline;
   display: inline-block;
 }
 .become-a-sponsor a:hover {
@@ -6199,6 +6207,7 @@ body {
   .section-text {
     font-size: 1.8rem;
     line-height: 2.5rem;
+    padding-top: 10px;
   }
 
   .logo-primary a {
@@ -6214,9 +6223,6 @@ body {
 }
 .organizers-item:first-child {
   padding-top: 40px;
-}
-.organizers-item:last-child {
-  border-bottom: none;
 }
 
 .organizers-image img {
