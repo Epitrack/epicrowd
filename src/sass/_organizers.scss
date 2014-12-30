@@ -2,10 +2,6 @@
 //     Organizers page
 // —————————————————————————
 
-.organizers {
-  @extend .about;
-}
-
 .organizers-item {
   border-bottom: 1px solid $color-other;
   padding-bottom: 30px;
@@ -14,10 +10,6 @@
 
   &:first-child {
     padding-top: 40px;
-  }
-
-  &:last-child {
-    border-bottom: none;
   }
 }
 
