@@ -4,6 +4,10 @@
 
 body { font-size: $fs-root; }
 
+svg {
+  font-family: $ff-svg !important;
+}
+
 ::-moz-selection {
   background: $color-primary;
   text-shadow: none;
@@ -294,9 +298,10 @@ body { font-size: $fs-root; }
   padding: 0;
   width: 0;
 
-  @include path('logo-secondary-en.svg');
-  background-size: 100% 80px;
+  background-size: 100% 55px;
   background-repeat: no-repeat;
+  background-position: center center;
+  background-size: contain;
 
   @include transition(all, .2s, linear, 0s);
   @include scale(1);
@@ -533,7 +538,7 @@ body { font-size: $fs-root; }
 
 .maps-title {
   color: $color-primary;
-  font-family: $ff-title;
+  font-family: $ff-secondary;
   font-size: $fs-extra-medium;
 }
 
@@ -541,6 +546,11 @@ body { font-size: $fs-root; }
   font-size: $fs-small;
   color: $color-primary-dark;
   font-family: $ff-secondary;
+}
+
+.maps-link {
+  @extend .maps-description;
+  text-decoration: underline;
 }
 
 .box-images-hotel {
@@ -748,26 +758,25 @@ body { font-size: $fs-root; }
   text-align: right;
   padding-right: 25px;
   @include transition(all, .2s, linear, 0s);
-
   &.facebook {
     @include path('icon-facebook.svg');
     background-repeat: no-repeat;
-    background-size: 30px 30px;
-    background-position: 10px 17px;
+    background-size: contain;
+    background-position: 17px 12px;
   }
 
   &.twitter {
     @include path('icon-twitter.svg');
     background-repeat: no-repeat;
-    background-size: 30px 30px;
-    background-position: 10px 17px;
+    background-size: contain;
+    background-position: 8px 13px;
   }
 
   &.lanyrd {
     @include path('icon-lanyrd.svg');
     background-repeat: no-repeat;
-    background-size: 30px 30px;
-    background-position: 10px 17px;
+    background-size: contain;
+    background-position: 18px 12px;
   }
 
   &:hover,
@@ -778,9 +787,9 @@ body { font-size: $fs-root; }
     color: $color-primary;
     border: 1px solid $color-primary;
 
-    &.twitter { background-position: 10px 3px; }
-    &.facebook { background-position: 10px 2px; }
-    &.lanyrd { background-position: 10px 2px; }
+    &.twitter { background-position: 9px -10px; }
+    &.facebook { background-position: 15px -12px; }
+    &.lanyrd { background-position: 15px -12px; }
   }
 
   &:visited {
@@ -816,9 +825,9 @@ body { font-size: $fs-root; }
 
 .become-a-sponsor {
   text-align: center;
-  min-height: 300px !important;
-  @include linear-gradient(top, $color-other, #DBD9D9);
-  @include bsd(0 1px 5px $color-primary);
+  min-height: 240px !important;
+  background-color: #ffffff;
+  @include bsd(0 1px 1px #DBD9D9);
 
   p {
     font-family: $ff-secondary;
@@ -830,9 +839,9 @@ body { font-size: $fs-root; }
   }
 
   a {
-    color: $color-secondary;
+    color: $color-primary;
     font-size: $fs-medium;
-    text-decoration: none;
+    text-decoration: underline;
     display: inline-block;
 
     &:hover {
@@ -907,6 +916,7 @@ body { font-size: $fs-root; }
   .section-text {
     font-size: $fs-medium;
     line-height: $fs-extra-medium;
+    padding-top: 10px;
   }
 
   .logo-primary {
