@@ -93,7 +93,7 @@ svg {
 
 .js-logo-en {
   a {
-    @include path('logo-primary-en.svg');
+    @include path('logo-primary-2-en.png');
     background-repeat: no-repeat;
     background-size: 100% 73px;
   }
@@ -101,7 +101,7 @@ svg {
 
 .js-logo-pt {
   a {
-    @include path('logo-primary-pt.svg');
+    @include path('logo-primary-2-pt.png');
     background-repeat: no-repeat;
     background-size: 100% 73px;
   }

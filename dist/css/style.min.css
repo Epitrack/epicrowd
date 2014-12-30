@@ -5470,13 +5470,13 @@ svg {
 }
 
 .js-logo-en a {
-  background-image: url("../../src/images/logo-primary-en.svg");
+  background-image: url("../../src/images/logo-primary-2-en.png");
   background-repeat: no-repeat;
   background-size: 100% 73px;
 }
 
 .js-logo-pt a {
-  background-image: url("../../src/images/logo-primary-pt.svg");
+  background-image: url("../../src/images/logo-primary-2-pt.png");
   background-repeat: no-repeat;
   background-size: 100% 73px;
 }
