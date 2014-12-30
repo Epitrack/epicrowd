@@ -5,7 +5,7 @@ $mensagem = " <meta content=\"text/html; charset=utf-8\">
             <tr><td bgcolor='#FFFFFF'>&nbsp;</td></tr>
             <tr><td bgcolor='#FFFFFF' align='center'>
                 &nbsp;&nbsp;&nbsp;&nbsp;
-                <a href='http://dddmg.org'><img border='0' alt='' width='382' height='116' src='http://dddmg.org/dist/images/logo-primary-en.png' /></a>
+                <a href='http://epicrowd.org'><img border='0' alt='' width='382' height='116' src='http://epicrowd.org/dist/images/logo-primary-en.png' /></a>
             </td></tr><tr><td bgcolor='#FFFFFF'>
            <div style='width:620px; margin:10px auto; text-align:justify; font-family:Arial, Helvetica, sans-serif; font-size:12px; line-height:18px'>
             <table width='620' border='0' cellspacing='3' cellpadding='10' align='center'>
