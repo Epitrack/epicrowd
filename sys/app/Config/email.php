@@ -48,7 +48,7 @@ class EmailConfig {
 
 	public $smtp = array(
 		'transport' => 'Smtp',
-		'from' => array('noreply@dddmg.org' => 'DDDMG 2015'),
+		'from' => array('noreply@dddmg.org' => 'Epicrowd 2015'),
 		'host' => 'ssl://mail.dddmg.org',
 		'port' => 465,
 		'timeout' => 30,
