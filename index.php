@@ -411,7 +411,7 @@
               airport are listed
             </p>
 
-            <a data-i18n="gettingHere.planeLink" target="_blank" href="http://www.infraero.gov.br/portal/index.php/us/airports/pernambuco/recife-international-airport/facilities.html">Here</a> .
+            <a data-i18n="gettingHere.planeLink" target="_blank" href="http://www.infraero.gov.br/portal/index.php/us/airports/pernambuco/recife-international-airport/facilities.html">here</a> .
           </aside>
 
           <aside class="col-xs-12 col-sm-5 col-sm-offset-1 col-md-5 col-md-offset-1 col-lg-5 col-lg-offset-1 location-info"> <!-- by taxi -->
@@ -490,14 +490,14 @@
             <h4 data-i18n="lodging.title01" class="lodging-title">Mar Hotel</h4>
 
             <ul class="lodging-list">
+              <li data-i18n="lodging.obs01" class="lodging-item featured">
+                This hotel will accomodate the speakers and all Symposium sessions will be held here
+              </li>
+
               <li class="lodging-item">
                 <a data-i18n="lodging.address01" href="https://www.google.com.br/maps/place/Mar+Hotel/@-8.132154,-34.904355,17z/data=!3m1!4b1!4m2!3m1!1s0x7ab1fcb08ad1401:0xd24bd3d576e3012a" class="lodging-link" target="_blank">
                   R. Barão de Souza Leão, 451 - Boa Viagem, 51030-300 Recife / PE - Brasil
                 </a>
-              </li>
-
-              <li data-i18n="lodging.obs01" class="lodging-item featured">
-                This hotel will accomodate the speakers and all Symposium sessions will be held here
               </li>
 
               <li class="lodging-item">
