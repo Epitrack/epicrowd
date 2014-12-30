@@ -38,6 +38,7 @@ APP.Language = {
 
     $('#logo-primary').removeClass('js-logo-pt');
     $('#logo-primary').addClass('js-logo-en');
+    $('.nav-logo').css('background-image', 'url(src/images/logo-secondary-en.svg)');
   },
 
   i18pt: function() {
@@ -47,6 +48,7 @@ APP.Language = {
 
     $('#logo-primary').removeClass('js-logo-en');
     $('#logo-primary').addClass('js-logo-pt');
+    $('.nav-logo').css('background-image', 'url(src/images/logo-secondary-pt.svg)');
   },
 
   activeClass:function(element) {
