@@ -5915,6 +5915,12 @@ svg {
 .register .section-text {
   color: #ffffff;
   padding: 20px 0;
+  display: inline;
+}
+.register .attention {
+  font-size: 2rem;
+  color: #fff;
+  margin: 0 0 30px 10px;
 }
 
 .btn-send {
