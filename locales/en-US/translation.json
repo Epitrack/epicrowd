@@ -13,6 +13,10 @@
     ,"agendaTitle" : "Agenda"
     ,"register" : "Register"
     ,"registerTitle" : "Register"
+    ,"gettingHere" : "Getting Here"
+    ,"gettingHereTitle" : "Getting Here"
+    ,"lodging" : "Lodging"
+    ,"lodgingTitle" : "Lodging"
   },
   "date": {
     "first" : "March 25-"

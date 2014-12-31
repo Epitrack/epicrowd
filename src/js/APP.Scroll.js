@@ -13,6 +13,10 @@ APP.Scroll = {
       event.preventDefault();
       target = $( $(this).attr('href') );
 
+      // collapsed navbar
+      $('#navbar').removeClass('in');
+      $('#navbar').attr('aria-expanded', 'false');
+
       APP.Scroll.smoothScroll(target, 30);
 
       // adds and removes active class
@@ -53,20 +57,24 @@ APP.Scroll = {
     $(window).on('scroll', function() {
       if ($(document).scrollTop() >= 400) {
         $('#nav-primary').addClass('js-fixed');
+        $('.navbar-brand').addClass('js-opacity');
       } else if ($(document).scrollTop() <= 401) {
         $('#nav-primary').removeClass('js-fixed');
+        $('.navbar-brand').removeClass('js-opacity');
       }
     });
   },
 
   getHeader: function() {
-    var iphone;
+    var iphone, that;
 
+    that = this;
     iphone = navigator.userAgent.match(/iPhone/i);
 
     if (iphone == null) {
       APP.Scroll.getPosition();
     } else {
+      that.dataMobile();
       APP.Scroll.getPositionMobile();
     }
   },
@@ -92,5 +100,13 @@ APP.Scroll = {
     $('.nav-logo').addClass('invisible col-md-1');
     $('.nav-logo').css('width', '0');
     $('.nav-logo').css('padding', '0');
+  },
+
+  dataMobile: function() {
+    $('.nav-desktop').css('display', 'none');
+    $('.nav-desktop').removeAttr('id');
+
+    $('.navbar').attr('id', 'nav-primary');
+    $('.navbar').css('display', 'block');
   }
 }
