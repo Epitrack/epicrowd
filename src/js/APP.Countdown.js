@@ -18,9 +18,6 @@ APP.Countdown = {
       hours.innerHTML = event.strftime('%-H');
       minutes.innerHTML = event.strftime('%-M');
       seconds.innerHTML = event.strftime('%-S');
-
-      // set attributes
-      days.setAttribute('data-time', event.strftime('day%!D'));
     });
   }
 }
