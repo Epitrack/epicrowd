@@ -29,7 +29,7 @@ svg {
   min-height: 460px;
   max-width: 120%;
   position: relative;
-  overflow: hidden;
+  // overflow: hidden;
 
   @include path('bg-header.png');
   background-size: cover;
@@ -219,7 +219,7 @@ svg {
   height: 60px;
   text-align: center;
   position: absolute;
-  top: 400px;
+  // top: 400px;
   z-index: 4;
   background-color: $color-primary;
   @include bsd(0px 1px 4px #000);
@@ -319,8 +319,28 @@ svg {
   }
 }
 
+.navbar {
+  display: none;
+}
+
+.navbar-brand {
+  height: 60px;
+  background-size: 100% 55px;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: contain;
+  opacity: 0;
+  @include transition(opacity, .2s, ease, 0s);
+  @include path('logo-primary-2-pt.png');
+
+  &.js-opacity {
+    opacity: 1;
+  }
+}
+
 .navbar-header {
   position: relative;
+
   button {
     background-color: $color-primary;
   }
@@ -331,6 +351,14 @@ svg {
   background-color: $color-secondary;
 }
 
+.navbar-nav {
+  margin-top: 0;
+  background-color: $color-primary;
+}
+
+.navbar-toggle {
+  margin-top: 15px;
+}
 
 //
 // Main
@@ -919,7 +947,10 @@ svg {
 
 // Desktops
 @media (min-width: 992px) {
-  .header-primary { background-position: center 63%; }
+  .header-primary {
+    background-position: center 63%;
+    overflow: hidden;
+  }
 
   .box-images-hotel { height: 213px; }
 

@@ -1,6 +1,6 @@
 <header id="header-primary" class="row header-primary">
 
-  <div class="col-xs-6 col-xs-offset-6 col-sm-offset-8 col-md-2 col-md-offset-10 col-lg-2 col-lg-offset-10">
+  <div class="col-xs-6 col-xs-offset-6 col-sm-3 col-sm-offset-9 col-md-2 col-md-offset-10 col-lg-2 col-lg-offset-10">
     <div id="switch-language" class="switch-language">
       <button data-language="pt" class="pt" title="PT">PT</button>
       <button data-language="en" class="en" title="EN">EN</button>
@@ -25,18 +25,54 @@
 
   <a id="down" href="#about" class="down scroll"></a>
 
-  <!--
-  <div id="navbar-header" class="navbar-header">
-    <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#nav-primary" aria-expanded="false" aria-controls="navbar">
-      <span class="sr-only">Toggle navigation</span>
-      <span class="icon-bar"></span>
-      <span class="icon-bar"></span>
-      <span class="icon-bar"></span>
-    </button>
-  </div>
-   -->
+  <nav class="navbar navbar-fixed-top nav-primary">
+    <div class="container">
+      <div class="navbar-header">
+        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" href="#navbar" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+          <span class="sr-only">Toggle navigation</span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </button>
 
-  <nav id="nav-primary" class="col-xs-12 nav-primary nav navbar-nav">
+        <a class="navbar-brand col-xs-5" href="#"></a>
+      </div>
+    </div>
+
+    <div id="navbar" class="navbar-collapse collapse" aria-expanded="false">
+      <ul class="nav navbar-nav nav-list">
+        <li class="col-xs-12 col-md-3 nav-item">
+          <a href="#header-primary" data-i18n="nav.home;[title]nav.aboutHome" class="nav-link" title="Home">Home</a>
+        </li>
+
+        <li class="col-xs-12 col-md-3 nav-item">
+          <a href="#about" data-i18n="nav.about;[title]nav.aboutTitle" class="nav-link" title="About">About</a>
+        </li>
+
+        <li class="invisible col-xs-12 col-md-1 visible-md visible-lg nav-logo">
+          <a href="#" class="nav-link-logo">DDDMG 2015</a>
+        </li>
+
+        <li class="col-xs-12 col-md-3 nav-item">
+          <a href="#agenda" data-i18n="nav.agenda;[title]nav.agendaTitle" class="nav-link" title="Agenda">Agenda</a>
+        </li>
+
+        <li class="col-xs-12 col-md-3 nav-item">
+          <a href="#register" data-i18n="nav.register;[title]nav.registerTitle" class="nav-link" title="Register">Register</a>
+        </li>
+
+        <li class="col-xs-12 visible-xs col-md-3 nav-item">
+          <a href="#getting-here" data-i18n="nav.gettingHere;[title]nav.gettingHereTitle" class="nav-link" title="Getting Here">Getting Here</a>
+        </li>
+
+        <li class="col-xs-12 visible-xs col-md-3 nav-item">
+          <a href="#lodging" data-i18n="nav.lodging;[title]nav.lodgingTitle" class="nav-link" title="Lodging">Lodging</a>
+        </li>
+      </ul>
+    </div>
+  </nav>
+
+  <nav id="nav-primary" class="col-xs-12 nav-primary nav navbar-nav nav-desktop">
     <ul class="nav-list">
       <li class="col-xs-12 col-md-3 nav-item"><a href="#header-primary" data-i18n="nav.home;[title]nav.aboutHome" class="nav-link" title="Home">Home</a></li>
       <li class="col-xs-12 col-md-3 nav-item"><a href="#about" data-i18n="nav.about;[title]nav.aboutTitle" class="nav-link" title="About">About</a></li>
