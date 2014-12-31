@@ -17,10 +17,10 @@
   </div>
 
   <div class="col-xs-12 col-sm-8 col-sm-offset-2 col-md-4 col-md-offset-4 col-lg-4 col-lg-offset-4 countdown" id="countdown">
-    <p id="days" data-i18n="countdown.days" data-time=""></p>
-    <p id="hours" data-i18n="countdown.hours" data-time="hr"></p>
-    <p id="minutes" data-i18n="countdown.minutes" data-time="min"></p>
-    <p id="seconds" data-i18n="countdown.seconds" data-time="sec"></p>
+    <p id="days" data-i18n="[data-time]countdown.days" data-time="days"></p>
+    <p id="hours" data-i18n="[data-time]countdown.hours" data-time="hr"></p>
+    <p id="minutes" data-i18n="[data-time]countdown.minutes" data-time="min"></p>
+    <p id="seconds" data-i18n="[data-time]countdown.seconds" data-time="sec"></p>
   </div>
 
   <a id="down" href="#about" class="down scroll"></a>
