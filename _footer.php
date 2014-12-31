@@ -12,7 +12,7 @@
     </div>
 
     <div class="col-xs-12 col-sm-4 col-md-4 col-lg-4">
-      <h3 data-i18n="footer.title02;">Support by</h3>
+      <h3>&nbsp</h3>
       <aside class="organized-box skoll">
         <a href="http://www.skollglobalthreats.org/" target="_blank" title="Skoll Global Threats" class="organized-link">
           <figure class="organized-image">
