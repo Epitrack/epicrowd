@@ -603,6 +603,13 @@ svg {
   .section-text {
     color: $color-secondary;
     padding: 20px 0;
+    display: inline;
+  }
+
+  .attention {
+    font-size: 2rem;
+    color: #fff;
+    margin: 0 0 30px 10px;
   }
 }
 
