@@ -21,9 +21,9 @@
   },
   "countdown": {
     "days" : "dias"
-    ,"hours" : "horas"
-    ,"minutes" : "minutos"
-    ,"seconds" : "segundos"
+    ,"hours" : "hr"
+    ,"minutes" : "min"
+    ,"seconds" : "seg"
   },
   "about": {
     "title" : "Sobre"
@@ -33,6 +33,7 @@
   },
   "agenda": {
     "title" : "Agenda"
+    ,"subtitle" : "Planeje sua viagem considerando que o evento iniciará ao meio-dia de 25/03 e se encerrará ao meio-dia de 27/03."
     ,"conferencesTitle" : "Conferências"
     ,"conferenceList01" : "Abertura - Avanços e Potenciais da Detecção Digital de Doenças para eventos de massa."
     ,"conferenceList02" : "O maravilhoso mundo da vigilância em eventos de massa."
@@ -51,7 +52,7 @@
   },
   "register": {
     "title" : "Registro"
-    ,"text01" : "Fiquem atentos para a abertura das inscrições e se desejar, registre-se para se manter atualizado sobre o evento."
+    ,"text01" : "O evento terá público limitado para 100 pessoas e o preenchimento deste formulário não garante sua vaga. Isto é apenas um meio de contato para podermos avisá-lo quando as inscrições e submissões de resumos estiverem disponíveis."
     ,"inputName" : "Nome"
     ,"inputEmail" : "Email"
     ,"inputOrganization" : "Organização"
@@ -362,7 +363,6 @@
   },
   "footer": {
     "title01": "Organização"
-    ,"title02": "Apoio"
   },
   "social": {
     "twitter" : "Siga no Twitter"

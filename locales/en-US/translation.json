@@ -21,9 +21,9 @@
   },
   "countdown": {
     "days" : "days"
-    ,"hours" : "hours"
-    ,"minutes" : "minutes"
-    ,"seconds" : "seconds"
+    ,"hours" : "hr"
+    ,"minutes" : "min"
+    ,"seconds" : "sec"
   },
   "about": {
     "title" : "About"
@@ -33,6 +33,7 @@
   },
   "agenda": {
     "title" : "agenda at glance"
+    ,"subtitle" : "Plan your trip considering that the symposium will start at noon of 25/03 and will end at noon of 27/03."
     ,"conferencesTitle" : "Conferences"
     ,"conferenceList01" : "Welcome remarks and open talk - DDD advances and potential for mass gatherings."
     ,"conferenceList02" : "The Wonderful World of Mass Gatherings Surveillance."
@@ -51,7 +52,7 @@
   },
   "register": {
     "title" : "Register"
-    ,"text01" : "Stay tuned for the opening of registration, and if you wish, sign up to receive updates about the event."
+    ,"text01" : "The event will have limited audience of 100 people and the completion of this form does not ensure your place. This is just a means of contact so that we can notify you when the registration and abstract submissions are available."
     ,"inputName" : "Name"
     ,"inputEmail" : "Email"
     ,"inputOrganization" : "Organization"
@@ -362,7 +363,6 @@
   },
   "footer": {
     "title01": "Organized by"
-    ,"title02": "Support by"
   },
   "social": {
     "twitter" : "Follow on Twitter"
