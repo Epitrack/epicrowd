@@ -95,7 +95,8 @@ svg {
   a {
     @include path('logo-primary-2-en.png');
     background-repeat: no-repeat;
-    background-size: 100% 73px;
+    background-size: auto 73px;
+    background-position: center center;
   }
 }
 
@@ -103,7 +104,8 @@ svg {
   a {
     @include path('logo-primary-2-pt.png');
     background-repeat: no-repeat;
-    background-size: 100% 73px;
+    background-size: auto 73px;
+    background-position: center center;
   }
 }
 
@@ -885,7 +887,8 @@ svg {
 
   .logo-primary {
     a {
-      background-size: 100% 114px;
+      background-size: auto 114px;
+      background-position: center center;
       height: 114px;
     }
   }
@@ -928,7 +931,8 @@ svg {
 
   .logo-primary {
     a {
-      background-size: 100% 134px;
+      background-size: auto 134px;
+      background-position: center center;
       height: 134px;
     }
   }
