@@ -53,6 +53,10 @@
       <section id="agenda" class="row agenda"> <!-- Agenda -->
         <div class="col-xs-12 col-sm-10 col-sm-offset-1 col-md-10 col-md-offset-1 col-lg-10 col-lg-offset-1">
           <h3 data-i18n="agenda.title" class="section-title">agenda at glance</h3>
+
+          <p data-i18n="agenda.subtitle" class="section-text">
+            Plan your trip considering that the symposium will start at noon of 25/03 and will end at noon of 27/03.
+          </p>
         </div>
 
         <aside class="col-xs-12 col-sm-10 col-sm-offset-1 col-md-10 col-md-offset-1 col-lg-10 col-lg-offset-1">
@@ -91,8 +95,13 @@
           <h3 data-i18n="register.title" class="section-title">Register</h3>
 
           <p data-i18n="register.text01" class="section-text">
-            Stay tuned for the opening of registration, and if you wish, sign up to receive updates about the event.
+            The event will have limited audience of 100 people and the
+            completion of this form does not ensure your place. This is just a
+            means of contact so that we can notify you when the registration
+            and abstract submissions are available.
           </p>
+
+          <span class="glyphicon glyphicon-exclamation-sign attention"></span>
         </div>
 
         <div class="col-xs-12 col-sm-8 col-sm-offset-2 col-md-10 col-md-offset-1 col-lg-10 col-lg-offset-1">
