@@ -43,7 +43,7 @@
   <link type="text/plain" rel="author" href="http://www.epicrowd.org/humans.txt" />
 
   <!-- CSS -->
-  <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/css/bootstrap.min.css">
+  <link rel="stylesheet" href="dist/css/bootstrap.min.css">
   <link rel="stylesheet" href="dist/css/style.min.css">
 </head>
 
