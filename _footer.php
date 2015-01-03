@@ -1,7 +1,8 @@
 <footer class="row footer-primary">
   <div class="col-xs-12 col-sm-10 col-sm-offset-1 col-md-10 col-md-offset-1 col-lg-10 col-lg-offset-1 organized">
+    <h3 data-i18n="footer.title01;">Organized by</h3>
+
     <div class="col-xs-12 col-sm-4 col-sm-offset-2 col-md-4 col-md-offset-2 col-lg-4 col-lg-offset-2">
-      <h3 data-i18n="footer.title01;">Organized by</h3>
       <aside class="organized-box epitrack">
         <a href="http://www.epitrack.com.br" target="_blank" title="Epitrack" class="organized-link">
           <figure class="organized-image">
@@ -12,7 +13,6 @@
     </div>
 
     <div class="col-xs-12 col-sm-4 col-md-4 col-lg-4">
-      <h3>&nbsp</h3>
       <aside class="organized-box skoll">
         <a href="http://www.skollglobalthreats.org/" target="_blank" title="Skoll Global Threats" class="organized-link">
           <figure class="organized-image">
