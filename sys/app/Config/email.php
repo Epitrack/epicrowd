@@ -48,12 +48,12 @@ class EmailConfig {
 
 	public $smtp = array(
 		'transport' => 'Smtp',
-		'from' => array('noreply@dddmg.org' => 'Epicrowd 2015'),
-		'host' => 'ssl://mail.dddmg.org',
+		'from' => array('noreply@epicrowd.org' => 'Epicrowd 2015'),
+		'host' => 'ssl://mail.epicrowd.org',
 		'port' => 465,
 		'timeout' => 30,
-		'username' => 'noreply@dddmg.org',
-		'password' => 'EpiTrackDddMgNRply20!5',
+		'username' => 'noreply@epicrowd.org',
+		'password' => 'EpiTrackCrowdNRply20!5',
 		//'client' => null,
 		//'log' => true,
 		//'charset' => 'utf-8',
