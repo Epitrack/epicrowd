@@ -12,7 +12,7 @@
   Twitter: @designerbebado
   From: Brazil, Pernambuco, Paulista
 
-  Front-End Engineer: Dennis Calazans
+  Back-End Engineer: Dennis Calazans
   Contact: http://denniscalazans.com
   Twitter: @dannnish
   From: Brazil, Pernambuco, Recife
@@ -24,8 +24,8 @@
 
 # PROJECT
 
-  Last update: 2014/11/22
+  Last update: 2015/01/03
   Doctype: HTML5
   IDE: Sublime Text, Chrome Developer Tools
-  Standards: HTML5, CSS3
+  Standards: HTML5, CSS3, APP.js
   Components: jQuery, Bootstrap
