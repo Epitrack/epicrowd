@@ -23,7 +23,7 @@
     "dist": {
       "options": {
         "sourcemap": "none",
-        "style": "expanded"
+        "style": "compressed"
       },
 
       "files": {
