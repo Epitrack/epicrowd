@@ -88,9 +88,9 @@ class UpdatesController extends AppController {
                         ->viewVars(compact("data"))
                         ->helpers(array('Html', 'Text'))
 
-                        ->subject('DDDMG Registration')
-                        ->from(array('noreply@dddmg.org' => 'DDDMG 2015'))
-                        ->to(array("info@dddmg.org" => "DDDMG 2015"))
+                        ->subject('Epicrowd Registration')
+                        ->from(array('noreply@epicrowd.org' => 'Epicrowd 2015'))
+                        ->to(array("info@epicrowd.org" => "Epicrowd 2015"))
                         ->cc(array("onicio@gmail.com" => "Onicio Neto", "denniscalazans@gmail.com"=>"Dennis Calazans", "thulioph@gmail.com"=>"Thulio Philipe"))
                         ->sender($data['Update']['email'], $data['Update']['name'])
                         ->send();
