@@ -6,7 +6,9 @@ APP.Scroll = {
   },
 
   getClick: function() {
-    var target;
+    var target, that;
+
+    that = this;
 
     // nav links
     $('.nav-list').on('click', 'a', function(event) {
@@ -17,7 +19,7 @@ APP.Scroll = {
       $('#navbar').removeClass('in');
       $('#navbar').attr('aria-expanded', 'false');
 
-      APP.Scroll.smoothScroll(target, 30);
+      that.smoothScroll(target, 30);
 
       // adds and removes active class
       $('.nav-list a').removeClass('js-nav-active');
@@ -29,7 +31,7 @@ APP.Scroll = {
       event.preventDefault();
       target = $( $(this).attr('href') );
 
-      APP.Scroll.smoothScroll(target, 50);
+      that.smoothScroll(target, 50);
     });
   },
 
@@ -66,16 +68,18 @@ APP.Scroll = {
   },
 
   getHeader: function() {
-    var iphone, that;
+    var iphone, that, href;
 
     that = this;
     iphone = navigator.userAgent.match(/iPhone/i);
+    href = 'organizers.html';
 
     if (iphone == null) {
-      APP.Scroll.getPosition();
+      that.getPosition();
     } else {
       that.dataMobile();
-      APP.Scroll.getPositionMobile();
+      that.getPositionMobile();
+      APP.External.request(href);
     }
   },
 
