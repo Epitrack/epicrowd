@@ -59,35 +59,214 @@
           </p>
         </div>
 
-        <aside class="col-xs-12 col-sm-10 col-sm-offset-1 col-md-10 col-md-offset-1 col-lg-10 col-lg-offset-1">
-          <h4 data-i18n="agenda.conferencesTitle" class="agenda-title conferences">Conferences</h4>
-          <ul class="agenda-list">
-            <li class="agenda-item" data-i18n="agenda.conferenceList01">Welcome remarks and open talk - DDD advances and potential for mass gatherings.</li>
-            <li class="agenda-item" data-i18n="agenda.conferenceList02">The Wonderful World of Mass Gatherings Surveillance.</li>
-            <li class="agenda-item" data-i18n="agenda.conferenceList03">New waves of innovation in the world and how health can play it.</li>
-            <li class="agenda-item" data-i18n="agenda.conferenceList04">From academic practices to the services application: how to close links to new issues in public health?</li>
+        <div id="agenda-tabs" class="agenda-tabs col-xs-12 col-sm-10 col-sm-offset-1 col-md-10 col-md-offset-1 col-lg-10 col-lg-offset-1">
+          <ul class="tabs-list">
+            <li class="tabs-item"><a href="#day01">Day 01</a></li>
+            <li class="tabs-item"><a href="#day02">Day 02</a></li>
+            <li class="tabs-item"><a href="#day03">Day 03</a></li>
           </ul>
-        </aside>
 
-        <aside class="col-xs-12 col-sm-10 col-sm-offset-1 col-md-10 col-md-offset-1 col-lg-10 col-lg-offset-1">
-          <h4 data-i18n="agenda.panelsTitle" class="agenda-title panels">Panels</h4>
-          <ul class="agenda-list">
-            <li class="agenda-item" data-i18n="agenda.panelsList01">OMG...Is there a Crystal Ball for Pandemics?</li>
-            <li class="agenda-item" data-i18n="agenda.panelsList02">Perspectives of Health Managment for Olympics 2016.</li>
-            <li class="agenda-item" data-i18n="agenda.panelsList03">Limits of ethics in Public Health 2.0 age.</li>
-            <li class="agenda-item" data-i18n="agenda.panelsList04">How deep (epi)technology could go through mass gatherings?</li>
-            <li class="agenda-item" data-i18n="agenda.panelsList05">Strategies for Participatory Surveillance for Mass Gathering.</li>
-            <li class="agenda-item" data-i18n="agenda.panelsList06">Global Health and the impact dissemination of infectious threats during mass gatherings.</li>
-            <li class="agenda-item" data-i18n="agenda.panelsList07">How to delivery tools for surveillance during mass gatherings?</li>
-          </ul>
-        </aside>
+          <aside id="day01" class="tab-content">
+            <ul class="agenda-list">
+              <li class="agenda-item top">
+                <span class="hour">8:00 am</span>
 
-        <aside class="col-xs-12 col-sm-10 col-sm-offset-1 col-md-10 col-md-offset-1 col-lg-10 col-lg-offset-1">
-          <h4 data-i18n="agenda.rapidTitle" class="agenda-title rapid-fire">Rapid fire talks</h4>
-          <ul class="agenda-list">
-            <li class="agenda-item" data-i18n="agenda.rapidFireList01">Coming soon</li>
-          </ul>
-        </aside>
+                <div>
+                  <h4 class="agenda-title">Título Aqui</h4>
+                  <p class="agenda-description">Chegue com antecedência</p>
+                </div>
+              </li>
+
+              <li class="agenda-item">
+                <span class="hour">8:00 am</span>
+
+                <div>
+                  <h4 class="agenda-title">Título Aqui</h4>
+                  <p class="agenda-description">Chegue com antecedência</p>
+                </div>
+              </li>
+
+              <li class="agenda-item">
+                <span class="hour">8:00 am</span>
+
+                <div>
+                  <h4 class="agenda-title">Título Aqui</h4>
+                  <p class="agenda-description">Chegue com antecedência</p>
+                </div>
+              </li>
+
+              <li class="agenda-item">
+                <span class="hour">8:00 am</span>
+
+                <div>
+                  <h4 class="agenda-title">Título Aqui</h4>
+                  <p class="agenda-description">Chegue com antecedência</p>
+                </div>
+              </li>
+
+              <li class="agenda-item">
+                <span class="hour">8:00 am</span>
+
+                <div>
+                  <h4 class="agenda-title">Título Aqui</h4>
+                  <p class="agenda-description">Chegue com antecedência</p>
+                </div>
+              </li>
+
+              <li class="agenda-item">
+                <span class="hour">8:00 am</span>
+
+                <div>
+                  <h4 class="agenda-title">Título Aqui</h4>
+                  <p class="agenda-description">Chegue com antecedência</p>
+                </div>
+              </li>
+
+              <li class="agenda-item bottom">
+                <span class="hour">8:00 am</span>
+
+                <div>
+                  <h4 class="agenda-title">Título Aqui</h4>
+                  <p class="agenda-description">Chegue com antecedência</p>
+                </div>
+              </li>
+            </ul>
+          </aside>
+
+          <aside id="day02" class="tab-content">
+            <ul class="agenda-list">
+              <li class="agenda-item top">
+                <span class="hour">8:00 am</span>
+
+                <div>
+                  <h4 class="agenda-title">Título Aqui</h4>
+                  <p class="agenda-description">Chegue com antecedência</p>
+                </div>
+              </li>
+
+              <li class="agenda-item">
+                <span class="hour">8:00 am</span>
+
+                <div>
+                  <h4 class="agenda-title">Título Aqui</h4>
+                  <p class="agenda-description">Chegue com antecedência</p>
+                </div>
+              </li>
+
+              <li class="agenda-item">
+                <span class="hour">8:00 am</span>
+
+                <div>
+                  <h4 class="agenda-title">Título Aqui</h4>
+                  <p class="agenda-description">Chegue com antecedência</p>
+                </div>
+              </li>
+
+              <li class="agenda-item">
+                <span class="hour">8:00 am</span>
+
+                <div>
+                  <h4 class="agenda-title">Título Aqui</h4>
+                  <p class="agenda-description">Chegue com antecedência</p>
+                </div>
+              </li>
+
+              <li class="agenda-item">
+                <span class="hour">8:00 am</span>
+
+                <div>
+                  <h4 class="agenda-title">Título Aqui</h4>
+                  <p class="agenda-description">Chegue com antecedência</p>
+                </div>
+              </li>
+
+              <li class="agenda-item">
+                <span class="hour">8:00 am</span>
+
+                <div>
+                  <h4 class="agenda-title">Título Aqui</h4>
+                  <p class="agenda-description">Chegue com antecedência</p>
+                </div>
+              </li>
+
+              <li class="agenda-item bottom">
+                <span class="hour">8:00 am</span>
+
+                <div>
+                  <h4 class="agenda-title">Título Aqui</h4>
+                  <p class="agenda-description">Chegue com antecedência</p>
+                </div>
+              </li>
+            </ul>
+          </aside>
+
+          <aside id="day03" class="tab-content">
+            <ul class="agenda-list">
+              <li class="agenda-item top">
+                <span class="hour">8:00 am</span>
+
+                <div>
+                  <h4 class="agenda-title">Título Aqui</h4>
+                  <p class="agenda-description">Chegue com antecedência</p>
+                </div>
+              </li>
+
+              <li class="agenda-item">
+                <span class="hour">8:00 am</span>
+
+                <div>
+                  <h4 class="agenda-title">Título Aqui</h4>
+                  <p class="agenda-description">Chegue com antecedência</p>
+                </div>
+              </li>
+
+              <li class="agenda-item">
+                <span class="hour">8:00 am</span>
+
+                <div>
+                  <h4 class="agenda-title">Título Aqui</h4>
+                  <p class="agenda-description">Chegue com antecedência</p>
+                </div>
+              </li>
+
+              <li class="agenda-item">
+                <span class="hour">8:00 am</span>
+
+                <div>
+                  <h4 class="agenda-title">Título Aqui</h4>
+                  <p class="agenda-description">Chegue com antecedência</p>
+                </div>
+              </li>
+
+              <li class="agenda-item">
+                <span class="hour">8:00 am</span>
+
+                <div>
+                  <h4 class="agenda-title">Título Aqui</h4>
+                  <p class="agenda-description">Chegue com antecedência</p>
+                </div>
+              </li>
+
+              <li class="agenda-item">
+                <span class="hour">8:00 am</span>
+
+                <div>
+                  <h4 class="agenda-title">Título Aqui</h4>
+                  <p class="agenda-description">Chegue com antecedência</p>
+                </div>
+              </li>
+
+              <li class="agenda-item bottom">
+                <span class="hour">8:00 am</span>
+
+                <div>
+                  <h4 class="agenda-title">Título Aqui</h4>
+                  <p class="agenda-description">Chegue com antecedência</p>
+                </div>
+              </li>
+            </ul>
+          </aside>
+        </div>
       </section>
 
       <section id="register" class="row register"> <!-- Register -->
