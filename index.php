@@ -428,8 +428,8 @@
             <div class="icon taxi"></div>
             <p data-i18n="gettingHere.taxiText">
               At the airport, you can use ordinary or special taxi services.
-              Special taxi rates are fixed by location, and cost about $ XX
-              (R$ XX) for the hotels listed below, due to the proximity of the
+              Special taxi rates are fixed by location, and cost about $ 10
+              (R$ 25) for the hotels listed below, due to the proximity of the
               airport. Ordinary taxis calculate the price for path, being
               slightly cheaper. Special taxi service agents are in the arrivals
               hall or South Arrival gate, and conventional taxi service agents
