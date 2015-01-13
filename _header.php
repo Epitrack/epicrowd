@@ -42,10 +42,6 @@
     <div id="navbar" class="navbar-collapse collapse" aria-expanded="false">
       <ul class="nav navbar-nav nav-list">
         <li class="col-xs-12 col-md-3 nav-item">
-          <a href="#header-primary" data-i18n="nav.home;[title]nav.aboutHome" class="nav-link" title="Home">Home</a>
-        </li>
-
-        <li class="col-xs-12 col-md-3 nav-item">
           <a href="#about" data-i18n="nav.about;[title]nav.aboutTitle" class="nav-link" title="About">About</a>
         </li>
 
@@ -67,6 +63,10 @@
 
         <li class="col-xs-12 visible-xs col-md-3 nav-item">
           <a href="#lodging" data-i18n="nav.lodging;[title]nav.lodgingTitle" class="nav-link" title="Lodging">Lodging</a>
+        </li>
+
+        <li class="col-xs-12 visible-xs col-md-3 nav-item">
+          <a href="#organizers" data-i18n="nav.organizers;[title]nav.organizersTitle" class="nav-link" title="Organizers">Organizers</a>
         </li>
       </ul>
     </div>
