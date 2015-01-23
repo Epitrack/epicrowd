@@ -2,6 +2,7 @@ var APP = APP || {};
 APP.Register = {
   setUp: function() {
     this.sendRegister();
+    this.checkInput();
   },
 
   sendRegister: function() {
@@ -37,5 +38,44 @@ APP.Register = {
         }
       });
     });
+  },
+
+  checkInput: function() {
+    var that = this;
+    $('#form-submit').slideUp();
+
+    $('.submit-project').on('click', function() {
+      var value = $(this).attr('value');
+
+      if (value == 'yes') {
+        $('#form-submit').slideDown();
+        that.countWords();
+      } else {
+        $('#form-submit').slideUp();
+      }
+    });
+  },
+
+  countWords: function() {
+    var that = this;
+
+    $('#summary-project').on('keydown', function(event) {
+      if ( $(this).val().split(' ').length >= 150 ) {
+        that.checkLanguage();
+      } else {
+        return;
+      }
+    });
+  },
+
+  checkLanguage: function() {
+    var string = document.cookie,
+        ptBR = string.indexOf('i18next=pt-BR');
+
+    if (ptBR != -1) {
+      $('#feedback').text('Você ultrapassou o limite de 150 caracteres').addClass('alert-danger');
+    } else {
+      $('#feedback').text('You wrote more than 150 words.').addClass('alert-danger');
+    }
   }
 }

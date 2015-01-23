@@ -69,6 +69,15 @@
     ,"inputCaptcha" : "Enter code here"
     ,"captchaPlaceholder" : "Enter code here"
     ,"send" : "Send"
+    ,"titleSubmitProject" : "Do you have a submit project?"
+    ,"optionSubmitProjectYes" : "Yes"
+    ,"optionSubmitProjectNo" : "No"
+    ,"titleInputProject" : "Project Title"
+    ,"titleInputProjectPlaceholder" : "My awesome project"
+    ,"titleSummaryInputProject" : "Project Summary"
+    ,"titleSummaryInputProjectPlaceholder" : "150 words or less."
+    ,"titleSendYourProject" : "Send your project."
+    ,"titleObsProject" : "Your file format must be a PDF."
   },
   "gettingHere": {
     "title" : "Getting Here"

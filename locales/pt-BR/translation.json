@@ -69,6 +69,15 @@
     ,"inputCaptcha" : "Digite aqui o código"
     ,"captchaPlaceholder" : "Digite aqui o código"
     ,"send" : "Enviar"
+    ,"titleSubmitProject" : "Você deseja submeter um trabalho?"
+    ,"optionSubmitProjectYes" : "Sim"
+    ,"optionSubmitProjectNo" : "Não"
+    ,"titleInputProject" : "Título do trabalho"
+    ,"titleInputProjectPlaceholder" : "Meu trabalho incrível."
+    ,"titleSummaryInputProject" : "Resumo do trabalho"
+    ,"titleSummaryInputProjectPlaceholder" : "Seu resumo deverá conter até 150 palavras."
+    ,"titleSendYourProject" : "Envie seu trabalho"
+    ,"titleObsProject" : "O formato de arquivo do seu trabalho deverá ser PDF."
   },
   "gettingHere": {
     "title" : "Como chegar"

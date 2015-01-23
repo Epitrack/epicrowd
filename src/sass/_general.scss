@@ -701,6 +701,16 @@ svg {
   }
 }
 
+.help-block {
+  color: $color-secondary;
+  font-size: $fs-extra-small;
+}
+
+.options-submit { left: 20px; }
+
+.summary-project {
+  resize: vertical;
+}
 
 //
 // Form
