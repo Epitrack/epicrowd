@@ -550,6 +550,15 @@ svg {
       }
     }
 
+    &.presentation {
+      &::before {
+        @include path('icon-presentation.svg');
+        background-repeat: no-repeat;
+        background-position: center center;
+        background-size: 60px 60px;
+      }
+    }
+
     &:hover {
       &::before {
         content: '';
