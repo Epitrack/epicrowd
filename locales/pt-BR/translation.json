@@ -58,11 +58,15 @@
   },
   "register": {
     "title" : "Inscrições"
-    ,"text01" : "O evento terá público limitado para 100 pessoas e o preenchimento deste formulário não garante sua vaga. Isto é apenas um meio de contato para podermos avisá-lo quando as inscrições e submissões de resumos estiverem disponíveis."
+    ,"text01" : "O evento terá público limitado para 100 pessoas e o preenchimento deste formulário não garante sua vaga. Após o preenchimento você será informado se sua inscrição foi validada ou se estará na lista de espera."
     ,"inputName" : "Nome"
     ,"inputEmail" : "Email"
     ,"inputOrganization" : "Organização"
     ,"inputCountry" : "País"
+    ,"inputCity" : "Cidade"
+    ,"cityPlaceholder" : "Cidade"
+    ,"inputState" : "Estado"
+    ,"statePlaceholder" : "Estado"
     ,"namePlaceholder" : "Seu Nome Completo"
     ,"emailPlaceholder" : "meu-email@exemplo.com"
     ,"organizationPlaceholder" : "Secretaria Estadual de Saúde de São Paulo"
@@ -76,7 +80,6 @@
     ,"titleInputProjectPlaceholder" : "Meu trabalho incrível."
     ,"titleSummaryInputProject" : "Resumo do trabalho"
     ,"titleSummaryInputProjectPlaceholder" : "Seu resumo deverá conter até 150 palavras."
-    ,"titleSendYourProject" : "Envie seu trabalho"
     ,"titleObsProject" : "O formato de arquivo do seu trabalho deverá ser PDF."
   },
   "gettingHere": {

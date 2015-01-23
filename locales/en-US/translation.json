@@ -63,6 +63,10 @@
     ,"inputEmail" : "Email"
     ,"inputOrganization" : "Organization"
     ,"inputCountry" : "Country"
+    ,"inputCity" : "City"
+    ,"cityPlaceholder" : "City"
+    ,"inputState" : "State"
+    ,"statePlaceholder" : "State"
     ,"namePlaceholder" : "Your Full Name"
     ,"emailPlaceholder" : "my-email@example.com"
     ,"organizationPlaceholder" : "State Health Department of São Paulo"
@@ -76,7 +80,6 @@
     ,"titleInputProjectPlaceholder" : "My awesome project"
     ,"titleSummaryInputProject" : "Project Summary"
     ,"titleSummaryInputProjectPlaceholder" : "150 words or less."
-    ,"titleSendYourProject" : "Send your project."
     ,"titleObsProject" : "Your file format must be a PDF."
   },
   "gettingHere": {

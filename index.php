@@ -211,9 +211,7 @@
 
           <p data-i18n="register.text01" class="section-text">
             The event will have limited audience of 100 people and the
-            completion of this form does not ensure your place. This is just a
-            means of contact so that we can notify you when the registration
-            and abstract submissions are available.
+            completion of this form does not ensure your place.
           </p>
 
           <span class="glyphicon glyphicon-exclamation-sign attention"></span>
@@ -495,6 +493,16 @@
             </div>
 
             <div class="form-group">
+              <label data-i18n="register.inputCity" for="inputCity">City</label>
+              <input data-i18n="[placeholder]register.cityPlaceholder" id="inputCity" type="text" class="form-control input-primary" placeholder="City">
+            </div>
+
+            <div class="form-group">
+              <label data-i18n="register.inputState" for="inputState">State</label>
+              <input data-i18n="[placeholder]register.statePlaceholder" id="inputState" type="text" class="form-control input-primary" placeholder="State">
+            </div>
+
+            <div class="form-group">
               <label data-i18n="register.titleSubmitProject">Do you have a submit project?</label>
 
               <div class="radio">
@@ -519,8 +527,6 @@
                 </div>
 
                 <div class="form-group">
-                  <label for="file-project" data-i18n="register.titleSendYourProject">Send your project</label>
-                  <input type="file" id="file-project">
                   <p class="help-block" data-i18n="register.titleObsProject">Your file format must be a pdf.</p>
                 </div>
               </div>
