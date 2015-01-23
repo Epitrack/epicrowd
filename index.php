@@ -77,7 +77,7 @@
           <aside id="day01" class="tab-content">
             <ul class="agenda-list">
               <li class="agenda-item top">
-                <span class="hour">13:00 pm</span>
+                <span class="hour" data-i18n="agenda.day01Hour01">01:00 pm</span>
 
                 <div class="aditional conference">
                   <h4 class="agenda-title">Mark Smolinski</h4>
@@ -86,7 +86,7 @@
               </li>
 
               <li class="agenda-item">
-                <span class="hour">13:30 pm</span>
+                <span class="hour" data-i18n="agenda.day01Hour02">01:30 pm</span>
 
                 <div class="aditional conference">
                   <h4 class="agenda-title">Tina Endericks</h4>
@@ -95,7 +95,7 @@
               </li>
 
               <li class="agenda-item">
-                <span class="hour">14:45 pm</span>
+                <span class="hour" data-i18n="agenda.day01Hour03">02:45 pm</span>
 
                 <div class="aditional wall-panel">
                   <h4 class="agenda-title">Diana Borsa / Gabriela Gomes</h4>
@@ -104,7 +104,7 @@
               </li>
 
               <li class="agenda-item bottom">
-                <span class="hour">15:45 pm</span>
+                <span class="hour" data-i18n="agenda.day01Hour04">03:45 pm</span>
 
                 <div class="aditional rapid-fire">
                   <h4 class="agenda-title" data-i18n="agenda.rapidFireTalk">Rapid Fire Talks</h4>
@@ -117,7 +117,7 @@
           <aside id="day02" class="tab-content">
             <ul class="agenda-list">
               <li class="agenda-item top">
-                <span class="hour">9:00 am</span>
+                <span class="hour" data-i18n="agenda.day02Hour01">9:00 am</span>
 
                 <div class="aditional aditional conference">
                   <h4 class="agenda-title">Silvio Meira</h4>
@@ -126,7 +126,7 @@
               </li>
 
               <li class="agenda-item">
-                <span class="hour">9:45 am</span>
+                <span class="hour" data-i18n="agenda.day02Hour02">9:45 am</span>
 
                 <div class="aditional wall-panel">
                   <h4 class="agenda-title">Comming soon</h4>
@@ -135,7 +135,7 @@
               </li>
 
               <li class="agenda-item">
-                <span class="hour">10:45 am</span>
+                <span class="hour" data-i18n="agenda.day02Hour03">10:45 am</span>
 
                 <div class="aditional wall-panel">
                   <h4 class="agenda-title">Amalia Camara / Gunther Eysenbach</h4>
@@ -144,7 +144,7 @@
               </li>
 
               <li class="agenda-item">
-                <span class="hour">1:00 pm</span>
+                <span class="hour" data-i18n="agenda.day02Hour04">1:00 pm</span>
 
                 <div class="aditional wall-panel">
                   <h4 class="agenda-title">Kamran Kahn / Anette Hulth</h4>
@@ -153,7 +153,7 @@
               </li>
 
               <li class="agenda-item">
-                <span class="hour">14:15 pm</span>
+                <span class="hour" data-i18n="agenda.day02Hour05">02:15 pm</span>
 
                 <div class="aditional wall-panel">
                   <h4 class="agenda-title">Wanderson Oliveira / Michael Johansson</h4>
@@ -162,7 +162,7 @@
               </li>
 
               <li class="agenda-item bottom">
-                <span class="hour">15:00 pm</span>
+                <span class="hour" data-i18n="agenda.day02Hour06">03:00 pm</span>
 
                 <div class="aditional rapid-fire">
                   <h4 class="agenda-title" data-i18n="agenda.rapidFireTalk">Rapid Fire Talks</h4>
@@ -175,25 +175,25 @@
           <aside id="day03" class="tab-content">
             <ul class="agenda-list">
               <li class="agenda-item top">
-                <span class="hour">9:00 am</span>
+                <span class="hour" data-i18n="agenda.day03Hour01">9:00 am</span>
 
                 <div class="aditional conference">
-                  <h4 class="agenda-title">Naomar Almeida-Filho</h4>
+                  <h4 class="agenda-title" data-i18n="agenda.comingSoon">Coming Soon</h4>
                   <p class="agenda-description" data-i18n="agenda.naomarAlmeidaFilho">From academic practices to the services application: how to close links to new issues in public health?</p>
                 </div>
               </li>
 
               <li class="agenda-item">
-                <span class="hour">9:45 am</span>
+                <span class="hour" data-i18n="agenda.day03Hour02">9:45 am</span>
 
                 <div class="aditional wall-panel">
-                  <h4 class="agenda-title">Rodrigo Angerami / João Bosco Siqueira</h4>
+                  <h4 class="agenda-title">Rodrigo Angerami</h4>
                   <p class="agenda-description" data-i18n="agenda.rodrigoAngeramiJoaoBoscoSiqueira">Global Health and the impact dissemination of infectious threats during mass gatherings.</p>
                 </div>
               </li>
 
               <li class="agenda-item bottom">
-                <span class="hour">11:00 am</span>
+                <span class="hour" data-i18n="agenda.day03Hour03">11:00 am</span>
 
                 <div class="aditional wall-panel">
                   <h4 class="agenda-title">Jonas Brant / Lucilene Aguiar</h4>
