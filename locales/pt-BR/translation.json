@@ -11,8 +11,8 @@
     ,"aboutHome" : "Início"
     ,"agenda" : "Agenda"
     ,"agendaTitle" : "Agenda"
-    ,"register" : "Registro"
-    ,"registerTitle" : "Registro"
+    ,"register" : "Inscrições"
+    ,"registerTitle" : "Inscrições"
     ,"gettingHere" : "Como Chegar"
     ,"gettingHereTitle" : "Como Chegar"
     ,"lodging" : "Hospedagem"
@@ -57,7 +57,7 @@
     ,"jonasBrantLucileneAguiar" : "Como desenvolver ferramentas de vigilância durante eventos de massa?"
   },
   "register": {
-    "title" : "Registro"
+    "title" : "Inscrições"
     ,"text01" : "O evento terá público limitado para 100 pessoas e o preenchimento deste formulário não garante sua vaga. Isto é apenas um meio de contato para podermos avisá-lo quando as inscrições e submissões de resumos estiverem disponíveis."
     ,"inputName" : "Nome"
     ,"inputEmail" : "Email"

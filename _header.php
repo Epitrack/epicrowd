@@ -54,7 +54,7 @@
         </li>
 
         <li class="col-xs-12 col-md-3 nav-item">
-          <a href="#register" data-i18n="nav.register;[title]nav.registerTitle" class="nav-link" title="Register">Register</a>
+          <a href="#register" data-i18n="nav.register;[title]nav.registerTitle" class="nav-link" title="Inscrições">Inscrições</a>
         </li>
 
         <li class="col-xs-12 visible-xs col-md-3 nav-item">

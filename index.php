@@ -205,9 +205,9 @@
         </div>
       </section>
 
-      <section id="register" class="row register"> <!-- Register -->
+      <section id="register" class="row register"> <!-- Inscrições -->
         <div class="col-xs-12 col-sm-10 col-sm-offset-1 col-md-10 col-md-offset-1 col-lg-10 col-lg-offset-1">
-          <h3 data-i18n="register.title" class="section-title">Register</h3>
+          <h3 data-i18n="register.title" class="section-title">Inscrições</h3>
 
           <p data-i18n="register.text01" class="section-text">
             The event will have limited audience of 100 people and the
