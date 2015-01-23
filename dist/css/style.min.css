@@ -6894,7 +6894,7 @@ svg {
 
 /* line 471, ../../src/sass/_general.scss */
 .agenda-item {
-  min-height: 100px;
+  min-height: 150px;
   margin-bottom: 20px;
   border: 2px solid #004d6e;
   border-radius: 10%;

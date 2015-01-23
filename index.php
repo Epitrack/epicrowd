@@ -80,8 +80,8 @@
                 <span class="hour" data-i18n="agenda.day01Hour01">01:00 pm</span>
 
                 <div class="aditional presentation">
-                  <h4 class="agenda-title">Mark Smolinski - Skoll Global Threats Fund (USA)</h4>
-                  <p class="agenda-description" data-i18n="agenda.markSmolinski">Welcome remarks and open talk - DDD advances and potential for mass gatherings.</p>
+                  <h4 class="agenda-title" data-i18n="agenda.markSmolinski">Welcome remarks and open talk - DDD advances and potential for mass gatherings.</h4>
+                  <p class="agenda-description">Mark Smolinski - Skoll Global Threats Fund (USA)</p>
                 </div>
               </li>
 
@@ -89,8 +89,8 @@
                 <span class="hour" data-i18n="agenda.day01Hour02">01:30 pm</span>
 
                 <div class="aditional conference">
-                  <h4 class="agenda-title">Tina Endericks - Public Health London (UK)</h4>
-                  <p class="agenda-description" data-i18n="agenda.tinaEndericks">The Wonderful World of Mass Gatherings Surveillance.</p>
+                  <h4 class="agenda-title" data-i18n="agenda.tinaEndericks">The Wonderful World of Mass Gatherings Surveillance.</h4>
+                  <p class="agenda-description">Tina Endericks - Public Health London (UK)</p>
                 </div>
               </li>
 
@@ -98,8 +98,8 @@
                 <span class="hour" data-i18n="agenda.day01Hour03">02:45 pm</span>
 
                 <div class="aditional wall-panel">
-                  <h4 class="agenda-title">Courtney Corley / Gabriela Gomes</h4>
-                  <p class="agenda-description" data-i18n="agenda.dianaBorsaGabrielaGomes">OMG...Is there a Crystal Ball for Pandemics?</p>
+                  <h4 class="agenda-title" data-i18n="agenda.dianaBorsaGabrielaGomes">OMG...Is there a Crystal Ball for Pandemics?</h4>
+                  <p class="agenda-description">Courtney Corley / Gabriela Gomes</p>
                 </div>
               </li>
 
@@ -107,8 +107,8 @@
                 <span class="hour" data-i18n="agenda.day01Hour04">03:45 pm</span>
 
                 <div class="aditional rapid-fire">
-                  <h4 class="agenda-title" data-i18n="agenda.rapidFireTalk">Rapid Fire Talks</h4>
-                  <p class="agenda-description" data-i18n="agenda.speakers">10 speakers</p>
+                  <h4 class="agenda-title" data-i18n="agenda.speakers">10 speakers</h4>
+                  <p class="agenda-description" data-i18n="agenda.rapidFireTalk">Rapid Fire Talks</p>
                 </div>
               </li>
             </ul>
@@ -120,8 +120,8 @@
                 <span class="hour" data-i18n="agenda.day02Hour01">9:00 am</span>
 
                 <div class="aditional aditional conference">
-                  <h4 class="agenda-title">Silvio Meira</h4>
-                  <p class="agenda-description" data-i18n="agenda.silvioMeira">New waves of innovation in the world and how health can play it.</p>
+                  <h4 class="agenda-title" data-i18n="agenda.silvioMeira">New waves of innovation in the world and how health can play it.</h4>
+                  <p class="agenda-description">Silvio Meira</p>
                 </div>
               </li>
 
@@ -129,8 +129,8 @@
                 <span class="hour" data-i18n="agenda.day02Hour02">9:45 am</span>
 
                 <div class="aditional wall-panel">
-                  <h4 class="agenda-title">Comming soon</h4>
-                  <p class="agenda-description">Perspectives of Health Managment for Olympics 2016.</p>
+                  <h4 class="agenda-title">Perspectives of Health Managment for Olympics 2016.</h4>
+                  <p class="agenda-description">Comming soon</p>
                 </div>
               </li>
 
@@ -138,8 +138,8 @@
                 <span class="hour" data-i18n="agenda.day02Hour03">10:45 am</span>
 
                 <div class="aditional wall-panel">
-                  <h4 class="agenda-title">Amalia Camara / Gunther Eysenbach</h4>
-                  <p class="agenda-description" data-i18n="agenda.amaliaCamaraGuntherEysenbach">Limits of ethics in Public Health 2.0 age.</p>
+                  <h4 class="agenda-title" data-i18n="agenda.amaliaCamaraGuntherEysenbach">Limits of ethics in Public Health 2.0 age.</h4>
+                  <p class="agenda-description">Amalia Camara / Gunther Eysenbach</p>
                 </div>
               </li>
 
@@ -147,8 +147,8 @@
                 <span class="hour" data-i18n="agenda.day02Hour04">1:00 pm</span>
 
                 <div class="aditional wall-panel">
-                  <h4 class="agenda-title">Kamran Khan / Anette Hulth</h4>
-                  <p class="agenda-description" data-i18n="agenda.kamranKahAnetteHulth">How deep (epi)technology could go through mass gatherings?</p>
+                  <h4 class="agenda-title" data-i18n="agenda.kamranKahAnetteHulth">How deep (epi)technology could go through mass gatherings?</h4>
+                  <p class="agenda-description">Kamran Khan / Anette Hulth</p>
                 </div>
               </li>
 
@@ -156,8 +156,8 @@
                 <span class="hour" data-i18n="agenda.day02Hour05">02:15 pm</span>
 
                 <div class="aditional wall-panel">
-                  <h4 class="agenda-title">Wanderson Oliveira / Michael Johansson</h4>
-                  <p class="agenda-description" data-i18n="agenda.wandersonOliveiraMichaelJohansson">Strategies for Participatory Surveillance for Mass Gatherings.</p>
+                  <h4 class="agenda-title" data-i18n="agenda.wandersonOliveiraMichaelJohansson">Strategies for Participatory Surveillance for Mass Gatherings.</h4>
+                  <p class="agenda-description">Wanderson Oliveira / Michael Johansson</p>
                 </div>
               </li>
 
@@ -165,8 +165,8 @@
                 <span class="hour" data-i18n="agenda.day02Hour06">03:00 pm</span>
 
                 <div class="aditional rapid-fire">
-                  <h4 class="agenda-title" data-i18n="agenda.rapidFireTalk">Rapid Fire Talks</h4>
-                  <p class="agenda-description" data-i18n="agenda.speakers">10 speakers</p>
+                  <h4 class="agenda-title" data-i18n="agenda.speakers">10 speakers</h4>
+                  <p class="agenda-description" data-i18n="agenda.rapidFireTalk">Rapid Fire Talks</p>
                 </div>
               </li>
             </ul>
@@ -178,8 +178,8 @@
                 <span class="hour" data-i18n="agenda.day03Hour01">9:00 am</span>
 
                 <div class="aditional conference">
-                  <h4 class="agenda-title" data-i18n="agenda.comingSoon">Coming Soon</h4>
-                  <p class="agenda-description" data-i18n="agenda.naomarAlmeidaFilho">From academic practices to the services application: how to close links to new issues in public health?</p>
+                  <h4 class="agenda-title" data-i18n="agenda.naomarAlmeidaFilho">From academic practices to the services application: how to close links to new issues in public health?</h4>
+                  <p class="agenda-description" data-i18n="agenda.comingSoon">Coming Soon</p>
                 </div>
               </li>
 
@@ -187,8 +187,8 @@
                 <span class="hour" data-i18n="agenda.day03Hour02">9:45 am</span>
 
                 <div class="aditional wall-panel">
-                  <h4 class="agenda-title">Rodrigo Angerami</h4>
-                  <p class="agenda-description" data-i18n="agenda.rodrigoAngeramiJoaoBoscoSiqueira">Global Health and the impact dissemination of infectious threats during mass gatherings.</p>
+                  <h4 class="agenda-title" data-i18n="agenda.rodrigoAngeramiJoaoBoscoSiqueira">Global Health and the impact dissemination of infectious threats during mass gatherings.</h4>
+                  <p class="agenda-description">Rodrigo Angerami</p>
                 </div>
               </li>
 
@@ -196,8 +196,8 @@
                 <span class="hour" data-i18n="agenda.day03Hour03">11:00 am</span>
 
                 <div class="aditional wall-panel">
-                  <h4 class="agenda-title">Jonas Brant / Lucilene Aguiar</h4>
-                  <p class="agenda-description" data-i18n="agenda.jonasBrantLucileneAguiar">How to delivery tools for surveillance during mass gatherings?</p>
+                  <h4 class="agenda-title" data-i18n="agenda.jonasBrantLucileneAguiar">How to delivery tools for surveillance during mass gatherings?</h4>
+                  <p class="agenda-description">Jonas Brant / Lucilene Aguiar</p>
                 </div>
               </li>
             </ul>
