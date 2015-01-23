@@ -23,7 +23,8 @@
     "dist": {
       "options": {
         "sourcemap": "none",
-        "style": "compressed"
+        "lineNumbers": true,
+        "style": "expanded"
       },
 
       "files": {
@@ -57,6 +58,7 @@
           ,"src/js/APP.Countdown.js"
           ,"src/js/APP.Scroll.js"
           ,"src/js/APP.Register.js"
+          ,"src/js/APP.Agenda.js"
           ,"src/js/APP.Maps.js"
           ,"src/js/APP.External.js"
         ],

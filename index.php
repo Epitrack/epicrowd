@@ -43,7 +43,7 @@
               innovation, Recife is home to the nation’s largest tech research
               park and is rich in human capital in the fields of information and
               communication technology. The 3-day symposium will include lively
-              discussions of past experiences, along with formal conference panels
+              discussions of past experiences, along with formal conference wall-panels
               and presentations.
             </p>
           </div>
@@ -52,7 +52,7 @@
 
       <section id="agenda" class="row agenda"> <!-- Agenda -->
         <div class="col-xs-12 col-sm-10 col-sm-offset-1 col-md-10 col-md-offset-1 col-lg-10 col-lg-offset-1">
-          <h3 data-i18n="agenda.title" class="section-title">agenda at glance</h3>
+          <h3 data-i18n="agenda.title" class="section-title">agenda</h3>
 
           <p data-i18n="agenda.subtitle" class="section-text">
             Plan your trip considering that the symposium will start at noon of 25/03 and will end at noon of 27/03.
@@ -61,73 +61,46 @@
 
         <div id="agenda-tabs" class="agenda-tabs col-xs-12 col-sm-10 col-sm-offset-1 col-md-10 col-md-offset-1 col-lg-10 col-lg-offset-1">
           <ul class="tabs-list">
-            <li class="tabs-item"><a href="#day01">Day 01</a></li>
-            <li class="tabs-item"><a href="#day02">Day 02</a></li>
-            <li class="tabs-item"><a href="#day03">Day 03</a></li>
+            <li class="tabs-item"><a href="#day01"><span>25/03</span> Wednesday</a></li>
+            <li class="tabs-item"><a href="#day02"><span>26/03</span> Thursday</a></li>
+            <li class="tabs-item"><a href="#day03"><span>27/03</span> Friday</a></li>
           </ul>
 
           <aside id="day01" class="tab-content">
             <ul class="agenda-list">
               <li class="agenda-item top">
-                <span class="hour">8:00 am</span>
+                <span class="hour">13:00 pm</span>
 
-                <div>
-                  <h4 class="agenda-title">Título Aqui</h4>
-                  <p class="agenda-description">Chegue com antecedência</p>
+                <div class="aditional conference">
+                  <h4 class="agenda-title">Mark Smolinski</h4>
+                  <p class="agenda-description">Welcome remarks and open talk - DDD advances and potential for mass gatherings.</p>
                 </div>
               </li>
 
               <li class="agenda-item">
-                <span class="hour">8:00 am</span>
+                <span class="hour">13:30 pm</span>
 
-                <div>
-                  <h4 class="agenda-title">Título Aqui</h4>
-                  <p class="agenda-description">Chegue com antecedência</p>
+                <div class="aditional conference">
+                  <h4 class="agenda-title">Tina Endericks</h4>
+                  <p class="agenda-description">The Wonderful World of Mass Gatherings Surveillance.</p>
                 </div>
               </li>
 
               <li class="agenda-item">
-                <span class="hour">8:00 am</span>
+                <span class="hour">14:45 pm</span>
 
-                <div>
-                  <h4 class="agenda-title">Título Aqui</h4>
-                  <p class="agenda-description">Chegue com antecedência</p>
-                </div>
-              </li>
-
-              <li class="agenda-item">
-                <span class="hour">8:00 am</span>
-
-                <div>
-                  <h4 class="agenda-title">Título Aqui</h4>
-                  <p class="agenda-description">Chegue com antecedência</p>
-                </div>
-              </li>
-
-              <li class="agenda-item">
-                <span class="hour">8:00 am</span>
-
-                <div>
-                  <h4 class="agenda-title">Título Aqui</h4>
-                  <p class="agenda-description">Chegue com antecedência</p>
-                </div>
-              </li>
-
-              <li class="agenda-item">
-                <span class="hour">8:00 am</span>
-
-                <div>
-                  <h4 class="agenda-title">Título Aqui</h4>
-                  <p class="agenda-description">Chegue com antecedência</p>
+                <div class="aditional wall-panel">
+                  <h4 class="agenda-title">Diana Borsa / Gabriela Gomes</h4>
+                  <p class="agenda-description">OMG...Is there a Crystal Ball for Pandemics?</p>
                 </div>
               </li>
 
               <li class="agenda-item bottom">
-                <span class="hour">8:00 am</span>
+                <span class="hour">15:45 pm</span>
 
-                <div>
-                  <h4 class="agenda-title">Título Aqui</h4>
-                  <p class="agenda-description">Chegue com antecedência</p>
+                <div class="aditional rapid-fire">
+                  <h4 class="agenda-title">Rapid Fire Talks</h4>
+                  <p class="agenda-description">10 speakers</p>
                 </div>
               </li>
             </ul>
@@ -136,65 +109,56 @@
           <aside id="day02" class="tab-content">
             <ul class="agenda-list">
               <li class="agenda-item top">
-                <span class="hour">8:00 am</span>
+                <span class="hour">9:00 am</span>
 
-                <div>
-                  <h4 class="agenda-title">Título Aqui</h4>
-                  <p class="agenda-description">Chegue com antecedência</p>
+                <div class="aditional aditional conference">
+                  <h4 class="agenda-title">Silvio Meira</h4>
+                  <p class="agenda-description">New waves of innovation in the world and how health can play it.</p>
                 </div>
               </li>
 
               <li class="agenda-item">
-                <span class="hour">8:00 am</span>
+                <span class="hour">9:45 am</span>
 
-                <div>
-                  <h4 class="agenda-title">Título Aqui</h4>
-                  <p class="agenda-description">Chegue com antecedência</p>
+                <div class="aditional wall-panel">
+                  <h4 class="agenda-title">Comming soon</h4>
+                  <p class="agenda-description">Perspectives of Health Managment for Olympics 2016.</p>
                 </div>
               </li>
 
               <li class="agenda-item">
-                <span class="hour">8:00 am</span>
+                <span class="hour">10:45 am</span>
 
-                <div>
-                  <h4 class="agenda-title">Título Aqui</h4>
-                  <p class="agenda-description">Chegue com antecedência</p>
+                <div class="aditional wall-panel">
+                  <h4 class="agenda-title">Amalia Camara / Gunther Eysenbach</h4>
+                  <p class="agenda-description">Limits of ethics in Public Health 2.0 age</p>
                 </div>
               </li>
 
               <li class="agenda-item">
-                <span class="hour">8:00 am</span>
+                <span class="hour">1:00 pm</span>
 
-                <div>
-                  <h4 class="agenda-title">Título Aqui</h4>
-                  <p class="agenda-description">Chegue com antecedência</p>
+                <div class="aditional wall-panel">
+                  <h4 class="agenda-title">Kamran Kahn / Anette Hulth</h4>
+                  <p class="agenda-description">How deep (epi)technology could go through mass gatherings?</p>
                 </div>
               </li>
 
               <li class="agenda-item">
-                <span class="hour">8:00 am</span>
+                <span class="hour">14:15 pm</span>
 
-                <div>
-                  <h4 class="agenda-title">Título Aqui</h4>
-                  <p class="agenda-description">Chegue com antecedência</p>
-                </div>
-              </li>
-
-              <li class="agenda-item">
-                <span class="hour">8:00 am</span>
-
-                <div>
-                  <h4 class="agenda-title">Título Aqui</h4>
-                  <p class="agenda-description">Chegue com antecedência</p>
+                <div class="aditional wall-panel">
+                  <h4 class="agenda-title">Wanderson Oliveira / Michael Johansson</h4>
+                  <p class="agenda-description">Strategies for Participatory Surveillance for Mass Gatherings.</p>
                 </div>
               </li>
 
               <li class="agenda-item bottom">
-                <span class="hour">8:00 am</span>
+                <span class="hour">15:00 pm</span>
 
-                <div>
-                  <h4 class="agenda-title">Título Aqui</h4>
-                  <p class="agenda-description">Chegue com antecedência</p>
+                <div class="aditional rapid-fire">
+                  <h4 class="agenda-title">Rapid Fire Talks</h4>
+                  <p class="agenda-description">10 speakers</p>
                 </div>
               </li>
             </ul>
@@ -203,65 +167,29 @@
           <aside id="day03" class="tab-content">
             <ul class="agenda-list">
               <li class="agenda-item top">
-                <span class="hour">8:00 am</span>
+                <span class="hour">9:00 am</span>
 
-                <div>
-                  <h4 class="agenda-title">Título Aqui</h4>
-                  <p class="agenda-description">Chegue com antecedência</p>
+                <div class="aditional conference">
+                  <h4 class="agenda-title">Naomar Almeida-Filho</h4>
+                  <p class="agenda-description">From academic practices to the services application: how to close links to new issues in public health?</p>
                 </div>
               </li>
 
               <li class="agenda-item">
-                <span class="hour">8:00 am</span>
+                <span class="hour">9:45 am</span>
 
-                <div>
-                  <h4 class="agenda-title">Título Aqui</h4>
-                  <p class="agenda-description">Chegue com antecedência</p>
-                </div>
-              </li>
-
-              <li class="agenda-item">
-                <span class="hour">8:00 am</span>
-
-                <div>
-                  <h4 class="agenda-title">Título Aqui</h4>
-                  <p class="agenda-description">Chegue com antecedência</p>
-                </div>
-              </li>
-
-              <li class="agenda-item">
-                <span class="hour">8:00 am</span>
-
-                <div>
-                  <h4 class="agenda-title">Título Aqui</h4>
-                  <p class="agenda-description">Chegue com antecedência</p>
-                </div>
-              </li>
-
-              <li class="agenda-item">
-                <span class="hour">8:00 am</span>
-
-                <div>
-                  <h4 class="agenda-title">Título Aqui</h4>
-                  <p class="agenda-description">Chegue com antecedência</p>
-                </div>
-              </li>
-
-              <li class="agenda-item">
-                <span class="hour">8:00 am</span>
-
-                <div>
-                  <h4 class="agenda-title">Título Aqui</h4>
-                  <p class="agenda-description">Chegue com antecedência</p>
+                <div class="aditional wall-panel">
+                  <h4 class="agenda-title">Rodrigo Angerami / João Bosco Siqueira</h4>
+                  <p class="agenda-description">Global Health and the impact dissemination of infectious threats during mass gatherings.</p>
                 </div>
               </li>
 
               <li class="agenda-item bottom">
-                <span class="hour">8:00 am</span>
+                <span class="hour">11:00 am</span>
 
-                <div>
-                  <h4 class="agenda-title">Título Aqui</h4>
-                  <p class="agenda-description">Chegue com antecedência</p>
+                <div class="aditional wall-panel">
+                  <h4 class="agenda-title">Jonas Brant / Lucilene Aguiar</h4>
+                  <p class="agenda-description">How to delivery tools for surveillance during mass gatherings?</p>
                 </div>
               </li>
             </ul>

@@ -116,14 +116,14 @@ svg {
 
   time {
     font-family: $ff-primary;
-    color: #fff;
+    color: $color-secondary;
     font-size: 2.2rem;
     text-transform: uppercase;
     line-height: $fs-extra-medium;
   }
 
   p {
-    color: #fff;
+    color: $color-secondary;
     font-family: $ff-secondary;
     font-size: $fs-medium;
   }
@@ -141,7 +141,7 @@ svg {
   @extend %animate-logo;
 
   p {
-    color: #ffffff;
+    color: $color-secondary;
     font-size: $fs-large;
     display: inline-block;
     font-family: $ff-secondary;
@@ -268,7 +268,6 @@ svg {
   &:hover, &:focus {
     text-decoration: none;
     color: $color-secondary;
-    color: #ffffff;
     @include scale(1.2);
 
     &::before {
@@ -282,7 +281,6 @@ svg {
   &.js-nav-active {
     text-decoration: none;
     color: $color-secondary;
-    color: #ffffff;
     @include scale(1.2);
 
     &::before {
@@ -405,6 +403,7 @@ svg {
 .agenda {
   background-color: $color-other;
   min-height: 550px;
+  padding-bottom: 20px;
 
   aside {
     display: inline-block;
@@ -417,6 +416,151 @@ svg {
     color: $color-primary;
   }
 }
+
+.tabs-list {
+  text-align: center;
+  margin: 20px auto 0 auto;
+}
+
+.tabs-item {
+  display: inline-block;
+  width: 185px;
+  padding: 0;
+  margin-right: 2px;
+  height: 45px;
+
+  a {
+    background-color: $color-secondary;
+    color: $color-primary;
+    text-decoration: none;
+    padding: 5px 10px;
+    font-size: $fs-small;
+    line-height: 42px;
+    text-transform: uppercase;
+    font-family: $ff-secondary;
+    display: block;
+    width: 100%;
+    height: 100%;
+    @include bdr(10px 10px 0 0);
+    @include transition(all, .2s, 0s, ease-out);
+
+    &.js-active {
+      background-color: $color-primary;
+      color: $color-secondary;
+    }
+
+    &:hover {
+      background-color: $color-primary;
+      color: $color-secondary;
+    }
+  }
+
+  span {
+    font-weight: bold;
+  }
+}
+
+.tab-content {
+  margin-top: 0 !important;
+  width: 100%;
+  padding-top: 0 !important;
+  text-align: center;
+}
+
+.agenda-item {
+  min-height: 100px;
+  border-top: 2px solid $color-primary;
+  border-right: 2px solid $color-primary;
+  border-left: 2px solid $color-primary;
+  background-color: transparent;
+  @include transition(background, .2s, 0s, linear);
+
+  &:hover {
+    background-color: $color-secondary;
+  }
+
+  &.top { @include bdr(10px 10px 0 0); }
+
+  &.bottom {
+    @include bdr(0 0 10px 10px);
+    border-bottom: 2px solid $color-primary;
+  }
+
+  .hour {
+    display: inline-block;
+    text-align: center;
+    width: 18%;
+    height: 100%;
+    padding-bottom: 20px;
+    line-height: 95px;
+    font-size: $fs-small;
+    font-family: $ff-secondary;
+    border-right: 3px solid $color-primary;
+
+    &::before {
+      content: '';
+      width: 20px;
+      height: 20px;
+      display: inline-block;
+      vertical-align: middle;
+      position: relative;
+      margin-right: 10px;
+      @include bdr(100%);
+      @include path('icon-clock.svg');
+      background-size: 20px 20px;
+      background-position: center center;
+    }
+   }
+
+  .aditional {
+    width: 80%;
+    display: inline-block;
+    vertical-align: top;
+    text-align: left;
+    padding: 20px 15px 20px 45px;
+    margin-left: -3px;
+    position: relative;
+
+    &::before {
+      content: '';
+      background-color: $color-primary;
+      position: absolute;
+      width: 60px;
+      height: 60px;
+      left: -30px;
+      top: 30px;
+      @include bdr(100%);
+      @include transition(border, .2s, 0s, ease-out);
+    }
+
+    &.rapid-fire {
+      &::before {
+        @include path('icon-rapid-fire.svg');
+        background-repeat: no-repeat;
+        background-position: center center;
+        background-size: 60px 60px;
+      }
+    }
+
+    &:hover {
+      &::before {
+        content: '';
+        border: 2px dotted $color-secondary;
+      }
+    }
+  }
+}
+
+.agenda-title {
+  font-family: $ff-title;
+  font-size: $fs-extra-medium;
+}
+
+.agenda-description {
+  font-family: $ff-secondary;
+  font-size: $fs-extra-small;
+}
+
 
 //
 // Getting here
@@ -563,7 +707,7 @@ svg {
 
   .attention {
     font-size: 2rem;
-    color: #fff;
+    color: $color-secondary;
     margin: 0 0 30px 10px;
   }
 }
@@ -679,9 +823,7 @@ svg {
   margin-bottom: 30px;
 }
 
-.nav-secondary-item {
-  display: inline-block;
-}
+.nav-secondary-item { display: inline-block; }
 
 .nav-secondary-link {
   font-size: $fs-extra-small;
@@ -781,14 +923,12 @@ svg {
 // Become a Sponsor
 //
 
-#external {
-  @include transition(all, 2s, linear, 0s);
-}
+#external { @include transition(all, 2s, linear, 0s); }
 
 .become-a-sponsor {
   text-align: center;
   min-height: 240px !important;
-  background-color: #ffffff;
+  background-color: $color-secondary;
   @include bsd(0 1px 1px #DBD9D9);
 
   p {
@@ -825,18 +965,14 @@ svg {
     background-attachment: fixed;
   }
 
-  .nav-primary {
-    top: 586px;
-  }
+  .nav-primary { top: 586px; }
 
   .countdown {
     margin-top: 20px;
     visibility: visible;
   }
 
-  .down {
-    top: 60%;
-  }
+  .down { top: 60%; }
 
   .logo-primary {
     a {
@@ -863,11 +999,13 @@ svg {
     margin-right: 20px;
   }
 
-  .organizers-links {
-    margin: 20px;
-  }
+  .organizers-links { margin: 20px; }
 
   .box-images-hotel { height: 130px; }
+
+  .agenda-item {
+    min-height: 100px;
+  }
 }
 
 // Desktops
