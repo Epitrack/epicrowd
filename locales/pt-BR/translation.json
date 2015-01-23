@@ -69,9 +69,9 @@
     ,"day03Hour01" : "09:00"
     ,"day03Hour02" : "09:45"
     ,"day03Hour03" : "11:00"
-    ,"moderator" : "Moderadores: "
+    ,"moderator" : "Moderador: "
     ,"speakers" : "Orador: "
-    ,"painelists" : "Painelistas: "
+    ,"panelists" : "Panelistas: "
   },
   "register": {
     "title" : "Inscrições"
