@@ -79,7 +79,7 @@
               <li class="agenda-item top">
                 <span class="hour" data-i18n="agenda.day01Hour01">01:00 pm</span>
 
-                <div class="aditional conference">
+                <div class="aditional presentation">
                   <h4 class="agenda-title">Mark Smolinski</h4>
                   <p class="agenda-description" data-i18n="agenda.markSmolinski">Welcome remarks and open talk - DDD advances and potential for mass gatherings.</p>
                 </div>
@@ -89,7 +89,7 @@
                 <span class="hour" data-i18n="agenda.day01Hour02">01:30 pm</span>
 
                 <div class="aditional conference">
-                  <h4 class="agenda-title">Tina Endericks</h4>
+                  <h4 class="agenda-title">Tina Endericks - Public Health London (UK)</h4>
                   <p class="agenda-description" data-i18n="agenda.tinaEndericks">The Wonderful World of Mass Gatherings Surveillance.</p>
                 </div>
               </li>
@@ -98,7 +98,7 @@
                 <span class="hour" data-i18n="agenda.day01Hour03">02:45 pm</span>
 
                 <div class="aditional wall-panel">
-                  <h4 class="agenda-title">Diana Borsa / Gabriela Gomes</h4>
+                  <h4 class="agenda-title">Courtney Corley / Gabriela Gomes</h4>
                   <p class="agenda-description" data-i18n="agenda.dianaBorsaGabrielaGomes">OMG...Is there a Crystal Ball for Pandemics?</p>
                 </div>
               </li>
@@ -147,7 +147,7 @@
                 <span class="hour" data-i18n="agenda.day02Hour04">1:00 pm</span>
 
                 <div class="aditional wall-panel">
-                  <h4 class="agenda-title">Kamran Kahn / Anette Hulth</h4>
+                  <h4 class="agenda-title">Kamran Khan / Anette Hulth</h4>
                   <p class="agenda-description" data-i18n="agenda.kamranKahAnetteHulth">How deep (epi)technology could go through mass gatherings?</p>
                 </div>
               </li>
