@@ -532,6 +532,24 @@ svg {
       }
     }
 
+    &.conference {
+      &::before {
+        @include path('icon-conference.svg');
+        background-repeat: no-repeat;
+        background-position: center center;
+        background-size: 60px 60px;
+      }
+    }
+
+    &.wall-panel {
+      &::before {
+        @include path('icon-wall-panel.svg');
+        background-repeat: no-repeat;
+        background-position: center center;
+        background-size: 60px 60px;
+      }
+    }
+
     &:hover {
       &::before {
         content: '';
