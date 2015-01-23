@@ -61,9 +61,17 @@
 
         <div id="agenda-tabs" class="agenda-tabs col-xs-12 col-sm-10 col-sm-offset-1 col-md-10 col-md-offset-1 col-lg-10 col-lg-offset-1">
           <ul class="tabs-list">
-            <li class="tabs-item"><a href="#day01"><span>25/03</span> Wednesday</a></li>
-            <li class="tabs-item"><a href="#day02"><span>26/03</span> Thursday</a></li>
-            <li class="tabs-item"><a href="#day03"><span>27/03</span> Friday</a></li>
+            <li class="tabs-item">
+              <a href="#day01" data-i18n="agenda.day01">25/03 Wednesday</a>
+            </li>
+
+            <li class="tabs-item">
+              <a href="#day02" data-i18n="agenda.day02">26/03 Thursday</a>
+            </li>
+
+            <li class="tabs-item">
+              <a href="#day03" data-i18n="agenda.day03">27/03 Friday</a>
+            </li>
           </ul>
 
           <aside id="day01" class="tab-content">
@@ -73,7 +81,7 @@
 
                 <div class="aditional conference">
                   <h4 class="agenda-title">Mark Smolinski</h4>
-                  <p class="agenda-description">Welcome remarks and open talk - DDD advances and potential for mass gatherings.</p>
+                  <p class="agenda-description" data-i18n="agenda.markSmolinski">Welcome remarks and open talk - DDD advances and potential for mass gatherings.</p>
                 </div>
               </li>
 
@@ -82,7 +90,7 @@
 
                 <div class="aditional conference">
                   <h4 class="agenda-title">Tina Endericks</h4>
-                  <p class="agenda-description">The Wonderful World of Mass Gatherings Surveillance.</p>
+                  <p class="agenda-description" data-i18n="agenda.tinaEndericks">The Wonderful World of Mass Gatherings Surveillance.</p>
                 </div>
               </li>
 
@@ -91,7 +99,7 @@
 
                 <div class="aditional wall-panel">
                   <h4 class="agenda-title">Diana Borsa / Gabriela Gomes</h4>
-                  <p class="agenda-description">OMG...Is there a Crystal Ball for Pandemics?</p>
+                  <p class="agenda-description" data-i18n="agenda.dianaBorsaGabrielaGomes">OMG...Is there a Crystal Ball for Pandemics?</p>
                 </div>
               </li>
 
@@ -99,8 +107,8 @@
                 <span class="hour">15:45 pm</span>
 
                 <div class="aditional rapid-fire">
-                  <h4 class="agenda-title">Rapid Fire Talks</h4>
-                  <p class="agenda-description">10 speakers</p>
+                  <h4 class="agenda-title" data-i18n="agenda.rapidFireTalk">Rapid Fire Talks</h4>
+                  <p class="agenda-description" data-i18n="agenda.speakers">10 speakers</p>
                 </div>
               </li>
             </ul>
@@ -113,7 +121,7 @@
 
                 <div class="aditional aditional conference">
                   <h4 class="agenda-title">Silvio Meira</h4>
-                  <p class="agenda-description">New waves of innovation in the world and how health can play it.</p>
+                  <p class="agenda-description" data-i18n="agenda.silvioMeira">New waves of innovation in the world and how health can play it.</p>
                 </div>
               </li>
 
@@ -131,7 +139,7 @@
 
                 <div class="aditional wall-panel">
                   <h4 class="agenda-title">Amalia Camara / Gunther Eysenbach</h4>
-                  <p class="agenda-description">Limits of ethics in Public Health 2.0 age</p>
+                  <p class="agenda-description" data-i18n="agenda.amaliaCamaraGuntherEysenbach">Limits of ethics in Public Health 2.0 age.</p>
                 </div>
               </li>
 
@@ -140,7 +148,7 @@
 
                 <div class="aditional wall-panel">
                   <h4 class="agenda-title">Kamran Kahn / Anette Hulth</h4>
-                  <p class="agenda-description">How deep (epi)technology could go through mass gatherings?</p>
+                  <p class="agenda-description" data-i18n="agenda.kamranKahAnetteHulth">How deep (epi)technology could go through mass gatherings?</p>
                 </div>
               </li>
 
@@ -149,7 +157,7 @@
 
                 <div class="aditional wall-panel">
                   <h4 class="agenda-title">Wanderson Oliveira / Michael Johansson</h4>
-                  <p class="agenda-description">Strategies for Participatory Surveillance for Mass Gatherings.</p>
+                  <p class="agenda-description" data-i18n="agenda.wandersonOliveiraMichaelJohansson">Strategies for Participatory Surveillance for Mass Gatherings.</p>
                 </div>
               </li>
 
@@ -157,8 +165,8 @@
                 <span class="hour">15:00 pm</span>
 
                 <div class="aditional rapid-fire">
-                  <h4 class="agenda-title">Rapid Fire Talks</h4>
-                  <p class="agenda-description">10 speakers</p>
+                  <h4 class="agenda-title" data-i18n="agenda.rapidFireTalk">Rapid Fire Talks</h4>
+                  <p class="agenda-description" data-i18n="agenda.speakers">10 speakers</p>
                 </div>
               </li>
             </ul>
@@ -171,7 +179,7 @@
 
                 <div class="aditional conference">
                   <h4 class="agenda-title">Naomar Almeida-Filho</h4>
-                  <p class="agenda-description">From academic practices to the services application: how to close links to new issues in public health?</p>
+                  <p class="agenda-description" data-i18n="agenda.naomarAlmeidaFilho">From academic practices to the services application: how to close links to new issues in public health?</p>
                 </div>
               </li>
 
@@ -180,7 +188,7 @@
 
                 <div class="aditional wall-panel">
                   <h4 class="agenda-title">Rodrigo Angerami / João Bosco Siqueira</h4>
-                  <p class="agenda-description">Global Health and the impact dissemination of infectious threats during mass gatherings.</p>
+                  <p class="agenda-description" data-i18n="agenda.rodrigoAngeramiJoaoBoscoSiqueira">Global Health and the impact dissemination of infectious threats during mass gatherings.</p>
                 </div>
               </li>
 
@@ -189,7 +197,7 @@
 
                 <div class="aditional wall-panel">
                   <h4 class="agenda-title">Jonas Brant / Lucilene Aguiar</h4>
-                  <p class="agenda-description">How to delivery tools for surveillance during mass gatherings?</p>
+                  <p class="agenda-description" data-i18n="agenda.jonasBrantLucileneAguiar">How to delivery tools for surveillance during mass gatherings?</p>
                 </div>
               </li>
             </ul>
