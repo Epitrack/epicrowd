@@ -80,7 +80,7 @@
                 <span class="hour" data-i18n="agenda.day01Hour01">01:00 pm</span>
 
                 <div class="aditional presentation">
-                  <h4 class="agenda-title">Mark Smolinski</h4>
+                  <h4 class="agenda-title">Mark Smolinski - Skoll Global Threats Fund (USA)</h4>
                   <p class="agenda-description" data-i18n="agenda.markSmolinski">Welcome remarks and open talk - DDD advances and potential for mass gatherings.</p>
                 </div>
               </li>
@@ -210,8 +210,9 @@
           <h3 data-i18n="register.title" class="section-title">Inscrições</h3>
 
           <p data-i18n="register.text01" class="section-text">
-            The event will have limited audience of 100 people and the
-            completion of this form does not ensure your place.
+            The event will have limited audience of 100 people and the completion
+            of this form does not ensure your place. Soon you will be informed
+            if your application has been committed or went into the waiting list.
           </p>
 
           <span class="glyphicon glyphicon-exclamation-sign attention"></span>
@@ -517,7 +518,7 @@
 
               <div id="form-submit" class="form-submit">
                 <div class="form-group">
-                  <label for="title-project" data-i18n="register.titleInputProject">Project Title</label>
+                  <label for="title-project" data-i18n="register.titleInputProject">Abstract Title</label>
                   <input id="title-project" type="text" class="form-control input-primary" data-i18n="[placeholder]register.titleInputProjectPlaceholder" placeholder="My awesome project.">
                 </div>
 

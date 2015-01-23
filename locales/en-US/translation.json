@@ -72,7 +72,7 @@
   },
   "register": {
     "title" : "Register"
-    ,"text01" : "The event will have limited audience of 100 people and the completion of this form does not ensure your place. This is just a means of contact so that we can notify you when the registration and abstract submissions are available."
+    ,"text01" : "The event will have limited audience of 100 people and the completion of this form does not ensure your place. Soon you will be informed if your application has been committed or went into the waiting list."
     ,"inputName" : "Name"
     ,"inputEmail" : "Email"
     ,"inputOrganization" : "Organization"
@@ -90,7 +90,7 @@
     ,"titleSubmitProject" : "Do you have a submit project?"
     ,"optionSubmitProjectYes" : "Yes"
     ,"optionSubmitProjectNo" : "No"
-    ,"titleInputProject" : "Project Title"
+    ,"titleInputProject" : "Abstract Title"
     ,"titleInputProjectPlaceholder" : "My awesome project"
     ,"titleSummaryInputProject" : "Project Summary"
     ,"titleSummaryInputProjectPlaceholder" : "150 words or less."
