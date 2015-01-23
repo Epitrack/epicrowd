@@ -69,6 +69,8 @@
     ,"day03Hour01" : "09:00 am"
     ,"day03Hour02" : "09:45 am"
     ,"day03Hour03" : "11:00 am"
+    ,"moderator" : "Moderator: "
+    ,"speakers" : "Speakers: "
   },
   "register": {
     "title" : "Register"

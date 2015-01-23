@@ -81,7 +81,9 @@
 
                 <div class="aditional presentation">
                   <h4 class="agenda-title" data-i18n="agenda.markSmolinski">Welcome remarks and open talk - DDD advances and potential for mass gatherings.</h4>
-                  <p class="agenda-description">Mark Smolinski - Skoll Global Threats Fund (USA)</p>
+                  <!-- <p class="agenda-description"><span class="moderator" data-i18n="agenda.moderator">Moderator:</span>N/A</p>
+                  <p class="agenda-description"><span class="speakers" data-i18n="agenda.speakers">Speakers:</span> Mark Smolinski - Skoll Global Threats Fund (USA)</p>
+                  <p class="agenda-description"><span class="painelists" data-i18n="agenda.painelists">Painelists:</span> Mark Smolinski - Skoll Global Threats Fund (USA)</p> -->
                 </div>
               </li>
 
@@ -99,7 +101,8 @@
 
                 <div class="aditional wall-panel">
                   <h4 class="agenda-title" data-i18n="agenda.dianaBorsaGabrielaGomes">OMG...Is there a Crystal Ball for Pandemics?</h4>
-                  <p class="agenda-description">Courtney Corley / Gabriela Gomes</p>
+                  <p class="agenda-description"><span class="painelists" data-i18n="agenda.painelists">Painelists:</span> Gabriela Gomes - Gulbekian Institute (Portugal), Courtney Corley - Pacific Northwest National Laboratory (USA)</p>
+                  <p class="agenda-description"><span class="moderator" data-i18n="agenda.moderator">Moderator:</span>Jones Albuquerque - Epitrack (Brazil) </p>
                 </div>
               </li>
 
@@ -139,7 +142,8 @@
 
                 <div class="aditional wall-panel">
                   <h4 class="agenda-title" data-i18n="agenda.amaliaCamaraGuntherEysenbach">Limits of ethics in Public Health 2.0 age.</h4>
-                  <p class="agenda-description">Amalia Camara / Gunther Eysenbach</p>
+                  <p class="agenda-description"><span class="painelists" data-i18n="agenda.painelists">Painelists:</span> Amalia Carama - University of Pernambuco (Brazil), Gunther Eysenbach - Journal of Internet Medical Research - (Canada)</p>
+                  <p class="agenda-description"><span class="moderator" data-i18n="agenda.moderator">Moderator:</span> Jennifer Olsen - Skoll Global Threats Fund (USA)</p>
                 </div>
               </li>
 
@@ -157,7 +161,8 @@
 
                 <div class="aditional wall-panel">
                   <h4 class="agenda-title" data-i18n="agenda.wandersonOliveiraMichaelJohansson">Strategies for Participatory Surveillance for Mass Gatherings.</h4>
-                  <p class="agenda-description">Wanderson Oliveira / Michael Johansson</p>
+                  <p class="agenda-description"><span class="painelists" data-i18n="agenda.painelists">Painelists:</span> Wanderson Oliveira - Ministry of Health - Brazil, Michael Johannson - CDC - USA</p>
+                  <p class="agenda-description"><span class="moderator" data-i18n="agenda.moderator">Moderator:</span> Marlo Libel - Skoll</p>
                 </div>
               </li>
 
@@ -188,7 +193,8 @@
 
                 <div class="aditional wall-panel">
                   <h4 class="agenda-title" data-i18n="agenda.rodrigoAngeramiJoaoBoscoSiqueira">Global Health and the impact dissemination of infectious threats during mass gatherings.</h4>
-                  <p class="agenda-description">Rodrigo Angerami</p>
+                  <p class="agenda-description"><span class="painelists" data-i18n="agenda.painelists">Painelists:</span>  Rodrigo Angerami - UNICAMP/Brazil, João Bosco Siqueira - UFG/Brazil</p>
+                  <p class="agenda-description"><span class="moderator" data-i18n="agenda.moderator">Moderator:</span> Mary Wilson - Harvard </p>
                 </div>
               </li>
 
@@ -197,7 +203,8 @@
 
                 <div class="aditional wall-panel">
                   <h4 class="agenda-title" data-i18n="agenda.jonasBrantLucileneAguiar">How to delivery tools for surveillance during mass gatherings?</h4>
-                  <p class="agenda-description">Jonas Brant / Lucilene Aguiar</p>
+                  <p class="agenda-description"><span class="painelists" data-i18n="agenda.painelists">Painelists:</span> Jonas Brant - Tephinet/CDC,  Lucilene Aguiar - SES-PE/Brazil</p>
+                  <p class="agenda-description"><span class="moderator" data-i18n="agenda.moderator">Moderator:</span> George Dimech - MoH/Epitrack</p>
                 </div>
               </li>
             </ul>

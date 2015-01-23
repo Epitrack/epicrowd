@@ -576,6 +576,19 @@ svg {
 .agenda-description {
   font-family: $ff-secondary;
   font-size: $fs-extra-small;
+  display: inline;
+
+  span { font-weight: bold; }
+
+  &::before {
+    content: '';
+    width: 10px;
+    height: 10px;
+    background-color: orange;
+    display: inline-block;
+    margin: 0 5px;
+    @include bdr(100%);
+  }
 }
 
 
