@@ -469,7 +469,7 @@ svg {
 }
 
 .agenda-item {
-  min-height: 150px;
+  min-height: 100px;
   margin-bottom: 20px;
   border: 2px solid $color-primary;
   border-radius: 10%;
@@ -510,6 +510,13 @@ svg {
     padding: 30px 20px 20px;
     margin-left: -3px;
     position: relative;
+
+    span {
+      font-weight: bold;
+      font-family: $ff-secondary;
+      font-size: $fs-extra-small;
+      display: inline;
+    }
 
     &::before {
       content: '';
@@ -577,18 +584,6 @@ svg {
   font-family: $ff-secondary;
   font-size: $fs-extra-small;
   display: inline;
-
-  span { font-weight: bold; }
-
-  &::before {
-    content: '';
-    width: 10px;
-    height: 10px;
-    background-color: orange;
-    display: inline-block;
-    margin: 0 5px;
-    @include bdr(100%);
-  }
 }
 
 
@@ -1061,7 +1056,7 @@ svg {
     }
 
     .hour {
-      line-height: 95px;
+      line-height: 135px;
       display: inline-block;
       width: 18%;
       border-bottom: 0;
