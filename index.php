@@ -81,7 +81,7 @@
 
                 <div class="aditional presentation">
                   <h4 class="agenda-title" data-i18n="agenda.markSmolinski">Welcome remarks and open talk - DDD advances and potential for mass gatherings.</h4>
-                  <span class="panelists" data-i18n="agenda.panelists">Panelists:</span> <p class="agenda-description" data-i18n="agenda.markSmolinskiDescription">Mark Smolinski - Skoll Global Threats Fund (USA)</p>
+                  <p class="agenda-description" data-i18n="agenda.markSmolinskiDescription">Mark Smolinski - Skoll Global Threats Fund (USA)</p>
                 </div>
               </li>
 
@@ -90,7 +90,7 @@
 
                 <div class="aditional conference">
                   <h4 class="agenda-title" data-i18n="agenda.tinaEndericks">The Wonderful World of Mass Gatherings Surveillance.</h4>
-                  <span class="panelists" data-i18n="agenda.panelists">Panelists:</span> <p class="agenda-description" data-i18n="agenda.tinaEndericksDescription">Tina Endericks - Public Health England (UK)</p>
+                  <p class="agenda-description" data-i18n="agenda.tinaEndericksDescription">Tina Endericks - Public Health England (UK)</p>
                 </div>
               </li>
 
@@ -122,7 +122,7 @@
 
                 <div class="aditional aditional conference">
                   <h4 class="agenda-title" data-i18n="agenda.silvioMeira">New waves of innovation in the world and how health can play it.</h4>
-                  <span class="panelists" data-i18n="agenda.panelists">Panelists:</span> <p class="agenda-description" data-i18n="agenda.silvioMeiraDescription">Silvio Meira - IKEWAI, FGV (Brazil)</p>
+                  <p class="agenda-description" data-i18n="agenda.silvioMeiraDescription">Silvio Meira - IKEWAI, FGV (Brazil)</p>
                 </div>
               </li>
 
