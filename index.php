@@ -513,13 +513,17 @@
               <label data-i18n="register.titleSubmitProject">Do you have a submit project?</label>
 
               <div class="radio">
-                <label for="yes-submit-project" data-i18n="register.optionSubmitProjectYes"> Yes </label>
                 <input type="radio" class="options-submit submit-project" name="optionsRadios" id="yes-submit-project" value="yes">
+                <label for="yes-submit-project" data-i18n="register.optionSubmitProjectYes"> Yes </label>
+
+                <div class="check"><div class="inside"></div></div>
               </div>
 
               <div class="radio">
-                <label for="no-submit-project" data-i18n="register.optionSubmitProjectNo"> No </label>
                 <input type="radio" class="options-submit submit-project" name="optionsRadios" id="no-submit-project" value="no">
+                <label for="no-submit-project" data-i18n="register.optionSubmitProjectNo"> No </label>
+
+                <div class="check"><div class="inside"></div></div>
               </div>
 
               <div id="form-submit" class="form-submit">
@@ -531,10 +535,6 @@
                 <div class="form-group">
                   <label for="summary-project" data-i18n="register.titleSummaryInputProject">Project Summary</label>
                   <textarea id="summary-project" class="form-control summary-project" rows="3" data-i18n="[placeholder]register.titleSummaryInputProjectPlaceholder" placeholder="150 words or less."></textarea>
-                </div>
-
-                <div class="form-group">
-                  <p class="help-block" data-i18n="register.titleObsProject">Your file format must be a pdf.</p>
                 </div>
               </div>
             </div>

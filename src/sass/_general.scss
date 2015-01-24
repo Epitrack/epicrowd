@@ -29,7 +29,6 @@ svg {
   min-height: 460px;
   max-width: 120%;
   position: relative;
-  // overflow: hidden;
 
   @include path('bg-header.png');
   background-size: cover;
@@ -463,8 +462,8 @@ svg {
 
 .tab-content {
   margin-top: 0 !important;
-  width: 100%;
   padding-top: 0 !important;
+  width: 100%;
   text-align: center;
 }
 
@@ -586,6 +585,44 @@ svg {
   display: inline;
 }
 
+// custom input
+.radio {
+  position: relative;
+
+  input[type="radio"] {
+    visibility: hidden;
+
+    &:checked ~ .check { border: 5px solid $color-other; }
+    &:checked ~ .check .inside {
+      display: block;
+      position: relative;
+      background: $color-other;
+      border-radius: 100%;
+      height: 60%;
+      width: 60%;
+      top: 18%;
+      margin: auto;
+    }
+  }
+
+  label {
+    display: block;
+    position: relative;
+    padding: 4px 0 0 35px;
+    height: 30px;
+    @include transition(all, .45s, 0s, linear);
+  }
+
+  .check {
+    display: block;
+    position: absolute;
+    border: 5px solid #FFF;
+    border-radius: 100%;
+    height: 25px;
+    width: 25px;
+    top: 4%;
+  }
+}
 
 //
 // Getting here
