@@ -151,7 +151,7 @@
                 <div class="aditional wall-panel">
                   <h4 class="agenda-title" data-i18n="agenda.kamranKahAnetteHulth">How deep (epi)technology could go through mass gatherings?</h4>
                   <span class="panelists" data-i18n="agenda.panelists">Panelists:</span> <p class="agenda-description" data-i18n="agenda.kamranKahAnetteHulthDescription01">Kamran Khan - Toronto University (Canada), Anette Hulth - Public Health Agency (Sweden)</p>
-                  <span class="moderator" data-i18n="agenda.moderator">Moderator:</span> <p class="agenda-description" data-i18n="agenda.kamranKahAnetteHulthDescription02">Moderator: John Brownstein - Boston Children Hospital (USA)</p>
+                  <span class="moderator" data-i18n="agenda.moderator">Moderator:</span> <p class="agenda-description" data-i18n="agenda.kamranKahAnetteHulthDescription02">John Brownstein - Boston Children Hospital (USA)</p>
                 </div>
               </li>
 
