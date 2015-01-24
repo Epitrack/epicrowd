@@ -62,15 +62,15 @@
         <div id="agenda-tabs" class="agenda-tabs col-xs-12 col-sm-10 col-sm-offset-1 col-md-10 col-md-offset-1 col-lg-10 col-lg-offset-1">
           <ul class="tabs-list">
             <li class="tabs-item">
-              <a href="#day01" data-i18n="agenda.day01">25/03 Wednesday</a>
+              <a href="#day01" data-i18n="agenda.day01">03/25 Wednesday</a>
             </li>
 
             <li class="tabs-item">
-              <a href="#day02" data-i18n="agenda.day02">26/03 Thursday</a>
+              <a href="#day02" data-i18n="agenda.day02">03/26 Thursday</a>
             </li>
 
             <li class="tabs-item">
-              <a href="#day03" data-i18n="agenda.day03">27/03 Friday</a>
+              <a href="#day03" data-i18n="agenda.day03">03/27 Friday</a>
             </li>
           </ul>
 

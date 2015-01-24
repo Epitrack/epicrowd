@@ -40,9 +40,9 @@
   "agenda": {
     "title" : "agenda"
     ,"subtitle" : "Plan your trip considering that the symposium will start at noon of 25/03 and will end at noon of 27/03."
-    ,"day01" : "25/03 Wednesday"
-    ,"day02" : "26/03 Thursday"
-    ,"day03" : "27/03 Friday"
+    ,"day01" : "03/25 Wednesday"
+    ,"day02" : "03/26 Thursday"
+    ,"day03" : "03/27 Friday"
     ,"markSmolinski" : "Welcome remarks and open talk - DDD advances and potential for mass gatherings."
     ,"tinaEndericks" : "The Wonderful World of Mass Gatherings Surveillance."
     ,"dianaBorsaGabrielaGomes" : "OMG...Is there a Crystal Ball for Pandemics?"
