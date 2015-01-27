@@ -516,14 +516,14 @@
                 <input type="radio" class="options-submit submit-project" name="optionsRadios" id="yes-submit-project" value="yes">
                 <label for="yes-submit-project" data-i18n="register.optionSubmitProjectYes"> Yes </label>
 
-                <div class="check"><div class="inside"></div></div>
+                <div class="check check-yes"><div class="inside"></div></div>
               </div>
 
               <div class="radio">
                 <input type="radio" class="options-submit submit-project" name="optionsRadios" id="no-submit-project" value="no">
                 <label for="no-submit-project" data-i18n="register.optionSubmitProjectNo"> No </label>
 
-                <div class="check"><div class="inside"></div></div>
+                <div class="check check-no"><div class="inside"></div></div>
               </div>
 
               <div id="form-submit" class="form-submit">

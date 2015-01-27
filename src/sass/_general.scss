@@ -590,7 +590,10 @@ svg {
   position: relative;
 
   input[type="radio"] {
-    visibility: hidden;
+    margin: 7px 0 0 -12px !important;
+    cursor: pointer;
+    z-index: 9999;
+    opacity: 0;
 
     &:checked ~ .check { border: 5px solid $color-other; }
     &:checked ~ .check .inside {
@@ -621,6 +624,7 @@ svg {
     height: 25px;
     width: 25px;
     top: 4%;
+    cursor: pointer;
   }
 }
 
