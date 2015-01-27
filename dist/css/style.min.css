@@ -7507,75 +7507,70 @@ svg {
 }
 
 @media (min-device-width: 375px) {
-  /* line 1031, ../../src/sass/_general.scss */
-  body {
-    background-color: pink;
-  }
-
-  /* line 1037, ../../src/sass/_general.scss */
+  /* line 1033, ../../src/sass/_general.scss */
   .agenda-item .aditional::before {
     left: 130px;
   }
 }
 @media (min-width: 768px) {
-  /* line 1046, ../../src/sass/_general.scss */
+  /* line 1042, ../../src/sass/_general.scss */
   .header-primary {
     height: 645px;
     background-position: center;
     background-attachment: fixed;
   }
 
-  /* line 1052, ../../src/sass/_general.scss */
+  /* line 1048, ../../src/sass/_general.scss */
   .nav-primary {
     top: 586px;
   }
 
-  /* line 1054, ../../src/sass/_general.scss */
+  /* line 1050, ../../src/sass/_general.scss */
   .countdown {
     margin-top: 20px;
     visibility: visible;
   }
 
-  /* line 1059, ../../src/sass/_general.scss */
+  /* line 1055, ../../src/sass/_general.scss */
   .down {
     top: 60%;
   }
 
-  /* line 1062, ../../src/sass/_general.scss */
+  /* line 1058, ../../src/sass/_general.scss */
   .logo-primary a {
     background-size: auto 114px;
     background-position: center center;
     height: 114px;
   }
 
-  /* line 1070, ../../src/sass/_general.scss */
+  /* line 1066, ../../src/sass/_general.scss */
   .subtitle time {
     font-size: 2.5rem;
   }
-  /* line 1074, ../../src/sass/_general.scss */
+  /* line 1070, ../../src/sass/_general.scss */
   .subtitle p {
     font-size: 3.2rem;
     margin-top: -5px;
   }
 
-  /* line 1080, ../../src/sass/_general.scss */
+  /* line 1076, ../../src/sass/_general.scss */
   .btn-send {
     text-align: right;
     float: right;
     margin-right: 20px;
   }
 
-  /* line 1086, ../../src/sass/_general.scss */
+  /* line 1082, ../../src/sass/_general.scss */
   .organizers-links {
     margin: 20px;
   }
 
-  /* line 1088, ../../src/sass/_general.scss */
+  /* line 1084, ../../src/sass/_general.scss */
   .box-images-hotel {
     height: 130px;
   }
 
-  /* line 1090, ../../src/sass/_general.scss */
+  /* line 1086, ../../src/sass/_general.scss */
   .agenda-item {
     border-radius: 0;
     margin-bottom: 0;
@@ -7584,11 +7579,11 @@ svg {
     border-left: 2px solid #004d6e;
     border-bottom: none;
   }
-  /* line 1098, ../../src/sass/_general.scss */
+  /* line 1094, ../../src/sass/_general.scss */
   .agenda-item:hover {
     background-color: #ffffff;
   }
-  /* line 1100, ../../src/sass/_general.scss */
+  /* line 1096, ../../src/sass/_general.scss */
   .agenda-item.top {
     -webkit-border-radius: 10px 10px 0 0;
     -moz-border-radius: 10px 10px 0 0;
@@ -7596,7 +7591,7 @@ svg {
     -o-border-radius: 10px 10px 0 0;
     border-radius: 10px 10px 0 0;
   }
-  /* line 1102, ../../src/sass/_general.scss */
+  /* line 1098, ../../src/sass/_general.scss */
   .agenda-item.bottom {
     -webkit-border-radius: 0 0 10px 10px;
     -moz-border-radius: 0 0 10px 10px;
@@ -7605,7 +7600,7 @@ svg {
     border-radius: 0 0 10px 10px;
     border-bottom: 2px solid #004d6e;
   }
-  /* line 1107, ../../src/sass/_general.scss */
+  /* line 1103, ../../src/sass/_general.scss */
   .agenda-item .hour {
     line-height: 135px;
     display: inline-block;
@@ -7616,53 +7611,53 @@ svg {
     font-size: 1.4rem;
     border-right: 3px solid #004d6e;
   }
-  /* line 1118, ../../src/sass/_general.scss */
+  /* line 1114, ../../src/sass/_general.scss */
   .agenda-item .aditional {
     text-align: left;
     width: 80%;
     display: inline-block;
     padding: 20px 15px 20px 45px;
   }
-  /* line 1124, ../../src/sass/_general.scss */
+  /* line 1120, ../../src/sass/_general.scss */
   .agenda-item .aditional::before {
     content: '';
     left: -30px;
     top: 30px;
   }
 
-  /* line 1132, ../../src/sass/_general.scss */
+  /* line 1128, ../../src/sass/_general.scss */
   .tabs-item {
     width: 185px;
     overflow: visible;
   }
 }
 @media (min-width: 992px) {
-  /* line 1140, ../../src/sass/_general.scss */
+  /* line 1136, ../../src/sass/_general.scss */
   .header-primary {
     background-position: center 63%;
     overflow: hidden;
   }
 
-  /* line 1145, ../../src/sass/_general.scss */
+  /* line 1141, ../../src/sass/_general.scss */
   .box-images-hotel {
     height: 213px;
   }
 
-  /* line 1147, ../../src/sass/_general.scss */
+  /* line 1143, ../../src/sass/_general.scss */
   .section-text {
     font-size: 1.8rem;
     line-height: 2.5rem;
     padding-top: 10px;
   }
 
-  /* line 1154, ../../src/sass/_general.scss */
+  /* line 1150, ../../src/sass/_general.scss */
   .logo-primary a {
     background-size: auto 134px;
     background-position: center center;
     height: 134px;
   }
 
-  /* line 1162, ../../src/sass/_general.scss */
+  /* line 1158, ../../src/sass/_general.scss */
   .agenda-item .hour {
     padding-left: 0;
     text-align: center;

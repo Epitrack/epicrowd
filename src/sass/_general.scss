@@ -1028,10 +1028,6 @@ svg {
 
 // iPhone 6
 @media (min-device-width : 375px) {
-  body {
-    background-color: pink;
-  }
-
   .agenda-item {
     .aditional {
       &::before {
