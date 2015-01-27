@@ -108,8 +108,8 @@
                 <span class="hour" data-i18n="agenda.day01Hour04">03:45 pm</span>
 
                 <div class="aditional rapid-fire">
-                  <h4 class="agenda-title" data-i18n="agenda.speakers">10 speakers</h4>
-                  <p class="agenda-description" data-i18n="agenda.rapidFireTalk">Rapid Fire Talks</p>
+                  <h4 class="agenda-title" data-i18n="agenda.rapidFireTalk">Rapid Fire Talks</h4>
+                  <p class="agenda-description" data-i18n="agenda.comingSoon">Comming soon</p>
                 </div>
               </li>
             </ul>
@@ -130,8 +130,8 @@
                 <span class="hour" data-i18n="agenda.day02Hour02">9:45 am</span>
 
                 <div class="aditional wall-panel">
-                  <h4 class="agenda-title">Perspectives of Health Managment for Olympics 2016.</h4>
-                  <p class="agenda-description">Comming soon</p>
+                  <h4 class="agenda-title" data-i18n="agenda.perspective">Perspectives of Health Managment for Olympics 2016.</h4>
+                  <p class="agenda-description" data-i18n="agenda.comingSoon">Comming soon</p>
                 </div>
               </li>
 
@@ -169,8 +169,8 @@
                 <span class="hour" data-i18n="agenda.day02Hour06">03:00 pm</span>
 
                 <div class="aditional rapid-fire">
-                  <h4 class="agenda-title" data-i18n="agenda.speakers">10 speakers</h4>
-                  <p class="agenda-description" data-i18n="agenda.rapidFireTalk">Rapid Fire Talks</p>
+                  <h4 class="agenda-title" data-i18n="agenda.rapidFireTalk">Rapid Fire Talks</h4>
+                  <p class="agenda-description" data-i18n="agenda.comingSoon">Comming soon</p>
                 </div>
               </li>
             </ul>
