@@ -218,7 +218,6 @@ svg {
   height: 60px;
   text-align: center;
   position: absolute;
-  // top: 400px;
   z-index: 4;
   background-color: $color-primary;
   @include bsd(0px 1px 4px #000);
@@ -316,9 +315,7 @@ svg {
   }
 }
 
-.navbar {
-  display: none;
-}
+.navbar { display: none; }
 
 .navbar-brand {
   height: 60px;
@@ -353,9 +350,7 @@ svg {
   background-color: $color-primary;
 }
 
-.navbar-toggle {
-  margin-top: 15px;
-}
+.navbar-toggle { margin-top: 15px; }
 
 //
 // Main
@@ -390,9 +385,7 @@ svg {
 // About
 //
 
-.about {
-  padding-bottom: 60px;
-}
+.about { padding-bottom: 60px; }
 
 
 //
@@ -424,10 +417,11 @@ svg {
 
 .tabs-item {
   display: inline-block;
-  width: 185px;
   padding: 0;
   margin-right: 2px;
   height: 45px;
+  width: 24%;
+  overflow: hidden;
 
   a {
     background-color: $color-secondary;
@@ -483,7 +477,7 @@ svg {
     height: 100%;
     border-bottom: 3px solid $color-primary;
     line-height: 57px;
-    font-size: $fs-small;
+    font-size: $fs-medium;
     font-family: $ff-secondary;
 
     &::before {
@@ -785,9 +779,7 @@ svg {
 
 .options-submit { left: 20px; }
 
-.summary-project {
-  resize: vertical;
-}
+.summary-project { resize: vertical; }
 
 //
 // Form
@@ -938,6 +930,7 @@ svg {
   text-align: right;
   padding-right: 25px;
   @include transition(all, .2s, linear, 0s);
+
   &.facebook {
     @include path('icon-facebook.svg');
     background-repeat: no-repeat;
@@ -1033,6 +1026,21 @@ svg {
 // Media queries
 //
 
+// iPhone 6
+@media (min-device-width : 375px) {
+  body {
+    background-color: pink;
+  }
+
+  .agenda-item {
+    .aditional {
+      &::before {
+        left: 130px;
+      }
+    }
+  }
+}
+
 // iPads
 @media (min-width: 768px) {
   .header-primary {
@@ -1103,6 +1111,7 @@ svg {
       border-bottom: 0;
       text-align: left;
       padding-left: 10px;
+      font-size: $fs-small;
       border-right: 3px solid $color-primary;
     }
 
@@ -1118,6 +1127,11 @@ svg {
         top: 30px;
       }
     }
+  }
+
+  .tabs-item {
+    width: 185px;
+    overflow: visible;
   }
 }
 
