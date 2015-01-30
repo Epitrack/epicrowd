@@ -113,6 +113,7 @@
     ,"titleInputProjectPlaceholder" : "My awesome project"
     ,"titleSummaryInputProject" : "Project Summary"
     ,"titleSummaryInputProjectPlaceholder" : "150 words or less."
+    ,"cupomPlaceholder" : "If you have a cupon code, type it here"
     ,"titleObsProject" : "Your file format must be a PDF."
   },
   "gettingHere": {
