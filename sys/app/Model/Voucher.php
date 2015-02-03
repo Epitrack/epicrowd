@@ -5,14 +5,6 @@ App::uses('AppModel', 'Model');
  *
  */
 class Voucher extends AppModel {
-
-/**
- * Use database config
- *
- * @var string
- */
-	public $useDbConfig = 'development';
-
 /**
  * Display field
  *
