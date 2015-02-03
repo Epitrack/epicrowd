@@ -44,7 +44,5 @@
 </div>
 <div class="actions">
 	<h3><?php echo __('Actions'); ?></h3>
-	<ul>
-		<li><?php echo $this->Html->link(__('New Voucher'), array('action' => 'add')); ?></li>
-	</ul>
+	<?php echo $this->MenuBuilder->build('main-menu'); ?>
 </div>

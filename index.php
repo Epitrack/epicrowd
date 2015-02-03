@@ -554,7 +554,7 @@
             </div>
 
             <div class="form-group" style="width: 300px;position: absolute">
-              <input data-i18n="[placeholder]register.cupomPlaceholder" id="inputState" type="text" class="form-control input-primary" placeholder="State">
+              <input data-i18n="[placeholder]register.cupomPlaceholder" id="inputVoucher" type="text" class="form-control input-primary" placeholder="State">
             </div>
             <div class="form-group btn-send">
               <input data-i18n="[value]register.send" type="submit" class="btn btn-primary" value="send">

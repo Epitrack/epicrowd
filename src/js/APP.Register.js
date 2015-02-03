@@ -6,7 +6,7 @@ APP.Register = {
   },
 
   sendRegister: function() {
-    var name, email, organization, country, security_code, language, project_title, project_summary;
+    var name, email, organization, country, security_code, language, project_title, project_summary,voucher;
 
     $('#form-register').submit(function(event) {
       name = $('#inputName').val();
@@ -16,6 +16,7 @@ APP.Register = {
       security_code = $('#inputCaptcha').val();
       project_title = $('#title-project').val();
       project_summary = $('#summary-project').val();
+      voucher = $('#inputVoucher').val();
       language = i18n.lng();
 
       $('#feedback').fadeIn();
@@ -28,6 +29,7 @@ APP.Register = {
         "data[Update][project_title]": project_title,
         "data[Update][project_summary]": project_summary,
         security_code: security_code,
+        voucher: voucher,
         language: language
       }, function(enviar) {
         if (enviar.status != false) { // send ok
