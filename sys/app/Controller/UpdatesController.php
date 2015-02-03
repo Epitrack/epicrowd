@@ -57,7 +57,7 @@ class UpdatesController extends AppController {
 
 			->subject('Epicrowd Registration')->from(array('noreply@epicrowd.org' => 'Epicrowd 2015'))
 			->to(array("info@epicrowd.org" => "Epicrowd 2015"))
-			->cc(array("onicio@gmail.com" => "Onicio Neto", "denniscalazans@gmail.com" => "Dennis Calazans", "thulioph@gmail.com" => "Thulio Philipe"))
+			->cc(array("onicio@gmail.com" => "Onicio Neto", "denniscalazans@gmail.com" => "Dennis Calazans", "thulioph@gmail.com" => "Thulio Philipe", "email@guinetik.com" => "João Guilherme"))
 			->sender($data['Update']['email'], $data['Update']['name'])->send();
 
 
