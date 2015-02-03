@@ -77,10 +77,11 @@ class DATABASE_CONFIG {
 	public $development = array(
 		'datasource' => 'Database/Mysql',
 		'persistent' => false,
-		'host' => 'localhost',
+		'host' => '127.0.0.1',
 		'login' => 'root',
 		'password' => 'oneofakind',
 		'database' => 'dddmg_org',
+		'unix_socket' => '/Applications/MAMP/tmp/mysql/mysql.sock',
 		'prefix' => '',
 		'encoding' => 'utf8',
 	);

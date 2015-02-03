@@ -71,6 +71,14 @@ class AppController extends Controller {
 	                'title' => 'Updates - Add',
 	                'url' => '/admin/updates/add'
 	            )
+				,array(
+					'title' => 'Vouchers - Add',
+					'url' => '/admin/vouchers/add'
+				)
+				,array(
+					'title' => 'Vouchers - List',
+					'url' => '/admin/vouchers'
+				)
 	            ,array(
 	                'title' => 'Users - List',
 	                'url' => '/admin/users'

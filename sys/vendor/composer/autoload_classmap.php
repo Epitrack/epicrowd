@@ -9,6 +9,7 @@ return array(
     'File_Iterator' => $vendorDir . '/phpunit/php-file-iterator/File/Iterator.php',
     'File_Iterator_Facade' => $vendorDir . '/phpunit/php-file-iterator/File/Iterator/Facade.php',
     'File_Iterator_Factory' => $vendorDir . '/phpunit/php-file-iterator/File/Iterator/Factory.php',
+    'JWT' => $vendorDir . '/firebase/php-jwt/Firebase/PHP-JWT/Authentication/JWT.php',
     'PHPUnit_Extensions_GroupTestSuite' => $vendorDir . '/phpunit/phpunit/PHPUnit/Extensions/GroupTestSuite.php',
     'PHPUnit_Extensions_PhptTestCase' => $vendorDir . '/phpunit/phpunit/PHPUnit/Extensions/PhptTestCase.php',
     'PHPUnit_Extensions_PhptTestCase_Logger' => $vendorDir . '/phpunit/phpunit/PHPUnit/Extensions/PhptTestCase/Logger.php',
