@@ -52,7 +52,7 @@ class VouchersController extends AppController {
 			$this->Voucher->create();
 			if ($this->Voucher->save($this->request->data)) {
 				if ($this->request->data['Voucher']['send_email_invite']) {
-					$this->_sendMail($this->request->data);
+					$this->_sendMail($this->request->data['Voucher']);
 				}
 				$this->Session->setFlash(__('The voucher has been saved.'));
 				return $this->redirect(array('action' => 'index'));
