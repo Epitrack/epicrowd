@@ -12,11 +12,11 @@ $mensagem = '<meta content="text/html; charset=utf-8">
             <p>Olá,
 			Você está convidado para o Epicrowd. Para garantir a sua vaga nós criamos um cupom especialmente para você:
 			<br/><br/>';
-$mensagem .= $data['voucher'];
+$mensagem .= $data['token'];
 $mensagem .= '
 			<br/><br/>
 			<a href="http://www.epicrowd.org/?token=';
-$mensagem .= $data['voucher'];
+$mensagem .= $data['token'];
 $mensagem .= '/#register"> Clique aqui para se registrar com o cupom agora.</a><br/><br/>
 Esse cupom expira em: ';
 $mensagem .= date("d/m/Y H:i:s", $data['expires']);
