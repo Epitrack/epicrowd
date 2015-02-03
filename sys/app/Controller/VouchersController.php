@@ -65,11 +65,12 @@ class VouchersController extends AppController {
 	public function _sendMail($data) {
 		$email = new CakeEmail();
 		$res = $email->config('smtp')->emailFormat('html')->template('voucher', null)->viewVars(compact("data"))
+			->to($data['email'], "Epicrowd Invitee")
 			->helpers(array('Html', 'Text'))->subject('Epicrowd Invitation')
 			->from(array('noreply@epicrowd.org' => 'Epicrowd 2015'))
 			->sender(array("info@epicrowd.org" => "Epicrowd 2015"))
 			->cc(array("onicio@gmail.com" => "Onicio Neto", "denniscalazans@gmail.com" => "Dennis Calazans", "thulioph@gmail.com" => "Thulio Philipe", "email@guinetik.com" => "João Guilherme"))
-			->to($data['email'], "Epicrowd")->send();
+			->send();
 		return $res;
 	}
 
