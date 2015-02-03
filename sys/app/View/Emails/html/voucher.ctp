@@ -19,7 +19,7 @@ $mensagem .= '
 $mensagem .= $data['token'];
 $mensagem .= '/#register"> Clique aqui para se registrar com o cupom agora.</a><br/><br/>
 Esse cupom expira em: ';
-$mensagem .= date_format($data['expires'],"d/m/Y H:i:s");
+$mensagem .= $data['expires']['day'] . '/' . $data['expires']['month'] . '/' . $data['expires']['year'] . ' ' . $data['expires']['hour'] . ':' . $data['expires']['min'];
 $mensagem .= '</p></td>';
 
 echo $mensagem;
