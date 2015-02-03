@@ -41,6 +41,16 @@
 			<?php echo h($update['Update']['organization']); ?>
 			&nbsp;
 		</dd>
+		<dt><?php echo __('Project Title'); ?></dt>
+		<dd>
+			<?php echo h($update['Update']['project_title']); ?>
+			&nbsp;
+		</dd>
+		<dt><?php echo __('Project Summary'); ?></dt>
+		<dd>
+			<?php echo h($update['Update']['project_summary']); ?>
+			&nbsp;
+		</dd>
 	</dl>
 </div>
 <div class="actions">

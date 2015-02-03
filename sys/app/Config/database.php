@@ -62,20 +62,30 @@
  * flags =>
  * A key/value array of driver specific connection options.
  */
+define('DEV_SERVER', false);
 class DATABASE_CONFIG {
 
-	public $test = array(
+	public function __construct()
+	{
+		if (DEV_SERVER) {
+			$this->default = $this->development;
+		} else {
+			$this->default = $this->production;
+		}
+	}
+
+	public $development = array(
 		'datasource' => 'Database/Mysql',
 		'persistent' => false,
 		'host' => 'localhost',
 		'login' => 'root',
-		'password' => '123456',
+		'password' => 'oneofakind',
 		'database' => 'dddmg_org',
 		'prefix' => '',
 		'encoding' => 'utf8',
 	);
 
-	public $default = array(
+	public $production = array(
 		'datasource' => 'Database/Mysql',
 		'persistent' => false,
 		'host' => 'mysql.epitrack.com.br',
