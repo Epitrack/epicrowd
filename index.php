@@ -187,6 +187,7 @@
                 </div>
               </li>
 
+              <!--
               <li class="agenda-item">
                 <span class="hour" data-i18n="agenda.day03Hour02">9:45 am</span>
 
@@ -196,6 +197,7 @@
                   <span class="moderator" data-i18n="agenda.moderator">Moderator:</span> <p class="agenda-description" data-i18n="agenda.rodrigoAngeramiJoaoBoscoSiqueiraDescrption02">Mary Wilson - Harvard University (USA)</p>
                 </div>
               </li>
+               -->
 
               <li class="agenda-item bottom">
                 <span class="hour" data-i18n="agenda.day03Hour03">11:00 am</span>
