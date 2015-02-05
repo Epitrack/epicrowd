@@ -553,7 +553,7 @@
               </div>
             </div>
 
-            <div class="form-group" style="width: 300px;position: absolute">
+            <div class="form-group input-voucher">
               <?php
                 if(isset($_GET["token"])) {
                   echo '<input data-i18n="[placeholder]register.cupomPlaceholder" id="inputVoucher" value="' . $_GET["token"]. '" type="text" class="form-control input-primary" placeholder="Voucher">';
@@ -561,14 +561,15 @@
                   echo '<input data-i18n="[placeholder]register.cupomPlaceholder" id="inputVoucher" type="text" class="form-control input-primary" placeholder="Voucher">';
                 }
               ?>
-
             </div>
+
             <div class="form-group btn-send">
               <input data-i18n="[value]register.send" type="submit" class="btn btn-primary" value="send">
               <span class="glyphicon glyphicon-send"></span>
             </div>
-            <div class="form-group">
-              <div id="feedback" class="alert" style="padding-left: 310px;padding-top: 4px;margin-bottom: 0"></div>
+
+            <div class="form-group" class="col-xs-8">
+              <div id="feedback" class="alert"></div>
             </div>
           </form>
         </div>

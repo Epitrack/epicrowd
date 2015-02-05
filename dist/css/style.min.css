@@ -5937,14 +5937,20 @@ input:focus, select:focus {
   appearance: none;
 }
 
+/* line 78, ../../src/sass/_form.scss */
+.input-voucher {
+  width: 300px;
+  display: inline-block;
+}
+
 @media (min-width: 768px) {
-  /* line 85, ../../src/sass/_form.scss */
+  /* line 88, ../../src/sass/_form.scss */
   .form-group.inline-block {
     width: 70%;
   }
 }
 @media (min-width: 992px) {
-  /* line 94, ../../src/sass/_form.scss */
+  /* line 97, ../../src/sass/_form.scss */
   .form-group.inline-block {
     width: 86%;
   }

@@ -75,7 +75,10 @@ input {
   @include apr(none);
 }
 
-
+.input-voucher {
+  width: 300px;
+  display: inline-block;
+}
 
 
 
