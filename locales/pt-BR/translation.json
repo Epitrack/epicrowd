@@ -92,7 +92,7 @@
   },
   "register": {
     "title" : "Inscrições"
-    ,"text01" : "O evento terá público limitado para 100 pessoas e o preenchimento deste formulário não garante sua vaga. Após o preenchimento você será informado se sua inscrição foi validada ou se estará na lista de espera."
+    ,"text01" : "O evento será limitado para 100 pessoas, entre convidados e público em geral, e o preenchimento deste formulário não garante sua vaga. Após o preenchimento você será informado se sua inscrição foi validada ou se estará na lista de espera.  Os candidatos selecionados a partir da lista de espera serão comunicados via e-mail até 20/02."
     ,"inputName" : "Nome"
     ,"inputEmail" : "Email"
     ,"inputOrganization" : "Organização"
