@@ -26,7 +26,7 @@
       <aside class="organized-box proepi">
         <a href="https://www.facebook.com/pages/ProEpi-Associa%C3%A7%C3%A3o-Brasileira-de-Profissionais-de-Epidemiologia-de-Campo/1467273880198661" target="_blank" title="Proepi" class="organized-link">
           <figure class="organized-image">
-            <img src="src/images/logo-proepi.png" width="180" alt="80">
+            <img src="dist/images/logo-proepi.png" width="180" alt="80">
           </figure>
         </a>
       </aside>
