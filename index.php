@@ -218,9 +218,11 @@
           <h3 data-i18n="register.title" class="section-title">Inscrições</h3>
 
           <p data-i18n="register.text01" class="section-text">
-            The event will have limited audience of 100 people and the completion
-            of this form does not ensure your place. Soon you will be informed
-            if your application has been committed or went into the waiting list.
+            The event will be limited to 100 people, including guests and the
+            general public. Filling out this form does not ensure your register.
+            After filling you will be told whether your name is registered or
+            if it is on the waiting list. Candidates selected from the waiting
+            list will be notified via email until February 20.
           </p>
 
           <span class="glyphicon glyphicon-exclamation-sign attention"></span>
