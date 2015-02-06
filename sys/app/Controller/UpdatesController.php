@@ -98,8 +98,8 @@ class UpdatesController extends AppController {
 			else if (!empty($this->request->data["voucher"])) {
 				$v = $this->request->data["voucher"];
 				$vouchers = $this->Voucher->find("first", array('conditions' => array('token' => $v)));
-				$voucher = $vouchers["Voucher"];
-				if (isset($voucher)) {
+				if (isset($vouchers["Voucher"])) {
+					$voucher = $vouchers["Voucher"];
 					$today = new DateTime('NOW');
 					$expires = new DateTime($voucher['expires']);
 					$interval = $expires->diff($today);
