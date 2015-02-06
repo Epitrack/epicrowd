@@ -103,11 +103,12 @@ class UpdatesController extends AppController {
 					$today = new DateTime('NOW');
 					$expires = new DateTime($voucher['expires']);
 					$interval = $expires->diff($today);
-					if($interval->invert == 1) {
+					if ($interval->invert == 1) {
 						$this->processUpdate(true);
 					} else {
-						if($language == "por") $message = __('Esse cupom expirou em ' .  $expires->format('d/m/Y H:i:s'));
-						else $message = __('This voucher has expired on ' .  $expires->format('d/m/Y H:i:s'));
+						if ($language == "por")
+							$message = __('Esse cupom expirou em ' . $expires->format('d/m/Y H:i:s')); else
+							$message = __('This voucher has expired on ' . $expires->format('d/m/Y H:i:s'));
 						$ajaxResponse = $this->ajaxResponse($this->request->data, $message, FALSE);
 					}
 				} else {
@@ -123,8 +124,10 @@ class UpdatesController extends AppController {
 			$ajaxResponse = $this->ajaxResponse(NULL, $message, FALSE);
 		}
 
-		$this->set('ajaxResponse', $ajaxResponse);
-		$this->render('json/ajaxResponse');
+		if (isset($ajaxResponse)) {
+			$this->set('ajaxResponse', $ajaxResponse);
+			$this->render('json/ajaxResponse');
+		}
 	}
 
 
@@ -314,7 +317,7 @@ class UpdatesController extends AppController {
 	}
 
 	private function processUpdate($withVoucher) {
-		if($withVoucher) {
+		if ($withVoucher) {
 			$this->request->data['Update']['confirmed'] = 1;
 		}
 		$this->request->data['Update']['enabled'] = 1;
@@ -329,11 +332,10 @@ class UpdatesController extends AppController {
 
 				unset($this->request->data['Update']['enabled']);
 
-				$message = __('Your contact information has been saved.');
+				if($withVoucher) $message = __('You have confirmed your inscription to Epicrowd 2015.');
+				else $message = __('Your contact information has been saved.');
+
 				$ajaxResponse = $this->ajaxResponse($this->request->data, $message);
-
-				//$this->request->data['emailRes'] = $res;
-
 			} else {
 				$message = __('Your contact information could not be saved.');
 				$ajaxResponse = $this->ajaxResponse($this->request->data, $message, FALSE);
@@ -343,5 +345,7 @@ class UpdatesController extends AppController {
 			$this->request->data['errors'] = $this->Update->validationErrors;
 			$ajaxResponse = $this->ajaxResponse($this->request->data, $message, FALSE);
 		}
+		$this->set('ajaxResponse', $ajaxResponse);
+		$this->render('json/ajaxResponse');
 	}
 }

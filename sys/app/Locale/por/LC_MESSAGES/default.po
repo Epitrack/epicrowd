@@ -51,6 +51,9 @@ msgstr "O seu e-mail já está registrado."
 msgid "Your contact information has been saved."
 msgstr "As suas informações de contato foram armazenadas."
 
+msgid "You have confirmed your inscription to Epicrowd 2015."
+msgstr "Você está inscrito no Epicrowd 2015."
+
 #: Controller/UpdatesController.php:94
 msgid "Your contact information could not be saved."
 msgstr "As suas informações de contato não puderam ser armazenadas."
