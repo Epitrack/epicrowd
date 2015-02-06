@@ -104,12 +104,20 @@
                 </div>
               </li>
 
-              <li class="agenda-item bottom">
+              <li class="agenda-item">
                 <span class="hour" data-i18n="agenda.day01Hour04">03:45 pm</span>
 
                 <div class="aditional rapid-fire">
                   <h4 class="agenda-title" data-i18n="agenda.rapidFireTalk">Rapid Fire Talks</h4>
                   <p class="agenda-description" data-i18n="agenda.comingSoon">Comming soon</p>
+                </div>
+              </li>
+
+              <li class="agenda-item bottom">
+                <span class="hour" data-i18n="agenda.dinnerHour">07:00 pm</span>
+
+                <div class="aditional dinner">
+                  <h4 class="agenda-title" data-i18n="agenda.dinner">Welcome dinner</h4>
                 </div>
               </li>
             </ul>
@@ -146,6 +154,14 @@
               </li>
 
               <li class="agenda-item">
+                <span class="hour" data-i18n="agenda.lunchHour">11:30 am</span>
+
+                <div class="aditional lunch">
+                  <h4 class="agenda-title" data-i18n="agenda.lunch">Lunch</h4>
+                </div>
+              </li>
+
+              <li class="agenda-item">
                 <span class="hour" data-i18n="agenda.day02Hour04">1:00 pm</span>
 
                 <div class="aditional wall-panel">
@@ -165,12 +181,21 @@
                 </div>
               </li>
 
-              <li class="agenda-item bottom">
+              <li class="agenda-item">
                 <span class="hour" data-i18n="agenda.day02Hour06">03:00 pm</span>
+
+                <div class="aditional tech-demo">
+                  <h4 class="agenda-title">Tech Demo: Dodo Biotech Crowdfunding</h4>
+                  <p class="agenda-description">Vinícius Maracajá-Coutinho</p>
+                </div>
+              </li>
+
+              <li class="agenda-item bottom">
+                <span class="hour" data-i18n="agenda.day02Hour07">03:30 pm</span>
 
                 <div class="aditional rapid-fire">
                   <h4 class="agenda-title" data-i18n="agenda.rapidFireTalk">Rapid Fire Talks</h4>
-                  <p class="agenda-description" data-i18n="agenda.comingSoon">Comming soon</p>
+                  <!-- <p class="agenda-description" data-i18n="agenda.comingSoon">Comming soon</p> -->
                 </div>
               </li>
             </ul>
@@ -187,7 +212,6 @@
                 </div>
               </li>
 
-
               <li class="agenda-item">
                 <span class="hour" data-i18n="agenda.day03Hour02">9:45 am</span>
 
@@ -198,14 +222,21 @@
                 </div>
               </li>
 
-
-              <li class="agenda-item bottom">
+              <li class="agenda-item">
                 <span class="hour" data-i18n="agenda.day03Hour03">11:00 am</span>
 
                 <div class="aditional wall-panel">
                   <h4 class="agenda-title" data-i18n="agenda.jonasBrantLucileneAguiar">How to delivery tools for surveillance during mass gatherings?</h4>
                   <span class="panelists" data-i18n="agenda.panelists">Panelists:</span> <p class="agenda-description" data-i18n="agenda.jonasBrantLucileneAguiarDescription01">Jonas Brant - Redesur (Brazil), Lucilene Aguiar - Pernambuco Health state department (Brazil)</p>
                   <span class="moderator" data-i18n="agenda.moderator">Moderator:</span> <p class="agenda-description" data-i18n="agenda.jonasBrantLucileneAguiarDescription02">George Dimech - Pernambuco Health state department (Brazil)</p>
+                </div>
+              </li>
+
+              <li class="agenda-item bottom">
+                <span class="hour" data-i18n="agenda.lunchHour02">12:15 pm</span>
+
+                <div class="aditional lunch">
+                  <h4 class="agenda-title" data-i18n="agenda.lunch02">Lunch</h4>
                 </div>
               </li>
             </ul>
