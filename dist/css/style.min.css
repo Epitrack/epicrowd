@@ -5887,8 +5887,12 @@ input:focus, select:focus {
   -o-box-shadow: 1px 2px 3px #ffffff;
   box-shadow: 1px 2px 3px #ffffff;
 }
+/* line 36, ../../src/sass/_form.scss */
+input#inputCaptcha {
+  text-transform: uppercase;
+}
 
-/* line 38, ../../src/sass/_form.scss */
+/* line 42, ../../src/sass/_form.scss */
 .form-group label {
   cursor: pointer;
   color: #ffffff;
@@ -5896,32 +5900,32 @@ input:focus, select:focus {
   font-size: 1.4rem;
   font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
 }
-/* line 46, ../../src/sass/_form.scss */
+/* line 50, ../../src/sass/_form.scss */
 .form-group.captcha {
   width: 120px;
   height: 40px;
   display: inline-block;
 }
-/* line 52, ../../src/sass/_form.scss */
+/* line 56, ../../src/sass/_form.scss */
 .form-group.inline-block {
   display: inline-block;
   margin-left: 20px;
   width: 51%;
 }
 
-/* line 58, ../../src/sass/_form.scss */
+/* line 62, ../../src/sass/_form.scss */
 .input-group-addon {
   background-color: #283A42;
   color: #9DDE38;
 }
 
-/* line 62, ../../src/sass/_form.scss */
+/* line 66, ../../src/sass/_form.scss */
 .input-primary {
   border-radius: 3px;
   border: 1px solid #ffffff;
 }
 
-/* line 67, ../../src/sass/_form.scss */
+/* line 71, ../../src/sass/_form.scss */
 .btn-primary {
   text-transform: uppercase;
   color: #004d6e;
@@ -5937,20 +5941,20 @@ input:focus, select:focus {
   appearance: none;
 }
 
-/* line 78, ../../src/sass/_form.scss */
+/* line 82, ../../src/sass/_form.scss */
 .input-voucher {
   width: 300px;
   display: inline-block;
 }
 
 @media (min-width: 768px) {
-  /* line 88, ../../src/sass/_form.scss */
+  /* line 92, ../../src/sass/_form.scss */
   .form-group.inline-block {
     width: 70%;
   }
 }
 @media (min-width: 992px) {
-  /* line 97, ../../src/sass/_form.scss */
+  /* line 101, ../../src/sass/_form.scss */
   .form-group.inline-block {
     width: 86%;
   }
