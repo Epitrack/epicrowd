@@ -333,7 +333,7 @@ class UpdatesController extends AppController {
 				unset($this->request->data['Update']['enabled']);
 
 				if($withVoucher) $message = __('You have confirmed your inscription to Epicrowd 2015.');
-				else $message = __('Your contact information has been saved.');
+				else $message = __('You have been included in the waiting list.');
 
 				$ajaxResponse = $this->ajaxResponse($this->request->data, $message);
 			} else {

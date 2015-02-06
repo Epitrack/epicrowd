@@ -55,8 +55,8 @@ msgid "You have confirmed your inscription to Epicrowd 2015."
 msgstr "Você está inscrito no Epicrowd 2015."
 
 #: Controller/UpdatesController.php:94
-msgid "Your contact information could not be saved."
-msgstr "As suas informações de contato não puderam ser armazenadas."
+msgid "You have been included in the waiting list."
+msgstr "Seu nome foi incluído na lista de espera."
 
 #: Controller/UpdatesController.php:98
 msgid "Some information are not valid: "
