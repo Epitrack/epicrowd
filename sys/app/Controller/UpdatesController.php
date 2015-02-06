@@ -100,19 +100,29 @@ class UpdatesController extends AppController {
 				$vouchers = $this->Voucher->find("first", array('conditions' => array('token' => $v)));
 				if (array_key_exists("Voucher", $vouchers)) {
 					$voucher = $vouchers["Voucher"];
-					$today = new DateTime('NOW');
-					$expires = new DateTime($voucher['expires']);
-					$interval = $expires->diff($today);
-					if ($interval->invert == 1) {
-						$this->processUpdate(true);
+					if($voucher["redeemed"] == '0') {
+						$today = new DateTime('NOW');
+						$expires = new DateTime($voucher['expires']);
+						$interval = $expires->diff($today);
+						if ($interval->invert == 1) {
+							$this->Voucher->read(null, $voucher["id"]);
+							$this->Voucher->set('redeemed', 1);
+							$this->Voucher->save();
+							$this->processUpdate(true);
+						} else {
+							if ($language == "por") {
+								$message = __('Esse cupom expirou em ' . $expires->format('d/m/Y H:i:s'));
+							} else {
+								$message = __('This voucher has expired on ' . $expires->format('d/m/Y H:i:s'));
+							}
+							$ajaxResponse = $this->ajaxResponse($this->request->data, $message, FALSE);
+						}
 					} else {
-						if ($language == "por")
-							$message = __('Esse cupom expirou em ' . $expires->format('d/m/Y H:i:s')); else
-							$message = __('This voucher has expired on ' . $expires->format('d/m/Y H:i:s'));
+						$message = __('This voucher has already been redeemed.');
 						$ajaxResponse = $this->ajaxResponse($this->request->data, $message, FALSE);
 					}
 				} else {
-					$message = __('Voucher not found');
+					$message = __('Voucher not found.');
 					$ajaxResponse = $this->ajaxResponse($this->request->data, $message, FALSE);
 				}
 			} else {

@@ -90,7 +90,19 @@ msgstr ""
 "X-Poedit-Language: Portuguese\n"
 "X-Poedit-Country: BRAZIL\n"
 "X-Poedit-SourceCharset: utf-8\n"
+#: Controller/UpdatesController.php:336
+msgid "You have confirmed your inscription to Epicrowd 2015."
+msgstr "Você está inscrito no Epicrowd 2015."
 
+#: Controller/UpdatesController.php:94
+msgid "You have been included in the waiting list."
+msgstr "Seu nome foi incluído na lista de espera."
+#: Controller/UpdatesController.php:94
+msgid "This voucher has already been redeemed."
+msgstr "Esse voucher já foi utilizado."
+#: Controller/UpdatesController.php:94
+msgid "Voucher not found."
+msgstr "Voucher não encontrado."
 #: \console\cake.php:327
 #, fuzzy
 msgid "Error: Class %s could not be loaded."

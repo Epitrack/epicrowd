@@ -8,6 +8,7 @@
 			<th><?php echo $this->Paginator->sort('token'); ?></th>
 			<th><?php echo $this->Paginator->sort('created'); ?></th>
 			<th><?php echo $this->Paginator->sort('expires'); ?></th>
+			<th><?php echo $this->Paginator->sort('redeemed', 'Utilizado'); ?></th>
 			<th class="actions"><?php echo __('Actions'); ?></th>
 	</tr>
 	</thead>
@@ -19,6 +20,7 @@
 		<td><?php echo h($voucher['Voucher']['token']); ?>&nbsp;</td>
 		<td><?php echo h($voucher['Voucher']['created']); ?>&nbsp;</td>
 		<td><?php echo h($voucher['Voucher']['expires']); ?>&nbsp;</td>
+		<td><?php echo($voucher['Voucher']['redeemed'] == 0 ? "N" : "Y"); ?>&nbsp;</td>
 		<td class="actions">
 			<?php echo $this->Html->link(__('View'), array('action' => 'view', $voucher['Voucher']['id'])); ?>
 <!--			--><?php //echo $this->Html->link(__('Edit'), array('action' => 'edit', $voucher['Voucher']['id'])); ?>

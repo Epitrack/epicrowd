@@ -47,16 +47,21 @@ msgstr "Código errado. Tente novamente"
 msgid "Your email is already registered."
 msgstr "O seu e-mail já está registrado."
 
-#: Controller/UpdatesController.php:90
+#: Controller/UpdatesController.php:335
 msgid "Your contact information has been saved."
 msgstr "As suas informações de contato foram armazenadas."
 
+#: Controller/UpdatesController.php:336
 msgid "You have confirmed your inscription to Epicrowd 2015."
 msgstr "Você está inscrito no Epicrowd 2015."
 
 #: Controller/UpdatesController.php:94
 msgid "You have been included in the waiting list."
 msgstr "Seu nome foi incluído na lista de espera."
+
+#: Controller/UpdatesController.php:94
+msgid "This voucher has already been redeemed."
+msgstr "Esse voucher já foi utilizado."
 
 #: Controller/UpdatesController.php:98
 msgid "Some information are not valid: "
