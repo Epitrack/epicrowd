@@ -13,7 +13,7 @@ APP.Register = {
       email = $('#inputEmail').val();
       organization = $('#inputOrganization').val();
       country = $('#inputCountry').val();
-      security_code = $('#inputCaptcha').val().toUpperCase();
+      security_code = $('#inputCaptcha').val()
       project_title = $('#title-project').val();
       project_summary = $('#summary-project').val();
       voucher = $('#inputVoucher').val();
@@ -28,7 +28,7 @@ APP.Register = {
         "data[Update][country_id]": country,
         "data[Update][project_title]": project_title,
         "data[Update][project_summary]": project_summary,
-        security_code: security_code,
+        security_code: security_code.toUpperCase(),
         voucher: voucher,
         language: language
       }, function(enviar) {
