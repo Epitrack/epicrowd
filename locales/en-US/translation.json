@@ -84,7 +84,7 @@
     ,"kamranKahAnetteHulthDescription02" : "John Brownstein - Boston Children Hospital (USA)"
     ,"wandersonOliveiraMichaelJohanssonDescription01" : "Wanderson Oliveira - Ministry of Health (Brazil), Michael Johansson - CDC (USA)"
     ,"wandersonOliveiraMichaelJohanssonDescription02" : "Marlo Libel - Skoll Global Threats Fund (USA)"
-    ,"rodrigoAngeramiJoaoBoscoSiqueiraDescrption01" : "Rodrigo Angerami - UNICAMP (Brazil), João Bosco Siqueira - UFG (Brazil)"
+    ,"rodrigoAngeramiJoaoBoscoSiqueiraDescrption01" : "Rodrigo Angerami - UNICAMP (Brazil)"
     ,"rodrigoAngeramiJoaoBoscoSiqueiraDescrption02" : "Mary Wilson - Harvard University (USA)"
     ,"jonasBrantLucileneAguiarDescription01" : "Jonas Brant - Redesur (Brazil), Lucilene Aguiar - Pernambuco Health state department (Brazil)"
     ,"jonasBrantLucileneAguiarDescription02" : "George Dimech - Pernambuco Health state department (Brazil)"
@@ -113,7 +113,7 @@
     ,"titleInputProjectPlaceholder" : "My awesome project"
     ,"titleSummaryInputProject" : "Project Summary"
     ,"titleSummaryInputProjectPlaceholder" : "150 words or less."
-    ,"cupomPlaceholder" : "If you have a cupon code, type it here"
+    ,"cupomPlaceholder" : "If you have a cupom code, type it here"
     ,"titleObsProject" : "Your file format must be a PDF."
   },
   "gettingHere": {

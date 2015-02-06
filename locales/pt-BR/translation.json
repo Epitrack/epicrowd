@@ -71,8 +71,8 @@
     ,"day03Hour03" : "11:00"
     ,"moderator" : "Moderador: "
     ,"speakers" : "Orador: "
-    ,"panelists" : "Panelistas: "
-    ,"panelists" : "Panelistas: "
+    ,"panelists" : "Painelistas: "
+    ,"panelists" : "Painelistas: "
     ,"markSmolinskiDescription" : "Mark Smolinski - Skoll Global Threats Fund (EUA)"
     ,"tinaEndericksDescription" : "Tina Endericks - Public Health England (Reino Unido)"
     ,"dianaBorsaGabrielaGomesDescription01" : "Gabriela Gomes - Instituto Gulbekian (Portugal), Courtney Corley - Pacific Northwest National Laboratory (EUA)"
@@ -85,14 +85,14 @@
     ,"kamranKahAnetteHulthDescription02" : "John Brownstein - Boston Children Hospital (EUA)"
     ,"wandersonOliveiraMichaelJohanssonDescription01" : "Wanderson Oliveira - Ministério da Saúde (Brasil), Michael Johansson - CDC (EUA)"
     ,"wandersonOliveiraMichaelJohanssonDescription02" : "Marlo Libel - Skoll Global Threats Fund (EUA)"
-    ,"rodrigoAngeramiJoaoBoscoSiqueiraDescrption01" : "Rodrigo Angerami - UNICAMP (Brasil), João Bosco Siqueira - UFG (Brasil)"
+    ,"rodrigoAngeramiJoaoBoscoSiqueiraDescrption01" : "Rodrigo Angerami - UNICAMP (Brasil)"
     ,"rodrigoAngeramiJoaoBoscoSiqueiraDescrption02" : "Mary Wilson - Universidade de Harvard (EUA)"
     ,"jonasBrantLucileneAguiarDescription01" : "Jonas Brant - Redesur (Brasil), Lucilene Aguiar - Secretaria Estadual de Saúde de Pernambuco (Brasil)"
     ,"jonasBrantLucileneAguiarDescription02" : "George Dimech - Secretaria Estadual de Saúde de Pernambuco (Brasil)"
   },
   "register": {
     "title" : "Inscrições"
-    ,"text01" : "O evento será limitado para 100 pessoas, entre convidados e público em geral, e o preenchimento deste formulário não garante sua vaga. Após o preenchimento você será informado se sua inscrição foi validada ou se estará na lista de espera.  Os candidatos selecionados a partir da lista de espera serão comunicados via e-mail até 20/02."
+    ,"text01" : "O evento será limitado para 100 pessoas, entre convidados e público em geral, e o preenchimento deste formulário não garante sua vaga. Após o preenchimento você será informado se sua inscrição foi validada ou se estará na lista de espera. Os candidatos selecionados a partir da lista de espera serão comunicados via e-mail até 20/02."
     ,"inputName" : "Nome"
     ,"inputEmail" : "Email"
     ,"inputOrganization" : "Organização"
@@ -114,7 +114,7 @@
     ,"titleInputProjectPlaceholder" : "Meu trabalho incrível."
     ,"titleSummaryInputProject" : "Resumo do trabalho"
     ,"titleSummaryInputProjectPlaceholder" : "Seu resumo deverá conter até 150 palavras."
-    ,"cupomPlaceholder" : "Se você tem um cupon, informe aqui"
+    ,"cupomPlaceholder" : "Se você tem um cupom, informe aqui"
     ,"titleObsProject" : "O formato de arquivo do seu trabalho deverá ser PDF."
   },
   "gettingHere": {
