@@ -226,7 +226,7 @@
                 <span class="hour" data-i18n="agenda.day03Hour03">11:00 am</span>
 
                 <div class="aditional wall-panel">
-                  <h4 class="agenda-title" data-i18n="agenda.jonasBrantLucileneAguiar">How to delivery tools for surveillance during mass gatherings?</h4>
+                  <h4 class="agenda-title" data-i18n="agenda.jonasBrantLucileneAguiar">How to deliver tools for surveillance during mass gatherings?</h4>
                   <span class="panelists" data-i18n="agenda.panelists">Panelists:</span> <p class="agenda-description" data-i18n="agenda.jonasBrantLucileneAguiarDescription01">Jonas Brant - Redesur (Brazil), Lucilene Aguiar - Pernambuco Health state department (Brazil)</p>
                   <span class="moderator" data-i18n="agenda.moderator">Moderator:</span> <p class="agenda-description" data-i18n="agenda.jonasBrantLucileneAguiarDescription02">George Dimech - Pernambuco Health state department (Brazil)</p>
                 </div>
