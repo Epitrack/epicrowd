@@ -7,7 +7,6 @@ APP.Register = {
 
   sendRegister: function() {
     var name, email, organization, country, security_code, language, project_title, project_summary,voucher;
-
     $('#form-register').submit(function(event) {
       name = $('#inputName').val();
       email = $('#inputEmail').val();
