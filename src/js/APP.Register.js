@@ -28,7 +28,7 @@ APP.Register = {
         "data[Update][country_id]": country,
         "data[Update][project_title]": project_title,
         "data[Update][project_summary]": project_summary,
-        security_code: security_code.toUpperCase(),
+//        security_code: security_code.toUpperCase(),
         voucher: voucher,
         language: language
       }, function(enviar) {
