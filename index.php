@@ -574,7 +574,7 @@
               </div>
             </div>
 
-            <div class="form-group">
+            <!--<div class="form-group">
               <label data-i18n="register.inputCaptcha" for="inputCaptcha">Enter code here</label>
 
               <div class="input-group">
@@ -586,7 +586,7 @@
 
                 <input data-i18n="[placeholder]register.captchaPlaceholder" type="text" id="inputCaptcha" class="form-control input-primary" placeholder="Enter code here" required>
               </div>
-            </div>
+            </div>-->
 
             <div class="form-group input-voucher">
               <?php

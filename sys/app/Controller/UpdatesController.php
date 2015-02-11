@@ -84,14 +84,14 @@ class UpdatesController extends AppController {
 			$language = ($this->request->data['language'] == "pt-BR") ? "por" : "eng";
 			Configure::write('Config.language', $language);
 
-			//Incorrect security code
+			/*//Incorrect security code
 			if ($this->request->data['security_code'] != $this->Session->read("security_code")) {
 
 				$message = __('Wrong code. Try again.');
 				$ajaxResponse = $this->ajaxResponse($this->request->data, $message, FALSE);
 
 			} //User already registered
-			else if ($this->Update->findByEmail($this->request->data['Update']['email'])) {
+			else */if ($this->Update->findByEmail($this->request->data['Update']['email'])) {
 				$message = __('Your email is already registered.');
 				$ajaxResponse = $this->ajaxResponse($this->request->data, $message, FALSE);
 			} //Everythings fine
