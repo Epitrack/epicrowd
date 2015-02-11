@@ -18,7 +18,6 @@ APP.Register = {
       project_summary = $('#summary-project').val();
       voucher = $('#inputVoucher').val();
       language = i18n.lng();
-
       $('#feedback').fadeIn();
       $('#feedback').html('Enviando...');
       $.post('sys/updates/action', {
