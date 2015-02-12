@@ -37,8 +37,8 @@
 				<td><?php echo h($update['Update']['name']); ?>&nbsp;</td>
 				<td><?php echo h($update['Update']['email']); ?>&nbsp;</td>
 				<td><?php echo h($update['Update']['organization']); ?>&nbsp;</td>
-				<td><?php echo(empty($update['Update']['project_title']) ? "N" : "Y"); ?>&nbsp;</td>
-				<td><?php echo($update['Update']['confirmed'] == 0 ? "N" : "Y"); ?>&nbsp;</td>
+				<td><?php echo(empty($update['Update']['project_title']) ? "Nao" : "Sim"); ?>&nbsp;</td>
+				<td><?php echo($update['Update']['confirmed'] == 0 ? "Nao" : "Sim"); ?>&nbsp;</td>
 				<td class="actions">
 					<?php echo $this->Html->link(__('View'), array('action' => 'view', $update['Update']['id'])); ?>
 					<?php echo $this->Html->link(__('Edit'), array('action' => 'edit', $update['Update']['id'])); ?>
