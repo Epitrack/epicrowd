@@ -9,6 +9,8 @@
 		echo $this->Form->input('name');
 		echo $this->Form->input('email');
 		echo $this->Form->input('organization');
+		echo $this->Form->input('project_title');
+		echo $this->Form->input('project_summary');
 		echo $this->Form->input('confirmed', array('label' => 'Confirmar participação no evento'));
 	?>
 	</fieldset>
