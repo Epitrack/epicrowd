@@ -1,5 +1,10 @@
 <div class="updates index">
 	<h2><?php echo __('Updates'); ?></h2>
+	<div>
+	<?php echo $this->Form->create('Updates', array('type' => 'get', 'action' => 'admin_index')) ?>
+	<?echo $this->Form->input('busca');?>
+	<?php echo $this->Form->end(__('Submit')); ?>
+</div>
 	<?php
 
 	if (isset($_SESSION['security_code'])) {

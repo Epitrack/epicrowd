@@ -14,11 +14,36 @@ class UpdatesController extends AppController {
 	 */
 
 	var $uses = array('Update', 'Voucher');
+	
 	public $helpers = array('Html', 'Form', 'Session');
-	public $components = array('Session', 'RequestHandler', 'Paginator', 'Session', 'CsvView.CsvView',
 
-							   'RequestHandler' => array('viewClassMap' => array('csv' => 'CsvView.Csv')), 'Auth' => array('loginRedirect' => array('controller' => 'updates', 'action' => 'index', 'admin' => true), 'logoutRedirect' => array('controller' => 'users', 'action' => 'index', 'admin' => true), 'authenticate' => array('Form' => array('passwordHasher' => 'Blowfish')), 'authorize' => array('Controller') // Added this line
-		));
+	public $components = array('Session', 'RequestHandler', 'Paginator', 'Session', 'CsvView.CsvView',
+		'RequestHandler' => array(
+			'viewClassMap' => array(
+			'csv' => 'CsvView.Csv'
+			)
+		), 
+		'Auth' => array(
+			'loginRedirect' => array(
+			'controller' => 'updates', 
+			'action' => 'index', 
+			'admin' => true
+		), 
+		'logoutRedirect' => array(
+			'controller' => 'users', 
+			'action' => 'index', 
+			'admin' => true
+		), 
+		'authenticate' => array(
+			'Form' => array(
+				'passwordHasher' => 'Blowfish'
+				)
+			), 
+			'authorize' => array(
+				'Controller'
+			) // Added this line
+		)
+	);
 
 	public function beforeFilter() {
 		parent::beforeFilter();
@@ -241,8 +266,17 @@ class UpdatesController extends AppController {
 	 * @return void
 	 */
 	public function admin_index() {
-		$this->Update->recursive = 0;
-		$this->set('updates', $this->Paginator->paginate());
+		$busca = FALSE;
+		if(isset($this->request->query["busca"])) {
+			$busca = $this->request->query["busca"];
+			$this->set('updates', 
+				$this->Paginator->paginate('Update', 
+					array('Update.name LIKE' => '%'.$busca.'%'))
+				);
+		} else {
+			$this->Update->recursive = 0;
+			$this->set('updates', $this->Paginator->paginate());
+		}
 	}
 
 	/**
