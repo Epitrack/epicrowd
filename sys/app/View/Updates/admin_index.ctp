@@ -9,8 +9,8 @@
 	<table cellpadding="0" cellspacing="0">
 		<thead>
 		<tr>
-			<th><?php echo $this->Paginator->sort('id'); ?></th>
-			<th><?php echo $this->Paginator->sort('country_id'); ?></th>
+			<!-- <th><?php echo $this->Paginator->sort('id'); ?></th>
+			<th><?php echo $this->Paginator->sort('country_id'); ?></th> -->
 			<!--			<th>--><?php //echo $this->Paginator->sort('enabled'); ?><!--</th>-->
 			<th><?php echo $this->Paginator->sort('created'); ?></th>
 			<!--			<th>--><?php //echo $this->Paginator->sort('modified'); ?><!--</th>-->
@@ -25,13 +25,13 @@
 		<tbody>
 		<?php foreach ($updates as $update): ?>
 			<tr>
-				<td><?php echo h($update['Update']['id']); ?>&nbsp;</td>
+				<!-- <td><?php echo h($update['Update']['id']); ?>&nbsp;</td>
 				<td>
 					<?php echo $this->Html->link($update['Country']['name_pt'],
 												 array('controller' => 'countries', 'action' => 'view', $update['Country']['id'])); ?>
-				</td>
+				</td> -->
 				<!--		<td>--><?php //echo h($update['Update']['enabled']); ?><!--&nbsp;</td>-->
-				<td><?php echo date("d/m/Y H:i", strtotime($update['Update']['created'])); ?>&nbsp;</td>
+				<td><?php echo date("d/m/Y", strtotime($update['Update']['created'])); ?>&nbsp;</td>
 				<!--		<td>-->
 				<?php //echo date("d/m/Y H:i:s", strtotime($update['Update']['modified']));?><!--&nbsp;</td>-->
 				<td><?php echo h($update['Update']['name']); ?>&nbsp;</td>
