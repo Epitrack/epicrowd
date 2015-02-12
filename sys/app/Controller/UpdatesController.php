@@ -265,6 +265,7 @@ class UpdatesController extends AppController {
 	 *
 	 * @return void
 	 */
+	
 	public function admin_add() {
 		if ($this->request->is('post')) {
 			$this->Update->create();
