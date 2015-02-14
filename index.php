@@ -210,7 +210,7 @@
 
                 <div class="aditional tech-demo">
                   <h4 class="agenda-title">Tech Demo: Dodo Biotech Crowdfunding</h4>
-                  <p class="agenda-description">Vinícius Maracajá-Coutinho</p>
+                  <p class="agenda-description">Vinícius Maracajá-Coutinho (Chile)</p>
                 </div>
               </li>
 
