@@ -2,7 +2,7 @@
   <div class="col-xs-12 col-sm-10 col-sm-offset-1 col-md-10 col-md-offset-1 col-lg-10 col-lg-offset-1 organized">
     <h3 data-i18n="footer.title01;">Organized by</h3>
 
-    <div class="col-xs-12 col-sm-4 col-md-4 col-lg-4">
+    <div class="col-xs-12 col-sm-3 col-md-3 col-lg-3">
       <aside class="organized-box epitrack">
         <a href="http://www.epitrack.com.br" target="_blank" title="Epitrack" class="organized-link">
           <figure class="organized-image">
@@ -12,7 +12,7 @@
       </aside>
     </div>
 
-    <div class="col-xs-12 col-sm-4 col-md-4 col-lg-4">
+    <div class="col-xs-12 col-sm-3 col-md-3 col-lg-3">
       <aside class="organized-box skoll">
         <a href="http://www.skollglobalthreats.org/" target="_blank" title="Skoll Global Threats" class="organized-link">
           <figure class="organized-image">
@@ -22,11 +22,21 @@
       </aside>
     </div>
 
-    <div class="col-xs-12 col-sm-4 col-md-4 col-lg-4">
+    <div class="col-xs-12 col-sm-3 col-md-3 col-lg-3">
       <aside class="organized-box proepi">
         <a href="https://www.facebook.com/pages/ProEpi-Associa%C3%A7%C3%A3o-Brasileira-de-Profissionais-de-Epidemiologia-de-Campo/1467273880198661" target="_blank" title="Proepi" class="organized-link">
           <figure class="organized-image">
             <img src="dist/images/logo-proepi.png" width="180" alt="80">
+          </figure>
+        </a>
+      </aside>
+    </div>
+
+    <div class="col-xs-12 col-sm-3 col-md-3 col-lg-3">
+      <aside class="organized-box ministerio">
+        <a href="http://portalsaude.saude.gov.br/" target="_blank" title="Ministério da Saúde" class="organized-link">
+          <figure class="organized-image">
+            <img src="dist/images/logo-gov-federal.png">
           </figure>
         </a>
       </aside>

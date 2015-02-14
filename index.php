@@ -90,7 +90,15 @@
 
                 <div class="aditional conference">
                   <h4 class="agenda-title" data-i18n="agenda.tinaEndericks">The Wonderful World of Mass Gatherings Surveillance.</h4>
-                  <p class="agenda-description" data-i18n="agenda.tinaEndericksDescription">Tina Endericks - Public Health England (UK)</p>
+                  <p class="agenda-description" data-i18n="agenda.tinaEndericksDescription">Public Health England (UK)</p>
+                </div>
+              </li>
+
+              <li class="agenda-item">
+                <span class="hour" data-i18n="agenda.coffeBreakHour">02:15 pm</span>
+
+                <div class="aditional coffe-break">
+                  <h4 class="agenda-title" data-i18n="agenda.coffeBreak">COFFEE BREAK.</h4>
                 </div>
               </li>
 
@@ -135,7 +143,15 @@
               </li>
 
               <li class="agenda-item">
-                <span class="hour" data-i18n="agenda.day02Hour02">9:45 am</span>
+                <span class="hour" data-i18n="agenda.coffeBreakHour02">09:45 am</span>
+
+                <div class="aditional coffe-break">
+                  <h4 class="agenda-title" data-i18n="agenda.coffeBreak">COFFEE BREAK.</h4>
+                </div>
+              </li>
+
+              <li class="agenda-item">
+                <span class="hour" data-i18n="agenda.day02Hour02">10:15 am</span>
 
                 <div class="aditional wall-panel">
                   <h4 class="agenda-title" data-i18n="agenda.perspective">Perspectives of Health Managment for Olympics 2016.</h4>
@@ -144,7 +160,7 @@
               </li>
 
               <li class="agenda-item">
-                <span class="hour" data-i18n="agenda.day02Hour03">10:45 am</span>
+                <span class="hour" data-i18n="agenda.day02Hour03">11:15 am</span>
 
                 <div class="aditional wall-panel">
                   <h4 class="agenda-title" data-i18n="agenda.amaliaCamaraGuntherEysenbach">Limits of ethics in Public Health 2.0 age.</h4>
@@ -154,7 +170,7 @@
               </li>
 
               <li class="agenda-item">
-                <span class="hour" data-i18n="agenda.lunchHour">11:30 am</span>
+                <span class="hour" data-i18n="agenda.lunchHour">12:00 am</span>
 
                 <div class="aditional lunch">
                   <h4 class="agenda-title" data-i18n="agenda.lunch">Lunch</h4>
@@ -182,7 +198,15 @@
               </li>
 
               <li class="agenda-item">
-                <span class="hour" data-i18n="agenda.day02Hour06">03:00 pm</span>
+                <span class="hour" data-i18n="agenda.coffeBreakHour03">03:30 pm</span>
+
+                <div class="aditional coffe-break">
+                  <h4 class="agenda-title" data-i18n="agenda.coffeBreak">COFFEE BREAK.</h4>
+                </div>
+              </li>
+
+              <li class="agenda-item">
+                <span class="hour" data-i18n="agenda.day02Hour06">04:00 pm</span>
 
                 <div class="aditional tech-demo">
                   <h4 class="agenda-title">Tech Demo: Dodo Biotech Crowdfunding</h4>
@@ -191,7 +215,7 @@
               </li>
 
               <li class="agenda-item bottom">
-                <span class="hour" data-i18n="agenda.day02Hour07">03:30 pm</span>
+                <span class="hour" data-i18n="agenda.day02Hour07">04:30 pm</span>
 
                 <div class="aditional rapid-fire">
                   <h4 class="agenda-title" data-i18n="agenda.rapidFireTalk">Rapid Fire Talks</h4>
@@ -216,7 +240,7 @@
                 <span class="hour" data-i18n="agenda.day03Hour02">9:45 am</span>
 
                 <div class="aditional wall-panel">
-                  <h4 class="agenda-title" data-i18n="agenda.rodrigoAngeramiJoaoBoscoSiqueira">Global Health and the impact dissemination of infectious threats during mass gatherings.</h4>
+                  <h4 class="agenda-title" data-i18n="agenda.rodrigoAngeramiJoaoBoscoSiqueira">Global Health and the impact of dissemination of infectious threats during mass gatherings.</h4>
                   <span class="panelists" data-i18n="agenda.panelists">Panelists:</span> <p class="agenda-description" data-i18n="agenda.rodrigoAngeramiJoaoBoscoSiqueiraDescrption01">Rodrigo Angerami - UNICAMP (Brazil)</p>
                   <span class="moderator" data-i18n="agenda.moderator">Moderator:</span> <p class="agenda-description" data-i18n="agenda.rodrigoAngeramiJoaoBoscoSiqueiraDescrption02">Mary Wilson - Harvard University (USA)</p>
                 </div>
@@ -226,7 +250,7 @@
                 <span class="hour" data-i18n="agenda.day03Hour03">11:00 am</span>
 
                 <div class="aditional wall-panel">
-                  <h4 class="agenda-title" data-i18n="agenda.jonasBrantLucileneAguiar">How to deliver tools for surveillance during mass gatherings?</h4>
+                  <h4 class="agenda-title" data-i18n="agenda.jonasBrantLucileneAguiar">How to delivery tools for surveillance during mass gatherings?</h4>
                   <span class="panelists" data-i18n="agenda.panelists">Panelists:</span> <p class="agenda-description" data-i18n="agenda.jonasBrantLucileneAguiarDescription01">Jonas Brant - Redesur (Brazil), Lucilene Aguiar - Pernambuco Health state department (Brazil)</p>
                   <span class="moderator" data-i18n="agenda.moderator">Moderator:</span> <p class="agenda-description" data-i18n="agenda.jonasBrantLucileneAguiarDescription02">George Dimech - Pernambuco Health state department (Brazil)</p>
                 </div>

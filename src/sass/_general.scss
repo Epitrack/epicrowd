@@ -586,6 +586,15 @@ svg {
       }
     }
 
+    &.coffe-break {
+      &::before {
+        @include path('icon-coffeebreak.svg');
+        background-repeat: no-repeat;
+        background-position: center center;
+        background-size: 60px 60px;
+      }
+    }
+
     &:hover {
       &::before {
         content: '';
