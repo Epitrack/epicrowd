@@ -905,10 +905,14 @@ svg {
   padding-bottom: 20px;
 }
 
-.organized-box { overflow: hidden; }
+.organized-box {
+  &.skoll { margin: 0 15px; }
+}
+
+.wrapper-proepi { margin: 0 40px; }
 
 .organized-link {
-  width: 180px;
+  width: auto;
   height: 80px;
   margin: 0 auto 10px auto;
   display: block;
@@ -916,6 +920,8 @@ svg {
 
   &:hover { opacity: .5; }
 }
+
+.organized-image { @include scale(.9); }
 
 
 //

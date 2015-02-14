@@ -7350,14 +7350,19 @@ svg {
   color: #A5A5A5;
 }
 
-/* line 908, ../../src/sass/_general.scss */
-.organized-box {
-  overflow: hidden;
+/* line 909, ../../src/sass/_general.scss */
+.organized-box.skoll {
+  margin: 0 15px;
 }
 
-/* line 910, ../../src/sass/_general.scss */
+/* line 912, ../../src/sass/_general.scss */
+.wrapper-proepi {
+  margin: 0 40px;
+}
+
+/* line 914, ../../src/sass/_general.scss */
 .organized-link {
-  width: 180px;
+  width: auto;
   height: 80px;
   margin: 0 auto 10px auto;
   display: block;
@@ -7367,23 +7372,32 @@ svg {
   -o-transition: all 0.2s linear 0s;
   transition: all 0.2s linear 0s;
 }
-/* line 917, ../../src/sass/_general.scss */
+/* line 921, ../../src/sass/_general.scss */
 .organized-link:hover {
   opacity: .5;
 }
 
-/* line 925, ../../src/sass/_general.scss */
+/* line 924, ../../src/sass/_general.scss */
+.organized-image {
+  -webkit-transform: scale(0.9);
+  -moz-transform: scale(0.9);
+  -ms-transform: scale(0.9);
+  -o-transform: scale(0.9);
+  transform: scale(0.9);
+}
+
+/* line 931, ../../src/sass/_general.scss */
 .nav-secondary {
   text-align: center;
   margin-bottom: 30px;
 }
 
-/* line 930, ../../src/sass/_general.scss */
+/* line 936, ../../src/sass/_general.scss */
 .nav-secondary-item {
   display: inline-block;
 }
 
-/* line 932, ../../src/sass/_general.scss */
+/* line 938, ../../src/sass/_general.scss */
 .nav-secondary-link {
   font-size: 1.2rem;
   color: #004d6e;
@@ -7397,18 +7411,18 @@ svg {
   -o-transition: color 0.2s linear 0s;
   transition: color 0.2s linear 0s;
 }
-/* line 941, ../../src/sass/_general.scss */
+/* line 947, ../../src/sass/_general.scss */
 .nav-secondary-link:hover {
   text-decoration: none;
   color: #ffffff;
 }
 
-/* line 952, ../../src/sass/_general.scss */
+/* line 958, ../../src/sass/_general.scss */
 .social {
   text-align: center;
 }
 
-/* line 954, ../../src/sass/_general.scss */
+/* line 960, ../../src/sass/_general.scss */
 .social-links {
   width: 180px;
   height: 50px;
@@ -7429,59 +7443,59 @@ svg {
   -o-transition: all 0.2s linear 0s;
   transition: all 0.2s linear 0s;
 }
-/* line 970, ../../src/sass/_general.scss */
+/* line 976, ../../src/sass/_general.scss */
 .social-links.facebook {
   background-image: url("../../dist/images/icon-facebook.svg");
   background-repeat: no-repeat;
   background-size: contain;
   background-position: 17px 12px;
 }
-/* line 977, ../../src/sass/_general.scss */
+/* line 983, ../../src/sass/_general.scss */
 .social-links.twitter {
   background-image: url("../../dist/images/icon-twitter.svg");
   background-repeat: no-repeat;
   background-size: contain;
   background-position: 8px 13px;
 }
-/* line 984, ../../src/sass/_general.scss */
+/* line 990, ../../src/sass/_general.scss */
 .social-links.lanyrd {
   background-image: url("../../dist/images/icon-lanyrd.svg");
   background-repeat: no-repeat;
   background-size: contain;
   background-position: 18px 12px;
 }
-/* line 991, ../../src/sass/_general.scss */
+/* line 997, ../../src/sass/_general.scss */
 .social-links:hover, .social-links:active, .social-links:focus {
   text-decoration: none;
   background-color: #e6e6e6;
   color: #004d6e;
   border: 1px solid #004d6e;
 }
-/* line 999, ../../src/sass/_general.scss */
+/* line 1005, ../../src/sass/_general.scss */
 .social-links:hover.twitter, .social-links:active.twitter, .social-links:focus.twitter {
   background-position: 9px -10px;
 }
-/* line 1000, ../../src/sass/_general.scss */
+/* line 1006, ../../src/sass/_general.scss */
 .social-links:hover.facebook, .social-links:active.facebook, .social-links:focus.facebook {
   background-position: 15px -12px;
 }
-/* line 1001, ../../src/sass/_general.scss */
+/* line 1007, ../../src/sass/_general.scss */
 .social-links:hover.lanyrd, .social-links:active.lanyrd, .social-links:focus.lanyrd {
   background-position: 15px -12px;
 }
-/* line 1004, ../../src/sass/_general.scss */
+/* line 1010, ../../src/sass/_general.scss */
 .social-links:visited {
   text-decoration: none;
 }
 
-/* line 1009, ../../src/sass/_general.scss */
+/* line 1015, ../../src/sass/_general.scss */
 .copyright {
   font-size: 1.4rem;
   font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
   text-align: center;
   margin-bottom: 30px;
 }
-/* line 1015, ../../src/sass/_general.scss */
+/* line 1021, ../../src/sass/_general.scss */
 .copyright a {
   text-decoration: underline;
   color: #004d6e;
@@ -7491,12 +7505,12 @@ svg {
   -o-transition: color 0.2s linear 0s;
   transition: color 0.2s linear 0s;
 }
-/* line 1020, ../../src/sass/_general.scss */
+/* line 1026, ../../src/sass/_general.scss */
 .copyright a:hover {
   color: #ffffff;
 }
 
-/* line 1031, ../../src/sass/_general.scss */
+/* line 1037, ../../src/sass/_general.scss */
 #external {
   -webkit-transition: all 2s linear 0s;
   -moz-transition: all 2s linear 0s;
@@ -7505,7 +7519,7 @@ svg {
   transition: all 2s linear 0s;
 }
 
-/* line 1033, ../../src/sass/_general.scss */
+/* line 1039, ../../src/sass/_general.scss */
 .become-a-sponsor {
   text-align: center;
   min-height: 240px !important;
@@ -7516,99 +7530,99 @@ svg {
   -o-box-shadow: 0 1px 1px #DBD9D9;
   box-shadow: 0 1px 1px #DBD9D9;
 }
-/* line 1039, ../../src/sass/_general.scss */
+/* line 1045, ../../src/sass/_general.scss */
 .become-a-sponsor p {
   font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
   font-size: 1.8rem;
   color: #004d6e;
 }
-/* line 1044, ../../src/sass/_general.scss */
+/* line 1050, ../../src/sass/_general.scss */
 .become-a-sponsor p:first-child {
   margin-top: 30px;
   display: inline;
 }
-/* line 1045, ../../src/sass/_general.scss */
+/* line 1051, ../../src/sass/_general.scss */
 .become-a-sponsor p:last-child {
   font-weight: 600;
   margin-top: 15px;
 }
-/* line 1048, ../../src/sass/_general.scss */
+/* line 1054, ../../src/sass/_general.scss */
 .become-a-sponsor a {
   color: #004d6e;
   font-size: 1.8rem;
   text-decoration: underline;
   display: inline-block;
 }
-/* line 1054, ../../src/sass/_general.scss */
+/* line 1060, ../../src/sass/_general.scss */
 .become-a-sponsor a:hover {
   text-decoration: underline;
 }
 
 @media (min-device-width: 375px) {
-  /* line 1069, ../../src/sass/_general.scss */
+  /* line 1075, ../../src/sass/_general.scss */
   .agenda-item .aditional::before {
     left: 130px;
   }
 }
 @media (min-width: 768px) {
-  /* line 1078, ../../src/sass/_general.scss */
+  /* line 1084, ../../src/sass/_general.scss */
   .header-primary {
     height: 645px;
     background-position: center;
     background-attachment: fixed;
   }
 
-  /* line 1084, ../../src/sass/_general.scss */
+  /* line 1090, ../../src/sass/_general.scss */
   .nav-primary {
     top: 586px;
   }
 
-  /* line 1086, ../../src/sass/_general.scss */
+  /* line 1092, ../../src/sass/_general.scss */
   .countdown {
     margin-top: 20px;
     visibility: visible;
   }
 
-  /* line 1091, ../../src/sass/_general.scss */
+  /* line 1097, ../../src/sass/_general.scss */
   .down {
     top: 60%;
   }
 
-  /* line 1094, ../../src/sass/_general.scss */
+  /* line 1100, ../../src/sass/_general.scss */
   .logo-primary a {
     background-size: auto 114px;
     background-position: center center;
     height: 114px;
   }
 
-  /* line 1102, ../../src/sass/_general.scss */
+  /* line 1108, ../../src/sass/_general.scss */
   .subtitle time {
     font-size: 2.5rem;
   }
-  /* line 1106, ../../src/sass/_general.scss */
+  /* line 1112, ../../src/sass/_general.scss */
   .subtitle p {
     font-size: 3.2rem;
     margin-top: -5px;
   }
 
-  /* line 1112, ../../src/sass/_general.scss */
+  /* line 1118, ../../src/sass/_general.scss */
   .btn-send {
     text-align: right;
     float: right;
     margin-right: 20px;
   }
 
-  /* line 1118, ../../src/sass/_general.scss */
+  /* line 1124, ../../src/sass/_general.scss */
   .organizers-links {
     margin: 20px;
   }
 
-  /* line 1120, ../../src/sass/_general.scss */
+  /* line 1126, ../../src/sass/_general.scss */
   .box-images-hotel {
     height: 130px;
   }
 
-  /* line 1122, ../../src/sass/_general.scss */
+  /* line 1128, ../../src/sass/_general.scss */
   .agenda-item {
     border-radius: 0;
     margin-bottom: 0;
@@ -7617,11 +7631,11 @@ svg {
     border-left: 2px solid #004d6e;
     border-bottom: none;
   }
-  /* line 1130, ../../src/sass/_general.scss */
+  /* line 1136, ../../src/sass/_general.scss */
   .agenda-item:hover {
     background-color: #ffffff;
   }
-  /* line 1132, ../../src/sass/_general.scss */
+  /* line 1138, ../../src/sass/_general.scss */
   .agenda-item.top {
     -webkit-border-radius: 10px 10px 0 0;
     -moz-border-radius: 10px 10px 0 0;
@@ -7629,7 +7643,7 @@ svg {
     -o-border-radius: 10px 10px 0 0;
     border-radius: 10px 10px 0 0;
   }
-  /* line 1134, ../../src/sass/_general.scss */
+  /* line 1140, ../../src/sass/_general.scss */
   .agenda-item.bottom {
     -webkit-border-radius: 0 0 10px 10px;
     -moz-border-radius: 0 0 10px 10px;
@@ -7638,7 +7652,7 @@ svg {
     border-radius: 0 0 10px 10px;
     border-bottom: 2px solid #004d6e;
   }
-  /* line 1139, ../../src/sass/_general.scss */
+  /* line 1145, ../../src/sass/_general.scss */
   .agenda-item .hour {
     line-height: 135px;
     display: inline-block;
@@ -7649,53 +7663,53 @@ svg {
     font-size: 1.4rem;
     border-right: 3px solid #004d6e;
   }
-  /* line 1150, ../../src/sass/_general.scss */
+  /* line 1156, ../../src/sass/_general.scss */
   .agenda-item .aditional {
     text-align: left;
     width: 80%;
     display: inline-block;
     padding: 20px 15px 20px 45px;
   }
-  /* line 1156, ../../src/sass/_general.scss */
+  /* line 1162, ../../src/sass/_general.scss */
   .agenda-item .aditional::before {
     content: '';
     left: -30px;
     top: 30px;
   }
 
-  /* line 1164, ../../src/sass/_general.scss */
+  /* line 1170, ../../src/sass/_general.scss */
   .tabs-item {
     width: 185px;
     overflow: visible;
   }
 }
 @media (min-width: 992px) {
-  /* line 1172, ../../src/sass/_general.scss */
+  /* line 1178, ../../src/sass/_general.scss */
   .header-primary {
     background-position: center 63%;
     overflow: hidden;
   }
 
-  /* line 1177, ../../src/sass/_general.scss */
+  /* line 1183, ../../src/sass/_general.scss */
   .box-images-hotel {
     height: 213px;
   }
 
-  /* line 1179, ../../src/sass/_general.scss */
+  /* line 1185, ../../src/sass/_general.scss */
   .section-text {
     font-size: 1.8rem;
     line-height: 2.5rem;
     padding-top: 10px;
   }
 
-  /* line 1186, ../../src/sass/_general.scss */
+  /* line 1192, ../../src/sass/_general.scss */
   .logo-primary a {
     background-size: auto 134px;
     background-position: center center;
     height: 134px;
   }
 
-  /* line 1194, ../../src/sass/_general.scss */
+  /* line 1200, ../../src/sass/_general.scss */
   .agenda-item .hour {
     padding-left: 0;
     text-align: center;
