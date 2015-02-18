@@ -267,6 +267,7 @@ class UpdatesController extends AppController {
 	 */
 	public function admin_index() {
 		$busca = FALSE;
+
 		if(isset($this->request->query["busca"])) {
 			$busca = $this->request->query["busca"];
 			$this->set('updates', 
@@ -280,10 +281,13 @@ class UpdatesController extends AppController {
 
 					)
 				);
+
 		} else {
 			$this->Update->recursive = 0;
 			$this->set('updates', $this->Paginator->paginate());
 		}
+		
+		$this->set('busca', $busca ? $busca : "");
 	}
 
 	/**
