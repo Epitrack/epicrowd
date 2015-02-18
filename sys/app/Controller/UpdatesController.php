@@ -271,7 +271,14 @@ class UpdatesController extends AppController {
 			$busca = $this->request->query["busca"];
 			$this->set('updates', 
 				$this->Paginator->paginate('Update', 
-					array('Update.name LIKE' => '%'.$busca.'%'))
+					
+						array("OR" => array(
+							'Update.name LIKE' => '%'.$busca.'%',
+							'Update.email LIKE' => '%'.$busca.'%'
+							)
+						)
+
+					)
 				);
 		} else {
 			$this->Update->recursive = 0;
