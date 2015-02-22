@@ -50,19 +50,41 @@ class UpdatesController extends AppController {
 		$this->Auth->allow('action');
 	}
 
+	public function dennis() {
+		$data = $this->Update->find('all');
+
+	}
+
 	public function exportar() {
+		$this->Update->query("SET CHARACTER SET utf8;" );
 		$data = $this->Update->find('all');
 
 		$excludePaths =
-			array('Update.id', 'Update.country_id', 'Update.enabled', 'Update.modified', 'Country.id', 'Country.name_en'); // Exclude all id fields
+			array(
+				'Update.id',
+				'Update.country_id', 
+				'Update.enabled', 
+				'Update.modified', 
+				'Update.project_title', 
+				'Update.project_summary', 
+				'Update.modified', 
+				'Country.id', 
+				'Country.name_en'); // Exclude all id fields
 
 		$customHeaders =
-			array('Update.name' => 'Name', 'Country.name_pt' => "Country", 'Update.organization' => "Organization", 'Update.email' => "Email", 'Update.created' => "Date");
+			array(
+				'Update.name' => 'Name', 
+				'Country.name_pt' => "Country", 
+				'Update.organization' => "Organization", 
+				'Update.email' => "Email", 
+				'Update.created' => "Date");
 
 
-		$this->response->type("application/csv");
+		//$this->response->type("text/plain");
 		$this->response->charset("UTF-8");
+		$this->response->type("application/csv");
 
+		//$this->set('results', $data);
 		$name = "updates_" . date("d_m_Y_H_i_s") . ".csv";
 		$this->CsvView->quickExport($data, $excludePaths, $customHeaders);
 		$this->response->download($name); // <= setting the file name
