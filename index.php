@@ -137,7 +137,7 @@
                 <span class="hour" data-i18n="agenda.day02Hour01">9:00 am</span>
 
                 <div class="aditional aditional conference">
-                  <h4 class="agenda-title" data-i18n="agenda.silvioMeira">New waves of innovation in the world and how health can play it.</h4>
+                  <h4 class="agenda-title" data-i18n="agenda.silvioMeira">The Last Five Decades of Innovation in Information and Communication Technologies and The Next Five Decades of Innovation in Healhcare.</h4>
                   <p class="agenda-description" data-i18n="agenda.silvioMeiraDescription">Silvio Meira - IKEWAI, FGV (Brazil)</p>
                 </div>
               </li>
