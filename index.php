@@ -116,7 +116,7 @@
                 <span class="hour" data-i18n="agenda.day01Hour04">03:45 pm</span>
 
                 <div class="aditional rapid-fire">
-                  <h4 class="agenda-title" data-i18n="agenda.rapidFireTalk">Rapid Fire Talks</h4>
+                  <h4 class="agenda-title" data-i18n="agenda.rapidFireTalk">Interactive tables</h4>
                   <p class="agenda-description" data-i18n="agenda.comingSoon">Comming soon</p>
                 </div>
               </li>
@@ -218,7 +218,7 @@
                 <span class="hour" data-i18n="agenda.day02Hour07">04:30 pm</span>
 
                 <div class="aditional rapid-fire">
-                  <h4 class="agenda-title" data-i18n="agenda.rapidFireTalk">Rapid Fire Talks</h4>
+                  <h4 class="agenda-title" data-i18n="agenda.rapidFireTalk">Interactive tables</h4>
                   <!-- <p class="agenda-description" data-i18n="agenda.comingSoon">Comming soon</p> -->
                 </div>
               </li>
