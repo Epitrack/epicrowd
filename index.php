@@ -242,7 +242,7 @@
 
                 <div class="aditional wall-panel">
                   <h4 class="agenda-title" data-i18n="agenda.rodrigoAngeramiJoaoBoscoSiqueira">Global Health and the impact of dissemination of infectious threats during mass gatherings.</h4>
-                  <span class="panelists" data-i18n="agenda.panelists">Panelists:</span> <p class="agenda-description" data-i18n="agenda.rodrigoAngeramiJoaoBoscoSiqueiraDescrption01">Rodrigo Angerami - UNICAMP (Brazil)</p>
+                  <span class="panelists" data-i18n="agenda.panelists">Panelists:</span> <p class="agenda-description" data-i18n="agenda.rodrigoAngeramiJoaoBoscoSiqueiraDescrption01">Rodrigo Angerami - UNICAMP (Brazil), Gary Brunette - CDC(USA)</p>
                   <span class="moderator" data-i18n="agenda.moderator">Moderator:</span> <p class="agenda-description" data-i18n="agenda.rodrigoAngeramiJoaoBoscoSiqueiraDescrption02">Mary Wilson - Harvard University (USA)</p>
                 </div>
               </li>
