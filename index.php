@@ -210,8 +210,8 @@
 
                 <div class="aditional tech-demo">
                   <h4 class="agenda-title" data-i18n="agenda.techDemo">Tech Demo</h4>
-                  <p class="agenda-description" data-i18n="agenda.dodoBiotechDescription">Dodo Biotech Crowdfunding - Vinícius Maracajá Coutinho - Beagle Bioinformatics (Chile)</p>,
-                  <p class="agenda-description" data-i18n="agenda.dodoBiotechDescription02">Healthy Cup - Onicio Leal - Epitrack (Brazil)</p>,
+                  <p class="agenda-description" data-i18n="agenda.dodoBiotechDescription">Dodo Biotech Crowdfunding - Vinícius Maracajá Coutinho - Beagle Bioinformatics (Chile)</p>
+                  <p class="agenda-description" data-i18n="agenda.dodoBiotechDescription02">Saúde na Copa - Onicio Leal - Epitrack (Brazil)</p>
                   <p class="agenda-description" data-i18n="agenda.dodoBiotechDescription03">Guardiões da Saúde - Juliana Perazzo - Epitrack (Brazil)</p>
                 </div>
               </li>
