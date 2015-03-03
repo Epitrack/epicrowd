@@ -56,7 +56,7 @@ class UpdatesController extends AppController {
 	}
 
 	public function exportar() {
-		$this->Update->query("SET CHARACTER SET utf8;" );
+		//$this->Update->query("SET CHARACTER SET utf8;" );
 		$data = $this->Update->find('all');
 
 		$excludePaths =
@@ -81,13 +81,13 @@ class UpdatesController extends AppController {
 
 
 		//$this->response->type("text/plain");
-		$this->response->charset("UTF-8");
-		$this->response->type("application/csv");
+		//$this->response->charset("UTF-8");
+		//$this->response->type("application/csv");
 
-		//$this->set('results', $data);
-		$name = "updates_" . date("d_m_Y_H_i_s") . ".csv";
-		$this->CsvView->quickExport($data, $excludePaths, $customHeaders);
-		$this->response->download($name); // <= setting the file name
+		$this->set('results', $data);
+		// $name = "updates_" . date("d_m_Y_H_i_s") . ".csv";
+		// $this->CsvView->quickExport($data, $excludePaths, $customHeaders);
+		// $this->response->download($name); // <= setting the file name
 		return false;
 	}
 
@@ -197,7 +197,7 @@ class UpdatesController extends AppController {
 		$data = $this->Update->find('all');
 		$this->set('data', $data);
 	}
-
+	
 	/**
 	 * view method
 	 *
@@ -291,7 +291,7 @@ class UpdatesController extends AppController {
 		$busca = FALSE;
 
 		if(isset($this->request->query["busca"])) {
-			$busca = $this->request->query["busca"];
+			$busca = trim($this->request->query["busca"]);
 			$this->set('updates', 
 				$this->Paginator->paginate('Update', 
 					
