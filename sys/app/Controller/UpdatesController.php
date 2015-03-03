@@ -80,7 +80,7 @@ class UpdatesController extends AppController {
 				'Update.created' => "Date");
 
 
-		//$this->response->type("text/plain");
+		$this->response->type("text/plain");
 		//$this->response->charset("UTF-8");
 		//$this->response->type("application/csv");
 
@@ -197,7 +197,7 @@ class UpdatesController extends AppController {
 		$data = $this->Update->find('all');
 		$this->set('data', $data);
 	}
-	
+
 	/**
 	 * view method
 	 *
