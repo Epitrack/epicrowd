@@ -90,7 +90,7 @@
 
                 <div class="aditional conference">
                   <h4 class="agenda-title" data-i18n="agenda.tinaEndericks">The Wonderful World of Mass Gatherings Surveillance.</h4>
-                  <p class="agenda-description" data-i18n="agenda.tinaEndericksDescription">Public Health England (UK)</p>
+                  <p class="agenda-description" data-i18n="agenda.comingSoon">Coming Soon</p>
                 </div>
               </li>
 
@@ -192,7 +192,7 @@
 
                 <div class="aditional wall-panel">
                   <h4 class="agenda-title" data-i18n="agenda.wandersonOliveiraMichaelJohansson">Strategies for Participatory Surveillance for Mass Gatherings.</h4>
-                  <span class="panelists" data-i18n="agenda.panelists">Panelists:</span> <p class="agenda-description" data-i18n="agenda.wandersonOliveiraMichaelJohanssonDescription01">Wanderson Oliveira - Ministry of Health (Brazil), Michael Johansson - CDC (USA)</p>
+                  <span class="panelists" data-i18n="agenda.panelists">Panelists:</span> <p class="agenda-description" data-i18n="agenda.wandersonOliveiraMichaelJohanssonDescription01">Wanderson Oliveira - Ministry of Health (Brazil), Michael Johansson - CDC (USA), Bruno Botafogo - Ministry of Health (Brazil)</p>
                   <span class="moderator" data-i18n="agenda.moderator">Moderator:</span> <p class="agenda-description" data-i18n="agenda.wandersonOliveiraMichaelJohanssonDescription02">Marlo Libel - Skoll Global Threats Fund (USA)</p>
                 </div>
               </li>
@@ -209,8 +209,10 @@
                 <span class="hour" data-i18n="agenda.day02Hour06">04:00 pm</span>
 
                 <div class="aditional tech-demo">
-                  <h4 class="agenda-title">Tech Demo: Dodo Biotech Crowdfunding</h4>
-                  <p class="agenda-description">Vinícius Maracajá-Coutinho (Chile)</p>
+                  <h4 class="agenda-title" data-i18n="agenda.techDemo">Tech Demo</h4>
+                  <p class="agenda-description" data-i18n="agenda.dodoBiotechDescription">Dodo Biotech Crowdfunding - Vinícius Maracajá Coutinho - Beagle Bioinformatics (Chile)</p>,
+                  <p class="agenda-description" data-i18n="agenda.dodoBiotechDescription02">Healthy Cup - Onicio Leal - Epitrack (Brazil)</p>,
+                  <p class="agenda-description" data-i18n="agenda.dodoBiotechDescription03">Guardiões da Saúde - Juliana Perazzo - Epitrack (Brazil)</p>
                 </div>
               </li>
 
@@ -257,8 +259,17 @@
                 </div>
               </li>
 
+              <li class="agenda-item">
+                <span class="hour" data-i18n="agenda.lunchHour03">12:00 pm</span>
+
+                <div class="aditional conference">
+                  <h4 class="agenda-title" data-i18n="agenda.closingKeynote">Closing Keynote</h4>
+                  <p class="agenda-description" data-i18n="agenda.comingSoon">Comming soon</p>
+                </div>
+              </li>
+
               <li class="agenda-item bottom">
-                <span class="hour" data-i18n="agenda.lunchHour02">12:15 pm</span>
+                <span class="hour" data-i18n="agenda.lunchHour02">12:30 pm</span>
 
                 <div class="aditional lunch">
                   <h4 class="agenda-title" data-i18n="agenda.lunch02">Lunch</h4>
