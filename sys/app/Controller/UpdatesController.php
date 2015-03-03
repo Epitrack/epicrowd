@@ -55,10 +55,45 @@ class UpdatesController extends AppController {
 
 	}
 
+	private function utf8_encode_deep(&$input) {
+	    if (is_string($input)) {
+	        $input = utf8_encode($input);
+	    } else if (is_array($input)) {
+	        foreach ($input as &$value) {
+	            $this->utf8_encode_deep($value);
+	        }
+
+	        unset($value);
+	    } else if (is_object($input)) {
+	        $vars = array_keys(get_object_vars($input));
+
+	        foreach ($vars as $var) {
+	            $this->utf8_encode_deep($input->$var);
+	        }
+	    }
+	}
+	private function utf8_decode_deep(&$input) {
+	    if (is_string($input)) {
+	        $input = utf8_decode($input);
+	    } else if (is_array($input)) {
+	        foreach ($input as &$value) {
+	            $this->utf8_decode_deep($value);
+	        }
+
+	        unset($value);
+	    } else if (is_object($input)) {
+	        $vars = array_keys(get_object_vars($input));
+
+	        foreach ($vars as $var) {
+	            $this->utf8_decode_deep($input->$var);
+	        }
+	    }
+	}
+
 	public function exportar() {
 		//$this->Update->query("SET CHARACTER SET utf8;" );
 		$data = $this->Update->find('all');
-
+		$this->utf8_decode_deep($data);
 		$excludePaths =
 			array(
 				'Update.id',
@@ -80,14 +115,14 @@ class UpdatesController extends AppController {
 				'Update.created' => "Date");
 
 
-		$this->response->type("text/plain");
+		//$this->response->type("text/plain");
 		//$this->response->charset("UTF-8");
-		//$this->response->type("application/csv");
+		$this->response->type("application/csv; charset=utf-8");
 
 		$this->set('results', $data);
-		// $name = "updates_" . date("d_m_Y_H_i_s") . ".csv";
-		// $this->CsvView->quickExport($data, $excludePaths, $customHeaders);
-		// $this->response->download($name); // <= setting the file name
+		$name = "updates_" . date("d_m_Y_H_i_s") . ".csv";
+		$this->CsvView->quickExport($data, $excludePaths, $customHeaders);
+		$this->response->download($name); // <= setting the file name
 		return false;
 	}
 
@@ -400,8 +435,12 @@ class UpdatesController extends AppController {
 		}
 		$this->request->data['Update']['enabled'] = 1;
 
+
+
 		$this->Update->create();
 		$this->Update->set($this->request->data);
+		//$this->utf8_encode_deep($this->request->data);
+
 
 		if ($this->Update->validates()) {
 			if ($this->Update->save($this->request->data)) {
