@@ -62,7 +62,7 @@
     ,"coffeBreakHour" : "02:15 pm"
     ,"coffeBreak" : "Coffee Break"
     ,"techDemo" : "Tech Demo"
-    ,"silvioMeira" : "The Last Five Decades of Innovation in Information and Communication Technologies and The Next Five Decades of Innovation in Healhcare."
+    ,"silvioMeira" : "The Last Five Decades of Innovation in Information and Communication Technologies and The Next Five Decades of Innovation in Healthcare."
     ,"perspective" : "Perspectives of Health Management for Olympics 2016."
     ,"amaliaCamaraGuntherEysenbach" : "Limits of ethics in Public Health 2.0 age."
     ,"kamranKahAnetteHulth" : "How deep (epi)technology could go through mass gatherings?"
@@ -101,12 +101,13 @@
     ,"wandersonOliveiraMichaelJohanssonDescription02" : "Marlo Libel - Skoll Global Threats Fund (USA)"
     ,"dodoBiotechDescription" : "Dodo Biotech Crowdfunding - Vinícius Maracajá Coutinho - Beagle Bioinformatics (Chile),"
     ,"dodoBiotechDescription02" : "Saúde na Copa - Onicio Leal - Epitrack (Brazil), "
-    ,"dodoBiotechDescription03" : "Guardiões da Saúde - Wanderson Oliveira - Ministry of Health (Brazil)"
+    ,"dodoBiotechDescription03" : "Guardiões da Saúde - Wanderson Oliveira - Ministry of Health (Brazil),"
     ,"dodoBiotechDescription04" : "Big Data: The experience of campaing Proteja o Gol - Colin Pantin - Ministry of Health (Brazil)"
     ,"rodrigoAngeramiJoaoBoscoSiqueiraDescrption01" : "Rodrigo Angerami - UNICAMP (Brazil), Gary Brunette - CDC(USA)"
     ,"rodrigoAngeramiJoaoBoscoSiqueiraDescrption02" : "Mary Wilson - Harvard University (USA)"
     ,"jonasBrantLucileneAguiarDescription01" : "Jonas Brant - Redesur (Brazil), Lucilene Aguiar - Pernambuco Health state department (Brazil)"
     ,"jonasBrantLucileneAguiarDescription02" : "George Dimech - Pernambuco Health state department (Brazil)"
+    ,"josepJansa" : "Josep Jansa, ECDC"
   },
   "register": {
     "title" : "Register"

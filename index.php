@@ -137,7 +137,7 @@
                 <span class="hour" data-i18n="agenda.day02Hour01">9:00 am</span>
 
                 <div class="aditional aditional conference">
-                  <h4 class="agenda-title" data-i18n="agenda.silvioMeira">The Last Five Decades of Innovation in Information and Communication Technologies and The Next Five Decades of Innovation in Healhcare.</h4>
+                  <h4 class="agenda-title" data-i18n="agenda.silvioMeira">The Last Five Decades of Innovation in Information and Communication Technologies and The Next Five Decades of Innovation in Healthcare.</h4>
                   <p class="agenda-description" data-i18n="agenda.silvioMeiraDescription">Silvio Meira - IKEWAI, FGV (Brazil)</p>
                 </div>
               </li>
@@ -265,7 +265,7 @@
 
                 <div class="aditional conference">
                   <h4 class="agenda-title" data-i18n="agenda.closingKeynote">Closing Keynote</h4>
-                  <p class="agenda-description" data-i18n="agenda.comingSoon">Comming soon</p>
+                  <p class="agenda-description" data-i18n="agenda.josepJansa">Josep Jansa, ECDC</p>
                 </div>
               </li>
 
