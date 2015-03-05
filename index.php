@@ -154,7 +154,7 @@
                 <span class="hour" data-i18n="agenda.day02Hour02">10:15 am</span>
 
                 <div class="aditional wall-panel">
-                  <h4 class="agenda-title" data-i18n="agenda.perspective">Perspectives of Health Managment for Olympics 2016.</h4>
+                  <h4 class="agenda-title" data-i18n="agenda.perspective">Perspectives of Health Management for Olympics 2016.</h4>
                   <p class="agenda-description" data-i18n="agenda.comingSoon">Comming soon</p>
                 </div>
               </li>
@@ -212,12 +212,13 @@
                   <h4 class="agenda-title" data-i18n="agenda.techDemo">Tech Demo</h4>
                   <p class="agenda-description" data-i18n="agenda.dodoBiotechDescription">Dodo Biotech Crowdfunding - Vinícius Maracajá Coutinho - Beagle Bioinformatics (Chile)</p>
                   <p class="agenda-description" data-i18n="agenda.dodoBiotechDescription02">Saúde na Copa - Onicio Leal - Epitrack (Brazil)</p>
-                  <p class="agenda-description" data-i18n="agenda.dodoBiotechDescription03">Guardiões da Saúde - Juliana Perazzo - Epitrack (Brazil)</p>
+                  <p class="agenda-description" data-i18n="agenda.dodoBiotechDescription03">Guardiões da Saúde - Wanderson Oliveira - Ministry of Health (Brazil)</p>
+                  <p class="agenda-description" data-i18n="agenda.dodoBiotechDescription04">Big Data: The experience of campaing Proteja o Gol - Colin Pantin - Ministry of Health (Brasil)</p>
                 </div>
               </li>
 
               <li class="agenda-item bottom">
-                <span class="hour" data-i18n="agenda.day02Hour07">04:30 pm</span>
+                <span class="hour" data-i18n="agenda.day02Hour07">04:40 pm</span>
 
                 <div class="aditional rapid-fire">
                   <h4 class="agenda-title" data-i18n="agenda.rapidFireTalk">Interactive tables</h4>
