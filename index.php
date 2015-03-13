@@ -80,7 +80,7 @@
                   <span class="hour" data-i18n="agenda.day01Hour00">12:30 pm</span>
 
                   <div class="aditional lunch">
-                    <h4 class="agenda-title" data-i18n="agenda.accreditation">Registration - Lunch</h4>
+                    <h4 class="agenda-title" data-i18n="agenda.accreditation">Registration - Lunch box</h4>
                   </div>
               </li>
 
