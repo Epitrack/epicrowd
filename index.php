@@ -77,11 +77,19 @@
           <aside id="day01" class="tab-content">
             <ul class="agenda-list">
               <li class="agenda-item top">
+                  <span class="hour" data-i18n="agenda.day01Hour00">12:30 pm</span>
+
+                  <div class="aditional lunch">
+                    <h4 class="agenda-title" data-i18n="agenda.accreditation">Accreditation - Lunch</h4>
+                  </div>
+              </li>
+
+              <li class="agenda-item">
                 <span class="hour" data-i18n="agenda.day01Hour01">01:00 pm</span>
 
                 <div class="aditional presentation">
                   <h4 class="agenda-title" data-i18n="agenda.markSmolinski">Welcome remarks and open talk - DDD advances and potential for mass gatherings.</h4>
-                  <p class="agenda-description" data-i18n="agenda.markSmolinskiDescription">Mark Smolinski - Skoll Global Threats Fund (USA)</p>
+                  <p class="agenda-description" data-i18n="agenda.markSmolinskiDescription">Mark Smolinski - Skoll Global Threats Fund (USA), Wanessa Tenório de Oliveira - Ministry of Health (Brazil) Representative of State Health Secretary - Pernambuco (Brazil), Jailson Correia - Health Secretary - Recife (Brazil)</p>
                 </div>
               </li>
 
@@ -90,15 +98,7 @@
 
                 <div class="aditional conference">
                   <h4 class="agenda-title" data-i18n="agenda.tinaEndericks">The Wonderful World of Mass Gatherings Surveillance.</h4>
-                  <p class="agenda-description" data-i18n="agenda.comingSoon">Coming Soon</p>
-                </div>
-              </li>
-
-              <li class="agenda-item">
-                <span class="hour" data-i18n="agenda.coffeBreakHour">02:15 pm</span>
-
-                <div class="aditional coffe-break">
-                  <h4 class="agenda-title" data-i18n="agenda.coffeBreak">COFFEE BREAK.</h4>
+                  <p class="agenda-description" data-i18n="agenda.ziadMemish">Ziad Memish - Saudi Arabia</p>
                 </div>
               </li>
 
@@ -113,11 +113,19 @@
               </li>
 
               <li class="agenda-item">
+                <span class="hour" data-i18n="agenda.coffeBreakHour">03:15 pm</span>
+
+                <div class="aditional coffe-break">
+                  <h4 class="agenda-title" data-i18n="agenda.coffeBreak">COFFEE BREAK.</h4>
+                </div>
+              </li>
+
+              <li class="agenda-item">
                 <span class="hour" data-i18n="agenda.day01Hour04">03:45 pm</span>
 
                 <div class="aditional rapid-fire">
                   <h4 class="agenda-title" data-i18n="agenda.rapidFireTalk">Interactive tables</h4>
-                  <p class="agenda-description" data-i18n="agenda.comingSoon">Comming soon</p>
+                  <!-- <p class="agenda-description" data-i18n="agenda.comingSoon">Comming soon</p> -->
                 </div>
               </li>
 
@@ -126,6 +134,7 @@
 
                 <div class="aditional dinner">
                   <h4 class="agenda-title" data-i18n="agenda.dinner">Welcome dinner</h4>
+                  <p class="agenda-description">Mar Hotel</p>
                 </div>
               </li>
             </ul>
@@ -155,7 +164,8 @@
 
                 <div class="aditional wall-panel">
                   <h4 class="agenda-title" data-i18n="agenda.perspective">Perspectives of Health Management for Olympics 2016.</h4>
-                  <p class="agenda-description" data-i18n="agenda.comingSoon">Comming soon</p>
+                  <span class="moderator" data-i18n="agenda.moderator">Moderator:</span>
+                  <p class="agenda-description" data-i18n="agenda.marcosEbenezerCosta">Marcos Ebenezer Costa (Ministério do Esporte - Brazil), Hellen Harumi Miyamoto (Secretaria Municipal de Saúde do Rio de Janeiro), Cynthia Campos Rangel (Autoridade Pública Olímpica - RJ)</p>
                 </div>
               </li>
 
@@ -198,31 +208,31 @@
               </li>
 
               <li class="agenda-item">
-                <span class="hour" data-i18n="agenda.coffeBreakHour03">03:30 pm</span>
-
-                <div class="aditional coffe-break">
-                  <h4 class="agenda-title" data-i18n="agenda.coffeBreak">COFFEE BREAK.</h4>
-                </div>
-              </li>
-
-              <li class="agenda-item">
-                <span class="hour" data-i18n="agenda.day02Hour06">04:00 pm</span>
+                <span class="hour" data-i18n="agenda.day02Hour06">03:30 pm</span>
 
                 <div class="aditional tech-demo">
                   <h4 class="agenda-title" data-i18n="agenda.techDemo">Tech Demo</h4>
                   <p class="agenda-description" data-i18n="agenda.dodoBiotechDescription">Dodo Biotech Crowdfunding - Vinícius Maracajá Coutinho - Beagle Bioinformatics (Chile)</p>
                   <p class="agenda-description" data-i18n="agenda.dodoBiotechDescription02">Saúde na Copa - Onicio Leal - Epitrack (Brazil)</p>
                   <p class="agenda-description" data-i18n="agenda.dodoBiotechDescription03">Guardiões da Saúde - Wanderson Oliveira - Ministry of Health (Brazil)</p>
-                  <p class="agenda-description" data-i18n="agenda.dodoBiotechDescription04">Big Data: The experience of campaing Proteja o Gol - Colin Pantin - Ministry of Health (Brasil)</p>
+                  <p class="agenda-description" data-i18n="agenda.dodoBiotechDescription04">HIV and Social Media: Advocacy for condom use, for HIV testing, and for the reduction of discrimination - Colin Pantin - Ministry of Health (Brasil), </p>
+                  <p class="agenda-description" data-i18n="agenda.dodoBiotechDescription05">Syndromic Surveillance and Participatory Surveillance: The InfluenzaNET strategy - Sander van Noort - USP</p>
+                </div>
+              </li>
+
+              <li class="agenda-item">
+                <span class="hour" data-i18n="agenda.coffeBreakHour03">04:30 pm</span>
+
+                <div class="aditional rapid-fire">
+                  <h4 class="agenda-title" data-i18n="agenda.coffeBreakInteractiveTables">Coffee Break and Interactive tables</h4>
                 </div>
               </li>
 
               <li class="agenda-item bottom">
-                <span class="hour" data-i18n="agenda.day02Hour07">04:40 pm</span>
+                <span class="hour" data-i18n="agenda.day02Hour07">07:00 pm</span>
 
-                <div class="aditional rapid-fire">
-                  <h4 class="agenda-title" data-i18n="agenda.rapidFireTalk">Interactive tables</h4>
-                  <!-- <p class="agenda-description" data-i18n="agenda.comingSoon">Comming soon</p> -->
+                <div class="aditional dinner">
+                  <h4 class="agenda-title" data-i18n="agenda.dinner02">Dinner</h4>
                 </div>
               </li>
             </ul>
@@ -264,8 +274,8 @@
                 <span class="hour" data-i18n="agenda.lunchHour03">12:00 pm</span>
 
                 <div class="aditional conference">
-                  <h4 class="agenda-title" data-i18n="agenda.closingKeynote">Closing Keynote</h4>
-                  <p class="agenda-description" data-i18n="agenda.josepJansa">Josep Jansa, ECDC</p>
+                  <h4 class="agenda-title" data-i18n="agenda.closingKeynote">Closing Remarks</h4>
+                  <p class="agenda-description" data-i18n="agenda.josepJansa">Josep Jansa - ECDC, Mark Smolinski - SGTF</p>
                 </div>
               </li>
 
