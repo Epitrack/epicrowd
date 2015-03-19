@@ -294,6 +294,7 @@
       </section>
 
       <section id="register" class="row register"> <!-- Inscrições -->
+        <div class="register-off" data-i18n="register.off">Subscriptions closed</div>
         <div class="col-xs-12 col-sm-10 col-sm-offset-1 col-md-10 col-md-offset-1 col-lg-10 col-lg-offset-1">
           <h3 data-i18n="register.title" class="section-title">Inscrições</h3>
 

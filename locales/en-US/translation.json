@@ -118,7 +118,8 @@
     ,"marcosEbenezerCosta" : "Marcos Ebenezer Costa (Ministério do Esporte - Brazil), Hellen Harumi Miyamoto (Secretaria Municipal de Saúde do Rio de Janeiro), Cynthia Campos Rangel (Autoridade Pública Olímpica - RJ)"
   },
   "register": {
-    "title" : "Register"
+    "off" : "Subscriptions closed"
+    ,"title" : "Register"
     ,"text01" : "The event will be limited to 100 people, including guests and the general public. Filling out this form does not ensure your register. After filling you will be told whether your name is registered or if it is on the waiting list. Candidates selected from the waiting list will be notified via email until February 20."
     ,"inputName" : "Name"
     ,"inputEmail" : "Email"

@@ -118,7 +118,8 @@
     ,"marcosEbenezerCosta" : "Marcos Ebenezer Costa (Ministério do Esporte - Brasil), Hellen Harumi Miyamoto (Secretaria Municipal de Saúde do Rio de Janeiro), Cynthia Campos Rangel (Autoridade Pública Olímpica - RJ)"
   },
   "register": {
-    "title" : "Inscrições"
+    "off" : "Inscrições Encerradas"
+    ,"title" : "Inscrições"
     ,"text01" : "O evento será limitado para 100 pessoas, entre convidados e público em geral, e o preenchimento deste formulário não garante sua vaga. Após o preenchimento você será informado se sua inscrição foi validada ou se estará na lista de espera. Os candidatos selecionados a partir da lista de espera serão comunicados via e-mail até 20/02."
     ,"inputName" : "Nome"
     ,"inputEmail" : "Email"
