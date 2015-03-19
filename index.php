@@ -245,7 +245,7 @@
 
                 <div class="aditional conference">
                   <h4 class="agenda-title" data-i18n="agenda.joaoBoscoSiqueira">From academic practices to the services application: how to close links to new issues in public health?</h4>
-                  <p class="agenda-description" data-i18n="agenda.joaoBoscoSiqueira02">João Bosco Siqueira - UFG (Brazil)</p>
+                  <span class="speaker" data-i18n="agenda.speaker">Speaker:</span> <p class="agenda-description" data-i18n="agenda.joaoBoscoSiqueira02">João Bosco Siqueira - UFG (Brazil)</p>
 
                 </div>
               </li>
