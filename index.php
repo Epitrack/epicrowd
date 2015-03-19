@@ -50,11 +50,26 @@
         </div>
       </section>
 
+      <style>
+     .agenda-item .aditional .nome-da-palestra::before{
+      content: "- ";
+     }
+     .agenda-item .aditional .nome-da-palestra {
+        display: block;
+        font-style: italic;
+        font-weight: normal;
+      }
+
+      .agenda-item .aditional span {
+        font-family: "Lucida Grande", sans-serif;
+      }
+      </style>
+
       <section id="agenda" class="row agenda"> <!-- Agenda -->
         <div class="col-xs-12 col-sm-10 col-sm-offset-1 col-md-10 col-md-offset-1 col-lg-10 col-lg-offset-1">
-          <h3 data-i18n="agenda.title" class="section-title">agenda</h3>
+          <h3 data-i18n="[html]agenda.title" class="section-title">agenda</h3>
 
-          <p data-i18n="agenda.subtitle" class="section-text">
+          <p data-i18n="[html]agenda.subtitle" class="section-text">
             Plan your trip considering that the symposium will start at noon of 25/03 and will end at noon of 27/03.
           </p>
         </div>
@@ -62,78 +77,79 @@
         <div id="agenda-tabs" class="agenda-tabs col-xs-12 col-sm-10 col-sm-offset-1 col-md-10 col-md-offset-1 col-lg-10 col-lg-offset-1">
           <ul class="tabs-list">
             <li class="tabs-item">
-              <a href="#day01" data-i18n="agenda.day01">03/25 Wednesday</a>
+              <a href="#day01" data-i18n="[html]agenda.day01">03/25 Wednesday</a>
             </li>
 
             <li class="tabs-item">
-              <a href="#day02" data-i18n="agenda.day02">03/26 Thursday</a>
+              <a href="#day02" data-i18n="[html]agenda.day02">03/26 Thursday</a>
             </li>
 
             <li class="tabs-item">
-              <a href="#day03" data-i18n="agenda.day03">03/27 Friday</a>
+              <a href="#day03" data-i18n="[html]agenda.day03">03/27 Friday</a>
             </li>
           </ul>
 
           <aside id="day01" class="tab-content">
             <ul class="agenda-list">
               <li class="agenda-item top">
-                  <span class="hour" data-i18n="agenda.day01Hour00">12:30 pm</span>
+                  <span class="hour" data-i18n="[html]agenda.day01Hour00">12:30 pm</span>
 
                   <div class="aditional lunch">
-                    <h4 class="agenda-title" data-i18n="agenda.accreditation">Registration - Lunch box</h4>
+                    <h4 class="agenda-title" data-i18n="[html]agenda.accreditation">Registration - Lunch box</h4>
                   </div>
               </li>
 
               <li class="agenda-item">
-                <span class="hour" data-i18n="agenda.day01Hour01">01:00 pm</span>
+                <span class="hour" data-i18n="[html]agenda.day01Hour01">01:00 pm</span>
 
                 <div class="aditional presentation">
-                  <h4 class="agenda-title" data-i18n="agenda.markSmolinski">Welcome remarks and open talk - DDD advances and potential for mass gatherings.</h4>
-                  <p class="agenda-description" data-i18n="agenda.markSmolinskiDescription">Mark Smolinski - Skoll Global Threats Fund (USA), Wanessa Tenório de Oliveira - Ministry of Health (Brazil) Representative of State Health Secretary - Pernambuco (Brazil), Jailson Correia - Health Secretary - Recife (Brazil)</p>
+                  <h4 class="agenda-title" data-i18n="[html]agenda.markSmolinski">Welcome remarks and open talk - DDD advances and potential for mass gatherings.</h4>
+                  <p class="agenda-description" data-i18n="[html]agenda.markSmolinskiDescription">Mark Smolinski - Skoll Global Threats Fund (USA), Wanessa Tenório de Oliveira - Ministry of Health (Brazil) Representative of State Health Secretary - Pernambuco (Brazil), Jailson Correia - Health Secretary - Recife (Brazil)</p>
                 </div>
               </li>
 
               <li class="agenda-item">
-                <span class="hour" data-i18n="agenda.day01Hour02">01:30 pm</span>
+                <span class="hour" data-i18n="[html]agenda.day01Hour02">01:30 pm</span>
 
                 <div class="aditional conference">
-                  <h4 class="agenda-title" data-i18n="agenda.tinaEndericks">The Wonderful World of Mass Gatherings Surveillance.</h4>
-                  <p class="agenda-description" data-i18n="agenda.ziadMemish">Ziad Memish - Saudi Arabia</p>
+                  <h4 class="agenda-title" data-i18n="[html]agenda.tinaEndericks">The Wonderful World of Mass Gatherings Surveillance.</h4>
+                 <span class="speaker" data-i18n="[html]agenda.speaker">Speaker:</span> <p class="agenda-description" data-i18n="[html]agenda.ziadMemish">Ziad Memish - Saudi Arabia</p>
                 </div>
               </li>
 
               <li class="agenda-item">
-                <span class="hour" data-i18n="agenda.day01Hour03">02:45 pm</span>
+                <span class="hour" data-i18n="[html]agenda.day01Hour03">02:45 pm</span>
 
                 <div class="aditional wall-panel">
-                  <h4 class="agenda-title" data-i18n="agenda.dianaBorsaGabrielaGomes">OMG...Is there a Crystal Ball for Pandemics?</h4>
-                  <span class="panelists" data-i18n="agenda.panelists">Panelists:</span> <p class="agenda-description" data-i18n="agenda.dianaBorsaGabrielaGomesDescription01">Gabriela Gomes - Gulbekian Institute (Portugal), Courtney Corley - Pacific Northwest National Laboratory (USA)</p>
-                  <span class="moderator" data-i18n="agenda.moderator">Moderator:</span> <p class="agenda-description" data-i18n="agenda.dianaBorsaGabrielaGomesDescription02">Jones Albuquerque - Epitrack (Brasil)</p>
+                  <h4 class="agenda-title" data-i18n="[html]agenda.dianaBorsaGabrielaGomes">OMG...Is there a Crystal Ball for Pandemics?</h4>
+                  <span class="panelists" data-i18n="[html]agenda.panelists">Panelists</span> <br><p class="agenda-description" data-i18n="[html]agenda.dianaBorsaGabrielaGomesDescription01">Gabriela Gomes - Gulbekian Institute (Portugal), Courtney Corley - Pacific Northwest National Laboratory (USA)</p>
+                  <br><br>
+                  <span class="moderator" data-i18n="[html]agenda.moderator">Moderator</span> <br><p class="agenda-description" data-i18n="[html]agenda.dianaBorsaGabrielaGomesDescription02">Jones Albuquerque - Epitrack (Brasil)</p>
                 </div>
               </li>
 
               <li class="agenda-item">
-                <span class="hour" data-i18n="agenda.coffeBreakHour">03:15 pm</span>
+                <span class="hour" data-i18n="[html]agenda.coffeBreakHour">03:15 pm</span>
 
                 <div class="aditional coffe-break">
-                  <h4 class="agenda-title" data-i18n="agenda.coffeBreak">COFFEE BREAK.</h4>
+                  <h4 class="agenda-title" data-i18n="[html]agenda.coffeBreak">COFFEE BREAK.</h4>
                 </div>
               </li>
 
               <li class="agenda-item">
-                <span class="hour" data-i18n="agenda.day01Hour04">03:45 pm</span>
+                <span class="hour" data-i18n="[html]agenda.day01Hour04">03:45 pm</span>
 
                 <div class="aditional rapid-fire">
-                  <h4 class="agenda-title" data-i18n="agenda.rapidFireTalk">Interactive tables</h4>
-                  <!-- <p class="agenda-description" data-i18n="agenda.comingSoon">Comming soon</p> -->
+                  <h4 class="agenda-title" data-i18n="[html]agenda.rapidFireTalk">Interactive tables</h4>
+                  <!-- <p class="agenda-description" data-i18n="[html]agenda.comingSoon">Comming soon</p> -->
                 </div>
               </li>
 
               <li class="agenda-item bottom">
-                <span class="hour" data-i18n="agenda.dinnerHour">07:00 pm</span>
+                <span class="hour" data-i18n="[html]agenda.dinnerHour">07:00 pm</span>
 
                 <div class="aditional dinner">
-                  <h4 class="agenda-title" data-i18n="agenda.dinner">Welcome dinner</h4>
+                  <h4 class="agenda-title" data-i18n="[html]agenda.dinner">Welcome dinner</h4>
                   <p class="agenda-description">Mar Hotel</p>
                 </div>
               </li>
@@ -143,96 +159,111 @@
           <aside id="day02" class="tab-content">
             <ul class="agenda-list">
               <li class="agenda-item top">
-                <span class="hour" data-i18n="agenda.day02Hour01">9:00 am</span>
+                <span class="hour" data-i18n="[html]agenda.day02Hour01">9:00 am</span>
 
                 <div class="aditional aditional conference">
-                  <h4 class="agenda-title" data-i18n="agenda.silvioMeira">The Last Five Decades of Innovation in Information and Communication Technologies and The Next Five Decades of Innovation in Healthcare.</h4>
-                  <p class="agenda-description" data-i18n="agenda.silvioMeiraDescription">Silvio Meira - IKEWAI, FGV (Brazil)</p>
+                  <h4 class="agenda-title" data-i18n="[html]agenda.silvioMeira">The Last Five Decades of Innovation in Information and Communication Technologies and The Next Five Decades of Innovation in Healthcare.</h4>
+                  <p class="agenda-description" data-i18n="[html]agenda.silvioMeiraDescription">Silvio Meira - IKEWAI, FGV (Brazil)</p>
                 </div>
               </li>
 
               <li class="agenda-item">
-                <span class="hour" data-i18n="agenda.coffeBreakHour02">09:45 am</span>
+                <span class="hour" data-i18n="[html]agenda.coffeBreakHour02">09:45 am</span>
 
                 <div class="aditional coffe-break">
-                  <h4 class="agenda-title" data-i18n="agenda.coffeBreak">COFFEE BREAK.</h4>
+                  <h4 class="agenda-title" data-i18n="[html]agenda.coffeBreak">COFFEE BREAK.</h4>
                 </div>
               </li>
 
               <li class="agenda-item">
-                <span class="hour" data-i18n="agenda.day02Hour02">10:15 am</span>
+                <span class="hour" data-i18n="[html]agenda.day02Hour02">10:15 am</span>
 
                 <div class="aditional wall-panel">
-                  <h4 class="agenda-title" data-i18n="agenda.perspective">Perspectives of Health Management for Olympics 2016.</h4>
-                  <span class="moderator" data-i18n="agenda.moderator">Moderator:</span>
-                  <p class="agenda-description" data-i18n="agenda.marcosEbenezerCosta">Marcos Ebenezer Costa (Ministério do Esporte - Brazil), Hellen Harumi Miyamoto (Secretaria Municipal de Saúde do Rio de Janeiro), Cynthia Campos Rangel (Autoridade Pública Olímpica - RJ)</p>
+                  <h4 class="agenda-title" data-i18n="[html]agenda.perspective">Perspectives of Health Management for Olympics 2016.</h4>
+                  
+                  <span class="panelists" data-i18n="[html]agenda.panelists">Panelists:</span><br>
+                  <p class="agenda-description" data-i18n="[html]agenda.marcosEbenezerCosta01">Hellen Harumi Miyamoto (Secretaria Municipal de Saúde do Rio de Janeiro), Cynthia Campos Rangel (Autoridade Pública Olímpica - RJ)</p>
+<br>
+                  <br>
+                  <span class="moderator" data-i18n="[html]agenda.moderator">Moderator:</span><br>
+                  <p class="agenda-description" data-i18n="[html]agenda.marcosEbenezerCosta02">Marcos Ebenezer Costa (Ministério do Esporte - Brazil)</p>
+                  <br>
                 </div>
               </li>
 
               <li class="agenda-item">
-                <span class="hour" data-i18n="agenda.day02Hour03">11:15 am</span>
+                <span class="hour" data-i18n="[html]agenda.day02Hour03">11:15 am</span>
 
                 <div class="aditional wall-panel">
-                  <h4 class="agenda-title" data-i18n="agenda.amaliaCamaraGuntherEysenbach">Limits of ethics in Public Health 2.0 age.</h4>
-                  <span class="panelists" data-i18n="agenda.panelists">Panelists:</span> <p class="agenda-description" data-i18n="agenda.amaliaCamaraGuntherEysenbachDescripton01">Amalia Camara - Pernambuco University (Brazil), Gunther Eysenbach - Centre for Global eHealth Innovation (Canada)</p>
-                  <span class="moderator" data-i18n="agenda.moderator">Moderator:</span> <p class="agenda-description" data-i18n="agenda.amaliaCamaraGuntherEysenbachDescripton02">Jennifer Olsen - Skoll Global Threats Fund (USA)</p>
+                  <h4 class="agenda-title" data-i18n="[html]agenda.amaliaCamaraGuntherEysenbach">Limits of ethics in Public Health 2.0 age.</h4>
+                  <span class="panelists" data-i18n="[html]agenda.panelists">Panelists:</span><br><p class="agenda-description" data-i18n="[html]agenda.amaliaCamaraGuntherEysenbachDescripton01">Amalia Camara - Pernambuco University (Brazil), Gunther Eysenbach - Centre for Global eHealth Innovation (Canada)</p>
+                  <br>
+                  <br>
+                  <span class="moderator" data-i18n="[html]agenda.moderator">Moderator:</span> <br><p class="agenda-description" data-i18n="[html]agenda.amaliaCamaraGuntherEysenbachDescripton02">Jennifer Olsen - Skoll Global Threats Fund (USA)</p>
                 </div>
               </li>
 
               <li class="agenda-item">
-                <span class="hour" data-i18n="agenda.lunchHour">12:00 am</span>
+                <span class="hour" data-i18n="[html]agenda.lunchHour">12:00 am</span>
 
                 <div class="aditional lunch">
-                  <h4 class="agenda-title" data-i18n="agenda.lunch">Lunch</h4>
+                  <h4 class="agenda-title" data-i18n="[html]agenda.lunch">Lunch</h4>
                 </div>
               </li>
 
               <li class="agenda-item">
-                <span class="hour" data-i18n="agenda.day02Hour04">1:00 pm</span>
+                <span class="hour" data-i18n="[html]agenda.day02Hour04">1:00 pm</span>
 
                 <div class="aditional wall-panel">
-                  <h4 class="agenda-title" data-i18n="agenda.kamranKahAnetteHulth">How deep (epi)technology could go through mass gatherings?</h4>
-                  <span class="panelists" data-i18n="agenda.panelists">Panelists:</span> <p class="agenda-description" data-i18n="agenda.kamranKahAnetteHulthDescription01">Kamran Khan - Toronto University (Canada), Anette Hulth - Public Health Agency (Sweden)</p>
-                  <span class="moderator" data-i18n="agenda.moderator">Moderator:</span> <p class="agenda-description" data-i18n="agenda.kamranKahAnetteHulthDescription02">John Brownstein - Boston Children Hospital (USA)</p>
+                  <h4 class="agenda-title" data-i18n="[html]agenda.kamranKahAnetteHulth">How deep (epi)technology could go through mass gatherings?</h4>
+                  <span class="panelists" data-i18n="[html]agenda.panelists">Panelists:</span> 
+                  <br><p class="agenda-description" data-i18n="[html]agenda.kamranKahAnetteHulthDescription01">Kamran Khan - Toronto University (Canada), Anette Hulth - Public Health Agency (Sweden)</p>
+                  <br><br>
+                  <span class="moderator" data-i18n="[html]agenda.moderator">Moderator:</span> 
+                  <br><p class="agenda-description" data-i18n="[html]agenda.kamranKahAnetteHulthDescription02">John Brownstein - Boston Children Hospital (USA)</p>
                 </div>
               </li>
 
               <li class="agenda-item">
-                <span class="hour" data-i18n="agenda.day02Hour05">02:15 pm</span>
+                <span class="hour" data-i18n="[html]agenda.day02Hour05">02:15 pm</span>
 
                 <div class="aditional wall-panel">
-                  <h4 class="agenda-title" data-i18n="agenda.wandersonOliveiraMichaelJohansson">Strategies for Participatory Surveillance for Mass Gatherings.</h4>
-                  <span class="panelists" data-i18n="agenda.panelists">Panelists:</span> <p class="agenda-description" data-i18n="agenda.wandersonOliveiraMichaelJohanssonDescription01">Wanderson Oliveira - Ministry of Health (Brazil), Michael Johansson - CDC (USA), Bruno Botafogo - Ministry of Health (Brazil)</p>
-                  <span class="moderator" data-i18n="agenda.moderator">Moderator:</span> <p class="agenda-description" data-i18n="agenda.wandersonOliveiraMichaelJohanssonDescription02">Marlo Libel - Skoll Global Threats Fund (USA)</p>
+                  <h4 class="agenda-title" data-i18n="[html]agenda.wandersonOliveiraMichaelJohansson">Strategies for Participatory Surveillance for Mass Gatherings.</h4>
+                  <span class="panelists" data-i18n="[html]agenda.panelists">Panelists:</span> 
+                  <br><p class="agenda-description" data-i18n="[html]agenda.wandersonOliveiraMichaelJohanssonDescription01">Wanderson Oliveira - Ministry of Health (Brazil), Michael Johansson - CDC (USA), Bruno Botafogo - Ministry of Health (Brazil)</p>
+                  <br>
+                  <br>
+                  <span class="moderator" data-i18n="[html]agenda.moderator">Moderator:</span> 
+                  <br><p class="agenda-description" data-i18n="[html]agenda.wandersonOliveiraMichaelJohanssonDescription02">Marlo Libel - Skoll Global Threats Fund (USA)</p>
                 </div>
               </li>
 
               <li class="agenda-item">
-                <span class="hour" data-i18n="agenda.day02Hour06">03:30 pm</span>
+                <span class="hour" data-i18n="[html]agenda.day02Hour06">03:30 pm</span>
 
                 <div class="aditional tech-demo">
-                  <h4 class="agenda-title" data-i18n="agenda.techDemo">Tech Demo</h4>
-                  <p class="agenda-description" data-i18n="agenda.dodoBiotechDescription">Dodo Biotech Crowdfunding - Vinícius Maracajá Coutinho - Beagle Bioinformatics (Chile)</p>
-                  <p class="agenda-description" data-i18n="agenda.dodoBiotechDescription02">Saúde na Copa - Onicio Leal - Epitrack (Brazil)</p>
-                  <p class="agenda-description" data-i18n="agenda.dodoBiotechDescription03">Guardiões da Saúde - Wanderson Oliveira - Ministry of Health (Brazil)</p>
-                  <p class="agenda-description" data-i18n="agenda.dodoBiotechDescription04">HIV and Social Media: Advocacy for condom use, for HIV testing, and for the reduction of discrimination - Colin Pantin - Ministry of Health (Brasil), </p>
-                  <p class="agenda-description" data-i18n="agenda.dodoBiotechDescription05">Syndromic Surveillance and Participatory Surveillance: The InfluenzaNET strategy - Sander van Noort - USP</p>
+                  <h4 class="agenda-title" data-i18n="[html]agenda.techDemo">Tech Demo</h4>
+                  <p class="agenda-description" data-i18n="[html]agenda.dodoBiotechDescription">Dodo Biotech Crowdfunding - Vinícius Maracajá Coutinho - Beagle Bioinformatics (Chile)</p>
+                  <p class="agenda-description" data-i18n="[html]agenda.dodoBiotechDescription02">Saúde na Copa - Onicio Leal - Epitrack (Brazil)</p>
+                  <p class="agenda-description" data-i18n="[html]agenda.dodoBiotechDescription03">Guardiões da Saúde - Wanderson Oliveira - Ministry of Health (Brazil)</p>
+                  <p class="agenda-description" data-i18n="[html]agenda.dodoBiotechDescription04">HIV and Social Media: Advocacy for condom use, for HIV testing, and for the reduction of discrimination - Colin Pantin - Ministry of Health (Brasil), </p>
+                  <p class="agenda-description" data-i18n="[html]agenda.dodoBiotechDescription05">Syndromic Surveillance and Participatory Surveillance: The InfluenzaNET strategy - Sander van Noort - USP</p>
                 </div>
               </li>
 
               <li class="agenda-item">
-                <span class="hour" data-i18n="agenda.coffeBreakHour03">04:30 pm</span>
+                <span class="hour" data-i18n="[html]agenda.coffeBreakHour03">04:30 pm</span>
 
                 <div class="aditional rapid-fire">
-                  <h4 class="agenda-title" data-i18n="agenda.coffeBreakInteractiveTables">Coffee Break and Interactive tables</h4>
+                  <h4 class="agenda-title" data-i18n="[html]agenda.coffeBreakInteractiveTables">Coffee Break and Interactive tables</h4>
                 </div>
               </li>
 
               <li class="agenda-item bottom">
-                <span class="hour" data-i18n="agenda.day02Hour07">07:00 pm</span>
+                <span class="hour" data-i18n="[html]agenda.day02Hour07">07:00 pm</span>
 
                 <div class="aditional dinner">
-                  <h4 class="agenda-title" data-i18n="agenda.dinner02">Dinner</h4>
+                  <h4 class="agenda-title" data-i18n="[html]agenda.dinner02">Dinner</h4>
                 </div>
               </li>
             </ul>
@@ -241,51 +272,57 @@
           <aside id="day03" class="tab-content">
             <ul class="agenda-list">
               <li class="agenda-item top">
-                <span class="hour" data-i18n="agenda.day03Hour01">9:00 am</span>
+                <span class="hour" data-i18n="[html]agenda.day03Hour01">9:00 am</span>
 
                 <div class="aditional conference">
-                  <h4 class="agenda-title" data-i18n="agenda.joaoBoscoSiqueira">From academic practices to the services application: how to close links to new issues in public health?</h4>
-                  <span class="speaker" data-i18n="agenda.speaker">Speaker:</span> <p class="agenda-description" data-i18n="agenda.joaoBoscoSiqueira02">João Bosco Siqueira - UFG (Brazil)</p>
+                  <h4 class="agenda-title" data-i18n="[html]agenda.joaoBoscoSiqueira">From academic practices to the services application: how to close links to new issues in public health?</h4>
+                  <span class="speaker" data-i18n="[html]agenda.speaker">Speaker:</span> <p class="agenda-description" data-i18n="[html]agenda.joaoBoscoSiqueira02">João Bosco Siqueira - UFG (Brazil)</p>
 
                 </div>
               </li>
 
               <li class="agenda-item">
-                <span class="hour" data-i18n="agenda.day03Hour02">9:45 am</span>
+                <span class="hour" data-i18n="[html]agenda.day03Hour02">9:45 am</span>
 
                 <div class="aditional wall-panel">
-                  <h4 class="agenda-title" data-i18n="agenda.rodrigoAngeramiJoaoBoscoSiqueira">Global Health and the impact of dissemination of infectious threats during mass gatherings.</h4>
-                  <span class="panelists" data-i18n="agenda.panelists">Panelists:</span> <p class="agenda-description" data-i18n="agenda.rodrigoAngeramiJoaoBoscoSiqueiraDescrption01">Rodrigo Angerami - Challenges for prevention and control of infectious diseases during mass gatherings: a Global concern - UNICAMP (Brazil), Gary Brunette - Risks to Travelers Attending Mass Gatherings - CDC(EUA)</p>
+                  <h4 class="agenda-title" data-i18n="[html]agenda.rodrigoAngeramiJoaoBoscoSiqueira">Global Health and the impact of dissemination of infectious threats during mass gatherings.</h4>
+                  <span class="panelists" data-i18n="[html]agenda.panelists">Panelists:</span> 
+                  <br><p class="agenda-description" data-i18n="[html]agenda.rodrigoAngeramiJoaoBoscoSiqueiraDescrption01">Rodrigo Angerami - Challenges for prevention and control of infectious diseases during mass gatherings: a Global concern - UNICAMP (Brazil), Gary Brunette - Risks to Travelers Attending Mass Gatherings - CDC(EUA)</p>
                   <br>
-                  <span class="moderator" data-i18n="agenda.moderator">Moderator:</span> <p class="agenda-description" data-i18n="agenda.rodrigoAngeramiJoaoBoscoSiqueiraDescrption02">Mary Wilson - Harvard University (USA)</p>
+                  <br>
+                  <span class="moderator" data-i18n="[html]agenda.moderator">Moderator:</span> 
+                  <br><p class="agenda-description" data-i18n="[html]agenda.rodrigoAngeramiJoaoBoscoSiqueiraDescrption02">Mary Wilson - Harvard University (USA)</p>
                 </div>
               </li>
 
               <li class="agenda-item">
-                <span class="hour" data-i18n="agenda.day03Hour03">11:00 am</span>
+                <span class="hour" data-i18n="[html]agenda.day03Hour03">11:00 am</span>
 
                 <div class="aditional wall-panel">
-                  <h4 class="agenda-title" data-i18n="agenda.jonasBrantLucileneAguiar">How to deliver tools for surveillance during mass gatherings?</h4>
-                  <span class="panelists" data-i18n="agenda.panelists">Panelists:</span> <p class="agenda-description" data-i18n="agenda.jonasBrantLucileneAguiarDescription01">Jonas Brant - Surveillance and real-time data collection during the Brazil world cup 2014 - Redesur (Brasil)</p>
+                  <h4 class="agenda-title" data-i18n="[html]agenda.jonasBrantLucileneAguiar">How to deliver tools for surveillance during mass gatherings?</h4>
+                  <span class="panelists" data-i18n="[html]agenda.panelists">Panelists:</span> 
+                  <br><p class="agenda-description" data-i18n="[html]agenda.jonasBrantLucileneAguiarDescription01">Jonas Brant - Surveillance and real-time data collection during the Brazil world cup 2014 - Redesur (Brasil)</p>
                   <br>
-                  <span class="moderator" data-i18n="agenda.moderator">Moderator:</span> <p class="agenda-description" data-i18n="agenda.jonasBrantLucileneAguiarDescription02">George Dimech - Pernambuco Health state department (Brazil)</p>
+                  <br>
+                  <span class="moderator" data-i18n="[html]agenda.moderator">Moderator:</span> 
+                  <br><p class="agenda-description" data-i18n="[html]agenda.jonasBrantLucileneAguiarDescription02">George Dimech - Pernambuco Health state department (Brazil)</p>
                 </div>
               </li>
 
               <li class="agenda-item">
-                <span class="hour" data-i18n="agenda.lunchHour03">12:00 pm</span>
+                <span class="hour" data-i18n="[html]agenda.lunchHour03">12:00 pm</span>
 
                 <div class="aditional conference">
-                  <h4 class="agenda-title" data-i18n="agenda.closingKeynote">Closing Remarks</h4>
-                  <span class="speaker" data-i18n="agenda.speaker">Speaker:</span> <p class="agenda-description" data-i18n="agenda.josepJansa">Mark Smolinski - SGTF</p>
+                  <h4 class="agenda-title" data-i18n="[html]agenda.closingKeynote">Closing Remarks</h4>
+                  <span class="speaker" data-i18n="[html]agenda.speaker">Speaker:</span> <p class="agenda-description" data-i18n="[html]agenda.josepJansa">Mark Smolinski - SGTF</p>
                 </div>
               </li>
 
               <li class="agenda-item bottom">
-                <span class="hour" data-i18n="agenda.lunchHour02">12:30 pm</span>
+                <span class="hour" data-i18n="[html]agenda.lunchHour02">12:30 pm</span>
 
                 <div class="aditional lunch">
-                  <h4 class="agenda-title" data-i18n="agenda.lunch02">Lunch</h4>
+                  <h4 class="agenda-title" data-i18n="[html]agenda.lunch02">Lunch</h4>
                 </div>
               </li>
             </ul>
