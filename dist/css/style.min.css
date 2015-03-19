@@ -7654,7 +7654,7 @@ svg {
   }
   /* line 1145, ../../src/sass/_general.scss */
   .agenda-item .hour {
-    line-height: 135px;
+    line-height: 145px;
     display: inline-block;
     width: 18%;
     border-bottom: 0;

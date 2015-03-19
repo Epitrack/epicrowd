@@ -255,7 +255,8 @@
 
                 <div class="aditional wall-panel">
                   <h4 class="agenda-title" data-i18n="agenda.rodrigoAngeramiJoaoBoscoSiqueira">Global Health and the impact of dissemination of infectious threats during mass gatherings.</h4>
-                  <span class="panelists" data-i18n="agenda.panelists">Panelists:</span> <p class="agenda-description" data-i18n="agenda.rodrigoAngeramiJoaoBoscoSiqueiraDescrption01">Rodrigo Angerami - UNICAMP (Brazil), Gary Brunette - CDC(USA)</p>
+                  <span class="panelists" data-i18n="agenda.panelists">Panelists:</span> <p class="agenda-description" data-i18n="agenda.rodrigoAngeramiJoaoBoscoSiqueiraDescrption01">Rodrigo Angerami - Challenges for prevention and control of infectious diseases during mass gatherings: a Global concern - UNICAMP (Brazil), Gary Brunette - Risks to Travelers Attending Mass Gatherings - CDC(EUA)</p>
+                  <br>
                   <span class="moderator" data-i18n="agenda.moderator">Moderator:</span> <p class="agenda-description" data-i18n="agenda.rodrigoAngeramiJoaoBoscoSiqueiraDescrption02">Mary Wilson - Harvard University (USA)</p>
                 </div>
               </li>
@@ -265,7 +266,8 @@
 
                 <div class="aditional wall-panel">
                   <h4 class="agenda-title" data-i18n="agenda.jonasBrantLucileneAguiar">How to deliver tools for surveillance during mass gatherings?</h4>
-                  <span class="panelists" data-i18n="agenda.panelists">Panelists:</span> <p class="agenda-description" data-i18n="agenda.jonasBrantLucileneAguiarDescription01">Jonas Brant - Redesur (Brazil), Lucilene Aguiar - Pernambuco Health state department (Brazil)</p>
+                  <span class="panelists" data-i18n="agenda.panelists">Panelists:</span> <p class="agenda-description" data-i18n="agenda.jonasBrantLucileneAguiarDescription01">Jonas Brant - Surveillance and real-time data collection during the Brazil world cup 2014 - Redesur (Brasil)</p>
+                  <br>
                   <span class="moderator" data-i18n="agenda.moderator">Moderator:</span> <p class="agenda-description" data-i18n="agenda.jonasBrantLucileneAguiarDescription02">George Dimech - Pernambuco Health state department (Brazil)</p>
                 </div>
               </li>
@@ -275,7 +277,7 @@
 
                 <div class="aditional conference">
                   <h4 class="agenda-title" data-i18n="agenda.closingKeynote">Closing Remarks</h4>
-                  <p class="agenda-description" data-i18n="agenda.josepJansa">Josep Jansa - ECDC, Mark Smolinski - SGTF</p>
+                  <span class="speaker" data-i18n="agenda.speaker">Speaker:</span> <p class="agenda-description" data-i18n="agenda.josepJansa">Mark Smolinski - SGTF</p>
                 </div>
               </li>
 
