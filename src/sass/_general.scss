@@ -1172,7 +1172,7 @@ svg {
     }
 
     .hour {
-      line-height: 145px;
+      line-height: 100px;
       display: inline-block;
       width: 18%;
       border-bottom: 0;
@@ -1227,9 +1227,23 @@ svg {
 
   .agenda-item {
     .hour {
-      line-height: 235px;
+      // line-height: 235px;
       padding-left: 0;
       text-align: center;
+
+      &.day01Hour01 { line-height: 170px; }
+      &.day01Hour03 { line-height: 230px; }
+
+      &.day02Hour01 { line-height: 160px; }
+      &.day02Hour02 { line-height: 160px; }
+      &.day02Hour03 { line-height: 160px; }
+      &.day02Hour04 { line-height: 200px; }
+      &.day02Hour05 { line-height: 160px; }
+      &.day02Hour06 { line-height: 170px; }
+
+      &.day03Hour01 { line-height: 115px; }
+      &.day03Hour02 { line-height: 205px; }
+      &.day03Hour03 { line-height: 180px; }
     }
   }
 

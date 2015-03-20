@@ -100,7 +100,7 @@
               </li>
 
               <li class="agenda-item">
-                <span class="hour" data-i18n="[html]agenda.day01Hour01">01:00 pm</span>
+                <span class="hour day01Hour01" data-i18n="[html]agenda.day01Hour01">01:00 pm</span>
 
                 <div class="aditional presentation">
                   <h4 class="agenda-title" data-i18n="[html]agenda.markSmolinski">Welcome remarks and open talk - DDD advances and potential for mass gatherings.</h4>
@@ -118,7 +118,7 @@
               </li>
 
               <li class="agenda-item">
-                <span class="hour" data-i18n="[html]agenda.day01Hour03">02:45 pm</span>
+                <span class="hour day01Hour03" data-i18n="[html]agenda.day01Hour03">02:45 pm</span>
 
                 <div class="aditional wall-panel">
                   <h4 class="agenda-title" data-i18n="[html]agenda.dianaBorsaGabrielaGomes">OMG...Is there a Crystal Ball for Pandemics?</h4>
@@ -159,10 +159,11 @@
           <aside id="day02" class="tab-content">
             <ul class="agenda-list">
               <li class="agenda-item top">
-                <span class="hour" data-i18n="[html]agenda.day02Hour01">9:00 am</span>
+                <span class="hour day02Hour01" data-i18n="[html]agenda.day02Hour01">9:00 am</span>
 
                 <div class="aditional aditional conference">
                   <h4 class="agenda-title" data-i18n="[html]agenda.silvioMeira">The Last Five Decades of Innovation in Information and Communication Technologies and The Next Five Decades of Innovation in Healthcare.</h4>
+                  <span class="speaker" data-i18n="[html]agenda.speaker">Speaker:</span> <br>
                   <p class="agenda-description" data-i18n="[html]agenda.silvioMeiraDescription">Silvio Meira - IKEWAI, FGV (Brazil)</p>
                 </div>
               </li>
@@ -176,7 +177,7 @@
               </li>
 
               <li class="agenda-item">
-                <span class="hour" data-i18n="[html]agenda.day02Hour02">10:15 am</span>
+                <span class="hour day02Hour02" data-i18n="[html]agenda.day02Hour02">10:15 am</span>
 
                 <div class="aditional wall-panel">
                   <h4 class="agenda-title" data-i18n="[html]agenda.perspective">Perspectives of Health Management for Olympics 2016.</h4>
@@ -192,7 +193,7 @@
               </li>
 
               <li class="agenda-item">
-                <span class="hour" data-i18n="[html]agenda.day02Hour03">11:15 am</span>
+                <span class="hour day02Hour03" data-i18n="[html]agenda.day02Hour03">11:15 am</span>
 
                 <div class="aditional wall-panel">
                   <h4 class="agenda-title" data-i18n="[html]agenda.amaliaCamaraGuntherEysenbach">Limits of ethics in Public Health 2.0 age.</h4>
@@ -212,7 +213,7 @@
               </li>
 
               <li class="agenda-item">
-                <span class="hour" data-i18n="[html]agenda.day02Hour04">1:00 pm</span>
+                <span class="hour day02Hour04" data-i18n="[html]agenda.day02Hour04">1:00 pm</span>
 
                 <div class="aditional wall-panel">
                   <h4 class="agenda-title" data-i18n="[html]agenda.kamranKahAnetteHulth">How deep (epi)technology could go through mass gatherings?</h4>
@@ -225,7 +226,7 @@
               </li>
 
               <li class="agenda-item">
-                <span class="hour" data-i18n="[html]agenda.day02Hour05">02:15 pm</span>
+                <span class="hour day02Hour05" data-i18n="[html]agenda.day02Hour05">02:15 pm</span>
 
                 <div class="aditional wall-panel">
                   <h4 class="agenda-title" data-i18n="[html]agenda.wandersonOliveiraMichaelJohansson">Strategies for Participatory Surveillance for Mass Gatherings.</h4>
@@ -239,14 +240,18 @@
               </li>
 
               <li class="agenda-item">
-                <span class="hour" data-i18n="[html]agenda.day02Hour06">03:30 pm</span>
+                <span class="hour day02Hour06" data-i18n="[html]agenda.day02Hour06">03:30 pm</span>
 
                 <div class="aditional tech-demo">
                   <h4 class="agenda-title" data-i18n="[html]agenda.techDemo">Tech Demo</h4>
                   <p class="agenda-description" data-i18n="[html]agenda.dodoBiotechDescription">Dodo Biotech Crowdfunding - Vinícius Maracajá Coutinho - Beagle Bioinformatics (Chile)</p>
+                  <br>
                   <p class="agenda-description" data-i18n="[html]agenda.dodoBiotechDescription02">Saúde na Copa - Onicio Leal - Epitrack (Brazil)</p>
+                  <br>
                   <p class="agenda-description" data-i18n="[html]agenda.dodoBiotechDescription03">Guardiões da Saúde - Wanderson Oliveira - Ministry of Health (Brazil)</p>
+                  <br>
                   <p class="agenda-description" data-i18n="[html]agenda.dodoBiotechDescription04">HIV and Social Media: Advocacy for condom use, for HIV testing, and for the reduction of discrimination - Colin Pantin - Ministry of Health (Brasil), </p>
+                  <br>
                   <p class="agenda-description" data-i18n="[html]agenda.dodoBiotechDescription05">Syndromic Surveillance and Participatory Surveillance: The InfluenzaNET strategy - Sander van Noort - USP</p>
                 </div>
               </li>
@@ -273,7 +278,7 @@
           <aside id="day03" class="tab-content">
             <ul class="agenda-list">
               <li class="agenda-item top">
-                <span class="hour" data-i18n="[html]agenda.day03Hour01">9:00 am</span>
+                <span class="hour day03Hour01" data-i18n="[html]agenda.day03Hour01">9:00 am</span>
 
                 <div class="aditional conference">
                   <h4 class="agenda-title" data-i18n="[html]agenda.joaoBoscoSiqueira">From academic practices to the services application: how to close links to new issues in public health?</h4>
@@ -283,7 +288,7 @@
               </li>
 
               <li class="agenda-item">
-                <span class="hour" data-i18n="[html]agenda.day03Hour02">9:45 am</span>
+                <span class="hour day03Hour02" data-i18n="[html]agenda.day03Hour02">9:45 am</span>
 
                 <div class="aditional wall-panel">
                   <h4 class="agenda-title" data-i18n="[html]agenda.rodrigoAngeramiJoaoBoscoSiqueira">Global Health and the impact of dissemination of infectious threats during mass gatherings.</h4>
@@ -297,7 +302,7 @@
               </li>
 
               <li class="agenda-item">
-                <span class="hour" data-i18n="[html]agenda.day03Hour03">11:00 am</span>
+                <span class="hour day03Hour03" data-i18n="[html]agenda.day03Hour03">11:00 am</span>
 
                 <div class="aditional wall-panel">
                   <h4 class="agenda-title" data-i18n="[html]agenda.jonasBrantLucileneAguiar">How to deliver tools for surveillance during mass gatherings?</h4>

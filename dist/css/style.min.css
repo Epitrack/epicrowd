@@ -7686,7 +7686,7 @@ svg {
   }
   /* line 1174, ../../src/sass/_general.scss */
   .agenda-item .hour {
-    line-height: 145px;
+    line-height: 100px;
     display: inline-block;
     width: 18%;
     border-bottom: 0;
@@ -7743,18 +7743,61 @@ svg {
 
   /* line 1229, ../../src/sass/_general.scss */
   .agenda-item .hour {
-    line-height: 235px;
     padding-left: 0;
     text-align: center;
   }
-
+  /* line 1234, ../../src/sass/_general.scss */
+  .agenda-item .hour.day01Hour01 {
+    line-height: 170px;
+  }
+  /* line 1235, ../../src/sass/_general.scss */
+  .agenda-item .hour.day01Hour03 {
+    line-height: 230px;
+  }
   /* line 1237, ../../src/sass/_general.scss */
+  .agenda-item .hour.day02Hour01 {
+    line-height: 160px;
+  }
+  /* line 1238, ../../src/sass/_general.scss */
+  .agenda-item .hour.day02Hour02 {
+    line-height: 160px;
+  }
+  /* line 1239, ../../src/sass/_general.scss */
+  .agenda-item .hour.day02Hour03 {
+    line-height: 160px;
+  }
+  /* line 1240, ../../src/sass/_general.scss */
+  .agenda-item .hour.day02Hour04 {
+    line-height: 200px;
+  }
+  /* line 1241, ../../src/sass/_general.scss */
+  .agenda-item .hour.day02Hour05 {
+    line-height: 160px;
+  }
+  /* line 1242, ../../src/sass/_general.scss */
+  .agenda-item .hour.day02Hour06 {
+    line-height: 170px;
+  }
+  /* line 1244, ../../src/sass/_general.scss */
+  .agenda-item .hour.day03Hour01 {
+    line-height: 115px;
+  }
+  /* line 1245, ../../src/sass/_general.scss */
+  .agenda-item .hour.day03Hour02 {
+    line-height: 205px;
+  }
+  /* line 1246, ../../src/sass/_general.scss */
+  .agenda-item .hour.day03Hour03 {
+    line-height: 180px;
+  }
+
+  /* line 1251, ../../src/sass/_general.scss */
   .register.off {
     height: auto;
     overflow: visible;
   }
 
-  /* line 1243, ../../src/sass/_general.scss */
+  /* line 1257, ../../src/sass/_general.scss */
   .register-off {
     padding-top: 30%;
     font-size: 7rem;
