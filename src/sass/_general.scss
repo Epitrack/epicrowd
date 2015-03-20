@@ -1180,6 +1180,13 @@ svg {
       padding-left: 10px;
       font-size: $fs-small;
       border-right: 3px solid $color-primary;
+
+      &.day01Hour02 { line-height: 130px; }
+      &.day02Hour02 { line-height: 190px; }
+      &.day02Hour04 { line-height: 240px; }
+      &.day02Hour05 { line-height: 190px; }
+      &.day02Hour06 { line-height: 190px; }
+      &.day03Hour03 { line-height: 220px; }
     }
 
     .aditional {

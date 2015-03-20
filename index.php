@@ -109,7 +109,7 @@
               </li>
 
               <li class="agenda-item">
-                <span class="hour" data-i18n="[html]agenda.day01Hour02">01:30 pm</span>
+                <span class="hour day01Hour02" data-i18n="[html]agenda.day01Hour02">01:30 pm</span>
 
                 <div class="aditional conference">
                   <h4 class="agenda-title" data-i18n="[html]agenda.tinaEndericks">The Wonderful World of Mass Gatherings Surveillance.</h4>
