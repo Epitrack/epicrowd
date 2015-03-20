@@ -180,10 +180,10 @@
 
                 <div class="aditional wall-panel">
                   <h4 class="agenda-title" data-i18n="[html]agenda.perspective">Perspectives of Health Management for Olympics 2016.</h4>
-                  
+
                   <span class="panelists" data-i18n="[html]agenda.panelists">Panelists:</span><br>
                   <p class="agenda-description" data-i18n="[html]agenda.marcosEbenezerCosta01">Hellen Harumi Miyamoto (Secretaria Municipal de Saúde do Rio de Janeiro), Cynthia Campos Rangel (Autoridade Pública Olímpica - RJ)</p>
-<br>
+                  <br>
                   <br>
                   <span class="moderator" data-i18n="[html]agenda.moderator">Moderator:</span><br>
                   <p class="agenda-description" data-i18n="[html]agenda.marcosEbenezerCosta02">Marcos Ebenezer Costa (Ministério do Esporte - Brazil)</p>
@@ -196,7 +196,7 @@
 
                 <div class="aditional wall-panel">
                   <h4 class="agenda-title" data-i18n="[html]agenda.amaliaCamaraGuntherEysenbach">Limits of ethics in Public Health 2.0 age.</h4>
-                  <span class="panelists" data-i18n="[html]agenda.panelists">Panelists:</span><br><p class="agenda-description" data-i18n="[html]agenda.amaliaCamaraGuntherEysenbachDescripton01">Amalia Camara - Pernambuco University (Brazil), Gunther Eysenbach - Centre for Global eHealth Innovation (Canada)</p>
+                  <span class="panelists" data-i18n="[html]agenda.panelists">Panelists:</span><br><p class="agenda-description" data-i18n="[html]agenda.amaliaCamaraGuntherEysenbachDescripton01">Amalia Camara - Big Data, EHR and Ethics. - Pernambuco University (Brazil), Gunther Eysenbach - Centre for Global eHealth Innovation (Canada)</p>
                   <br>
                   <br>
                   <span class="moderator" data-i18n="[html]agenda.moderator">Moderator:</span> <br><p class="agenda-description" data-i18n="[html]agenda.amaliaCamaraGuntherEysenbachDescripton02">Jennifer Olsen - Skoll Global Threats Fund (USA)</p>
@@ -216,11 +216,11 @@
 
                 <div class="aditional wall-panel">
                   <h4 class="agenda-title" data-i18n="[html]agenda.kamranKahAnetteHulth">How deep (epi)technology could go through mass gatherings?</h4>
-                  <span class="panelists" data-i18n="[html]agenda.panelists">Panelists:</span> 
-                  <br><p class="agenda-description" data-i18n="[html]agenda.kamranKahAnetteHulthDescription01">Kamran Khan - Toronto University (Canada), Anette Hulth - Public Health Agency (Sweden)</p>
+                  <span class="panelists" data-i18n="[html]agenda.panelists">Panelists:</span>
+                  <br><p class="agenda-description" data-i18n="[html]agenda.kamranKahAnetteHulthDescription01">Kamran Khan - Integrating Global Epidemic Surveillance with Knowledge of Global Population Mobility to Anticipate Infectious Disease Risks during Mass Gatherings - Toronto University (Canada), Anette Hulth - Digital Data to Action - Public Health Agency (Sweden)</p>
                   <br><br>
-                  <span class="moderator" data-i18n="[html]agenda.moderator">Moderator:</span> 
-                  <br><p class="agenda-description" data-i18n="[html]agenda.kamranKahAnetteHulthDescription02">John Brownstein - Boston Children Hospital (USA)</p>
+                  <span class="moderator" data-i18n="[html]agenda.moderator">Moderator:</span>
+                  <br><p class="agenda-description" data-i18n="[html]agenda.kamranKahAnetteHulthDescription02">John Brownstein - Harnessing the new technologies for disease surveillance or just Digital Disease Detection. - Boston Children Hospital (EUA)</p>
                 </div>
               </li>
 
@@ -229,11 +229,11 @@
 
                 <div class="aditional wall-panel">
                   <h4 class="agenda-title" data-i18n="[html]agenda.wandersonOliveiraMichaelJohansson">Strategies for Participatory Surveillance for Mass Gatherings.</h4>
-                  <span class="panelists" data-i18n="[html]agenda.panelists">Panelists:</span> 
-                  <br><p class="agenda-description" data-i18n="[html]agenda.wandersonOliveiraMichaelJohanssonDescription01">Wanderson Oliveira - Ministry of Health (Brazil), Michael Johansson - CDC (USA), Bruno Botafogo - Ministry of Health (Brazil)</p>
+                  <span class="panelists" data-i18n="[html]agenda.panelists">Panelists:</span>
+                  <br><p class="agenda-description" data-i18n="[html]agenda.wandersonOliveiraMichaelJohanssonDescription01">Michael Johansson - CDC (USA), Bruno Botafogo - Ministry of Health (Brazil)</p>
                   <br>
                   <br>
-                  <span class="moderator" data-i18n="[html]agenda.moderator">Moderator:</span> 
+                  <span class="moderator" data-i18n="[html]agenda.moderator">Moderator:</span>
                   <br><p class="agenda-description" data-i18n="[html]agenda.wandersonOliveiraMichaelJohanssonDescription02">Marlo Libel - Skoll Global Threats Fund (USA)</p>
                 </div>
               </li>
@@ -264,6 +264,7 @@
 
                 <div class="aditional dinner">
                   <h4 class="agenda-title" data-i18n="[html]agenda.dinner02">Dinner</h4>
+                  <p class="agenda-description" data-i18n="agenda.dinnerParty"></p>
                 </div>
               </li>
             </ul>
@@ -286,11 +287,11 @@
 
                 <div class="aditional wall-panel">
                   <h4 class="agenda-title" data-i18n="[html]agenda.rodrigoAngeramiJoaoBoscoSiqueira">Global Health and the impact of dissemination of infectious threats during mass gatherings.</h4>
-                  <span class="panelists" data-i18n="[html]agenda.panelists">Panelists:</span> 
+                  <span class="panelists" data-i18n="[html]agenda.panelists">Panelists:</span>
                   <br><p class="agenda-description" data-i18n="[html]agenda.rodrigoAngeramiJoaoBoscoSiqueiraDescrption01">Rodrigo Angerami - Challenges for prevention and control of infectious diseases during mass gatherings: a Global concern - UNICAMP (Brazil), Gary Brunette - Risks to Travelers Attending Mass Gatherings - CDC(EUA)</p>
                   <br>
                   <br>
-                  <span class="moderator" data-i18n="[html]agenda.moderator">Moderator:</span> 
+                  <span class="moderator" data-i18n="[html]agenda.moderator">Moderator:</span>
                   <br><p class="agenda-description" data-i18n="[html]agenda.rodrigoAngeramiJoaoBoscoSiqueiraDescrption02">Mary Wilson - Harvard University (USA)</p>
                 </div>
               </li>
@@ -300,11 +301,12 @@
 
                 <div class="aditional wall-panel">
                   <h4 class="agenda-title" data-i18n="[html]agenda.jonasBrantLucileneAguiar">How to deliver tools for surveillance during mass gatherings?</h4>
-                  <span class="panelists" data-i18n="[html]agenda.panelists">Panelists:</span> 
-                  <br><p class="agenda-description" data-i18n="[html]agenda.jonasBrantLucileneAguiarDescription01">Jonas Brant - Surveillance and real-time data collection during the Brazil world cup 2014 - Redesur (Brasil)</p>
+                  <span class="panelists" data-i18n="[html]agenda.panelists">Panelists:</span>
+                  <br><p class="agenda-description" data-i18n="[html]agenda.jonasBrantLucileneAguiarDescription01">Jonas Brant - Surveillance and real-time data collection during the Brazil world cup 2014 - Redesur (Brazil)</p>
+                  <br><p class="agenda-description" data-i18n="[html]agenda.jonasBrantLucileneAguiarDescription03">Lucilene Rafael - Ambiente de Monitoramento de Risco: Experiência de Pernambuco em Eventos de Massa. - Secretaria Estadual de Saúde de Pernambuco (Brasil)</p>
                   <br>
                   <br>
-                  <span class="moderator" data-i18n="[html]agenda.moderator">Moderator:</span> 
+                  <span class="moderator" data-i18n="[html]agenda.moderator">Moderator:</span>
                   <br><p class="agenda-description" data-i18n="[html]agenda.jonasBrantLucileneAguiarDescription02">George Dimech - Pernambuco Health state department (Brazil)</p>
                 </div>
               </li>
@@ -330,7 +332,7 @@
         </div>
       </section>
 
-      <section id="register" class="row register"> <!-- Inscrições -->
+      <section id="register" class="row register off"> <!-- Inscrições -->
         <div class="register-off" data-i18n="register.off">Subscriptions closed</div>
         <div class="col-xs-12 col-sm-10 col-sm-offset-1 col-md-10 col-md-offset-1 col-lg-10 col-lg-offset-1">
           <h3 data-i18n="register.title" class="section-title">Inscrições</h3>

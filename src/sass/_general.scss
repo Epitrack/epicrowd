@@ -807,6 +807,11 @@ svg {
     color: $color-secondary;
     margin: 0 0 30px 10px;
   }
+
+  &.off {
+    height: 260px;
+    overflow: hidden;
+  }
 }
 
 .register-off {
@@ -818,11 +823,11 @@ svg {
   position: absolute;
   z-index: 2;
   opacity: .9;
-  line-height: 400px;
+  padding-top: 50%;
   color: #fff;
+  font-size: ($fs-extra-large)-1;
   text-align: center;
   text-transform: uppercase;
-  font-size: 70px;
 }
 
 .help-block {
@@ -938,7 +943,14 @@ svg {
   &:hover { opacity: .5; }
 }
 
-.organized-image { @include scale(.9); }
+.organized-image {
+  @include scale(.9);
+
+  &:last-child {
+    @include scale(.8);
+    margin-left: -70px;
+  }
+}
 
 
 //
@@ -1215,9 +1227,22 @@ svg {
 
   .agenda-item {
     .hour {
+      line-height: 235px;
       padding-left: 0;
       text-align: center;
     }
+  }
+
+  .register {
+    &.off {
+      height: auto;
+      overflow: visible;
+    }
+  }
+
+  .register-off {
+    padding-top: 30%;
+    font-size: ($fs-extra-large)+2;
   }
 }
 
