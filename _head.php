@@ -5,7 +5,7 @@
 <head>
   <meta charset="utf-8" />
 
-  <title><?php echo _TITLE ?>:</title>
+  <title><?php echo _TITLE ?></title>
 
   <!-- META TAGS -->
   <meta name="viewport" content="width=device-width, user-scalable=no">
