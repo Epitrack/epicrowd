@@ -104,7 +104,7 @@
 
                 <div class="aditional presentation">
                   <h4 class="agenda-title" data-i18n="[html]agenda.markSmolinski">Welcome remarks and open talk - DDD advances and potential for mass gatherings.</h4>
-                  <p class="agenda-description" data-i18n="[html]agenda.markSmolinskiDescription">Mark Smolinski - Skoll Global Threats Fund (USA), Wanessa Tenório de Oliveira - Ministry of Health (Brazil) Representative of State Health Secretary - Pernambuco (Brazil), Jailson Correia - Health Secretary - Recife (Brazil)</p>
+                  <p class="agenda-description" data-i18n="[html]agenda.markSmolinskiDescription">Mark Smolinski - Skoll Global Threats Fund (USA), Wanessa Tenório de Oliveira - Ministry of Health (Brazil) Luciana Caroline Albuquerque - Representative of State Health Secretary - Pernambuco (Brazil), Jailson Correia - Health Secretary - Recife (Brazil)</p>
                 </div>
               </li>
 
