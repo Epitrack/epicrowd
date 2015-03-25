@@ -4,9 +4,7 @@
 
 body { font-size: $fs-root; }
 
-svg {
-  font-family: $ff-svg !important;
-}
+svg { font-family: $ff-svg !important; }
 
 ::-moz-selection {
   background: $color-primary;
@@ -380,6 +378,37 @@ svg {
   font-family: $ff-secondary;
 }
 
+.streaming {
+  width: 97px;
+  height: 117px;
+  position: absolute;
+  z-index: 999;
+  top: 60%;
+  right: 0;
+  border: none;
+  outline: none;
+  background-color: transparent;
+  background-repeat: no-repeat;
+  background-size: 100%;
+  text-indent: -9999px;
+  @include apr(none);
+
+  &.en {
+    @include path('tag-streaming-en.svg');
+
+    &:hover {
+      @include path('tag-streaming-en-hover.svg');
+    }
+  }
+
+  &.pt {
+    @include path('tag-streaming-pt.svg');
+
+    &:hover {
+      @include path('tag-streaming-pt-hover.svg');
+    }
+  }
+}
 
 //
 // About
@@ -509,6 +538,14 @@ svg {
       font-family: $ff-secondary;
       font-size: $fs-extra-small;
       display: inline;
+    }
+
+    .nome-da-palestra {
+      display: block;
+      font-style: italic;
+      font-weight: normal;
+
+      &::before { content: '-'; }
     }
 
     &::before {
@@ -724,7 +761,6 @@ svg {
     font-size: $fs-small;
   }
 }
-
 
 .location-map {
   width: 100%;
@@ -1211,6 +1247,13 @@ svg {
 
 // Desktops
 @media (min-width: 992px) {
+  .streaming {
+    width: 165px;
+    height: 190px;
+    top: 30%;
+    position: fixed;
+  }
+
   .header-primary {
     background-position: center 63%;
     overflow: hidden;

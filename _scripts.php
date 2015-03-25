@@ -1,7 +1,6 @@
 <!-- JS -->
 <script src="dist/js/libs.min.js"></script>
 <script src="dist/js/scripts.min.js"></script>
-
 <script src="http://maps.googleapis.com/maps/api/js?key=AIzaSyBaTdjugjXQ2DuUsARrnV8sb1dVoGtIqCI&sensor=false"></script>
 <script>APP.init()</script>
 

@@ -1,0 +1,57 @@
+<script type="text/javascript" src="http://push.interrogacaodigital.net/jwplayer/6.7/jwplayer.js"></script>
+<script type="text/javascript">jwplayer.key="B3KPBmSrht1o6X0ftNMxGIHyCeDku/RuSDC8jBsLcRY=";</script>
+<script src='http://push.interrogacaodigital.net/multiplayer-aovivo/comum/AC_OETags.js' type='text/javascript'></script>
+<script src='http://push.interrogacaodigital.net/multiplayer-aovivo/comum/browserdetect.js' type='text/javascript'></script>
+
+<div id='multiplayer_ID'>Player Area</div>
+<script type='text/javascript'>
+  var ResourceID="960502905";
+  var StreamName="jmsolucoes";
+  var ImageScreen="http://www.interrogacaodigital.com/figs/player_telainicial_pre.jpg";
+  var Width="640";
+  var Height="360";
+
+  var requiredMajorVersion = 8;
+  var requiredMinorVersion = 0;
+  var requiredRevision = 0;
+  var hasReqestedVersion = DetectFlashVer(requiredMajorVersion, requiredMinorVersion, requiredRevision);
+  if (hasReqestedVersion) {
+    jwplayer('multiplayer_ID').setup({
+      'id': 'multiplayer_ID',
+      'width': Width,
+      'height': Height,
+      'autostart': 'true',
+      'fallback': 'true',
+      'primary': 'flash',
+      'repeat': 'true',
+      'fullscreen': 'true',
+
+    playlist: [{
+        image:  ImageScreen,
+        sources: [
+        { file: "http://video.idglobalcdn.net/" + ResourceID + "/" + StreamName + ".smil"},
+        { file: "http://video.idglobalcdn.net/" + ResourceID + "/" + StreamName + ".m3u8"},
+        { file: "http://video.idglobalcdn.net/" + ResourceID + "/" + StreamName + ".f4m"},
+        { file: "http://video.idglobalcdn.net/" + ResourceID + "/" + StreamName + ".ism"}
+          ]
+        }]
+    });
+  } else {
+    var audioTagSupport = !!(document.createElement('video').canPlayType);
+    if ( !audioTagSupport ) {
+    } else {
+        if(BrowserDetect.OS == 'iPhone/iPod') {
+          document.getElementById('multiplayer_ID').innerHTML = "<video width=" + Width + " height=" + Height + " controls poster=" + ImageScreen + " preload=none><source src=http://video.idglobalcdn.net/" + ResourceID + "/" + StreamName + ".m3u8 ></source></video>"
+        } else if(BrowserDetect.OS == 'Linux') {
+          document.getElementById('multiplayer_ID').innerHTML = "<video width=" + Width + " height=" + Height + " controls poster=" + ImageScreen + " preload=none><source src=http://video.idglobalcdn.net/" + ResourceID + "/" + StreamName + ".m3u8 ></source></video>"
+        }
+    }
+  }
+</script>
+
+
+<div id='multiplayer_ID_2'>Player Mobile</div>
+<script type='text/javascript'>
+  var MobileDevices="<P><FONT FACE=Calibri,Verdana,Arial>Assista em seu <A HREF=http://video.idglobalcdn.net/" + ResourceID + "/" + StreamName + ".m3u8><IMG align=texttop border=0 SRC=http://www.interrogacaodigital.com/figs/ios.jpg></A> ou <A HREF=http://video.idglobalcdn.net/" + ResourceID + "/" + StreamName + ".m3u8><IMG align=texttop border=0 SRC=http://www.interrogacaodigital.com/figs/android.jpg></A>"
+document.getElementById('multiplayer_ID_2').innerHTML = MobileDevices
+</script>
