@@ -4,6 +4,7 @@
     <?php include('_header.php'); ?>
 
     <main id="main" class="main">
+
       <section id="about" class="row about"> <!-- About -->
         <div class="col-xs-12 col-sm-10 col-sm-offset-1 col-md-10 col-md-offset-1 col-lg-10 col-lg-offset-1">
           <h3 data-i18n="about.title" class="section-title">About</h3>
@@ -49,21 +50,6 @@
           </div>
         </div>
       </section>
-
-      <style>
-     .agenda-item .aditional .nome-da-palestra::before{
-      content: "- ";
-     }
-     .agenda-item .aditional .nome-da-palestra {
-        display: block;
-        font-style: italic;
-        font-weight: normal;
-      }
-
-      .agenda-item .aditional span {
-        font-family: "Lucida Grande", sans-serif;
-      }
-      </style>
 
       <section id="agenda" class="row agenda"> <!-- Agenda -->
         <div class="col-xs-12 col-sm-10 col-sm-offset-1 col-md-10 col-md-offset-1 col-lg-10 col-lg-offset-1">
