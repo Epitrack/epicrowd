@@ -246,8 +246,7 @@
                   <h4 class="agenda-title" data-i18n="[html]agenda.techDemo">Tech Demo</h4>
                   <p class="agenda-description" data-i18n="[html]agenda.dodoBiotechDescription">Dodo Biotech Crowdfunding - Vinícius Maracajá Coutinho - Beagle Bioinformatics (Chile)</p>
                   <br>
-                  <p class="agenda-description" data-i18n="[html]agenda.dodoBiotechDescription02">Gustavo Giraldez - Manas - Argentina
-News tools for epidemiological approaches.</p>
+                  <p class="agenda-description" data-i18n="[html]agenda.dodoBiotechDescription02">Gustavo Giraldez - Manas - Argentina News tools for epidemiological approaches.</p>
                   <br>
                   <p class="agenda-description" data-i18n="[html]agenda.dodoBiotechDescription03">Guardiões da Saúde - Wanderson Oliveira - Ministry of Health (Brazil)</p>
                   <br>
@@ -668,20 +667,6 @@ News tools for epidemiological approaches.</p>
                 </div>
               </div>
             </div>
-
-            <!--<div class="form-group">
-              <label data-i18n="register.inputCaptcha" for="inputCaptcha">Enter code here</label>
-
-              <div class="input-group">
-                <span class="input-group-addon">
-                  <figure>
-                   <img src="sys/captcha.png" alt="Captcha">
-                  </figure>
-                </span>
-
-                <input data-i18n="[placeholder]register.captchaPlaceholder" type="text" id="inputCaptcha" class="form-control input-primary" placeholder="Enter code here" required>
-              </div>
-            </div>-->
 
             <div class="form-group input-voucher">
               <?php
