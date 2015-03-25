@@ -1,14 +1,14 @@
 {
-  "name": "DDDMG",
+  "name": "epicrowd",
   "version": "1.0.0",
-  "title": "DDDMG 2015",
-  "description": "DDD | International Simposium on Digital Disease Detection for Masgathering",
+  "title": "Epicrowd",
+  "description": "EpiCrowd symposium presents an opportunity to exchange experiences and disseminate strategies to make mass gatherings safe.",
   "author": "Dennis Calazans, <denniscalazans@gmail.com>, Thulio Philipe <thulioph@gmail.com>",
-  "homepage": "https://github.com/epitrack/dddmg",
+  "homepage": "https://github.com/epitrack/Epicrowd",
   "main": "Gruntfile.js",
   "repository": {
     "type": "git",
-    "url": "git://github.com/epitrack/dddmg.git"
+    "url": "git://github.com/epitrack/epicrowd.git"
   },
   "private": true,
   "devDependencies": {
