@@ -230,7 +230,7 @@
 
                 <div class="aditional tech-demo">
                   <h4 class="agenda-title" data-i18n="[html]agenda.techDemo">Tech Demo</h4>
-                  <p class="agenda-description" data-i18n="[html]agenda.dodoBiotechDescription">Dodo Biotech Crowdfunding - Vinícius Maracajá Coutinho - Beagle Bioinformatics (Chile)</p>
+                  <p class="agenda-description" data-i18n="[html]agenda.dodoBiotechDescription">Dodo Biotech Crowdfunding - Vinícius Maracajá Coutinho - Beagle Bioinformatics (Chile) | Universidad Mayor (Chile)</p>
                   <br>
                   <p class="agenda-description" data-i18n="[html]agenda.dodoBiotechDescription02">Gustavo Giraldez - Manas - Argentina News tools for epidemiological approaches.</p>
                   <br>
