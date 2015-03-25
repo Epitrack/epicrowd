@@ -38,6 +38,10 @@ APP.Language = {
 
     $('#logo-primary').removeClass('js-logo-pt');
     $('#logo-primary').addClass('js-logo-en');
+
+    $('#streaming').removeClass('pt');
+    $('#streaming').addClass('en');
+
     $('.nav-logo').css('background-image', 'url(dist/images/logo-primary-2-en.png)');
     $('.navbar-brand').css('background-image', 'url(dist/images/logo-primary-2-en.png)');
   },
@@ -49,6 +53,10 @@ APP.Language = {
 
     $('#logo-primary').removeClass('js-logo-en');
     $('#logo-primary').addClass('js-logo-pt');
+
+    $('#streaming').removeClass('en');
+    $('#streaming').addClass('pt');
+
     $('.nav-logo').css('background-image', 'url(dist/images/logo-primary-2-pt.png)');
     $('.navbar-brand').css('background-image', 'url(dist/images/logo-primary-2-pt.png)');
   },
@@ -59,18 +67,19 @@ APP.Language = {
   },
 
   changeLanguage: function() {
-    var attr, element;
+    var attr, element, that;
+        that = this;
 
     $('#switch-language').on('click', 'button', function(event) {
       element = this;
       attr = $(this).attr('data-language');
 
       if (attr == 'en') {
-        APP.Language.activeClass(element);
-        APP.Language.i18en();
+        that.activeClass(element);
+        that.i18en();
       } else if (attr == 'pt') {
-        APP.Language.activeClass(element);
-        APP.Language.i18pt();
+        that.activeClass(element);
+        that.i18pt();
       }
     });
   }
