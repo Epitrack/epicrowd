@@ -1,5 +1,7 @@
 <header id="header-primary" class="row header-primary">
 
+  <button class="streaming" id="streaming">Streaming</button>
+
   <div class="col-xs-6 col-xs-offset-6 col-sm-3 col-sm-offset-9 col-md-2 col-md-offset-10 col-lg-2 col-lg-offset-10">
     <div id="switch-language" class="switch-language">
       <button data-language="pt" class="pt" title="PT">PT</button>
@@ -81,4 +83,5 @@
       <li class="col-xs-12 col-md-3 nav-item"><a href="#register" data-i18n="nav.register;[title]nav.registerTitle" class="nav-link" title="Register">Register</a></li>
     </ul>
   </nav>
+
 </header>
