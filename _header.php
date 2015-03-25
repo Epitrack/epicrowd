@@ -1,6 +1,6 @@
 <header id="header-primary" class="row header-primary">
 
-  <button class="streaming" id="streaming">Streaming</button>
+  <button class="streaming" id="streaming" data-track="Stream" data-action="click">Streaming</button>
 
   <div class="col-xs-6 col-xs-offset-6 col-sm-3 col-sm-offset-9 col-md-2 col-md-offset-10 col-lg-2 col-lg-offset-10">
     <div id="switch-language" class="switch-language">

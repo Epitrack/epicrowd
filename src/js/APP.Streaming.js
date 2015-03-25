@@ -2,6 +2,7 @@ var APP = APP || {};
 APP.Streaming = {
   setUp: function() {
     this.showVideo();
+    this.tracking();
   },
 
   showVideo: function() {
@@ -14,5 +15,17 @@ APP.Streaming = {
     }
 
     $('#streaming').on('click', btnEventHandler);
+  },
+
+  tracking: function() {
+    console.log('Tracking...');
+
+    $('#streaming').on('click', function() {
+      var category, action;
+          category = $(this).attr('data-track'),
+          action = $(this).attr('data-action');
+
+      ga('send', 'event', category, action);
+    });
   }
 }
